@@ -1,0 +1,6 @@
+/.vscode
+/dont-push
+/out
+**/bin
+**/__pycache__
+*.json
