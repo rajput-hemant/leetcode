@@ -545,29 +545,29 @@
 
 </div>
 
-[4]: https://github.com/rajput-hemant/leetcode/tree/master/src/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays
-[24]: https://github.com/rajput-hemant/leetcode/tree/master/src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs
-[26]: https://github.com/rajput-hemant/leetcode/tree/master/src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array
-[37]: https://github.com/rajput-hemant/leetcode/tree/master/src/0001-0100/037%20-%20Sudoku%20Solver
-[51]: https://github.com/rajput-hemant/leetcode/tree/master/src/0001-0100/051%20-%20N-Queens
-[94]: https://github.com/rajput-hemant/leetcode/tree/master/src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal
-[98]: https://github.com/rajput-hemant/leetcode/tree/master/src/0001-0100/098%20-%20Validate%20Binary%20Search%20Tree
-[103]: https://github.com/rajput-hemant/leetcode/tree/master/src/0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal
-[104]: https://github.com/rajput-hemant/leetcode/tree/master/src/0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree
-[110]: https://github.com/rajput-hemant/leetcode/tree/master/src/0101-0200/110%20-%20Balanced%20Binary%20Tree
-[111]: https://github.com/rajput-hemant/leetcode/tree/master/src/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree
-[199]: https://github.com/rajput-hemant/leetcode/tree/master/src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View
-[222]: https://github.com/rajput-hemant/leetcode/tree/master/src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes
-[230]: https://github.com/rajput-hemant/leetcode/tree/master/src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST
-[283]: https://github.com/rajput-hemant/leetcode/tree/master/src/0201-0300/283%20-%20Move%20Zeroes
-[369]: https://github.com/rajput-hemant/leetcode/tree/master/src/0301-0400/369%20-%20Plus%20One%20Linked%20List
-[543]: https://github.com/rajput-hemant/leetcode/tree/master/src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree
-[653]: https://github.com/rajput-hemant/leetcode/tree/master/src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST
-[1047]: https://github.com/rajput-hemant/leetcode/tree/master/src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String
-[1461]: https://github.com/rajput-hemant/leetcode/tree/master/src/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K
-[1480]: https://github.com/rajput-hemant/leetcode/tree/master/src/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array
-[1537]: https://github.com/rajput-hemant/leetcode/tree/master/src/1501-1600/1537%20-%20Get%20the%20Maximum%20Score
-[2236]: https://github.com/rajput-hemant/leetcode/tree/master/src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children
+[4]: ./src/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays/
+[24]: ./src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
+[26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
+[37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
+[51]: ./src/0001-0100/051%20-%20N-Queens/
+[94]: ./src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
+[98]: ./src/0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
+[103]: ./src/0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/
+[104]: ./src/0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
+[110]: ./src/0101-0200/110%20-%20Balanced%20Binary%20Tree/
+[111]: ./src/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
+[199]: ./src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
+[222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
+[230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
+[283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
+[369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
+[543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
+[653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
+[1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
+[1461]: ./src/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
+[1480]: ./src/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
+[1537]: ./src/1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
+[2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 
 <!----------------------------------{ Images }--------------------------------->
 
