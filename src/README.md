@@ -11,6 +11,8 @@
 |    #     |                           Solution                            |                       Tag                       | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0004** |               [Median of Two Sorted Arrays][4]                |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0007** |                     [Reverse Integer][7]                      |                      Math                       | ![][medium] |        |
+| **0009** |                    [Palindrome Number][9]                     |                      Math                       |  ![][easy]  |        |
 | **0024** |                   [Swap Nodes in Pairs][24]                   |             Linked List, Recursion              | ![][medium] |        |
 | **0026** |                    [Remove Duplicates][26]                    |               Array, Two Pointers               |  ![][easy]  |        |
 | **0037** |                      [Sudoku Solver][37]                      |           Array, Backtracking, Matrix           |  ![][hard]  |        |
@@ -38,6 +40,8 @@
 <!---------------------------------{ Path Reference }-------------------------->
 
 [4]: ./0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays/
+[7]: ./0001-0100/007%20-%20Reverse%20Integer/
+[9]: ./0001-0100/009%20-%20Palindrome%20Number/
 [24]: ./0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/

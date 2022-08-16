@@ -4,7 +4,7 @@
 
 [![][code-quality]][codacy] [![][active-issues]][deepsource] [![][resolved-issues]][deepsource]
 
-![][stars] ![][forks] ![][issues] ![][license] ![][code-size] ![][commit-activity]
+![][views] ![][stars] ![][forks] ![][issues] ![][license] ![][code-size] ![][commit-activity]
 
 <!-- title/logo -->
 
@@ -14,529 +14,531 @@
   <img alt="Leetcode">
 </picture>
 
+### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem.
+
 ## Array
 
-|    #     |             Solution             |                     Tags                     | Difficulty | Remark |
-| :------: | :------------------------------: | :------------------------------------------: | :--------: | ------ |
-| **0004** | [Median of Two Sorted Arrays][4] |     Array,Binary Search,Divide & Conquer     | ![][hard]  |        |
-| **0026** |     [Remove Duplicates][26]      |              Array,Two Pointers              | ![][easy]  |        |
-| **0037** |       [Sudoku Solver][37]        |          Array,Backtracking,Matrix           | ![][hard]  |        |
-| **0051** |          [N-Queens][51]          |              Array,Backtracking              | ![][hard]  |        |
-| **0283** |        [Move Zeroes][283]        |              Array,Two Pointers              | ![][easy]  |        |
-| **1480** | [Running Sum of 1d Array][1480]  |               Array,Prefix Sum               | ![][easy]  |        |
-| **1537** |  [Get the Maximum Score][1537]   | Array,Two Pointer,Dynamic Programming,Greedy | ![][hard]  |        |
+|    #     |             Solution             |                      Tags                       | Difficulty | Remark |
+| :------: | :------------------------------: | :---------------------------------------------: | :--------: | :----: |
+| **0004** | [Median of Two Sorted Arrays][4] |     Array, Binary Search, Divide & Conquer      | ![][hard]  |        |
+| **0026** |     [Remove Duplicates][26]      |               Array, Two Pointers               | ![][easy]  |        |
+| **0037** |       [Sudoku Solver][37]        |           Array, Backtracking, Matrix           | ![][hard]  |        |
+| **0051** |          [N-Queens][51]          |               Array, Backtracking               | ![][hard]  |        |
+| **0283** |        [Move Zeroes][283]        |               Array, Two Pointers               | ![][easy]  |        |
+| **1480** | [Running Sum of 1d Array][1480]  |                Array, Prefix Sum                | ![][easy]  |        |
+| **1537** |  [Get the Maximum Score][1537]   | Array, Two Pointer, Dynamic Programming, Greedy | ![][hard]  |        |
 
 ## String
 
-|    #     |                           Solution                            |                Tags                | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :--------------------------------: | :---------: | ------ |
-| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |            String,Stack            |  ![][easy]  |        |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String,Hash Table,Bit Manipulation | ![][medium] |        |
+|    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
+| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |            String, Stack             |  ![][easy]  |        |
+| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
 
 ## Hash Table
 
-|    #     |              Solution              |                          Tags                          | Difficulty | Remark |
-| :------: | :--------------------------------: | :----------------------------------------------------: | :--------: | ------ |
-| **0653** | [Two Sum IV - Input is a BST][653] | Tree,Depth-First Search,Binary Search Tree,Binary Tree | ![][easy]  |        |
+|    #     |              Solution               |            Tags             | Difficulty | Remark |
+| :------: | :---------------------------------: | :-------------------------: | :--------: | :----: |
+| **0653** | [Two Sum IV - Input is a BST ][653] | Tree, DFS, BST, Binary Tree | ![][easy]  |        |
 
 ## Dynamic Programming
 
-|    #     |           Solution            |                     Tags                     | Difficulty | Remark |
-| :------: | :---------------------------: | :------------------------------------------: | :--------: | ------ |
-| **1537** | [Get the Maximum Score][1537] | Array,Two Pointer,Dynamic Programming,Greedy | ![][hard]  |        |
+|    #     |           Solution            |                      Tags                       | Difficulty | Remark |
+| :------: | :---------------------------: | :---------------------------------------------: | :--------: | :----: |
+| **1537** | [Get the Maximum Score][1537] | Array, Two Pointer, Dynamic Programming, Greedy | ![][hard]  |        |
 
-<!--
 ## Math
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
--->
+|    #     |        Solution        | Tags | Difficulty  | Remark |
+| :------: | :--------------------: | :--: | :---------: | :----: |
+| **0007** |  [Reverse Integer][7]  | Math | ![][medium] |        |
+| **0009** | [Palindrome Number][9] | Math |  ![][easy]  |        |
 
 <!--
 ## Sorting
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Depth-First Search
 
-|    #     |               Solution               |                           Tags                           | Difficulty  | Remark |
-| :------: | :----------------------------------: | :------------------------------------------------------: | :---------: | ------ |
-| **0104** | [Maximum Depth of Binary Tree][104]  | Tree,Breadth-First Search,Depth-First Search,Binary Tree |  ![][easy]  |        |
-| **0110** |     [Balanced Binary Tree][110]      |           Tree,Depth-First Search,Binary Tree            |  ![][easy]  |        |
-| **0111** | [Minimum Depth of Binary Tree][111]  | Tree,Depth-First Search,Breadth-First Search,Binary Tree |  ![][easy]  |        |
-| **0199** |  [Binary Tree Right Side View][199]  | Tree,Depth-First Search,Breadth-First Search,Binary Tree | ![][medium] |        |
-| **0222** |   [Count Complete Tree Nodes][222]   |    Binary Search,Tree,Depth-First Search,Binary Tree     | ![][medium] |        |
-| **0230** | [Kth Smallest Element in a BST][230] |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  | ![][medium] |        |
-| **0543** |    [Diameter of Binary Tree][543]    |           Tree,Depth-First Search,Binary Tree            |  ![][easy]  |        |
-| **0653** |  [Two Sum IV - Input is a BST][653]  |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  |  ![][easy]  |        |
+|    #     |               Solution                |                 Tags                  | Difficulty  | Remark |
+| :------: | :-----------------------------------: | :-----------------------------------: | :---------: | :----: |
+| **0104** |  [Maximum Depth of Binary Tree][104]  |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
+| **0110** |      [Balanced Binary Tree][110]      |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0111** |  [Minimum Depth of Binary Tree][111]  |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
+| **0199** |  [Binary Tree Right Side View][199]   |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
+| **0222** |   [Count Complete Tree Nodes][222]    | Binary Search, Tree, DFS, Binary Tree | ![][medium] |        |
+| **0230** | [Kth Smallest Element in a BST ][230] |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0543** |    [Diameter of Binary Tree][543]     |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0653** |  [Two Sum IV - Input is a BST ][653]  |      Tree, DFS, BST, Binary Tree      |  ![][easy]  |        |
 
 ## Greedy
 
-|    #     |              Solution               |                          Tags                          | Difficulty  | Remark |
-| :------: | :---------------------------------: | :----------------------------------------------------: | :---------: | ------ |
-| **0094** | [Binary Tree Inorder Traversal][94] |       Stack,Tree,Depth-First Search,Binary Tree        |  ![][easy]  |        |
-| **0098** |  [Validate Binary Search Tree][98]  | Tree,Depth-First Search,Binary Search Tree,Binary Tree | ![][medium] |        |
-| **1537** |    [Get the Maximum Score][1537]    |      Array,Two Pointer,Dynamic Programming,Greedy      |  ![][hard]  |        |
+|    #     |              Solution               |                      Tags                       | Difficulty  | Remark |
+| :------: | :---------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0094** | [Binary Tree Inorder Traversal][94] |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
+| **0098** |  [Validate Binary Search Tree][98]  |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
+| **1537** |    [Get the Maximum Score][1537]    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 <!--
 ## Database
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Breadth-First Search
 
-|    #     |                    Solution                     |                           Tags                           | Difficulty  | Remark |
-| :------: | :---------------------------------------------: | :------------------------------------------------------: | :---------: | ------ |
-| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |          Tree,Breadth-First Search,Binary Tree           | ![][medium] |        |
-| **0104** |       [Maximum Depth of Binary Tree][104]       | Tree,Breadth-First Search,Depth-First Search,Binary Tree |  ![][easy]  |        |
-| **0111** |       [Minimum Depth of Binary Tree][111]       | Tree,Depth-First Search,Breadth-First Search,Binary Tree |  ![][easy]  |        |
-| **0199** |       [Binary Tree Right Side View][199]        | Tree,Depth-First Search,Breadth-First Search,Binary Tree | ![][medium] |        |
-| **0230** |      [Kth Smallest Element in a BST][230]       |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  | ![][medium] |        |
-| **0653** |       [Two Sum IV - Input is a BST][653]        |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  |  ![][easy]  |        |
+|    #     |                    Solution                     |            Tags             | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :-------------------------: | :---------: | :----: |
+| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |   Tree, BFS, Binary Tree    | ![][medium] |        |
+| **0104** |       [Maximum Depth of Binary Tree][104]       | Tree, BFS, DFS, Binary Tree |  ![][easy]  |        |
+| **0111** |       [Minimum Depth of Binary Tree][111]       | Tree, DFS, BFS, Binary Tree |  ![][easy]  |        |
+| **0199** |       [Binary Tree Right Side View][199]        | Tree, DFS, BFS, Binary Tree | ![][medium] |        |
+| **0230** |      [Kth Smallest Element in a BST ][230]      | Tree, DFS, BST, Binary Tree | ![][medium] |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       | Tree, DFS, BST, Binary Tree |  ![][easy]  |        |
 
 ## Tree
 
-|    #     |                    Solution                     |                           Tags                           | Difficulty  | Remark |
-| :------: | :---------------------------------------------: | :------------------------------------------------------: | :---------: | ------ |
-| **0094** |       [Binary Tree Inorder Traversal][94]       |        Stack,Tree,Depth-First Search,Binary Tree         |  ![][easy]  |        |
-| **0098** |        [Validate Binary Search Tree][98]        |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  | ![][medium] |        |
-| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |          Tree,Breadth-First Search,Binary Tree           | ![][medium] |        |
-| **0104** |       [Maximum Depth of Binary Tree][104]       | Tree,Breadth-First Search,Depth-First Search,Binary Tree |  ![][easy]  |        |
-| **0110** |           [Balanced Binary Tree][110]           |           Tree,Depth-First Search,Binary Tree            |  ![][easy]  |        |
-| **0111** |       [Minimum Depth of Binary Tree][111]       | Tree,Depth-First Search,Breadth-First Search,Binary Tree |  ![][easy]  |        |
-| **0199** |       [Binary Tree Right Side View][199]        | Tree,Depth-First Search,Breadth-First Search,Binary Tree | ![][medium] |        |
-| **0222** |        [Count Complete Tree Nodes][222]         |    Binary Search,Tree,Depth-First Search,Binary Tree     | ![][medium] |        |
-| **0230** |      [Kth Smallest Element in a BST][230]       |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  | ![][medium] |        |
-| **0543** |         [Diameter of Binary Tree][543]          |           Tree,Depth-First Search,Binary Tree            |  ![][easy]  |        |
-| **0653** |       [Two Sum IV - Input is a BST][653]        |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  |  ![][easy]  |        |
-| **2236** |      [Root Equal to Sum of Children][2236]      |                     Tree,Binary Tree                     |  ![][easy]  |        |
+|    #     |                    Solution                     |                 Tags                  | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :-----------------------------------: | :---------: | :----: |
+| **0094** |       [Binary Tree Inorder Traversal][94]       |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
+| **0098** |        [Validate Binary Search Tree][98]        |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |        Tree, BFS, Binary Tree         | ![][medium] |        |
+| **0104** |       [Maximum Depth of Binary Tree][104]       |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
+| **0110** |           [Balanced Binary Tree][110]           |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0111** |       [Minimum Depth of Binary Tree][111]       |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
+| **0199** |       [Binary Tree Right Side View][199]        |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
+| **0222** |        [Count Complete Tree Nodes][222]         | Binary Search, Tree, DFS, Binary Tree | ![][medium] |        |
+| **0230** |      [Kth Smallest Element in a BST ][230]      |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0543** |         [Diameter of Binary Tree][543]          |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       |      Tree, DFS, BST, Binary Tree      |  ![][easy]  |        |
+| **2236** |      [Root Equal to Sum of Children][2236]      |           Tree, Binary Tree           |  ![][easy]  |        |
 
 ## Binary Search
 
-|    #     |             Solution             |                       Tags                        | Difficulty  | Remark |
-| :------: | :------------------------------: | :-----------------------------------------------: | :---------: | ------ |
-| **0004** | [Median of Two Sorted Arrays][4] |       Array,Binary Search,Divide & Conquer        |  ![][hard]  |        |
-| **0222** | [Count Complete Tree Nodes][222] | Binary Search,Tree,Depth-First Search,Binary Tree | ![][medium] |        |
+|    #     |             Solution             |                  Tags                  | Difficulty  | Remark |
+| :------: | :------------------------------: | :------------------------------------: | :---------: | :----: |
+| **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer |  ![][hard]  |        |
+| **0222** | [Count Complete Tree Nodes][222] | Binary Search, Tree, DFS, Binary Tree  | ![][medium] |        |
 
 ## Matrix
 
-|    #     |      Solution       |           Tags            | Difficulty | Remark |
-| :------: | :-----------------: | :-----------------------: | :--------: | ------ |
-| **0037** | [Sudoku Solver][37] | Array,Backtracking,Matrix | ![][hard]  |        |
+|    #     |      Solution       |            Tags             | Difficulty | Remark |
+| :------: | :-----------------: | :-------------------------: | :--------: | :----: |
+| **0037** | [Sudoku Solver][37] | Array, Backtracking, Matrix | ![][hard]  |        |
 
 ## Binary Tree
 
-|    #     |                    Solution                     |                           Tags                           | Difficulty  | Remark |
-| :------: | :---------------------------------------------: | :------------------------------------------------------: | :---------: | ------ |
-| **0094** |       [Binary Tree Inorder Traversal][94]       |        Stack,Tree,Depth-First Search,Binary Tree         |  ![][easy]  |        |
-| **0098** |        [Validate Binary Search Tree][98]        |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  | ![][medium] |        |
-| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |          Tree,Breadth-First Search,Binary Tree           | ![][medium] |        |
-| **0104** |       [Maximum Depth of Binary Tree][104]       | Tree,Breadth-First Search,Depth-First Search,Binary Tree |  ![][easy]  |        |
-| **0110** |           [Balanced Binary Tree][110]           |           Tree,Depth-First Search,Binary Tree            |  ![][easy]  |        |
-| **0111** |       [Minimum Depth of Binary Tree][111]       | Tree,Depth-First Search,Breadth-First Search,Binary Tree |  ![][easy]  |        |
-| **0199** |       [Binary Tree Right Side View][199]        | Tree,Depth-First Search,Breadth-First Search,Binary Tree | ![][medium] |        |
-| **0222** |        [Count Complete Tree Nodes][222]         |    Binary Search,Tree,Depth-First Search,Binary Tree     | ![][medium] |        |
-| **0230** |      [Kth Smallest Element in a BST][230]       |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  | ![][medium] |        |
-| **0543** |         [Diameter of Binary Tree][543]          |           Tree,Depth-First Search,Binary Tree            |  ![][easy]  |        |
-| **0653** |       [Two Sum IV - Input is a BST][653]        |  Tree,Depth-First Search,Binary Search Tree,Binary Tree  |  ![][easy]  |        |
-| **2236** |      [Root Equal to Sum of Children][2236]      |                     Tree,Binary Tree                     |  ![][easy]  |        |
+|    #     |                    Solution                     |                 Tags                  | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :-----------------------------------: | :---------: | :----: |
+| **0094** |       [Binary Tree Inorder Traversal][94]       |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
+| **0098** |        [Validate Binary Search Tree][98]        |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |        Tree, BFS, Binary Tree         | ![][medium] |        |
+| **0104** |       [Maximum Depth of Binary Tree][104]       |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
+| **0110** |           [Balanced Binary Tree][110]           |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0111** |       [Minimum Depth of Binary Tree][111]       |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
+| **0199** |       [Binary Tree Right Side View][199]        |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
+| **0222** |        [Count Complete Tree Nodes][222]         | Binary Search, Tree, DFS, Binary Tree | ![][medium] |        |
+| **0230** |      [Kth Smallest Element in a BST ][230]      |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0543** |         [Diameter of Binary Tree][543]          |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       |      Tree, DFS, BST, Binary Tree      |  ![][easy]  |        |
+| **2236** |      [Root Equal to Sum of Children][2236]      |           Tree, Binary Tree           |  ![][easy]  |        |
 
 ## Two Pointers
 
-|    #     |              Solution              |                          Tags                          | Difficulty | Remark |
-| :------: | :--------------------------------: | :----------------------------------------------------: | :--------: | ------ |
-| **0004** |  [Median of Two Sorted Arrays][4]  |          Array,Binary Search,Divide & Conquer          | ![][hard]  |        |
-| **0283** |         [Move Zeroes][283]         |                   Array,Two Pointers                   | ![][easy]  |        |
-| **0653** | [Two Sum IV - Input is a BST][653] | Tree,Depth-First Search,Binary Search Tree,Binary Tree | ![][easy]  |        |
-| **1537** |   [Get the Maximum Score][1537]    |      Array,Two Pointer,Dynamic Programming,Greedy      | ![][hard]  |        |
+|    #     |              Solution               |                      Tags                       | Difficulty | Remark |
+| :------: | :---------------------------------: | :---------------------------------------------: | :--------: | :----: |
+| **0004** |  [Median of Two Sorted Arrays][4]   |     Array, Binary Search, Divide & Conquer      | ![][hard]  |        |
+| **0283** |         [Move Zeroes][283]          |               Array, Two Pointers               | ![][easy]  |        |
+| **0653** | [Two Sum IV - Input is a BST ][653] |           Tree, DFS, BST, Binary Tree           | ![][easy]  |        |
+| **1537** |    [Get the Maximum Score][1537]    | Array, Two Pointer, Dynamic Programming, Greedy | ![][hard]  |        |
 
 ## Bit Manipulation
 
-|    #     |                           Solution                            |                Tags                | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :--------------------------------: | :---------: | ------ |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String,Hash Table,Bit Manipulation | ![][medium] |        |
+|    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
+| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
 
 ## Stack
 
-|    #     |                     Solution                     |                       Tags                       | Difficulty | Remark |
-| :------: | :----------------------------------------------: | :----------------------------------------------: | :--------: | ------ |
-| **0094** |       [Binary Tree Inorder Traversal][94]        | Tree,Stack,**\Deapth-First Search**. Binary Tree | ![][easy]  |        |
-| **1047** | [Remove All Adjacent Duplicates In String][1047] |                   String,Stack                   | ![][easy]  |        |
+|    #     |                     Solution                     |             Tags              | Difficulty | Remark |
+| :------: | :----------------------------------------------: | :---------------------------: | :--------: | :----: |
+| **0094** |       [Binary Tree Inorder Traversal][94]        | Tree, Stack, DFS, Binary Tree | ![][easy]  |        |
+| **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         | ![][easy]  |        |
 
 <!--
 ## Design
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Heap (Priority Queue)
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Graph
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Simulation
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Backtracking
 
-|    #     |      Solution       |           Tags            | Difficulty | Remark |
-| :------: | :-----------------: | :-----------------------: | :--------: | ------ |
-| **0037** | [Sudoku Solver][37] | Array,Backtracking,Matrix | ![][hard]  |        |
-| **0051** |   [N-Queens][51]    |    Array,Backtracking     | ![][hard]  |        |
+|    #     |      Solution       |            Tags             | Difficulty | Remark |
+| :------: | :-----------------: | :-------------------------: | :--------: | :----: |
+| **0037** | [Sudoku Solver][37] | Array, Backtracking, Matrix | ![][hard]  |        |
+| **0051** |   [N-Queens][51]    |     Array, Backtracking     | ![][hard]  |        |
 
 ## Prefix Sum
 
-|    #     |            Solution             |       Tags       | Difficulty | Remark |
-| :------: | :-----------------------------: | :--------------: | :--------: | ------ |
-| **1480** | [Running Sum of 1d Array][1480] | Array,Prefix Sum | ![][easy]  |        |
+|    #     |            Solution             |       Tags        | Difficulty | Remark |
+| :------: | :-----------------------------: | :---------------: | :--------: | :----: |
+| **1480** | [Running Sum of 1d Array][1480] | Array, Prefix Sum | ![][easy]  |        |
 
 <!--
 ## Counting
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Sliding Window
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Linked List
 
-|    #     |          Solution           |         Tags          | Difficulty  | Remark |
-| :------: | :-------------------------: | :-------------------: | :---------: | ------ |
-| **0024** |  [Swap Nodes in Pairs][24]  | Linked List,Recursion | ![][medium] |        |
-| **0369** | [Plus One Linked List][369] |   Linked List,Math    | ![][medium] | 🔒     |
+|    #     |          Solution           |          Tags          | Difficulty  | Remark |
+| :------: | :-------------------------: | :--------------------: | :---------: | :----: |
+| **0024** |  [Swap Nodes in Pairs][24]  | Linked List, Recursion | ![][medium] |        |
+| **0369** | [Plus One Linked List][369] |   Linked List, Math    | ![][medium] |   🔒   |
 
 <!--
 ## Union Find
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Ordered Set
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Monotonic Stack
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Recursion
 
-|    #     |         Solution          |         Tags          | Difficulty  | Remark |
-| :------: | :-----------------------: | :-------------------: | :---------: | ------ |
-| **0024** | [Swap Nodes in Pairs][24] | Linked List,Recursion | ![][medium] |        |
+|    #     |         Solution          |          Tags          | Difficulty  | Remark |
+| :------: | :-----------------------: | :--------------------: | :---------: | :----: |
+| **0024** | [Swap Nodes in Pairs][24] | Linked List, Recursion | ![][medium] |        |
 
 <!--
 ## Trie
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Binary Search Tree
 
-|    #     |              Solution              |                          Tags                          | Difficulty | Remark |
-| :------: | :--------------------------------: | :----------------------------------------------------: | :--------: | ------ |
-| **0653** | [Two Sum IV - Input is a BST][653] | Tree,Depth-First Search,Binary Search Tree,Binary Tree | ![][easy]  |        |
+|    #     |              Solution               |            Tags             | Difficulty | Remark |
+| :------: | :---------------------------------: | :-------------------------: | :--------: | :----: |
+| **0653** | [Two Sum IV - Input is a BST ][653] | Tree, DFS, BST, Binary Tree | ![][easy]  |        |
 
 ## Divide and Conquer
 
-|    #     |             Solution             |                 Tags                 | Difficulty | Remark |
-| :------: | :------------------------------: | :----------------------------------: | :--------: | ------ |
-| **0004** | [Median of Two Sorted Arrays][4] | Array,Binary Search,Divide & Conquer | ![][hard]  |        |
+|    #     |             Solution             |                  Tags                  | Difficulty | Remark |
+| :------: | :------------------------------: | :------------------------------------: | :--------: | :----: |
+| **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer | ![][hard]  |        |
 
 <!--
 ## Enumeration
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Bitmask
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Queue
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Memoization
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Geometry
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Topological Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Segment Tree
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Game Theory
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Hash Function
 
-|    #     |                           Solution                            |                     Tags                     | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :------------------------------------------: | :---------: | ------ |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String,Hash Table,Rolling Hash,Hash Function | ![][medium] |        |
+|    #     |                           Solution                            |                      Tags                       | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Rolling Hash, Hash Function | ![][medium] |        |
 
 <!--
 ## Binary Indexed Tree
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Interactive
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## String Matching
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Rolling Hash
 
-|    #     |                           Solution                            |                     Tags                     | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :------------------------------------------: | :---------: | ------ |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String,Hash Table,Rolling Hash,Hash Function | ![][medium] |        |
+|    #     |                           Solution                            |                      Tags                       | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Rolling Hash, Hash Function | ![][medium] |        |
 
 <!--
 ## Shortest Path
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Number Theory
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Data Stream
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Combinatorics
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Randomized
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Monotonic Queue
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Iterator
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Merge Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Concurrency
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Doubly-Linked List
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Brainteaser
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Probability and Statistics
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Quickselect
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Bucket Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Suffix Array
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Minimum Spanning Tree
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Counting Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Shell
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Line Sweep
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Reservoir Sampling
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Eulerian Circuit
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Radix Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Strongly Connected Component
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Rejection Sampling
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 <!--
 ## Biconnected Component
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | ------ |
+| :-: | :------: | :--: | :--------: | :------: |
 -->
 
 ## Contributors:
@@ -546,6 +548,8 @@
 </div>
 
 [4]: ./src/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays/
+[7]: ./src//0001-0100/007%20-%20Reverse%20Integer/
+[9]: ./src/0001-0100/009%20-%20Palindrome%20Number/
 [24]: ./src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
@@ -587,6 +591,7 @@
 
 <!----------------------------------{ Labels }--------------------------------->
 
+[views]: https://komarev.com/ghpvc/?username=leetcode&label=view%20counter&color=red&style=flat
 [code-size]: https://img.shields.io/github/languages/code-size/rajput-hemant/leetcode
 [issues]: https://img.shields.io/github/issues-raw/rajput-hemant/leetcode
 [license]: https://img.shields.io/github/license/rajput-hemant/leetcode
