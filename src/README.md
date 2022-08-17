@@ -6,7 +6,7 @@
   <img alt="Leetcode">
 </picture>
 
-### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem.
+### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem
 
 |    #     |                           Solution                            |                       Tag                       | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
@@ -17,12 +17,14 @@
 | **0026** |                    [Remove Duplicates][26]                    |               Array, Two Pointers               |  ![][easy]  |        |
 | **0037** |                      [Sudoku Solver][37]                      |           Array, Backtracking, Matrix           |  ![][hard]  |        |
 | **0051** |                        [N-Queens][51]                         |               Array, Backtracking               |  ![][hard]  |        |
+| **0075** |                       [Sort Colors][75]                       |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0094** |              [Binary Tree Inorder Traversal][94]              |          Tree, Stack, DFS, Binary Tree          |  ![][easy]  |        |
 | **0098** |                      [Validate BST][98]                       |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
 | **0103** |        [Binary Tree Zigzag Level Order Traversal][103]        |             Tree, BFS, Binary Tree              | ![][medium] |        |
 | **0104** |              [Maximum Depth of Binary Tree][104]              |           Tree, BFS, DFS, Binary Tree           |  ![][easy]  |        |
 | **0110** |                  [Balanced Binary Tree][110]                  |             Tree, DFS, Binary Tree              |  ![][easy]  |        |
 | **0111** |              [Minimum Depth of Binary Tree][111]              |           Tree, DFS, BFS, Binary Tree           |  ![][easy]  |        |
+| **0172** |               [Factorial Trailing Zeroes][172]                |                      Math                       | ![][medium] |        |
 | **0199** |              [Binary Tree Right Side View][199]               |           Tree, DFS, BFS, Binary Tree           | ![][medium] |        |
 | **0222** |               [Count Complete Tree Nodes][222]                |      Binary Search, Tree, DFS, Binary Tree      | ![][medium] |        |
 | **0230** |             [Kth Smallest Element in a BST][230]              |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
@@ -46,12 +48,14 @@
 [26]: ./0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./0001-0100/051%20-%20N-Queens/
+[75]: ./0001-0100/075%20-%20Sort%20Colors/
 [94]: ./0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
 [103]: ./0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/
 [104]: ./0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
 [110]: ./0101-0200/110%20-%20Balanced%20Binary%20Tree/
 [111]: ./0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
+[172]: ./0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
 [199]: ./0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [222]: ./0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/

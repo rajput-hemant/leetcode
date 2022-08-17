@@ -14,19 +14,20 @@
   <img alt="Leetcode">
 </picture>
 
-### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem.
+### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem
 
 ## Array
 
-|    #     |             Solution             |                      Tags                       | Difficulty | Remark |
-| :------: | :------------------------------: | :---------------------------------------------: | :--------: | :----: |
-| **0004** | [Median of Two Sorted Arrays][4] |     Array, Binary Search, Divide & Conquer      | ![][hard]  |        |
-| **0026** |     [Remove Duplicates][26]      |               Array, Two Pointers               | ![][easy]  |        |
-| **0037** |       [Sudoku Solver][37]        |           Array, Backtracking, Matrix           | ![][hard]  |        |
-| **0051** |          [N-Queens][51]          |               Array, Backtracking               | ![][hard]  |        |
-| **0283** |        [Move Zeroes][283]        |               Array, Two Pointers               | ![][easy]  |        |
-| **1480** | [Running Sum of 1d Array][1480]  |                Array, Prefix Sum                | ![][easy]  |        |
-| **1537** |  [Get the Maximum Score][1537]   | Array, Two Pointer, Dynamic Programming, Greedy | ![][hard]  |        |
+|    #     |             Solution             |                      Tags                       | Difficulty  | Remark |
+| :------: | :------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0004** | [Median of Two Sorted Arrays][4] |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0026** |     [Remove Duplicates][26]      |               Array, Two Pointers               |  ![][easy]  |        |
+| **0037** |       [Sudoku Solver][37]        |           Array, Backtracking, Matrix           |  ![][hard]  |        |
+| **0051** |          [N-Queens][51]          |               Array, Backtracking               |  ![][hard]  |        |
+| **0075** |        [Sort Colors][75]         |          Array, Two Pointers, Sorting           | ![][medium] |        |
+| **0283** |        [Move Zeroes][283]        |               Array, Two Pointers               |  ![][easy]  |        |
+| **1480** | [Running Sum of 1d Array][1480]  |                Array, Prefix Sum                |  ![][easy]  |        |
+| **1537** |  [Get the Maximum Score][1537]   | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## String
 
@@ -49,17 +50,17 @@
 
 ## Math
 
-|    #     |        Solution        | Tags | Difficulty  | Remark |
-| :------: | :--------------------: | :--: | :---------: | :----: |
-| **0007** |  [Reverse Integer][7]  | Math | ![][medium] |        |
-| **0009** | [Palindrome Number][9] | Math |  ![][easy]  |        |
+|    #     |             Solution              | Tags | Difficulty  | Remark |
+| :------: | :-------------------------------: | :--: | :---------: | :----: |
+| **0007** |       [Reverse Integer][7]        | Math | ![][medium] |        |
+| **0009** |      [Palindrome Number][9]       | Math |  ![][easy]  |        |
+| **0172** | [Factorial Trailiing Zeroes][172] | Math | ![][medium] |        |
 
-<!--
 ## Sorting
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+|    #     |     Solution      |             Tags             | Difficulty  | Remark |
+| :------: | :---------------: | :--------------------------: | :---------: | :----: |
+| **0075** | [Sort Colors][75] | Array, Two Pointers, Sorting | ![][medium] |        |
 
 ## Depth-First Search
 
@@ -149,12 +150,13 @@
 
 ## Two Pointers
 
-|    #     |              Solution               |                      Tags                       | Difficulty | Remark |
-| :------: | :---------------------------------: | :---------------------------------------------: | :--------: | :----: |
-| **0004** |  [Median of Two Sorted Arrays][4]   |     Array, Binary Search, Divide & Conquer      | ![][hard]  |        |
-| **0283** |         [Move Zeroes][283]          |               Array, Two Pointers               | ![][easy]  |        |
-| **0653** | [Two Sum IV - Input is a BST ][653] |           Tree, DFS, BST, Binary Tree           | ![][easy]  |        |
-| **1537** |    [Get the Maximum Score][1537]    | Array, Two Pointer, Dynamic Programming, Greedy | ![][hard]  |        |
+|    #     |              Solution               |                      Tags                       | Difficulty  | Remark |
+| :------: | :---------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0004** |  [Median of Two Sorted Arrays][4]   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0075** |          [Sort Colors][75]          |          Array, Two Pointers, Sorting           | ![][medium] |        |
+| **0283** |         [Move Zeroes][283]          |               Array, Two Pointers               |  ![][easy]  |        |
+| **0653** | [Two Sum IV - Input is a BST ][653] |           Tree, DFS, BST, Binary Tree           |  ![][easy]  |        |
+| **1537** |    [Get the Maximum Score][1537]    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## Bit Manipulation
 
@@ -554,12 +556,14 @@
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
+[75]: ./src/0001-0100/075%20-%20Sort%20Colors/
 [94]: ./src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./src/0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
 [103]: ./src/0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/
 [104]: ./src/0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
 [110]: ./src/0101-0200/110%20-%20Balanced%20Binary%20Tree/
 [111]: ./src/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
+[172]: ./src/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
 [199]: ./src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
