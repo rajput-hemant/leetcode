@@ -14,6 +14,8 @@
   <img alt="Leetcode">
 </picture>
 
+## 🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.
+
 ### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem
 
 ## Array
@@ -34,6 +36,7 @@
 |    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |            String, Stack             |  ![][easy]  |        |
+| **0344** |                     [Reverse String][344]                     |   Two Pointers, String, Recursion    |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
 
 ## Hash Table
@@ -155,6 +158,7 @@
 | **0004** |  [Median of Two Sorted Arrays][4]   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0075** |          [Sort Colors][75]          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0283** |         [Move Zeroes][283]          |               Array, Two Pointers               |  ![][easy]  |        |
+| **0344** |        [Reverse String][344]        |         Two Pointers, String, Recursion         |  ![][easy]  |        |
 | **0653** | [Two Sum IV - Input is a BST ][653] |           Tree, DFS, BST, Binary Tree           |  ![][easy]  |        |
 | **1537** |    [Get the Maximum Score][1537]    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
@@ -256,9 +260,10 @@
 
 ## Recursion
 
-|    #     |         Solution          |          Tags          | Difficulty  | Remark |
-| :------: | :-----------------------: | :--------------------: | :---------: | :----: |
-| **0024** | [Swap Nodes in Pairs][24] | Linked List, Recursion | ![][medium] |        |
+|    #     |         Solution          |              Tags               | Difficulty  | Remark |
+| :------: | :-----------------------: | :-----------------------------: | :---------: | :----: |
+| **0024** | [Swap Nodes in Pairs][24] |     Linked List, Recursion      | ![][medium] |        |
+| **0344** |   [Reverse String][344]   | Two Pointers, String, Recursion |  ![][easy]  |        |
 
 <!--
 ## Trie
@@ -568,6 +573,7 @@
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
+[344]: ./src/0301-0400/344%20-%20Reverse%20String/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
