@@ -30,6 +30,7 @@
 | **0199** |              [Binary Tree Right Side View][199]               |           Tree, DFS, BFS, Binary Tree           | ![][medium] |        |
 | **0222** |               [Count Complete Tree Nodes][222]                |      Binary Search, Tree, DFS, Binary Tree      | ![][medium] |        |
 | **0230** |             [Kth Smallest Element in a BST][230]              |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
+| **0278** |                   [First Bad Version][278]                    |           Binary Search, Interactive            |  ![][easy]  |        |
 | **0283** |                      [Move Zeroes][283]                       |               Array, Two Pointers               |  ![][easy]  |        |
 | **0344** |                     [Reverse String][344]                     |         Two Pointers, String, Recursion         |  ![][easy]  |        |
 | **0369** |                  [Plus One Linked List][369]                  |                Linked List, Math                | ![][medium] |   🔒   |
@@ -62,6 +63,7 @@
 [199]: ./0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [222]: ./0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
+[278]: ./0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./0201-0300/283%20-%20Move%20Zeroes/
 [344]: ./0301-0400/344%20-%20Reverse%20String/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/

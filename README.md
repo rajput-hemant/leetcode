@@ -14,7 +14,7 @@
   <img alt="Leetcode">
 </picture>
 
-## 🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.
+### 🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.
 
 ### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem
 
@@ -127,6 +127,7 @@
 | :------: | :------------------------------: | :------------------------------------: | :---------: | :----: |
 | **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer |  ![][hard]  |        |
 | **0222** | [Count Complete Tree Nodes][222] | Binary Search, Tree, DFS, Binary Tree  | ![][medium] |        |
+| **0278** |     [First Bad Version][278]     |       Binary Search, Interactive       |  ![][easy]  |        |
 
 ## Matrix
 
@@ -353,12 +354,11 @@
 | :-: | :------: | :--: | :--------: | :------: |
 -->
 
-<!--
 ## Interactive
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+|    #     |         Solution         |            Tags            | Difficulty | Remark |
+| :------: | :----------------------: | :------------------------: | :--------: | :----: |
+| **0278** | [First Bad Version][278] | Binary Search, Interactive | ![][easy]  |        |
 
 <!--
 ## String Matching
@@ -572,6 +572,7 @@
 [199]: ./src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
+[278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
