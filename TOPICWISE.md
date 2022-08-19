@@ -47,11 +47,12 @@
 
 ## Math
 
-|    #     |             Solution              | Tags | Difficulty  | Remark |
-| :------: | :-------------------------------: | :--: | :---------: | :----: |
-| **0007** |       [Reverse Integer][7]        | Math | ![][medium] |        |
-| **0009** |      [Palindrome Number][9]       | Math |  ![][easy]  |        |
-| **0172** | [Factorial Trailiing Zeroes][172] | Math | ![][medium] |        |
+|    #     |             Solution              |        Tags         | Difficulty  | Remark |
+| :------: | :-------------------------------: | :-----------------: | :---------: | :----: |
+| **0007** |       [Reverse Integer][7]        |        Math         | ![][medium] |        |
+| **0009** |      [Palindrome Number][9]       |        Math         |  ![][easy]  |        |
+| **0172** | [Factorial Trailiing Zeroes][172] |        Math         | ![][medium] |        |
+| **367**  |    [Valid Perfect Square][367]    | Math, Binary Search |  ![][easy]  |        |
 
 ## Sorting
 
@@ -122,6 +123,7 @@
 | **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer |  ![][hard]  |        |
 | **0222** | [Count Complete Tree Nodes][222] | Binary Search, Tree, DFS, Binary Tree  | ![][medium] |        |
 | **0278** |     [First Bad Version][278]     |       Binary Search, Interactive       |  ![][easy]  |        |
+| **367**  |   [Valid Perfect Square][367]    |          Math, Binary Search           |  ![][easy]  |        |
 
 ## Matrix
 
@@ -565,6 +567,7 @@
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
+[367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
