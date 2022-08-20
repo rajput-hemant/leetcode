@@ -14,16 +14,17 @@
 
 ## Array
 
-|    #     |             Solution             |                      Tags                       | Difficulty  | Remark |
-| :------: | :------------------------------: | :---------------------------------------------: | :---------: | :----: |
-| **0004** | [Median of Two Sorted Arrays][4] |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
-| **0026** |     [Remove Duplicates][26]      |               Array, Two Pointers               |  ![][easy]  |        |
-| **0037** |       [Sudoku Solver][37]        |           Array, Backtracking, Matrix           |  ![][hard]  |        |
-| **0051** |          [N-Queens][51]          |               Array, Backtracking               |  ![][hard]  |        |
-| **0075** |        [Sort Colors][75]         |          Array, Two Pointers, Sorting           | ![][medium] |        |
-| **0283** |        [Move Zeroes][283]        |               Array, Two Pointers               |  ![][easy]  |        |
-| **1480** | [Running Sum of 1d Array][1480]  |                Array, Prefix Sum                |  ![][easy]  |        |
-| **1537** |  [Get the Maximum Score][1537]   | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
+|    #     |                Solution                |                      Tags                       | Difficulty  | Remark |
+| :------: | :------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0004** |    [Median of Two Sorted Arrays][4]    |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0026** |        [Remove Duplicates][26]         |               Array, Two Pointers               |  ![][easy]  |        |
+| **0037** |          [Sudoku Solver][37]           |           Array, Backtracking, Matrix           |  ![][hard]  |        |
+| **0051** |             [N-Queens][51]             |               Array, Backtracking               |  ![][hard]  |        |
+| **0075** |           [Sort Colors][75]            |          Array, Two Pointers, Sorting           | ![][medium] |        |
+| **0283** |           [Move Zeroes][283]           |               Array, Two Pointers               |  ![][easy]  |        |
+| **1232** | [Check If It Is a Straight Line][1232] |              Array, Math, Geometry              |  ![][easy]  |        |
+| **1480** |    [Running Sum of 1d Array][1480]     |                Array, Prefix Sum                |  ![][easy]  |        |
+| **1537** |     [Get the Maximum Score][1537]      | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## String
 
@@ -47,12 +48,13 @@
 
 ## Math
 
-|    #     |             Solution              |        Tags         | Difficulty  | Remark |
-| :------: | :-------------------------------: | :-----------------: | :---------: | :----: |
-| **0007** |       [Reverse Integer][7]        |        Math         | ![][medium] |        |
-| **0009** |      [Palindrome Number][9]       |        Math         |  ![][easy]  |        |
-| **0172** | [Factorial Trailiing Zeroes][172] |        Math         | ![][medium] |        |
-| **367**  |    [Valid Perfect Square][367]    | Math, Binary Search |  ![][easy]  |        |
+|    #     |                Solution                |         Tags          | Difficulty  | Remark |
+| :------: | :------------------------------------: | :-------------------: | :---------: | :----: |
+| **0007** |          [Reverse Integer][7]          |         Math          | ![][medium] |        |
+| **0009** |         [Palindrome Number][9]         |         Math          |  ![][easy]  |        |
+| **0367** |      [Valid Perfect Square][367]       |  Math, Binary Search  |  ![][easy]  |        |
+| **0172** |   [Factorial Trailiing Zeroes][172]    |         Math          | ![][medium] |        |
+| **1232** | [Check If It Is a Straight Line][1232] | Array, Math, Geometry |  ![][easy]  |        |
 
 ## Sorting
 
@@ -123,7 +125,7 @@
 | **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer |  ![][hard]  |        |
 | **0222** | [Count Complete Tree Nodes][222] | Binary Search, Tree, DFS, Binary Tree  | ![][medium] |        |
 | **0278** |     [First Bad Version][278]     |       Binary Search, Interactive       |  ![][easy]  |        |
-| **367**  |   [Valid Perfect Square][367]    |          Math, Binary Search           |  ![][easy]  |        |
+| **0367** |   [Valid Perfect Square][367]    |          Math, Binary Search           |  ![][easy]  |        |
 
 ## Matrix
 
@@ -309,12 +311,11 @@
 | :-: | :------: | :--: | :--------: | :------: |
 -->
 
-<!--
 ## Geometry
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+|    #     |                Solution                |         Tags          | Difficulty | Remark |
+| :------: | :------------------------------------: | :-------------------: | :--------: | :----: |
+| **1232** | [Check If It Is a Straight Line][1232] | Array, Math, Geometry | ![][easy]  |        |
 
 <!--
 ## Topological Sort
@@ -572,6 +573,7 @@
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
+[1232]: ./src/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./src/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./src/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
 [1537]: ./src/1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
