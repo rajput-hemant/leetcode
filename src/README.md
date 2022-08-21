@@ -33,10 +33,12 @@
 | **0278** |                   [First Bad Version][278]                    |           Binary Search, Interactive            |  ![][easy]  |        |
 | **0283** |                      [Move Zeroes][283]                       |               Array, Two Pointers               |  ![][easy]  |        |
 | **0344** |                     [Reverse String][344]                     |         Two Pointers, String, Recursion         |  ![][easy]  |        |
+| **0367** |                  [Valid Perfect Square][367]                  |               Math, Binary Search               |  ![][easy]  |        |
 | **0369** |                  [Plus One Linked List][369]                  |                Linked List, Math                | ![][medium] |   🔒   |
 | **0543** |                [Diameter of Binary Tree][543]                 |             Tree, DFS, Binary Tree              |  ![][easy]  |        |
 | **0653** |              [Two Sum IV - Input is a BST][653]               |           Tree, DFS, BST, Binary Tree           |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                  String, Stack                  |  ![][easy]  |        |
+| **1232** |            [Check If It Is a Straight Line][1232]             |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |      String, Hash Table, Bit Manipulation       | ![][medium] |        |
 | **1480** |                [Running Sum of 1d Array][1480]                |                Array, Prefix Sum                |  ![][easy]  |        |
 | **1537** |                 [Get the Maximum Score][1537]                 | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
@@ -66,10 +68,12 @@
 [278]: ./0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./0201-0300/283%20-%20Move%20Zeroes/
 [344]: ./0301-0400/344%20-%20Reverse%20String/
+[367]:./0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/
 [543]: ./0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [1047]: ./1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
+[1232]: ./1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
 [1537]: ./1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
