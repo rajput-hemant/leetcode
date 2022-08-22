@@ -38,6 +38,7 @@
 | **0543** |                [Diameter of Binary Tree][543]                 |             Tree, DFS, Binary Tree              |  ![][easy]  |        |
 | **0653** |              [Two Sum IV - Input is a BST][653]               |           Tree, DFS, BST, Binary Tree           |  ![][easy]  |        |
 | **0704** |                     [Binary Search][704]                      |              Array, Binary Search               |  ![][easy]  |        |
+| **771**  |                   [Jewels and Stones][771]                    |                String, Hashtable                |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                  String, Stack                  |  ![][easy]  |        |
 | **1232** |            [Check If It Is a Straight Line][1232]             |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |      String, Hash Table, Bit Manipulation       | ![][medium] |        |
@@ -74,6 +75,7 @@
 [543]: ./0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [704]: ./0701-0800/704%20-%20Binary%20Search/
+[771]: ./0701-0800/771%20-%20Jewels%20and%20Stones/
 [1047]: ./1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1232]: ./1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
