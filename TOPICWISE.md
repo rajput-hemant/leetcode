@@ -32,9 +32,10 @@
 
 |    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
-| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |            String, Stack             |  ![][easy]  |        |
+| **0058** |                   [Length of Last Word][58]                   |                String                |  ![][easy]  |        |
 | **0344** |                     [Reverse String][344]                     |   Two Pointers, String, Recursion    |  ![][easy]  |        |
-| **771**  |                   [Jewels and Stones][771]                    |          String, Hashtable           |  ![][easy]  |        |
+| **0771** |                   [Jewels and Stones][771]                    |          String, Hashtable           |  ![][easy]  |        |
+| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |            String, Stack             |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
 
 ## Hash Table
@@ -562,6 +563,7 @@
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [55]: ./src/0001-0100/055%20-%20Jump%20Game/
+[58]: ./src/0001-0100/058%20-%20Length%20of%20Last%20Word/
 [75]: ./src/0001-0100/075%20-%20Sort%20Colors/
 [94]: ./src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./src/0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/

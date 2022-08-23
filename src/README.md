@@ -20,6 +20,7 @@
 | **0037** |                      [Sudoku Solver][37]                      |           Array, Backtracking, Matrix           |  ![][hard]  |        |
 | **0051** |                        [N-Queens][51]                         |               Array, Backtracking               |  ![][hard]  |        |
 | **0055** |                        [Jump Game][55]                        |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0058** |                   [Length of Last Word][58]                   |                     String                      |  ![][easy]  |        |
 | **0075** |                       [Sort Colors][75]                       |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0094** |              [Binary Tree Inorder Traversal][94]              |          Tree, Stack, DFS, Binary Tree          |  ![][easy]  |        |
 | **0098** |                      [Validate BST][98]                       |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
@@ -58,6 +59,7 @@
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./0001-0100/051%20-%20N-Queens/
 [55]: ./0001-0100/055%20-%20Jump%20Game/
+[58]: ./0001-0100/058%20-%20Length%20of%20Last%20Word/
 [75]: ./0001-0100/075%20-%20Sort%20Colors/
 [94]: ./0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
