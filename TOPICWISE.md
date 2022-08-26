@@ -14,19 +14,20 @@
 
 ## Array
 
-|    #     |                Solution                |                      Tags                       | Difficulty  | Remark |
-| :------: | :------------------------------------: | :---------------------------------------------: | :---------: | :----: |
-| **0004** |    [Median of Two Sorted Arrays][4]    |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
-| **0026** |        [Remove Duplicates][26]         |               Array, Two Pointers               |  ![][easy]  |        |
-| **0037** |          [Sudoku Solver][37]           |           Array, Backtracking, Matrix           |  ![][hard]  |        |
-| **0051** |             [N-Queens][51]             |               Array, Backtracking               |  ![][hard]  |        |
-| **0055** |            [Jump Game][55]             |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
-| **0075** |           [Sort Colors][75]            |          Array, Two Pointers, Sorting           | ![][medium] |        |
-| **0283** |           [Move Zeroes][283]           |               Array, Two Pointers               |  ![][easy]  |        |
-| **0704** |          [Binary Search][704]          |              Array, Binary Search               |  ![][easy]  |        |
-| **1232** | [Check If It Is a Straight Line][1232] |              Array, Math, Geometry              |  ![][easy]  |        |
-| **1480** |    [Running Sum of 1d Array][1480]     |                Array, Prefix Sum                |  ![][easy]  |        |
-| **1537** |     [Get the Maximum Score][1537]      | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
+|    #     |                              Solution                               |                      Tags                       | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0026** |                       [Remove Duplicates][26]                       |               Array, Two Pointers               |  ![][easy]  |        |
+| **0037** |                         [Sudoku Solver][37]                         |           Array, Backtracking, Matrix           |  ![][hard]  |        |
+| **0051** |                           [N-Queens][51]                            |               Array, Backtracking               |  ![][hard]  |        |
+| **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
+| **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
+| **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
+| **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
+| **1480** |                   [Running Sum of 1d Array][1480]                   |                Array, Prefix Sum                |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |   Array, Two Pointer, Binary Search, Sorting    | ![][medium] |        |
+| **1537** |                    [Get the Maximum Score][1537]                    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## String
 
@@ -64,9 +65,10 @@
 
 ## Sorting
 
-|    #     |     Solution      |             Tags             | Difficulty  | Remark |
-| :------: | :---------------: | :--------------------------: | :---------: | :----: |
-| **0075** | [Sort Colors][75] | Array, Two Pointers, Sorting | ![][medium] |        |
+|    #     |                              Solution                               |                    Tags                    | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :----------------------------------------: | :---------: | :----: |
+| **0075** |                          [Sort Colors][75]                          |        Array, Two Pointers, Sorting        | ![][medium] |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
 
 ## Depth-First Search
 
@@ -127,13 +129,14 @@
 
 ## Binary Search
 
-|    #     |             Solution             |                  Tags                  | Difficulty  | Remark |
-| :------: | :------------------------------: | :------------------------------------: | :---------: | :----: |
-| **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer |  ![][hard]  |        |
-| **0222** | [Count Complete Tree Nodes][222] | Binary Search, Tree, DFS, Binary Tree  | ![][medium] |        |
-| **0278** |     [First Bad Version][278]     |       Binary Search, Interactive       |  ![][easy]  |        |
-| **0367** |   [Valid Perfect Square][367]    |          Math, Binary Search           |  ![][easy]  |        |
-| **0704** |       [Binary Search][704]       |          Array, Binary Search          |  ![][easy]  |        |
+|    #     |                              Solution                               |                    Tags                    | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :----------------------------------------: | :---------: | :----: |
+| **0004** |                  [Median of Two Sorted Arrays][4]                   |   Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
+| **0222** |                  [Count Complete Tree Nodes][222]                   |   Binary Search, Tree, DFS, Binary Tree    | ![][medium] |        |
+| **0278** |                      [First Bad Version][278]                       |         Binary Search, Interactive         |  ![][easy]  |        |
+| **0367** |                     [Valid Perfect Square][367]                     |            Math, Binary Search             |  ![][easy]  |        |
+| **0704** |                        [Binary Search][704]                         |            Array, Binary Search            |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
 
 ## Matrix
 
@@ -160,14 +163,15 @@
 
 ## Two Pointers
 
-|    #     |              Solution               |                      Tags                       | Difficulty  | Remark |
-| :------: | :---------------------------------: | :---------------------------------------------: | :---------: | :----: |
-| **0004** |  [Median of Two Sorted Arrays][4]   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
-| **0075** |          [Sort Colors][75]          |          Array, Two Pointers, Sorting           | ![][medium] |        |
-| **0283** |         [Move Zeroes][283]          |               Array, Two Pointers               |  ![][easy]  |        |
-| **0344** |        [Reverse String][344]        |         Two Pointers, String, Recursion         |  ![][easy]  |        |
-| **0653** | [Two Sum IV - Input is a BST ][653] |           Tree, DFS, BST, Binary Tree           |  ![][easy]  |        |
-| **1537** |    [Get the Maximum Score][1537]    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
+|    #     |                              Solution                               |                      Tags                       | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
+| **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
+| **0344** |                        [Reverse String][344]                        |         Two Pointers, String, Recursion         |  ![][easy]  |        |
+| **0653** |                 [Two Sum IV - Input is a BST ][653]                 |           Tree, DFS, BST, Binary Tree           |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |   Array, Two Pointer, Binary Search, Sorting    | ![][medium] |        |
+| **1537** |                    [Get the Maximum Score][1537]                    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## Bit Manipulation
 
@@ -588,6 +592,7 @@
 [1232]: ./src/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./src/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./src/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
+[1498]: ./src/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/
 [1537]: ./src/1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
 [2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 
