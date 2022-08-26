@@ -53,19 +53,21 @@
 |    #     |           Solution            |                      Tags                       | Difficulty  | Remark |
 | :------: | :---------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0055** |        [Jump Game][55]        |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0070** |     [Climbing Stairs][70]     |     Math, Dynamic Programming, Memoization      |  ![][easy]  |        |
 | **0322** |      [Coin Change][322]       |         Array, Dynamic Programming, BFS         | ![][medium] |        |
 | **0518** |     [Coin Change 2][518]      |           Array, Dynamic Programming            | ![][medium] |        |
 | **1537** | [Get the Maximum Score][1537] | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## Math
 
-|    #     |                Solution                |         Tags          | Difficulty  | Remark |
-| :------: | :------------------------------------: | :-------------------: | :---------: | :----: |
-| **0007** |          [Reverse Integer][7]          |         Math          | ![][medium] |        |
-| **0009** |         [Palindrome Number][9]         |         Math          |  ![][easy]  |        |
-| **0367** |      [Valid Perfect Square][367]       |  Math, Binary Search  |  ![][easy]  |        |
-| **0172** |   [Factorial Trailiing Zeroes][172]    |         Math          | ![][medium] |        |
-| **1232** | [Check If It Is a Straight Line][1232] | Array, Math, Geometry |  ![][easy]  |        |
+|    #     |                Solution                |                  Tags                   | Difficulty  | Remark |
+| :------: | :------------------------------------: | :-------------------------------------: | :---------: | :----: |
+| **0007** |          [Reverse Integer][7]          |                  Math                   | ![][medium] |        |
+| **0009** |         [Palindrome Number][9]         |                  Math                   |  ![][easy]  |        |
+| **0070** |         [Climbing Stairs][70]          | Math, Dynamic Programming, Memorization |  ![][easy]  |        |
+| **0367** |      [Valid Perfect Square][367]       |           Math, Binary Search           |  ![][easy]  |        |
+| **0172** |   [Factorial Trailiing Zeroes][172]    |                  Math                   | ![][medium] |        |
+| **1232** | [Check If It Is a Straight Line][1232] |          Array, Math, Geometry          |  ![][easy]  |        |
 
 ## Sorting
 
@@ -321,12 +323,11 @@
 | :-: | :------: | :--: | :--------: | :------: |
 -->
 
-<!--
 ## Memoization
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+|    #     |       Solution        |                  Tags                   | Difficulty | Remark |
+| :------: | :-------------------: | :-------------------------------------: | :--------: | :----: |
+| **0070** | [Climbing Stairs][70] | Math, Dynamic Programming, Memorization | ![][easy]  |        |
 
 ## Geometry
 
@@ -573,6 +574,7 @@
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [55]: ./src/0001-0100/055%20-%20Jump%20Game/
 [58]: ./src/0001-0100/058%20-%20Length%20of%20Last%20Word/
+[70]: ./src/0001-0100/070%20-%20Climbing%20Stairs/
 [75]: ./src/0001-0100/075%20-%20Sort%20Colors/
 [94]: ./src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./src/0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
