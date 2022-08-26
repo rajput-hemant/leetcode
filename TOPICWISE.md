@@ -23,6 +23,7 @@
 | **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
+| **0322** |                         [Coin Change][322]                          |         Array, Dynamic Programming, BFS         | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                Array, Prefix Sum                |  ![][easy]  |        |
@@ -51,6 +52,7 @@
 |    #     |           Solution            |                      Tags                       | Difficulty  | Remark |
 | :------: | :---------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0055** |        [Jump Game][55]        |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0322** |      [Coin Change][322]       |         Array, Dynamic Programming, BFS         | ![][medium] |        |
 | **1537** | [Get the Maximum Score][1537] | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## Math
@@ -101,14 +103,15 @@
 
 ## Breadth-First Search
 
-|    #     |                    Solution                     |            Tags             | Difficulty  | Remark |
-| :------: | :---------------------------------------------: | :-------------------------: | :---------: | :----: |
-| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |   Tree, BFS, Binary Tree    | ![][medium] |        |
-| **0104** |       [Maximum Depth of Binary Tree][104]       | Tree, BFS, DFS, Binary Tree |  ![][easy]  |        |
-| **0111** |       [Minimum Depth of Binary Tree][111]       | Tree, DFS, BFS, Binary Tree |  ![][easy]  |        |
-| **0199** |       [Binary Tree Right Side View][199]        | Tree, DFS, BFS, Binary Tree | ![][medium] |        |
-| **0230** |      [Kth Smallest Element in a BST ][230]      | Tree, DFS, BST, Binary Tree | ![][medium] |        |
-| **0653** |       [Two Sum IV - Input is a BST ][653]       | Tree, DFS, BST, Binary Tree |  ![][easy]  |        |
+|    #     |                    Solution                     |              Tags               | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :-----------------------------: | :---------: | :----: |
+| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |     Tree, BFS, Binary Tree      | ![][medium] |        |
+| **0104** |       [Maximum Depth of Binary Tree][104]       |   Tree, BFS, DFS, Binary Tree   |  ![][easy]  |        |
+| **0111** |       [Minimum Depth of Binary Tree][111]       |   Tree, DFS, BFS, Binary Tree   |  ![][easy]  |        |
+| **0199** |       [Binary Tree Right Side View][199]        |   Tree, DFS, BFS, Binary Tree   | ![][medium] |        |
+| **0230** |      [Kth Smallest Element in a BST ][230]      |   Tree, DFS, BST, Binary Tree   | ![][medium] |        |
+| **0322** |               [Coin Change][322]                | Array, Dynamic Programming, BFS | ![][medium] |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       |   Tree, DFS, BST, Binary Tree   |  ![][easy]  |        |
 
 ## Tree
 
@@ -581,6 +584,7 @@
 [230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
+[322]: ./src/0301-0400/322%20-%20Coin%20Change/
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
 [367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/

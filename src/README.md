@@ -34,6 +34,7 @@
 | **0230** |                [Kth Smallest Element in a BST][230]                 |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
 | **0278** |                      [First Bad Version][278]                       |           Binary Search, Interactive            |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
+| **0322** |                         [Coin Change][322]                          |         Array, Dynamic Programming, BFS         | ![][medium] |        |
 | **0344** |                        [Reverse String][344]                        |         Two Pointers, String, Recursion         |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |               Math, Binary Search               |  ![][easy]  |        |
 | **0369** |                     [Plus One Linked List][369]                     |                Linked List, Math                | ![][medium] |   🔒   |
@@ -74,6 +75,7 @@
 [230]: ./0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [278]: ./0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./0201-0300/283%20-%20Move%20Zeroes/
+[322]: ./0301-0400/322%20-%20Coin%20Change/
 [344]: ./0301-0400/344%20-%20Reverse%20String/
 [367]: ./0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/
