@@ -25,6 +25,7 @@
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
 | **0322** |                         [Coin Change][322]                          |         Array, Dynamic Programming, BFS         | ![][medium] |        |
+| **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |           Array, Dynamic Programming            | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
@@ -75,6 +76,7 @@
 |    #     |                              Solution                               |                    Tags                    | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :----------------------------------------: | :---------: | :----: |
 | **0075** |                          [Sort Colors][75]                          |        Array, Two Pointers, Sorting        | ![][medium] |        |
+| **0506** |                        [Relative Ranks][506]                        |            Array, Sorting, Heap            |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
 
 ## Depth-First Search
@@ -202,12 +204,11 @@
 | :-: | :------: | :--: | :--------: | :------: |
 -->
 
-<!--
 ## Heap (Priority Queue)
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+|    #     |       Solution        |         Tags         | Difficulty | Remark |
+| :------: | :-------------------: | :------------------: | :--------: | :----: |
+| **0506** | [Relative Ranks][506] | Array, Sorting, Heap | ![][easy]  |        |
 
 <!--
 ## Graph
@@ -595,6 +596,7 @@
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
 [367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
+[506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
 [518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
