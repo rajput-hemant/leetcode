@@ -24,6 +24,7 @@
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
 | **0322** |                         [Coin Change][322]                          |         Array, Dynamic Programming, BFS         | ![][medium] |        |
+| **0518** |                        [Coin Change 2][518]                         |           Array, Dynamic Programming            | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                Array, Prefix Sum                |  ![][easy]  |        |
@@ -53,6 +54,7 @@
 | :------: | :---------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0055** |        [Jump Game][55]        |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0322** |      [Coin Change][322]       |         Array, Dynamic Programming, BFS         | ![][medium] |        |
+| **0518** |     [Coin Change 2][518]      |           Array, Dynamic Programming            | ![][medium] |        |
 | **1537** | [Get the Maximum Score][1537] | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## Math
@@ -588,6 +590,7 @@
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
 [367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
+[518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [704]: ./src/0701-0800/704%20-%20Binary%20Search/
