@@ -17,6 +17,7 @@
 | **0009** |                       [Palindrome Number][9]                        |                      Math                       |  ![][easy]  |        |
 | **0024** |                      [Swap Nodes in Pairs][24]                      |             Linked List, Recursion              | ![][medium] |        |
 | **0026** |                       [Remove Duplicates][26]                       |               Array, Two Pointers               |  ![][easy]  |        |
+| **0027** |                        [Remove Element][27]                         |               Array, Two Pointers               |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |           Array, Backtracking, Matrix           |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |               Array, Backtracking               |  ![][hard]  |        |
 | **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
@@ -60,6 +61,7 @@
 [9]: ./0001-0100/009%20-%20Palindrome%20Number/
 [24]: ./0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
+[27]: ./0001-0100/027%20-%20Remove%20Element/
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./0001-0100/051%20-%20N-Queens/
 [55]: ./0001-0100/055%20-%20Jump%20Game/

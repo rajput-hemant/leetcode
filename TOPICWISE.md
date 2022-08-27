@@ -18,6 +18,7 @@
 | :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0026** |                       [Remove Duplicates][26]                       |               Array, Two Pointers               |  ![][easy]  |        |
+| **0027** |                        [Remove Element][27]                         |               Array, Two Pointers               |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |           Array, Backtracking, Matrix           |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |               Array, Backtracking               |  ![][hard]  |        |
 | **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
@@ -173,6 +174,7 @@
 |    #     |                              Solution                               |                      Tags                       | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0027** |                        [Remove Element][27]                         |               Array, Two Pointers               |  ![][easy]  |        |
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |         Two Pointers, String, Recursion         |  ![][easy]  |        |
@@ -570,6 +572,7 @@
 [9]: ./src/0001-0100/009%20-%20Palindrome%20Number/
 [24]: ./src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
+[27]: ./src/0001-0100/027%20-%20Remove%20Element/
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [55]: ./src/0001-0100/055%20-%20Jump%20Game/
