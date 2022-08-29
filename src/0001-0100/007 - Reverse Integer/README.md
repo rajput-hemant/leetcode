@@ -57,4 +57,6 @@ public static int reverse(int x) {
 <!----------------------------------{ link }--------------------------------->
 
 [share]: https://img.icons8.com/external-anggara-blue-anggara-putra/20/000000/external-share-user-interface-basic-anggara-blue-anggara-putra-2.png
-[medium]: https://img.shields.io/badge/Difficulty-Medium-red.svg
+[easy]: https://img.shields.io/badge/Difficulty-Easy-bright.svg
+[medium]: https://img.shields.io/badge/Difficulty-Medium-yellow.svg
+[hard]: https://img.shields.io/badge/Difficulty-Hard-red.svg
