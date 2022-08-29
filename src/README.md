@@ -51,6 +51,7 @@
 | **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1461** |    [Check If a String Contains All Binary Codes of Size K][1461]    |      String, Hash Table, Bit Manipulation       | ![][medium] |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                Array, Prefix Sum                |  ![][easy]  |        |
+| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                 Array, Sorting                  |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |   Array, Two Pointer, Binary Search, Sorting    | ![][medium] |        |
 | **1537** |                    [Get the Maximum Score][1537]                    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 | **2236** |                [Root Equal to Sum of Children][2236]                |                Tree, Binary Tree                |  ![][easy]  |        |
@@ -97,6 +98,7 @@
 [1232]: ./1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
+[1491]: ./1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary/
 [1498]: ./1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/
 [1537]: ./1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
 [2236]: ./2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
