@@ -86,17 +86,18 @@
 
 ## Depth-First Search
 
-|    #     |               Solution                |                 Tags                  | Difficulty  | Remark |
-| :------: | :-----------------------------------: | :-----------------------------------: | :---------: | :----: |
-| **0104** |  [Maximum Depth of Binary Tree][104]  |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
-| **0110** |      [Balanced Binary Tree][110]      |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
-| **0111** |  [Minimum Depth of Binary Tree][111]  |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
-| **0144** | [Binary Tree Preorder Traversal][144] |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
-| **0199** |  [Binary Tree Right Side View][199]   |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
-| **0222** |   [Count Complete Tree Nodes][222]    | Binary Search, Tree, DFS, Binary Tree | ![][medium] |        |
-| **0230** | [Kth Smallest Element in a BST ][230] |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
-| **0543** |    [Diameter of Binary Tree][543]     |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
-| **0653** |  [Two Sum IV - Input is a BST ][653]  |      Tree, DFS, BST, Binary Tree      |  ![][easy]  |        |
+|    #     |                Solution                |                 Tags                  | Difficulty  | Remark |
+| :------: | :------------------------------------: | :-----------------------------------: | :---------: | :----: |
+| **0104** |  [Maximum Depth of Binary Tree][104]   |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
+| **0110** |      [Balanced Binary Tree][110]       |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0111** |  [Minimum Depth of Binary Tree][111]   |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
+| **0144** | [Binary Tree Preorder Traversal][144]  |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
+| **0145** | [Binary Tree Postorder Traversal][145] |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
+| **0199** |   [Binary Tree Right Side View][199]   |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
+| **0222** |    [Count Complete Tree Nodes][222]    | Binary Search, Tree, DFS, Binary Tree | ![][medium] |        |
+| **0230** | [Kth Smallest Element in a BST ][230]  |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0543** |     [Diameter of Binary Tree][543]     |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0653** |  [Two Sum IV - Input is a BST ][653]   |      Tree, DFS, BST, Binary Tree      |  ![][easy]  |        |
 
 ## Greedy
 
@@ -137,6 +138,7 @@
 | **0110** |           [Balanced Binary Tree][110]           |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
 | **0111** |       [Minimum Depth of Binary Tree][111]       |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
 | **0144** |      [Binary Tree Preorder Traversal][144]      |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
+| **0145** |     [Binary Tree Postorder Traversal][145]      |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
 | **0199** |       [Binary Tree Right Side View][199]        |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
 | **0222** |        [Count Complete Tree Nodes][222]         | Binary Search, Tree, DFS, Binary Tree | ![][medium] |        |
 | **0230** |      [Kth Smallest Element in a BST ][230]      |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
@@ -173,6 +175,7 @@
 | **0110** |           [Balanced Binary Tree][110]           |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
 | **0111** |       [Minimum Depth of Binary Tree][111]       |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
 | **0144** |      [Binary Tree Preorder Traversal][144]      |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
+| **0145** |     [Binary Tree Postorder Traversal][145]      |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
 | **0199** |       [Binary Tree Right Side View][199]        |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
 | **0222** |        [Count Complete Tree Nodes][222]         | Binary Search, Tree, DFS, Binary Tree | ![][medium] |        |
 | **0230** |      [Kth Smallest Element in a BST ][230]      |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
@@ -205,6 +208,7 @@
 | :------: | :----------------------------------------------: | :---------------------------: | :--------: | :----: |
 | **0094** |       [Binary Tree Inorder Traversal][94]        | Tree, Stack, DFS, Binary Tree | ![][easy]  |        |
 | **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, DFS, Binary Tree | ![][easy]  |        |
+| **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, DFS, Binary Tree | ![][easy]  |        |
 | **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         | ![][easy]  |        |
 
 <!--
@@ -597,6 +601,7 @@
 [110]: ./src/0101-0200/110%20-%20Balanced%20Binary%20Tree/
 [111]: ./src/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
 [144]: ./src/0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal/
+[145]: ./src/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./src/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
 [199]: ./src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
