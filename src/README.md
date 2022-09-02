@@ -12,6 +12,7 @@
 
 |    #     |                              Solution                               |                       Tag                       | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0001** |                            [Two Sum][1]                             |                Array, Hash Table                |  ![][easy]  |        |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0007** |                        [Reverse Integer][7]                         |                      Math                       | ![][medium] |        |
 | **0009** |                       [Palindrome Number][9]                        |                      Math                       |  ![][easy]  |        |
@@ -61,6 +62,7 @@
 </div>
 <!---------------------------------{ Path Reference }-------------------------->
 
+[1]: ./0001-0100/001%20-%20Two%20Sum/
 [4]: ./0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays/
 [7]: ./0001-0100/007%20-%20Reverse%20Integer/
 [9]: ./0001-0100/009%20-%20Palindrome%20Number/

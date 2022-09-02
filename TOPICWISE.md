@@ -16,6 +16,7 @@
 
 |    #     |                              Solution                               |                      Tags                       | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0001** |                            [Two Sum][1]                             |                Array, Hash Table                |  ![][easy]  |        |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0026** |                       [Remove Duplicates][26]                       |               Array, Two Pointers               |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |               Array, Two Pointers               |  ![][easy]  |        |
@@ -49,6 +50,7 @@
 
 |    #     |              Solution               |                   Tags                    | Difficulty | Remark |
 | :------: | :---------------------------------: | :---------------------------------------: | :--------: | :----: |
+| **0001** |            [Two Sum][1]             |             Array, Hash Table             | ![][easy]  |        |
 | **0653** | [Two Sum IV - Input is a BST ][653] |        Tree, DFS, BST, Binary Tree        | ![][easy]  |        |
 | **0888** |       [Fair Candy Swap][888]        | Array, Hash Table, Binary Search, Sorting | ![][easy]  |        |
 | **0771** |      [Jewels and Stones][771]       |             String, Hashtable             | ![][easy]  |        |
@@ -582,6 +584,7 @@
 
 </div>
 
+[1]: ./src/0001-0100/001%20-%20Two%20Sum/
 [4]: ./src/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays/
 [7]: ./src//0001-0100/007%20-%20Reverse%20Integer/
 [9]: ./src/0001-0100/009%20-%20Palindrome%20Number/
