@@ -1,5 +1,7 @@
 # 100. Same Tree [![][share]](https://leetcode.com/problems/same-tree/)
 
+![][easy]
+
 ## Problem Statement:
 
 Given the roots of two binary trees `p` and `q`, write a function to check if they are the same or not.
