@@ -90,6 +90,7 @@
 
 |    #     |                Solution                |                 Tags                  | Difficulty  | Remark |
 | :------: | :------------------------------------: | :-----------------------------------: | :---------: | :----: |
+| **0100** |            [Same Tree][100]            |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
 | **0104** |  [Maximum Depth of Binary Tree][104]   |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
 | **0110** |      [Balanced Binary Tree][110]       |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
 | **0111** |  [Minimum Depth of Binary Tree][111]   |      Tree, DFS, BFS, Binary Tree      |  ![][easy]  |        |
@@ -121,6 +122,7 @@
 
 |    #     |                    Solution                     |              Tags               | Difficulty  | Remark |
 | :------: | :---------------------------------------------: | :-----------------------------: | :---------: | :----: |
+| **0100** |                [Same Tree][100]                 |   Tree, DFS, BFS, Binary Tree   | ![][medium] |        |
 | **0103** | [Binary Tree Zigzag Level Order Traversal][103] |     Tree, BFS, Binary Tree      | ![][medium] |        |
 | **0104** |       [Maximum Depth of Binary Tree][104]       |   Tree, BFS, DFS, Binary Tree   |  ![][easy]  |        |
 | **0111** |       [Minimum Depth of Binary Tree][111]       |   Tree, DFS, BFS, Binary Tree   |  ![][easy]  |        |
@@ -135,6 +137,7 @@
 | :------: | :---------------------------------------------: | :-----------------------------------: | :---------: | :----: |
 | **0094** |       [Binary Tree Inorder Traversal][94]       |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
 | **0098** |        [Validate Binary Search Tree][98]        |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0100** |                [Same Tree][100]                 |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
 | **0103** | [Binary Tree Zigzag Level Order Traversal][103] |        Tree, BFS, Binary Tree         | ![][medium] |        |
 | **0104** |       [Maximum Depth of Binary Tree][104]       |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
 | **0110** |           [Balanced Binary Tree][110]           |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
@@ -172,6 +175,7 @@
 | :------: | :---------------------------------------------: | :-----------------------------------: | :---------: | :----: |
 | **0094** |       [Binary Tree Inorder Traversal][94]       |     Stack, Tree, DFS, Binary Tree     |  ![][easy]  |        |
 | **0098** |        [Validate Binary Search Tree][98]        |      Tree, DFS, BST, Binary Tree      | ![][medium] |        |
+| **0100** |                [Same Tree][100]                 |      Tree, DFS, BFS, Binary Tree      | ![][medium] |        |
 | **0103** | [Binary Tree Zigzag Level Order Traversal][103] |        Tree, BFS, Binary Tree         | ![][medium] |        |
 | **0104** |       [Maximum Depth of Binary Tree][104]       |      Tree, BFS, DFS, Binary Tree      |  ![][easy]  |        |
 | **0110** |           [Balanced Binary Tree][110]           |        Tree, DFS, Binary Tree         |  ![][easy]  |        |
@@ -599,6 +603,7 @@
 [75]: ./src/0001-0100/075%20-%20Sort%20Colors/
 [94]: ./src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./src/0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
+[100]: ./src/0001-0100/100%20-%20Same%20Tree/
 [103]: ./src/0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/
 [104]: ./src/0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
 [110]: ./src/0101-0200/110%20-%20Balanced%20Binary%20Tree/

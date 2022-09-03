@@ -27,6 +27,7 @@
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0094** |                 [Binary Tree Inorder Traversal][94]                 |          Tree, Stack, DFS, Binary Tree          |  ![][easy]  |        |
 | **0098** |                         [Validate BST][98]                          |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
+| **0100** |                          [Same Tree][100]                           |           Tree, DFS, BFS, Binary Tree           | ![][medium] |        |
 | **0103** |           [Binary Tree Zigzag Level Order Traversal][103]           |             Tree, BFS, Binary Tree              | ![][medium] |        |
 | **0104** |                 [Maximum Depth of Binary Tree][104]                 |           Tree, BFS, DFS, Binary Tree           |  ![][easy]  |        |
 | **0110** |                     [Balanced Binary Tree][110]                     |             Tree, DFS, Binary Tree              |  ![][easy]  |        |
@@ -77,6 +78,7 @@
 [75]: ./0001-0100/075%20-%20Sort%20Colors/
 [94]: ./0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
+[100]: ./0001-0100/100%20-%20Same%20Tree/
 [103]: ./0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/
 [104]: ./0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
 [110]: ./0101-0200/110%20-%20Balanced%20Binary%20Tree/
