@@ -69,6 +69,7 @@
 
 |    #     |                Solution                |                  Tags                   | Difficulty  | Remark |
 | :------: | :------------------------------------: | :-------------------------------------: | :---------: | :----: |
+| **0002** |          [Add Two Numbers][2]          |      Linked List, Math, Recursion       | ![][medium] |        |
 | **0007** |          [Reverse Integer][7]          |                  Math                   | ![][medium] |        |
 | **0009** |         [Palindrome Number][9]         |                  Math                   |  ![][easy]  |        |
 | **0070** |         [Climbing Stairs][70]          | Math, Dynamic Programming, Memorization |  ![][easy]  |        |
@@ -273,10 +274,11 @@
 
 ## Linked List
 
-|    #     |          Solution           |          Tags          | Difficulty  | Remark |
-| :------: | :-------------------------: | :--------------------: | :---------: | :----: |
-| **0024** |  [Swap Nodes in Pairs][24]  | Linked List, Recursion | ![][medium] |        |
-| **0369** | [Plus One Linked List][369] |   Linked List, Math    | ![][medium] |   🔒   |
+|    #     |          Solution           |             Tags             | Difficulty  | Remark |
+| :------: | :-------------------------: | :--------------------------: | :---------: | :----: |
+| **0002** |    [Add Two Numbers][2]     | Linked List, Math, Recursion | ![][medium] |        |
+| **0024** |  [Swap Nodes in Pairs][24]  |    Linked List, Recursion    | ![][medium] |        |
+| **0369** | [Plus One Linked List][369] |      Linked List, Math       | ![][medium] |   🔒   |
 
 <!--
 ## Union Find
@@ -303,6 +305,7 @@
 
 |    #     |         Solution          |              Tags               | Difficulty  | Remark |
 | :------: | :-----------------------: | :-----------------------------: | :---------: | :----: |
+| **0002** |   [Add Two Numbers][2]    |  Linked List, Math, Recursion   | ![][medium] |        |
 | **0024** | [Swap Nodes in Pairs][24] |     Linked List, Recursion      | ![][medium] |        |
 | **0344** |   [Reverse String][344]   | Two Pointers, String, Recursion |  ![][easy]  |        |
 
@@ -589,6 +592,7 @@
 </div>
 
 [1]: ./src/0001-0100/001%20-%20Two%20Sum/
+[2]: ./src/0001-0100/002%20-%20Add%20Two%20Numbers/
 [4]: ./src/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays/
 [7]: ./src//0001-0100/007%20-%20Reverse%20Integer/
 [9]: ./src/0001-0100/009%20-%20Palindrome%20Number/
