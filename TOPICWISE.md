@@ -24,6 +24,7 @@
 | **0051** |                           [N-Queens][51]                            |               Array, Backtracking               |  ![][hard]  |        |
 | **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
+| **0122** |              [Best Time to Buy and Sell Stock II][122]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
 | **0322** |                         [Coin Change][322]                          |         Array, Dynamic Programming, BFS         | ![][medium] |        |
 | **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
@@ -57,13 +58,14 @@
 
 ## Dynamic Programming
 
-|    #     |           Solution            |                      Tags                       | Difficulty  | Remark |
-| :------: | :---------------------------: | :---------------------------------------------: | :---------: | :----: |
-| **0055** |        [Jump Game][55]        |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
-| **0070** |     [Climbing Stairs][70]     |     Math, Dynamic Programming, Memoization      |  ![][easy]  |        |
-| **0322** |      [Coin Change][322]       |         Array, Dynamic Programming, BFS         | ![][medium] |        |
-| **0518** |     [Coin Change 2][518]      |           Array, Dynamic Programming            | ![][medium] |        |
-| **1537** | [Get the Maximum Score][1537] | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
+|    #     |                 Solution                  |                      Tags                       | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0055** |              [Jump Game][55]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0070** |           [Climbing Stairs][70]           |     Math, Dynamic Programming, Memoization      |  ![][easy]  |        |
+| **0122** | [Best Time to Buy and Sell Stock II][122] |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0322** |            [Coin Change][322]             |         Array, Dynamic Programming, BFS         | ![][medium] |        |
+| **0518** |           [Coin Change 2][518]            |           Array, Dynamic Programming            | ![][medium] |        |
+| **1537** |       [Get the Maximum Score][1537]       | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## Math
 
@@ -105,12 +107,13 @@
 
 ## Greedy
 
-|    #     |              Solution               |                      Tags                       | Difficulty  | Remark |
-| :------: | :---------------------------------: | :---------------------------------------------: | :---------: | :----: |
-| **0055** |           [Jump Game][55]           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
-| **0094** | [Binary Tree Inorder Traversal][94] |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
-| **0098** |  [Validate Binary Search Tree][98]  |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
-| **1537** |    [Get the Maximum Score][1537]    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
+|    #     |                 Solution                  |                      Tags                       | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0055** |              [Jump Game][55]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0094** |    [Binary Tree Inorder Traversal][94]    |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
+| **0098** |     [Validate Binary Search Tree][98]     |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
+| **0122** | [Best Time to Buy and Sell Stock II][122] |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **1537** |       [Get the Maximum Score][1537]       | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 <!--
 ## Database
@@ -612,6 +615,7 @@
 [104]: ./src/0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
 [110]: ./src/0101-0200/110%20-%20Balanced%20Binary%20Tree/
 [111]: ./src/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
+[122]: ./src/0101-0200/122%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/
 [144]: ./src/0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal/
 [145]: ./src/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./src/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/

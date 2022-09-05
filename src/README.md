@@ -13,7 +13,7 @@
 |    #     |                              Solution                               |                       Tag                       | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0001** |                            [Two Sum][1]                             |                Array, Hash Table                |  ![][easy]  |        |
-| **0002** |                        [Add Two Numbers][2]                         |          Linked List, Math, Recursion           | ![][medium] |        | 
+| **0002** |                        [Add Two Numbers][2]                         |          Linked List, Math, Recursion           | ![][medium] |        |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0007** |                        [Reverse Integer][7]                         |                      Math                       | ![][medium] |        |
 | **0009** |                       [Palindrome Number][9]                        |                      Math                       |  ![][easy]  |        |
@@ -33,6 +33,7 @@
 | **0104** |                 [Maximum Depth of Binary Tree][104]                 |           Tree, BFS, DFS, Binary Tree           |  ![][easy]  |        |
 | **0110** |                     [Balanced Binary Tree][110]                     |             Tree, DFS, Binary Tree              |  ![][easy]  |        |
 | **0111** |                 [Minimum Depth of Binary Tree][111]                 |           Tree, DFS, BFS, Binary Tree           |  ![][easy]  |        |
+| **0122** |              [Best Time to Buy and Sell Stock II][122]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0144** |                [Binary Tree Preorder Traversal][144]                |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
 | **0145** |               [Binary Tree Postorder Traversal][145]                |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
 | **0172** |                  [Factorial Trailing Zeroes][172]                   |                      Math                       | ![][medium] |        |
@@ -85,6 +86,7 @@
 [104]: ./0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
 [110]: ./0101-0200/110%20-%20Balanced%20Binary%20Tree/
 [111]: ./0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
+[122]: ./0101-0200/122%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/
 [144]: ./0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal/
 [145]: ./0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
