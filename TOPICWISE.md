@@ -76,8 +76,9 @@
 | **0007** |          [Reverse Integer][7]          |                  Math                   | ![][medium] |        |
 | **0009** |         [Palindrome Number][9]         |                  Math                   |  ![][easy]  |        |
 | **0070** |         [Climbing Stairs][70]          | Math, Dynamic Programming, Memorization |  ![][easy]  |        |
-| **0367** |      [Valid Perfect Square][367]       |           Math, Binary Search           |  ![][easy]  |        |
 | **0172** |   [Factorial Trailiing Zeroes][172]    |                  Math                   | ![][medium] |        |
+| **0367** |      [Valid Perfect Square][367]       |           Math, Binary Search           |  ![][easy]  |        |
+| **0445** |       [Add Two Numbers II][445]        |        Linked List, Math, Stack         | ![][medium] |        |
 | **1232** | [Check If It Is a Straight Line][1232] |          Array, Math, Geometry          |  ![][easy]  |        |
 
 ## Sorting
@@ -218,12 +219,13 @@
 
 ## Stack
 
-|    #     |                     Solution                     |             Tags              | Difficulty | Remark |
-| :------: | :----------------------------------------------: | :---------------------------: | :--------: | :----: |
-| **0094** |       [Binary Tree Inorder Traversal][94]        | Tree, Stack, DFS, Binary Tree | ![][easy]  |        |
-| **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, DFS, Binary Tree | ![][easy]  |        |
-| **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, DFS, Binary Tree | ![][easy]  |        |
-| **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         | ![][easy]  |        |
+|    #     |                     Solution                     |             Tags              | Difficulty  | Remark |
+| :------: | :----------------------------------------------: | :---------------------------: | :---------: | :----: |
+| **0094** |       [Binary Tree Inorder Traversal][94]        | Tree, Stack, DFS, Binary Tree |  ![][easy]  |        |
+| **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
+| **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
+| **0445** |            [Add Two Numbers II][445]             |   Linked List, Math, Stack    | ![][medium] |        |
+| **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         |  ![][easy]  |        |
 
 <!--
 ## Design
@@ -286,6 +288,7 @@
 | **0002** |    [Add Two Numbers][2]     | Linked List, Math, Recursion | ![][medium] |        |
 | **0024** |  [Swap Nodes in Pairs][24]  |    Linked List, Recursion    | ![][medium] |        |
 | **0369** | [Plus One Linked List][369] |      Linked List, Math       | ![][medium] |   🔒   |
+| **0445** |  [Add Two Numbers II][445]  |   Linked List, Math, Stack   | ![][medium] |        |
 
 <!--
 ## Union Find
@@ -629,10 +632,11 @@
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
 [322]: ./src/0301-0400/322%20-%20Coin%20Change/
+[337]: ./src/0301-0400/337%20-%20House%20Robber%20III/
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
 [367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
-[337]: ./src/0301-0400/337%20-%20House%20Robber%20III/
+[445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
 [518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
