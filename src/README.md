@@ -24,6 +24,7 @@
 | **0051** |                           [N-Queens][51]                            |               Array, Backtracking               |  ![][hard]  |        |
 | **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0058** |                      [Length of Last Word][58]                      |                     String                      |  ![][easy]  |        |
+| **0061** |                          [Rotate List][61]                          |            Linked List, Two Pointers            | ![][medium] |        |
 | **0070** |                        [Climbing Stairs][70]                        |     Math, Dynamic Programming, Memorization     |  ![][easy]  |        |
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0094** |                 [Binary Tree Inorder Traversal][94]                 |          Tree, Stack, DFS, Binary Tree          |  ![][easy]  |        |
@@ -38,7 +39,7 @@
 | **0145** |               [Binary Tree Postorder Traversal][145]                |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
 | **0172** |                  [Factorial Trailing Zeroes][172]                   |                      Math                       | ![][medium] |        |
 | **0199** |                 [Binary Tree Right Side View][199]                  |           Tree, DFS, BFS, Binary Tree           | ![][medium] |        |
-| **0206** |                        [Reverse Linked List][206]                   |             Linked List, Recursion              |  ![][easy]  |        |
+| **0206** |                     [Reverse Linked List][206]                      |             Linked List, Recursion              |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |      Binary Search, Tree, DFS, Binary Tree      | ![][medium] |        |
 | **0230** |                [Kth Smallest Element in a BST][230]                 |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
 | **0278** |                      [First Bad Version][278]                       |           Binary Search, Interactive            |  ![][easy]  |        |
@@ -80,6 +81,7 @@
 [51]: ./0001-0100/051%20-%20N-Queens/
 [55]: ./0001-0100/055%20-%20Jump%20Game/
 [58]: ./0001-0100/058%20-%20Length%20of%20Last%20Word/
+[61]: ./0001-0100/061%20-%20Rotate%20List%20/
 [70]: ./0001-0100/070%20-%20Climbing%20Stairs/
 [75]: ./0001-0100/075%20-%20Sort%20Colors/
 [94]: ./0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/

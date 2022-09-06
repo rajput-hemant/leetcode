@@ -204,6 +204,7 @@
 | :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0027** |                        [Remove Element][27]                         |               Array, Two Pointers               |  ![][easy]  |        |
+| **0061** |                          [Rotate List][61]                          |            Linked List, Two Pointers            | ![][medium] |        |
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |         Two Pointers, String, Recursion         |  ![][easy]  |        |
@@ -287,6 +288,7 @@
 | :------: | :-------------------------: | :--------------------------: | :---------: | :----: |
 | **0002** |    [Add Two Numbers][2]     | Linked List, Math, Recursion | ![][medium] |        |
 | **0024** |  [Swap Nodes in Pairs][24]  |    Linked List, Recursion    | ![][medium] |        |
+| **0061** |      [Rotate List][61]      |  Linked List, Two Pointers   | ![][medium] |        |
 | **0206** | [Reverse Linked List][206]  |    Linked List, Recursion    |  ![][easy]  |        |
 | **0369** | [Plus One Linked List][369] |      Linked List, Math       | ![][medium] |   🔒   |
 | **0445** |  [Add Two Numbers II][445]  |   Linked List, Math, Stack   | ![][medium] |        |
@@ -615,6 +617,7 @@
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [55]: ./src/0001-0100/055%20-%20Jump%20Game/
 [58]: ./src/0001-0100/058%20-%20Length%20of%20Last%20Word/
+[61]: ./src/0001-0100/061%20-%20Rotate%20List%20/
 [70]: ./src/0001-0100/070%20-%20Climbing%20Stairs/
 [75]: ./src/0001-0100/075%20-%20Sort%20Colors/
 [94]: ./src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
