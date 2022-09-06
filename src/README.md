@@ -38,6 +38,7 @@
 | **0145** |               [Binary Tree Postorder Traversal][145]                |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
 | **0172** |                  [Factorial Trailing Zeroes][172]                   |                      Math                       | ![][medium] |        |
 | **0199** |                 [Binary Tree Right Side View][199]                  |           Tree, DFS, BFS, Binary Tree           | ![][medium] |        |
+| **0206** |                        [Reverse Linked List][206]                   |             Linked List, Recursion              |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |      Binary Search, Tree, DFS, Binary Tree      | ![][medium] |        |
 | **0230** |                [Kth Smallest Element in a BST][230]                 |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
 | **0278** |                      [First Bad Version][278]                       |           Binary Search, Interactive            |  ![][easy]  |        |
@@ -93,6 +94,7 @@
 [145]: ./0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
 [199]: ./0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
+[206]: ./0201-0300/206%20-%20Reverse%20Linked%20List/
 [222]: ./0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [278]: ./0201-0300/278%20-%20First%20Bad%20Version/

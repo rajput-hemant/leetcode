@@ -287,6 +287,7 @@
 | :------: | :-------------------------: | :--------------------------: | :---------: | :----: |
 | **0002** |    [Add Two Numbers][2]     | Linked List, Math, Recursion | ![][medium] |        |
 | **0024** |  [Swap Nodes in Pairs][24]  |    Linked List, Recursion    | ![][medium] |        |
+| **0206** | [Reverse Linked List][206]  |    Linked List, Recursion    |  ![][easy]  |        |
 | **0369** | [Plus One Linked List][369] |      Linked List, Math       | ![][medium] |   🔒   |
 | **0445** |  [Add Two Numbers II][445]  |   Linked List, Math, Stack   | ![][medium] |        |
 
@@ -313,11 +314,12 @@
 
 ## Recursion
 
-|    #     |         Solution          |              Tags               | Difficulty  | Remark |
-| :------: | :-----------------------: | :-----------------------------: | :---------: | :----: |
-| **0002** |   [Add Two Numbers][2]    |  Linked List, Math, Recursion   | ![][medium] |        |
-| **0024** | [Swap Nodes in Pairs][24] |     Linked List, Recursion      | ![][medium] |        |
-| **0344** |   [Reverse String][344]   | Two Pointers, String, Recursion |  ![][easy]  |        |
+|    #     |          Solution          |              Tags               | Difficulty  | Remark |
+| :------: | :------------------------: | :-----------------------------: | :---------: | :----: |
+| **0002** |    [Add Two Numbers][2]    |  Linked List, Math, Recursion   | ![][medium] |        |
+| **0024** | [Swap Nodes in Pairs][24]  |     Linked List, Recursion      | ![][medium] |        |
+| **0206** | [Reverse Linked List][206] |     Linked List, Recursion      |  ![][easy]  |        |
+| **0344** |   [Reverse String][344]    | Two Pointers, String, Recursion |  ![][easy]  |        |
 
 <!--
 ## Trie
@@ -627,6 +629,7 @@
 [145]: ./src/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./src/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
 [199]: ./src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
+[206]: ./src/0201-0300/206%20-%20Reverse%20Linked%20List/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
