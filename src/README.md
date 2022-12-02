@@ -26,6 +26,7 @@
 | **0058** |                      [Length of Last Word][58]                      |                     String                      |  ![][easy]  |        |
 | **0061** |                          [Rotate List][61]                          |            Linked List, Two Pointers            | ![][medium] |        |
 | **0070** |                        [Climbing Stairs][70]                        |     Math, Dynamic Programming, Memorization     |  ![][easy]  |        |
+| **0072** |                         [Edit Distance][72]                         |           String, Dynamic Programming           |  ![][hard]  |        |
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0094** |                 [Binary Tree Inorder Traversal][94]                 |          Tree, Stack, DFS, Binary Tree          |  ![][easy]  |        |
 | **0098** |                         [Validate BST][98]                          |           Tree, DFS, BST, Binary Tree           | ![][medium] |        |
@@ -83,6 +84,7 @@
 [58]: ./0001-0100/058%20-%20Length%20of%20Last%20Word/
 [61]: ./0001-0100/061%20-%20Rotate%20List%20/
 [70]: ./0001-0100/070%20-%20Climbing%20Stairs/
+[72]: ./0001-0100/072%20-%20Edit%20Distance/
 [75]: ./0001-0100/075%20-%20Sort%20Colors/
 [94]: ./0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/

@@ -42,6 +42,7 @@
 |    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
 | **0058** |                   [Length of Last Word][58]                   |                String                |  ![][easy]  |        |
+| **0072** |                      [Edit Distance][72]                      |     String, Dynamic Programming      |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |   Two Pointers, String, Recursion    |  ![][easy]  |        |
 | **0771** |                   [Jewels and Stones][771]                    |          String, Hashtable           |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |            String, Stack             |  ![][easy]  |        |
@@ -62,6 +63,7 @@
 | :------: | :---------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **0055** |              [Jump Game][55]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0070** |           [Climbing Stairs][70]           |     Math, Dynamic Programming, Memoization      |  ![][easy]  |        |
+| **0072** |            [Edit Distance][72]            |           String, Dynamic Programming           |  ![][hard]  |        |
 | **0122** | [Best Time to Buy and Sell Stock II][122] |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0322** |            [Coin Change][322]             |         Array, Dynamic Programming, BFS         | ![][medium] |        |
 | **0337** |          [House Robber III][337]          |   Dynamic Programming, Tree, DFS, Binary Tree   | ![][medium] |        |
@@ -365,9 +367,9 @@
 
 ## Memoization
 
-|    #     |       Solution        |                  Tags                   | Difficulty | Remark |
-| :------: | :-------------------: | :-------------------------------------: | :--------: | :----: |
-| **0070** | [Climbing Stairs][70] | Math, Dynamic Programming, Memorization | ![][easy]  |        |
+|    #     |       Solution        |                  Tags                  | Difficulty | Remark |
+| :------: | :-------------------: | :------------------------------------: | :--------: | :----: |
+| **0070** | [Climbing Stairs][70] | Math, Dynamic Programming, Memoization | ![][easy]  |        |
 
 ## Geometry
 
@@ -619,6 +621,7 @@
 [58]: ./src/0001-0100/058%20-%20Length%20of%20Last%20Word/
 [61]: ./src/0001-0100/061%20-%20Rotate%20List%20/
 [70]: ./src/0001-0100/070%20-%20Climbing%20Stairs/
+[72]: ./src/0001-0100/072%20-%20Edit%20Distance/
 [75]: ./src/0001-0100/075%20-%20Sort%20Colors/
 [94]: ./src/0001-0100/094%20-%20Binary%20Tree%20Inorder%20Traversal/
 [98]: ./src/0001-0100/098%20-%20Validate%20Binary%20Search%20Tree/
