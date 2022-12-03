@@ -79,6 +79,7 @@
 | **0009** |         [Palindrome Number][9]         |                  Math                   |  ![][easy]  |        |
 | **0070** |         [Climbing Stairs][70]          | Math, Dynamic Programming, Memorization |  ![][easy]  |        |
 | **0172** |   [Factorial Trailiing Zeroes][172]    |                  Math                   | ![][medium] |        |
+| **0231** |          [Power of Two][231]           |    Math, Bit Manipulation, Recursion    |  ![][easy]  |        |
 | **0367** |      [Valid Perfect Square][367]       |           Math, Binary Search           |  ![][easy]  |        |
 | **0445** |       [Add Two Numbers II][445]        |        Linked List, Math, Stack         | ![][medium] |        |
 | **1232** | [Check If It Is a Straight Line][1232] |          Array, Math, Geometry          |  ![][easy]  |        |
@@ -219,6 +220,7 @@
 |    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
 | **0191** |                    [Number of 1 Bits][191]                    |  Divide & Conquer, Bit Manipulation  |  ![][easy]  |        |
+| **0231** |                      [Power of Two][231]                      |  Math, Bit Manipulation, Recursion   |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
 
 ## Stack
@@ -319,12 +321,13 @@
 
 ## Recursion
 
-|    #     |          Solution          |              Tags               | Difficulty  | Remark |
-| :------: | :------------------------: | :-----------------------------: | :---------: | :----: |
-| **0002** |    [Add Two Numbers][2]    |  Linked List, Math, Recursion   | ![][medium] |        |
-| **0024** | [Swap Nodes in Pairs][24]  |     Linked List, Recursion      | ![][medium] |        |
-| **0206** | [Reverse Linked List][206] |     Linked List, Recursion      |  ![][easy]  |        |
-| **0344** |   [Reverse String][344]    | Two Pointers, String, Recursion |  ![][easy]  |        |
+|    #     |          Solution          |               Tags                | Difficulty  | Remark |
+| :------: | :------------------------: | :-------------------------------: | :---------: | :----: |
+| **0002** |    [Add Two Numbers][2]    |   Linked List, Math, Recursion    | ![][medium] |        |
+| **0024** | [Swap Nodes in Pairs][24]  |      Linked List, Recursion       | ![][medium] |        |
+| **0206** | [Reverse Linked List][206] |      Linked List, Recursion       |  ![][easy]  |        |
+| **0231** |    [Power of Two][231]     | Math, Bit Manipulation, Recursion |  ![][easy]  |        |
+| **0344** |   [Reverse String][344]    |  Two Pointers, String, Recursion  |  ![][easy]  |        |
 
 <!--
 ## Trie
@@ -641,6 +644,7 @@
 [206]: ./src/0201-0300/206%20-%20Reverse%20Linked%20List/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
+[231]: ./src/0201-0300/231%20-%20Power%20of%20Two/
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
 [322]: ./src/0301-0400/322%20-%20Coin%20Change/
