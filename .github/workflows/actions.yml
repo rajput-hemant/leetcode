@@ -1,0 +1,33 @@
+name: leetcode
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *" # runs every 6 hours
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9" # install the python version needed
+
+      - name: execute py script # run get_total_problems_solved.py to get the latest solved problems count
+        run: python .dev/get_total_problems_solved.py
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "updating total problems solved" -a
+
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
