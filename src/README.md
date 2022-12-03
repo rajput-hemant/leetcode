@@ -52,6 +52,7 @@
 | **0344** |                        [Reverse String][344]                        |         Two Pointers, String, Recursion         |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |               Math, Binary Search               |  ![][easy]  |        |
 | **0369** |                     [Plus One Linked List][369]                     |                Linked List, Math                | ![][medium] |   🔒   |
+| **0389** |                     [Find the Difference][389]                      |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
 | **0445** |                      [Add Two Numbers II][445]                      |            Linked List, Math, Stack             | ![][medium] |        |
 | **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |           Array, Dynamic Programming            | ![][medium] |        |
@@ -112,6 +113,7 @@
 [344]: ./0301-0400/344%20-%20Reverse%20String/
 [367]: ./0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/
+[389]: ./0301-0400/389%20-%20Find%20the%20Difference/
 [445]: ./0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [506]: ./0501-0600/506%20-%20%20Relative%20Ranks/
 [518]: ./0501-0600/518%20-%20Coin%20Change%202/

@@ -39,23 +39,25 @@
 
 ## String
 
-|    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
-| **0058** |                   [Length of Last Word][58]                   |                String                |  ![][easy]  |        |
-| **0072** |                      [Edit Distance][72]                      |     String, Dynamic Programming      |  ![][hard]  |        |
-| **0344** |                     [Reverse String][344]                     |   Two Pointers, String, Recursion    |  ![][easy]  |        |
-| **0771** |                   [Jewels and Stones][771]                    |          String, Hashtable           |  ![][easy]  |        |
-| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |            String, Stack             |  ![][easy]  |        |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
+|    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
+| **0072** |                      [Edit Distance][72]                      |          String, Dynamic Programming          |  ![][hard]  |        |
+| **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
+| **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0771** |                   [Jewels and Stones][771]                    |               String, Hashtable               |  ![][easy]  |        |
+| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                 String, Stack                 |  ![][easy]  |        |
+| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
 
 ## Hash Table
 
-|    #     |              Solution               |                   Tags                    | Difficulty | Remark |
-| :------: | :---------------------------------: | :---------------------------------------: | :--------: | :----: |
-| **0001** |            [Two Sum][1]             |             Array, Hash Table             | ![][easy]  |        |
-| **0653** | [Two Sum IV - Input is a BST ][653] |        Tree, DFS, BST, Binary Tree        | ![][easy]  |        |
-| **0888** |       [Fair Candy Swap][888]        | Array, Hash Table, Binary Search, Sorting | ![][easy]  |        |
-| **0771** |      [Jewels and Stones][771]       |             String, Hashtable             | ![][easy]  |        |
+|    #     |              Solution               |                     Tags                      | Difficulty | Remark |
+| :------: | :---------------------------------: | :-------------------------------------------: | :--------: | :----: |
+| **0001** |            [Two Sum][1]             |               Array, Hash Table               | ![][easy]  |        |
+| **0389** |     [Find the Difference][389]      | Hash Table, String, Bit Manipulation, Sorting | ![][easy]  |        |
+| **0653** | [Two Sum IV - Input is a BST ][653] |          Tree, DFS, BST, Binary Tree          | ![][easy]  |        |
+| **0888** |       [Fair Candy Swap][888]        |   Array, Hash Table, Binary Search, Sorting   | ![][easy]  |        |
+| **0771** |      [Jewels and Stones][771]       |               String, Hashtable               | ![][easy]  |        |
 
 ## Dynamic Programming
 
@@ -86,13 +88,14 @@
 
 ## Sorting
 
-|    #     |                              Solution                               |                    Tags                    | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------------: | :----------------------------------------: | :---------: | :----: |
-| **0075** |                          [Sort Colors][75]                          |        Array, Two Pointers, Sorting        | ![][medium] |        |
-| **0506** |                        [Relative Ranks][506]                        |            Array, Sorting, Heap            |  ![][easy]  |        |
-| **0888** |                       [Fair Candy Swap][888]                        | Array, Hash Table, Binary Search, Sorting  |  ![][easy]  |        |
-| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |               Array, Sorting               |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
+|    #     |                              Solution                               |                     Tags                      | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0075** |                          [Sort Colors][75]                          |         Array, Two Pointers, Sorting          | ![][medium] |        |
+| **0389** |                     [Find the Difference][389]                      | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0506** |                        [Relative Ranks][506]                        |             Array, Sorting, Heap              |  ![][easy]  |        |
+| **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
+| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                Array, Sorting                 |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |  Array, Two Pointer, Binary Search, Sorting   | ![][medium] |        |
 
 ## Depth-First Search
 
@@ -217,11 +220,12 @@
 
 ## Bit Manipulation
 
-|    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
-| **0191** |                    [Number of 1 Bits][191]                    |  Divide & Conquer, Bit Manipulation  |  ![][easy]  |        |
-| **0231** |                      [Power of Two][231]                      |  Math, Bit Manipulation, Recursion   |  ![][easy]  |        |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
+|    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0191** |                    [Number of 1 Bits][191]                    |      Divide & Conquer, Bit Manipulation       |  ![][easy]  |        |
+| **0231** |                      [Power of Two][231]                      |       Math, Bit Manipulation, Recursion       |  ![][easy]  |        |
+| **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
 
 ## Stack
 
@@ -652,6 +656,7 @@
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
 [367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
+[389]: ./src/0301-0400/389%20-%20Find%20the%20Difference/
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
 [518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
