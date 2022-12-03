@@ -219,6 +219,7 @@
 | **0283** |                         [Move Zeroes][283]                          |            Array, Two Pointers             |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |      Two Pointers, String, Recursion       |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST ][653]                 |        Tree, DFS, BST, Binary Tree         |  ![][easy]  |        |
+| **0876** |                  [Middle of the Linked List][876]                   |         Linked List, Two Pointers          |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |       Array, Two Pointer, DP, Greedy       |  ![][hard]  |        |
 
@@ -297,14 +298,15 @@
 
 ## Linked List
 
-|    #     |          Solution           |             Tags             | Difficulty  | Remark |
-| :------: | :-------------------------: | :--------------------------: | :---------: | :----: |
-| **0002** |    [Add Two Numbers][2]     | Linked List, Math, Recursion | ![][medium] |        |
-| **0024** |  [Swap Nodes in Pairs][24]  |    Linked List, Recursion    | ![][medium] |        |
-| **0061** |      [Rotate List][61]      |  Linked List, Two Pointers   | ![][medium] |        |
-| **0206** | [Reverse Linked List][206]  |    Linked List, Recursion    |  ![][easy]  |        |
-| **0369** | [Plus One Linked List][369] |      Linked List, Math       | ![][medium] |   🔒   |
-| **0445** |  [Add Two Numbers II][445]  |   Linked List, Math, Stack   | ![][medium] |        |
+|    #     |             Solution             |             Tags             | Difficulty  | Remark |
+| :------: | :------------------------------: | :--------------------------: | :---------: | :----: |
+| **0002** |       [Add Two Numbers][2]       | Linked List, Math, Recursion | ![][medium] |        |
+| **0024** |    [Swap Nodes in Pairs][24]     |    Linked List, Recursion    | ![][medium] |        |
+| **0061** |        [Rotate List][61]         |  Linked List, Two Pointers   | ![][medium] |        |
+| **0206** |    [Reverse Linked List][206]    |    Linked List, Recursion    |  ![][easy]  |        |
+| **0369** |   [Plus One Linked List][369]    |      Linked List, Math       | ![][medium] |   🔒   |
+| **0445** |    [Add Two Numbers II][445]     |   Linked List, Math, Stack   | ![][medium] |        |
+| **0876** | [Middle of the Linked List][876] |  Linked List, Two Pointers   |  ![][easy]  |        |
 
 <!--
 ## Union Find
@@ -672,6 +674,7 @@
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [704]: ./src/0701-0800/704%20-%20Binary%20Search/
 [771]: ./src/0701-0800/771%20-%20Jewels%20and%20Stones/
+[876]: ./src/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./src/0801-0900/888%20-%20Fair%20Candy%20Swap/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1232]: ./src/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
