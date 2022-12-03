@@ -39,6 +39,7 @@
 | **0144** |                [Binary Tree Preorder Traversal][144]                |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
 | **0145** |               [Binary Tree Postorder Traversal][145]                |          Stack, Tree, DFS, Binary Tree          |  ![][easy]  |        |
 | **0172** |                  [Factorial Trailing Zeroes][172]                   |                      Math                       | ![][medium] |        |
+| **0191** |                       [Number of 1 Bits][191]                       |       Divide & Conquer, Bit Manipulation        |  ![][easy]  |        |
 | **0199** |                 [Binary Tree Right Side View][199]                  |           Tree, DFS, BFS, Binary Tree           | ![][medium] |        |
 | **0206** |                     [Reverse Linked List][206]                      |             Linked List, Recursion              |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |      Binary Search, Tree, DFS, Binary Tree      | ![][medium] |        |
@@ -97,6 +98,7 @@
 [144]: ./0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal/
 [145]: ./0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
+[191]: ./0101-0200/191%20-%20Number%20of%201%20Bits/
 [199]: ./0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [206]: ./0201-0300/206%20-%20Reverse%20Linked%20List/
 [222]: ./0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/

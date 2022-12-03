@@ -218,6 +218,7 @@
 
 |    #     |                           Solution                            |                 Tags                 | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :----------------------------------: | :---------: | :----: |
+| **0191** |                    [Number of 1 Bits][191]                    |  Divide & Conquer, Bit Manipulation  |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Bit Manipulation | ![][medium] |        |
 
 ## Stack
@@ -343,6 +344,7 @@
 |    #     |             Solution             |                  Tags                  | Difficulty | Remark |
 | :------: | :------------------------------: | :------------------------------------: | :--------: | :----: |
 | **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer | ![][hard]  |        |
+| **0191** |     [Number of 1 Bits][191]      |   Divide & Conquer, Bit Manipulation   | ![][easy]  |        |
 
 <!--
 ## Enumeration
@@ -634,6 +636,7 @@
 [144]: ./src/0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal/
 [145]: ./src/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./src/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
+[191]: ./src/0101-0200/191%20-%20Number%20of%201%20Bits/
 [199]: ./src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [206]: ./src/0201-0300/206%20-%20Reverse%20Linked%20List/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
