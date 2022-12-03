@@ -27,6 +27,7 @@
 | **0122** |              [Best Time to Buy and Sell Stock II][122]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
 | **0322** |                         [Coin Change][322]                          |         Array, Dynamic Programming, BFS         | ![][medium] |        |
+| **0442** |                     [Find All Duplicates][442]                      |                Array, Hash Table                | ![][medium] |        |
 | **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |           Array, Dynamic Programming            | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
@@ -51,13 +52,14 @@
 
 ## Hash Table
 
-|    #     |              Solution               |                     Tags                      | Difficulty | Remark |
-| :------: | :---------------------------------: | :-------------------------------------------: | :--------: | :----: |
-| **0001** |            [Two Sum][1]             |               Array, Hash Table               | ![][easy]  |        |
-| **0389** |     [Find the Difference][389]      | Hash Table, String, Bit Manipulation, Sorting | ![][easy]  |        |
-| **0653** | [Two Sum IV - Input is a BST ][653] |          Tree, DFS, BST, Binary Tree          | ![][easy]  |        |
-| **0888** |       [Fair Candy Swap][888]        |   Array, Hash Table, Binary Search, Sorting   | ![][easy]  |        |
-| **0771** |      [Jewels and Stones][771]       |               String, Hashtable               | ![][easy]  |        |
+|    #     |              Solution               |                     Tags                      | Difficulty  | Remark |
+| :------: | :---------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0001** |            [Two Sum][1]             |               Array, Hash Table               |  ![][easy]  |        |
+| **0389** |     [Find the Difference][389]      | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0442** |     [Find All Duplicates][442]      |               Array, Hash Table               | ![][medium] |        |
+| **0653** | [Two Sum IV - Input is a BST ][653] |          Tree, DFS, BST, Binary Tree          |  ![][easy]  |        |
+| **0888** |       [Fair Candy Swap][888]        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
+| **0771** |      [Jewels and Stones][771]       |               String, Hashtable               |  ![][easy]  |        |
 
 ## Dynamic Programming
 
@@ -657,6 +659,7 @@
 [367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
 [389]: ./src/0301-0400/389%20-%20Find%20the%20Difference/
+[442]: ./src/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
 [518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
