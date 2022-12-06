@@ -8,8 +8,8 @@ def get_total_problems_solved():
     for _, dirs, _ in os.walk(SRC_FOLDER):
         for _ in dirs:
             total_dir += 1
-
-    return total_dir - 15  # excluding the subdirectories in src/
+    sub_dir = len(next(os.walk(SRC_FOLDER))[1])
+    return total_dir - sub_dir  # excluding the subdirectories in src/
 
 
 with open("README.md", "r", encoding="utf-8") as file:
