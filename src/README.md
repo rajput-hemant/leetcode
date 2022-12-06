@@ -57,6 +57,7 @@
 | **0445** |                      [Add Two Numbers II][445]                      |           Linked List, Math, Stack            | ![][medium] |        |
 | **0506** |                        [Relative Ranks][506]                        |             Array, Sorting, Heap              |  ![][easy]  |        |
 | **0509** |                       [Fibonacci Number][509]                       |       Math, Recursion, DP, Memoization        |  ![][easy]  |        |
+| **0516** |               [Longest Palindromic Subsequence][516]                |                  String, DP                   | ![][medium] |        |
 | **0518** |                        [Coin Change 2][518]                         |                   Array, DP                   | ![][medium] |        |
 | **0543** |                   [Diameter of Binary Tree][543]                    |            Tree, DFS, Binary Tree             |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST][653]                  |          Tree, DFS, BST, Binary Tree          |  ![][easy]  |        |
@@ -122,6 +123,7 @@
 [445]: ./0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [506]: ./0501-0600/506%20-%20%20Relative%20Ranks/
 [509]: ./0501-0600/509%20-%20Fibonacci%20Number/
+[516]: ./0501-0600/516%20-%20Longest%20Palindromic%20Subsequence/
 [518]: ./0501-0600/518%20-%20Coin%20Change%202/
 [543]: ./0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/

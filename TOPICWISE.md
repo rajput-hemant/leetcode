@@ -46,6 +46,7 @@
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0516** |            [Longest Palindromic Subsequence][516]             |                  String, DP                   | ![][medium] |        |
 | **0771** |                   [Jewels and Stones][771]                    |               String, Hashtable               |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                 String, Stack                 |  ![][easy]  |        |
 | **1143** |              [Longest Common Subsequence][1143]               |                  String, DP                   | ![][medium] |        |
@@ -73,6 +74,7 @@
 | **0322** |            [Coin Change][322]             |          Array, DP, BFS          | ![][medium] |        |
 | **0337** |          [House Robber III][337]          |    DP, Tree, DFS, Binary Tree    | ![][medium] |        |
 | **0509** |          [Fibonacci Number][509]          | Math, Recursion, DP, Memoization |  ![][easy]  |        |
+| **0516** |  [Longest Palindromic Subsequence][516]   |            String, DP            | ![][medium] |        |
 | **0518** |           [Coin Change 2][518]            |            Array, DP             | ![][medium] |        |
 | **1143** |    [Longest Common Subsequence][1143]     |            String, DP            | ![][medium] |        |
 | **1537** |       [Get the Maximum Score][1537]       |  Array, Two Pointer, DP, Greedy  |  ![][hard]  |        |
@@ -671,6 +673,7 @@
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
 [509]: ./src/0501-0600/509%20-%20Fibonacci%20Number/
+[516]: ./src/0501-0600/516%20-%20Longest%20Palindromic%20Subsequence/
 [518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
