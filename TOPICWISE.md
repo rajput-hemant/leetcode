@@ -48,6 +48,7 @@
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **0771** |                   [Jewels and Stones][771]                    |               String, Hashtable               |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                 String, Stack                 |  ![][easy]  |        |
+| **1143** |              [Longest Common Subsequence][1143]               |                  String, DP                   | ![][medium] |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
 
 ## Hash Table
@@ -73,6 +74,7 @@
 | **0337** |          [House Robber III][337]          |    DP, Tree, DFS, Binary Tree    | ![][medium] |        |
 | **0509** |          [Fibonacci Number][509]          | Math, Recursion, DP, Memoization |  ![][easy]  |        |
 | **0518** |           [Coin Change 2][518]            |            Array, DP             | ![][medium] |        |
+| **1143** |    [Longest Common Subsequence][1143]     |            String, DP            | ![][medium] |        |
 | **1537** |       [Get the Maximum Score][1537]       |  Array, Two Pointer, DP, Greedy  |  ![][hard]  |        |
 
 ## Math
@@ -677,6 +679,7 @@
 [876]: ./src/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./src/0801-0900/888%20-%20Fair%20Candy%20Swap/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
+[1143]: ./src/1101-1200/LongestCommonSubsequence.java
 [1232]: ./src/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./src/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./src/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/

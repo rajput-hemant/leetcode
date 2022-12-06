@@ -65,6 +65,7 @@
 | **0876** |                  [Middle of the Linked List][876]                   |           Linked List, Two Pointers           |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                 String, Stack                 |  ![][easy]  |        |
+| **1143** |                 [Longest Common Subsequence][1143]                  |                  String, DP                   | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |             Array, Math, Geometry             |  ![][easy]  |        |
 | **1461** |    [Check If a String Contains All Binary Codes of Size K][1461]    |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |               Array, Prefix Sum               |  ![][easy]  |        |
@@ -129,6 +130,7 @@
 [876]: ./0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./0801-0900/888%20-%20Fair%20Candy%20Swap/
 [1047]: ./1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
+[1143]: ./1101-1200/LongestCommonSubsequence.java
 [1232]: ./1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
