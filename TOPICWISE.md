@@ -26,6 +26,7 @@
 | **0075** |                          [Sort Colors][75]                          |        Array, Two Pointers, Sorting        | ![][medium] |        |
 | **0122** |              [Best Time to Buy and Sell Stock II][122]              |             Array, DP, Greedy              | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |            Array, Two Pointers             |  ![][easy]  |        |
+| **0300** |                [Longest Increasing Subsequence][300]                |          Array, Binary Search, DP          | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |               Array, DP, BFS               | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |             Array, Hash Table              | ![][medium] |        |
 | **0506** |                        [Relative Ranks][506]                        |            Array, Sorting, Heap            |  ![][easy]  |        |
@@ -71,6 +72,7 @@
 | **0070** |           [Climbing Stairs][70]           |      Math, DP, Memoization       |  ![][easy]  |        |
 | **0072** |            [Edit Distance][72]            |            String, DP            |  ![][hard]  |        |
 | **0122** | [Best Time to Buy and Sell Stock II][122] |        Array, DP, Greedy         | ![][medium] |        |
+| **0300** |   [Longest Increasing Subsequence][300]   |     Array, Binary Search, DP     | ![][medium] |        |
 | **0322** |            [Coin Change][322]             |          Array, DP, BFS          | ![][medium] |        |
 | **0337** |          [House Robber III][337]          |    DP, Tree, DFS, Binary Tree    | ![][medium] |        |
 | **0509** |          [Fibonacci Number][509]          | Math, Recursion, DP, Memoization |  ![][easy]  |        |
@@ -180,6 +182,7 @@
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |   Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |   Binary Search, Tree, DFS, Binary Tree    | ![][medium] |        |
 | **0278** |                      [First Bad Version][278]                       |         Binary Search, Interactive         |  ![][easy]  |        |
+| **0300** |                [Longest Increasing Subsequence][300]                |          Array, Binary Search, DP          | ![][medium] |        |
 | **0367** |                     [Valid Perfect Square][367]                     |            Math, Binary Search             |  ![][easy]  |        |
 | **0704** |                        [Binary Search][704]                         |            Array, Binary Search            |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        | Array, Hash Table, Binary Search, Sorting  |  ![][easy]  |        |
@@ -663,6 +666,7 @@
 [231]: ./src/0201-0300/231%20-%20Power%20of%20Two/
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
+[300]: ./src/0201-0300/300%20-%20Longest%20Increasing%20Subsequence/
 [322]: ./src/0301-0400/322%20-%20Coin%20Change/
 [337]: ./src/0301-0400/337%20-%20House%20Robber%20III/
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/

@@ -47,6 +47,7 @@
 | **0231** |                         [Power of Two][231]                         |       Math, Bit Manipulation, Recursion       |  ![][easy]  |        |
 | **0278** |                      [First Bad Version][278]                       |          Binary Search, Interactive           |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |              Array, Two Pointers              |  ![][easy]  |        |
+| **0300** |                [Longest Increasing Subsequence][300]                |           Array, Binary Search, DP            | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                Array, DP, BFS                 | ![][medium] |        |
 | **0337** |                       [House Robber III][337]                       |          DP, Tree, DFS, Binary Tree           | ![][medium] |        |
 | **0344** |                        [Reverse String][344]                        |        Two Pointers, String, Recursion        |  ![][easy]  |        |
@@ -113,6 +114,7 @@
 [231]: ./0201-0300/231%20-%20Power%20of%20Two/
 [278]: ./0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./0201-0300/283%20-%20Move%20Zeroes/
+[300]: ./0201-0300/300%20-%20Longest%20Increasing%20Subsequence/
 [322]: ./0301-0400/322%20-%20Coin%20Change/
 [337]: ./0301-0400/337%20-%20House%20Robber%20III/
 [344]: ./0301-0400/344%20-%20Reverse%20String/
