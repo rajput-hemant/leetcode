@@ -48,6 +48,7 @@
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **0516** |            [Longest Palindromic Subsequence][516]             |                  String, DP                   | ![][medium] |        |
+| **0541** |                   [Reverse String II][541]                    |             Two Pointers, String              |  ![][easy]  |        |
 | **0771** |                   [Jewels and Stones][771]                    |               String, Hashtable               |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                 String, Stack                 |  ![][easy]  |        |
 | **1092** |    [Shortest Common Supersequence][1092] (Not in LeetCode)    |                  String, DP                   |  ![][hard]  |        |
@@ -227,6 +228,7 @@
 | **0075** |                          [Sort Colors][75]                          |        Array, Two Pointers, Sorting        | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |            Array, Two Pointers             |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |      Two Pointers, String, Recursion       |  ![][easy]  |        |
+| **0541** |                      [Reverse String II][541]                       |            Two Pointers, String            |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST ][653]                 |        Tree, DFS, BST, Binary Tree         |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |         Linked List, Two Pointers          |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
@@ -681,6 +683,7 @@
 [509]: ./src/0501-0600/509%20-%20Fibonacci%20Number/
 [516]: ./src/0501-0600/516%20-%20Longest%20Palindromic%20Subsequence/
 [518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
+[541]: ./src/0501-0600/541%20-%20Reverse%20String%20II/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [704]: ./src/0701-0800/704%20-%20Binary%20Search/
