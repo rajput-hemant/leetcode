@@ -67,6 +67,7 @@
 | **0876** |                  [Middle of the Linked List][876]                   |           Linked List, Two Pointers           |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                 String, Stack                 |  ![][easy]  |        |
+| **1092** |       [Shortest Common Supersequence][1092] (Not in LeetCode)       |                  String, DP                   |  ![][hard]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                  String, DP                   | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |             Array, Math, Geometry             |  ![][easy]  |        |
 | **1461** |    [Check If a String Contains All Binary Codes of Size K][1461]    |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
@@ -133,6 +134,7 @@
 [771]: ./0701-0800/771%20-%20Jewels%20and%20Stones/
 [876]: ./0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./0801-0900/888%20-%20Fair%20Candy%20Swap/
+[1092]: ./1001-1100/1092%20-%20Shortest%20Common%20Supersequence/
 [1047]: ./1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1143]: ./1101-1200/LongestCommonSubsequence.java
 [1232]: ./1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
