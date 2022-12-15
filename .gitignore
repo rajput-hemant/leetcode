@@ -1,6 +1,6 @@
 /.vscode
 /dont-push
+/node_modules
 /out
 **/bin
 **/__pycache__
-*.json
