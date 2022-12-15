@@ -24,7 +24,7 @@ Output: ["h","a","n","n","a","H"]
 
 ### Constraints:
 
-- 1 <= s.length <= 10<sup>5<sup>
+- 1 <= s.length <= 10<sup>5</sup>
 - s[i] is a printable ascii character.
 
 ## Solutions:

@@ -35,7 +35,7 @@ Explanation: Since the list has two middle nodes with values 3 and 4, we return 
 
 ## Solution:
 
-### [_Java_]()
+### [_Java_](./MiddleOfTheLinkedList.java)
 
 ```java
 public ListNode middleNode(ListNode head) {

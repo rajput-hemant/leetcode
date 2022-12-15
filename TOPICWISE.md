@@ -3,8 +3,8 @@
 <!-- title/logo -->
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://telegra.ph/file/50295ab5d953128d8e698.png">
-  <source media="(prefers-color-scheme: dark)" srcset="https://telegra.ph/file/7ea4a5e6d225c0fe19686.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/assets/light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dark.png">
   <img alt="Leetcode">
 </picture>
 
