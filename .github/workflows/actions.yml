@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner
+        uses: actions/checkout@v3 # checkout the repository content to github runner
 
       - name: setup python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.9" # install the python version needed
+          python-version: "3.10" # install the python version needed
 
       - name: execute py script # run get_total_problems_solved.py to get the latest solved problems count
         run: python .dev/get_total_problems_solved.py
@@ -25,6 +25,16 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updating total problems solved" --allow-empty)
+
+      - name: execute scripts # to update docs
+        run: |
+          sh ./start.sh
+          python docs/readme.py
+
+      - name: commit files
+        run: |
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "updating docs" --allow-empty)
 
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
