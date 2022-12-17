@@ -10,15 +10,17 @@ def refactor_serialwise():
     with open(SERIALWISE, "r", encoding="utf-8") as file:
         readme = file.read()
     with open(SERIALWISE, "w", encoding="utf-8") as file:
-        file.write(
-            readme.replace("../docs/assets", "")
+        readme = (
+            readme.replace("../docs/public", "")
             .replace(
                 "<kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd>",
                 "`Ctrl`+`F` or `⌘`+`F`",
             )
-            .replace("]: ./", "]: ./solution/")
             .replace("/\n", ".md\n")
         )
+        if "./solution/" not in readme:
+            readme = readme.replace("]: ./", "]: ./solution/")
+        file.write(readme)
 
 
 def refactor_topicwise():
@@ -26,7 +28,7 @@ def refactor_topicwise():
         readme = file.read()
     with open(TOPICWISE, "w", encoding="utf-8") as file:
         file.write(
-            readme.replace("docs/assets", "")
+            readme.replace("docs/public", "")
             .replace(
                 "<kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd>",
                 "`Ctrl`+`F` or `⌘`+`F`",
@@ -77,10 +79,11 @@ def refactor_readmes():
                 )
                 for line in match_arr:
                     readme = readme.replace("\n\n" + line, "")
-                readme = readme.replace(
-                    re.findall(r"##\sSol[a-z:]+", readme)[0],
-                    "## Solution:\n\n" + "::: code-group",
-                ).replace("### [_..._]()", ":::\n\n" + "### [_..._](#)")
+                if "code-group" not in readme:
+                    readme = readme.replace(
+                        re.findall(r"##\sSol[a-z:]+", readme)[0],
+                        "## Solution:\n\n" + "::: code-group",
+                    ).replace("### [_..._]()", ":::\n\n" + "### [_..._](#)")
             with open(base + "/" + md, "w", encoding="utf-8") as file:
                 file.write(readme)
 

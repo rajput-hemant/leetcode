@@ -9,8 +9,8 @@
 <!-- title/logo -->
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/public/light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/public/dark.png">
   <img alt="Leetcode">
 </picture>
 

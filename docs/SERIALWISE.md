@@ -138,7 +138,7 @@
 [888]: ./solution/0801-0900/888%20-%20Fair%20Candy%20Swap.md
 [1092]: ./solution/1001-1100/1092%20-%20Shortest%20Common%20Supersequence.md
 [1047]: ./solution/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md
-[1143]: ./solution/1101-1200/LongestCommonSubsequence.java
+[1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md
 [1232]: ./solution/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line.md
 [1461]: ./solution/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.md
 [1480]: ./solution/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array.md
