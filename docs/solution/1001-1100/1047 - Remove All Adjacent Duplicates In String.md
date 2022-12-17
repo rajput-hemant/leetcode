@@ -35,9 +35,9 @@ Output: "ay"
 - 1 <= s.length <= 10<sup>5</sup>
 - s consists of lowercase English letters.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class RemoveAllAdjacentDuplicatesInString {
@@ -62,6 +62,8 @@ public class RemoveAllAdjacentDuplicatesInString {
 }
 ```
 
+
+:::
 
 ### [_..._](#)
 

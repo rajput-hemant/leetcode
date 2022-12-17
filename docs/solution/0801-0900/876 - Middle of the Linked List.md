@@ -35,7 +35,7 @@ Explanation: Since the list has two middle nodes with values 3 and 4, we return 
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public ListNode middleNode(ListNode head) {
@@ -48,6 +48,8 @@ public ListNode middleNode(ListNode head) {
     return slowPtr;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

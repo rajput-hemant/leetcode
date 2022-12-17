@@ -30,9 +30,9 @@ Output: 3
 
 **Follow up:** If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class KthSmallestElement {
@@ -57,6 +57,8 @@ public class KthSmallestElement {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

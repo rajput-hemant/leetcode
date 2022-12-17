@@ -46,9 +46,9 @@ Output: [3,4,6,16,17]
 - 1 <= nums.length <= 1000
 - -10<sup>6</sup> <= nums[i] <= 10<sup>6</sup>
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class RunningSumOfOneDimensionalArray {
@@ -68,6 +68,8 @@ public class RunningSumOfOneDimensionalArray {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

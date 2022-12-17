@@ -39,7 +39,7 @@ Output: false
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public boolean isPowerOfTwo(int n) {
@@ -49,6 +49,8 @@ public boolean isPowerOfTwo(int n) {
   return (x & x - 1) == 0;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

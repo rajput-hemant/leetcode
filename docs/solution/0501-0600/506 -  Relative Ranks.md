@@ -38,9 +38,9 @@ Explanation: The placements are [1st, 5th, 3rd, 2nd, 4th].
 - 0 <= score[i] <= 10<sup>6</sup>
 - All the values in `score` are **unique**.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public String[] findRelativeRanks(int[] score) {
@@ -63,6 +63,8 @@ public String[] findRelativeRanks(int[] score) {
   return ranks;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

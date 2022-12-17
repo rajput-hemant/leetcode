@@ -31,9 +31,9 @@ Output: false
 - root is guaranteed to be a valid binary search tree.
 - -105 <= k <= 105
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class TwoSumIV {
@@ -55,6 +55,8 @@ public class TwoSumIV {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

@@ -31,9 +31,9 @@ Output: 1
 - The number of nodes in the tree is in the range [1, 10<sup>4</sup>].
 - -100 <= Node.val <= 100
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class DiameterOfBinaryTree {
@@ -75,6 +75,8 @@ class MaximumDepthOfBinaryTree {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

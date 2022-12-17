@@ -36,9 +36,9 @@ Output: true
 - The number of nodes in the tree is in the range [0, 5000].
 - -10<sup>4</sup> <= Node.val <= 10<sup>4</sup>
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class BalancedBinaryTree {
@@ -62,6 +62,8 @@ public class BalancedBinaryTree {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

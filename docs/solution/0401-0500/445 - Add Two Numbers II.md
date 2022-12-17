@@ -41,7 +41,7 @@ Output: [0]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -71,6 +71,8 @@ public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
   return res;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

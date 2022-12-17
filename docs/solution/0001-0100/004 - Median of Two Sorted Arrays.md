@@ -33,9 +33,9 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 - 1 <= m + n <= 2000
 - -10<sup>6</sup> <= nums1[i], nums2[i] <= 10<sup>6</sup>
 
-## Solutions
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class MedianOfTwoSortedArrays {
@@ -62,6 +62,8 @@ public class MedianOfTwoSortedArrays {
   }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

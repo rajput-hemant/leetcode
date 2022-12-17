@@ -44,7 +44,7 @@ Explanation: There is no way to make a positive profit, so we never buy the stoc
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int maxProfit(int[] prices) {
@@ -56,6 +56,8 @@ public int maxProfit(int[] prices) {
   return profit;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

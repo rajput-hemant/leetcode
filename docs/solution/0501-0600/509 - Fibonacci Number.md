@@ -42,7 +42,7 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int fib(int n) {
@@ -62,6 +62,8 @@ public int fib2(int n) {
   return fib(n - 1) + fib(n - 2);
 }
 ```
+
+:::
 
 ### [_..._](#)
 

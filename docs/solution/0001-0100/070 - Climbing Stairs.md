@@ -35,7 +35,7 @@ Explanation: There are three ways to climb to the top.
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int climbStairs(int n) {
@@ -47,6 +47,8 @@ public int climbStairs(int n) {
   return dp[n];
 }
 ```
+
+:::
 
 ### [_..._](#)
 

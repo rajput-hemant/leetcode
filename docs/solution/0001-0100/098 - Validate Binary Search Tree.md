@@ -39,7 +39,7 @@ Output: false
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class ValidateBinarySearchTree {
@@ -57,6 +57,8 @@ public class ValidateBinarySearchTree {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

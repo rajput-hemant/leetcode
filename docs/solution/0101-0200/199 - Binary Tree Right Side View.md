@@ -34,9 +34,9 @@ Output: []
 - The number of nodes in the tree is in the range [0, 100].
 - -100 <= Node.val <= 100
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class BinaryTreeRightSideView {
@@ -60,6 +60,8 @@ public class BinaryTreeRightSideView {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

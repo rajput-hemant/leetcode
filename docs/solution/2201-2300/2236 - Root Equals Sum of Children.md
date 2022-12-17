@@ -45,9 +45,9 @@ The values of the root, its left child, and its right child are 5, 3, and 1, res
 - The tree consists only of the root, its left child, and its right child.
 - -100 <= Node.val <= 100
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class RootEqualsSumOfChildren {
@@ -56,6 +56,8 @@ public class RootEqualsSumOfChildren {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

@@ -42,7 +42,7 @@ Output: false
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public boolean isSameTree(TreeNode p, TreeNode q) {
@@ -57,6 +57,8 @@ public boolean isSameTree(TreeNode p, TreeNode q) {
   return left && right;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

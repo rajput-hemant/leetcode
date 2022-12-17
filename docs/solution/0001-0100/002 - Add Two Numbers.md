@@ -40,7 +40,7 @@ Output: [8,9,9,9,0,0,0,1]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public ListNode addTwoNumbers(ListNode a, ListNode b) {
@@ -64,6 +64,8 @@ public ListNode addTwoNumbers(ListNode a, ListNode b) {
   return dummy.next;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

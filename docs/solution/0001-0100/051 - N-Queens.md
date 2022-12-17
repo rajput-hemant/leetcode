@@ -32,7 +32,7 @@ Output: [["Q"]]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class NQueens2 {
@@ -123,6 +123,8 @@ public class NQueens2 {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

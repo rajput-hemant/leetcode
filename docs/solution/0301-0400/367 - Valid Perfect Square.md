@@ -26,9 +26,9 @@ Output: false
 
 - 1 <= num <= 2<sup>31</sup> - 1
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public boolean isPerfectSquare(int num) {
@@ -49,6 +49,8 @@ public boolean isPerfectSquare(int num) {
   return false;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

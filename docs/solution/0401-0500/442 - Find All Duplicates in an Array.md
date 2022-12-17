@@ -38,7 +38,7 @@ Output: []
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public List<Integer> findDuplicates(int[] nums) {
@@ -53,6 +53,8 @@ public List<Integer> findDuplicates(int[] nums) {
 return list;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

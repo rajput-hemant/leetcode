@@ -40,7 +40,7 @@ Output: 0
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int coinChange(int[] coins, int amount) {
@@ -57,6 +57,8 @@ public int coinChange(int[] coins, int amount) {
   return amtArr[amount] > amount ? -1 : amtArr[amount];
 }
 ```
+
+:::
 
 ### [_..._](#)
 

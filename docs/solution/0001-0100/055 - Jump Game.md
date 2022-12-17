@@ -29,9 +29,9 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 - 1 <= nums.length <= 10<sup>4</sup>
 - 0 <= nums[i] <= 10<sup>5</sup>
 
-## Soltuion:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public boolean canJump(int[] nums) {
@@ -48,6 +48,8 @@ public boolean canJump(int[] nums) {
   return false;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

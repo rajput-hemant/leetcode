@@ -37,7 +37,7 @@ Output: 1
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int lengthOfLIS(int[] nums) {
@@ -56,6 +56,8 @@ public int lengthOfLIS(int[] nums) {
   return res;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

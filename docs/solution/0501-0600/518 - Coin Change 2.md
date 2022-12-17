@@ -46,9 +46,9 @@ Output: 1
 - All the values of coins are unique.
 - 0 <= amount <= 5000
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int change(int amount, int[] coins) {
@@ -60,6 +60,8 @@ public int change(int amount, int[] coins) {
   return change[amount];
 }
 ```
+
+:::
 
 ### [_..._](#)
 

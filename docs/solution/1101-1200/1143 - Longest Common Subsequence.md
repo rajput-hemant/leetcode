@@ -42,7 +42,7 @@ Explanation: There is no such common subsequence, so the result is 0.
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int longestCommonSubsequence(String str1, String str2) {
@@ -61,6 +61,8 @@ public int longestCommonSubsequence(String str1, String str2) {
     return dp[m][n];
 }
 ```
+
+:::
 
 ### [_..._](#)
 

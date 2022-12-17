@@ -29,9 +29,9 @@ Output: [0]
 
 **Follow up:** Could you minimize the total number of operations done?
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class MoveZeroes {
@@ -46,6 +46,8 @@ public class MoveZeroes {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

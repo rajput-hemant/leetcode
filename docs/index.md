@@ -3,6 +3,7 @@ title: rajput-hemant
 titleTemplate: Leetcode
 sidebar: false
 editLink: false
+next: Go To First Problem
 ---
 
 ::: warning 💡 Note
@@ -13,8 +14,8 @@ It might take some time to reflect changes from the repository.
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="/assets/light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="/assets/dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="/dark.png">
   <img alt="Leetcode">
 </picture>
 
@@ -98,6 +99,15 @@ It might take some time to reflect changes from the repository.
 [**_Biconnected Component_**][biconnected component]
 
 ### **Total Problems Solved: _65_**
+
+## Contributors
+
+[![][contributors]][contributors-graph]
+
+<!----------------------------------{ Images }--------------------------------->
+
+[contributors]: https://contrib.rocks/image?repo=rajput-hemant/leetcode&max=500
+[contributors-graph]: https://github.com/rajput-hemant/leetcode/graphs/contributors
 
 </div>
 

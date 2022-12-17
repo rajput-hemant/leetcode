@@ -39,7 +39,7 @@ Output: 0
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int trailingZeroes(int n) {
@@ -51,6 +51,8 @@ public int trailingZeroes(int n) {
   return count;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

@@ -44,9 +44,9 @@ Number of valid subsequences (63 - 2 = 61).
 - 1 <= nums[i] <= 10<sup>6</sup>
 - 1 <= target <= 10<sup>6</sup>
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int numSubseq(int[] nums, int target) {
@@ -70,6 +70,8 @@ public int numSubseq(int[] nums, int target) {
   return count;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

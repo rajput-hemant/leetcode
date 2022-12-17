@@ -51,9 +51,9 @@ The binary code "00" is of length 2 and does not exist in the array.
 - s[i] is either '0' or '1'.
 - 1 <= k <= 20
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class CheckIfaStringContainsAllBinaryCodesOfSizeK {
@@ -77,6 +77,8 @@ public class CheckIfaStringContainsAllBinaryCodesOfSizeK {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

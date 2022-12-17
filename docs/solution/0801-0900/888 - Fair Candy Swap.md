@@ -38,9 +38,9 @@ Output: [2,3]
 - Alice and Bob have a different total number of candies.
 - There will be at least one valid answer for the given input.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
@@ -73,6 +73,8 @@ public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
   return swap;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

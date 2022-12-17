@@ -40,9 +40,9 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 **Follow up**: Could you solve it without converting the integer to a string?
 
-## Solutions
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public static boolean isPalindrome(int x) {
@@ -56,6 +56,8 @@ public static boolean isPalindrome(int x) {
   return x == reverseNum || x == reverseNum / 10;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

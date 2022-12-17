@@ -52,9 +52,9 @@ Output:
 - board[i][j] is a digit or '.'.
 - It is **guaranteed** that the input board has only one solution.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 /*
@@ -143,6 +143,8 @@ public class SudokuSolver2 {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

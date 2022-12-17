@@ -58,9 +58,9 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 - 0 <= nums[i] <= 50
 - 0 <= val <= 100
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int removeElement(int[] nums, int val) {
@@ -72,6 +72,8 @@ public int removeElement(int[] nums, int val) {
   return count;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

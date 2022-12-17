@@ -34,9 +34,9 @@ Output: []
 - The number of nodes in the tree is in the range [0, 2000].
 - -100 <= Node.val <= 100
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class BinaryTreeZigzagLevelOrderTraversal {
@@ -74,6 +74,8 @@ public class BinaryTreeZigzagLevelOrderTraversal {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

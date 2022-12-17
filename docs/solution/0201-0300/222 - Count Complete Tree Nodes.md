@@ -37,9 +37,9 @@ Output: 1
 - 0 <= Node.val <= 5 \* 10<sup>4</sup>]
 - The tree is guaranteed to be **complete**.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 // Approach 1
@@ -71,6 +71,8 @@ public int countNodes2(TreeNode root) {
     return countNodes2(root.left) + countNodes2(root.right) + 1;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

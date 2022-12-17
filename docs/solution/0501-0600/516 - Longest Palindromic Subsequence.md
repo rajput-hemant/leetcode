@@ -31,7 +31,7 @@ Explanation: One possible longest palindromic subsequence is "bb".
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int longestPalindromeSubseq(String s) {
@@ -52,6 +52,8 @@ public int longestPalindromeSubseq(String s) {
     return dp[m][n];
 }
 ```
+
+:::
 
 ### [_..._](#)
 

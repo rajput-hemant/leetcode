@@ -30,7 +30,7 @@ Output: 0
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int numJewelsInStones(String jewels, String stones) {
@@ -42,6 +42,8 @@ public int numJewelsInStones(String jewels, String stones) {
   return res;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

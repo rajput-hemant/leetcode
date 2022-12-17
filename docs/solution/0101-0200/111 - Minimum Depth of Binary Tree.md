@@ -31,9 +31,9 @@ Output: 5
 - The number of nodes in the tree is in the range [0, 10<sup>5</sup>].
 - -1000 <= Node.val <= 1000
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 // Approach 1: Recursion
@@ -71,6 +71,8 @@ public void minDepth2(TreeNode root, int level) {
     minDepth2(root.right, level);
 }
 ```
+
+:::
 
 ### [_..._](#)
 

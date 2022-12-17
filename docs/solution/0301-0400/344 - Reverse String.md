@@ -27,9 +27,9 @@ Output: ["h","a","n","n","a","H"]
 - 1 <= s.length <= 10<sup>5</sup>
 - s[i] is a printable ascii character.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public void reverseString(char[] s) {
@@ -43,6 +43,8 @@ private void swap(char[] s, int a, int b) {
   s[b] = temp;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

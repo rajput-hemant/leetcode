@@ -2,6 +2,9 @@
 
 # Description: This script is used to generate the docs folder from the src folder
 
+# delete solution folder if it exists
+rm -rf docs/solution;
+
 # copy all markdown files from src to docs with the same directory structure
 find src -iname "*.md" -exec cp --parents  {} docs \;
 

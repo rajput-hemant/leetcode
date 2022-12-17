@@ -43,7 +43,7 @@ Output: [0,1]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public static int[] twoSum(int nums[], int target) {
@@ -73,6 +73,8 @@ public static int[] twoSum2(int nums[], int target) {
   throw new IllegalArgumentException();
 }
 ```
+
+:::
 
 ### [_..._](#)
 

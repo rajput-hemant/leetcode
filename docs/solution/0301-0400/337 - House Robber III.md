@@ -37,7 +37,7 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int rob(TreeNode root) {
@@ -56,6 +56,8 @@ private int[] helper(TreeNode root) {
   return new int[] { rob, notRob };
 }
 ```
+
+:::
 
 ### [_..._](#)
 

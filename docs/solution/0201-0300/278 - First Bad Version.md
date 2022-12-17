@@ -34,9 +34,9 @@ Output: 1
 
 - 1 <= bad <= n <= 2<sup>31</sup> - 1
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int firstBadVersion(int n) {
@@ -51,6 +51,8 @@ public int firstBadVersion(int n) {
   return low;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

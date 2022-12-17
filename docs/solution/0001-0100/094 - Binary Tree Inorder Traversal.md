@@ -38,7 +38,7 @@ Output: [1]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class BinaryTreeInorderTraversal {
@@ -54,6 +54,8 @@ public class BinaryTreeInorderTraversal {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

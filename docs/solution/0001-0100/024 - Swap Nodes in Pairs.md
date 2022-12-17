@@ -34,9 +34,9 @@ Output: [1]
 - The number of nodes in the list is in the range `[0, 100]`.
 - 0 <= Node.val <= 100
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public ListNode swapPairs(ListNode head) {
@@ -66,6 +66,8 @@ public ListNode swapPairs1(ListNode head) {
 	return head;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

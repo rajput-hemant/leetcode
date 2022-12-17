@@ -33,7 +33,7 @@ Output: "aaaaaaaa"
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public String shortestCommonSupersequence(String str1, String str2) {
@@ -78,6 +78,8 @@ public String shortestCommonSupersequence(String str1, String str2) {
   return sb.reverse().toString();
 }
 ```
+
+:::
 
 ### [_..._](#)
 

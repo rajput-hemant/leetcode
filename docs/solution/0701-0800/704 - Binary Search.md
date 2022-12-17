@@ -33,7 +33,7 @@ Explanation: 2 does not exist in nums so return -1
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int search(int[] nums, int target) {
@@ -52,6 +52,8 @@ public int search(int[] nums, int target) {
   return -1;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

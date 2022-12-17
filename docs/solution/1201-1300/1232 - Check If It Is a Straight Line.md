@@ -33,7 +33,7 @@ Output: false
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
  /*
@@ -58,6 +58,8 @@ public boolean checkStraightLine(int[][] coordinates) {
   return true;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

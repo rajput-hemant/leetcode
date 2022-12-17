@@ -43,7 +43,7 @@ exection -> execution (insert 'u')
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int minDistance(String word1, String word2) {
@@ -65,8 +65,6 @@ public int minDistance(String word1, String word2) {
 }
 ```
 
-### [_Python_](#)
-
 ```python
 def minDistance(self, word1: str, word2: str) -> int:
     m, n = len(word1), len(word2)
@@ -83,8 +81,6 @@ def minDistance(self, word1: str, word2: str) -> int:
                 dp[i][j] = 1 + min(dp[i - 1][j - 1], min(dp[i - 1][j], dp[i][j - 1]))
     return dp[m][n]
 ```
-
-### [_C++_](#)
 
 ```cpp
 int minDistance(string word1, string word2)
@@ -107,6 +103,8 @@ int minDistance(string word1, string word2)
   return dp[m][n];
 }
 ```
+
+:::
 
 ### [_..._](#)
 

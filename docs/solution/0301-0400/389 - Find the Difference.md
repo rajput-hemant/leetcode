@@ -33,7 +33,7 @@ Output: "y"
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public char findTheDifference(String s, String t) {
@@ -45,6 +45,8 @@ public char findTheDifference(String s, String t) {
   return c;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

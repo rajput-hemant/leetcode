@@ -40,7 +40,7 @@ Explanation: The last word is "joyboy" with length 6.
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int lengthOfLastWord(String s) {
@@ -54,6 +54,8 @@ public int lengthOfLastWord(String s) {
   return count;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

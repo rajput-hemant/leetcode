@@ -32,9 +32,9 @@ Average salary excluding minimum and maximum salary is (2000) / 1 = 2000
 - 1000 <= salary[i] <= 10<sup>6</sup>
 - All the integers of salary are **unique**.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public double average(int[] salary) {
@@ -46,6 +46,8 @@ public double average(int[] salary) {
   return res / (len - 2);
 }
 ```
+
+:::
 
 ### [_..._](#)
 

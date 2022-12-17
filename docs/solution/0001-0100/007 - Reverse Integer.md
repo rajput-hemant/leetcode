@@ -35,7 +35,7 @@ Output: 21
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public static int reverse(int x) {
@@ -47,6 +47,8 @@ public static int reverse(int x) {
   }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

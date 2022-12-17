@@ -54,9 +54,9 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 - -100 <= nums[i] <= 100
 - nums is sorted in non-decreasing order.
 
-## Solutions:
+## Solution:
 
-### [_Python_](#)
+::: code-group
 
 ```python
 def removeDuplicates(nums: list[int]) -> int:
@@ -68,6 +68,8 @@ def removeDuplicates(nums: list[int]) -> int:
         k += 1
     return k
 ```
+
+:::
 
 ### [_..._](#)
 

@@ -11,7 +11,7 @@ def refactor_serialwise():
         readme = file.read()
     with open(SERIALWISE, "w", encoding="utf-8") as file:
         file.write(
-            readme.replace("../docs/assets", "/assets")
+            readme.replace("../docs/assets", "")
             .replace(
                 "<kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd>",
                 "`Ctrl`+`F` or `⌘`+`F`",
@@ -26,7 +26,7 @@ def refactor_topicwise():
         readme = file.read()
     with open(TOPICWISE, "w", encoding="utf-8") as file:
         file.write(
-            readme.replace("docs/assets", "/assets")
+            readme.replace("docs/assets", "")
             .replace(
                 "<kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd>",
                 "`Ctrl`+`F` or `⌘`+`F`",
@@ -37,6 +37,7 @@ def refactor_topicwise():
 
 
 def refactor_sidebar():
+    collapsed = False
     open(SIDEBAR, "w").close()
     with open(SIDEBAR, "a", encoding="utf-8") as file:
         file.write("export default Sidebar = [\n")
@@ -48,17 +49,19 @@ def refactor_sidebar():
                 "	{\n"
                 f'		text: "{problem_index}",\n'
                 "		collapsible: true,\n"
-                "		collapsed: true,\n"
+                f"		collapsed: {str(collapsed).lower()},\n"
                 "		items: [\n"
             )
             for md in files:
                 file.write(
                     "			{\n"
-                    f'				text: "{md}",\n'
+                    f'				text: "{md[:-3]}",\n'
                     f'				link: "/solution/{problem_index}/{md}",\n'
                     "			},\n"
                 )
             file.write("		],\n" "	},\n")
+            if not collapsed:
+                collapsed = True
         file.write("]")
 
 
@@ -73,15 +76,11 @@ def refactor_readmes():
                     r"###\s\[_[a-zA-Z]+.._]\([a-zA-Z0-9_]+.[a-zA-Z]+\)", readme
                 )
                 for line in match_arr:
-                    if "java" in line.lower():
-                        new_line = "### [_Java_](#)"
-                    if "python" in line.lower():
-                        new_line = "### [_Python_](#)"
-                    if "cpp" in line.lower():
-                        new_line = "### [_C++_](#)"
-                    readme = readme.replace(line, new_line).replace(
-                        "[_..._]()", "[_..._](#)"
-                    )
+                    readme = readme.replace("\n\n" + line, "")
+                readme = readme.replace(
+                    re.findall(r"##\sSol[a-z:]+", readme)[0],
+                    "## Solution:\n\n" + "::: code-group",
+                ).replace("### [_..._]()", ":::\n\n" + "### [_..._](#)")
             with open(base + "/" + md, "w", encoding="utf-8") as file:
                 file.write(readme)
 

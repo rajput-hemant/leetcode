@@ -1,6 +1,8 @@
 import Sidebar from "./Sidebar";
 
 const ogTitle = "🏆 Leetcode",
+	ogImage =
+		"https://opengraph.githubassets.com/7f24f37a5bf5e31cd6280ac4e7c05f732560cdaffa991e63bd6f8e9209395681/rajput-hemant/leetcode",
 	ogDescription =
 		"🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.";
 
@@ -8,12 +10,21 @@ export default {
 	title: ogTitle,
 	description: ogDescription,
 	base: "/leetcode/",
+	lastUpdated: true,
+	cleanUrls: "without-subfolders",
+
 	head: [
-		["link", { rel: "icon", type: "image/png", href: "/assets/leetcode.png" }],
+		["link", { rel: "icon", type: "image/x-icon", href: "favicon.ico" }],
 		["meta", { property: "og:type", content: "website" }],
 		["meta", { property: "og:title", content: ogTitle }],
+		["meta", { property: "og:image", content: ogImage }],
 		["meta", { property: "og:description", content: ogDescription }],
 	],
+
+	// markdown: {
+	// 	lineNumbers: true,
+	// },
+
 	themeConfig: {
 		nav: [
 			{

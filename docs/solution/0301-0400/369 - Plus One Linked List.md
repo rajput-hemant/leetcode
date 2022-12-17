@@ -28,9 +28,9 @@ Output: 1 -> 0 -> 0 -> null
 
 **Explanation:** 99 + 1 = 100
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class PlusOneLinkedList {
@@ -61,6 +61,8 @@ public class PlusOneLinkedList {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

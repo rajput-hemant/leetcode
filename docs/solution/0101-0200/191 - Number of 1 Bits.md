@@ -43,7 +43,7 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public int hammingWeight(int n) {
@@ -57,6 +57,8 @@ public int hammingWeight(int n) {
   return count;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

@@ -28,7 +28,7 @@ Output: [2,0,1]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public ListNode rotateRight(ListNode head, int k) {
@@ -56,6 +56,8 @@ public ListNode rotateRight(ListNode head, int k) {
   return newHead;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

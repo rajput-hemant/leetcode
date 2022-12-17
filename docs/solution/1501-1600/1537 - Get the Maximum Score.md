@@ -52,9 +52,9 @@ Maximum sum is obtained with the path [6,7,8,9,10].
 - 1 <= nums1[i], nums2[i] <= 10<sup>7</sup>
 - nums1 **and** nums2 are strictly increasing.
 
-## Solutions:
+## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public class GetTheMaxScore {
@@ -104,6 +104,8 @@ public class GetTheMaxScore {
     }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

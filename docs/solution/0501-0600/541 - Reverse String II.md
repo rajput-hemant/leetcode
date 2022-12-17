@@ -30,7 +30,7 @@ Output: "bacd"
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public String reverseStr(String s, int k) {
@@ -46,6 +46,8 @@ public String reverseStr(String s, int k) {
   return res;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

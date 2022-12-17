@@ -3,8 +3,8 @@
 <!-- title/logo -->
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/public/light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/public/dark.png">
   <img alt="Leetcode">
 </picture>
 
@@ -692,7 +692,7 @@
 [888]: ./src/0801-0900/888%20-%20Fair%20Candy%20Swap/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1092]: ./src/1001-1100/1092%20-%20Shortest%20Common%20Supersequence/
-[1143]: ./src/1101-1200/LongestCommonSubsequence.java
+[1143]: ./src/1101-1200/1143%20-%20Longest%20Common%20Subsequence/
 [1232]: ./src/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./src/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./src/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/

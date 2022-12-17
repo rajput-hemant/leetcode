@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="/assets/light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="/assets/dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="/dark.png">
   <img alt="Leetcode">
 </picture>
 

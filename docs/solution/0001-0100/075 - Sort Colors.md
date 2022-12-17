@@ -34,7 +34,7 @@ Output: [0,1,2]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public void sortColors(int[] nums) {
@@ -86,6 +86,8 @@ public void sortColors1(int[] nums) {
   }
 }
 ```
+
+:::
 
 ### [_..._](#)
 

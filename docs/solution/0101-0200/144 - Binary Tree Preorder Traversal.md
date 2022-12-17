@@ -38,7 +38,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 List<Integer> list = new ArrayList<Integer>();
@@ -70,6 +70,8 @@ public List<Integer> preorderTraversalRecursive(TreeNode root) {
   return list;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

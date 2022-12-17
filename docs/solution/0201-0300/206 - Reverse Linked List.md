@@ -40,7 +40,7 @@ Output: []
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 public ListNode reverseList(ListNode head) {
@@ -68,6 +68,8 @@ public ListNode reverseIterate(ListNode head) {
   return prevNode;
 }
 ```
+
+:::
 
 ### [_..._](#)
 

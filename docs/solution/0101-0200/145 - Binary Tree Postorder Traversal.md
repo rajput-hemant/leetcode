@@ -36,7 +36,7 @@ Output: [1]
 
 ## Solution:
 
-### [_Java_](#)
+::: code-group
 
 ```java
 private LinkedList<Integer> list = new LinkedList<>();
@@ -66,6 +66,8 @@ public List<Integer> postorderTraversalRecursive(TreeNode root) {
   return list;
   }
 ```
+
+:::
 
 ### [_..._](#)
 
