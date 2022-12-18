@@ -43,7 +43,7 @@ def refactor_sidebar():
     open(SIDEBAR, "w").close()
     with open(SIDEBAR, "a", encoding="utf-8") as file:
         file.write("export default Sidebar = [\n")
-        for base, _, files in os.walk(SOLUTION_FOLDER):
+        for base, _, files in sorted(os.walk(SOLUTION_FOLDER)):
             if base == "./docs/solution":
                 continue
             problem_index = base.removeprefix("./docs/solution/")
@@ -54,7 +54,7 @@ def refactor_sidebar():
                 f"		collapsed: {str(collapsed).lower()},\n"
                 "		items: [\n"
             )
-            for md in files:
+            for md in sorted(files):
                 file.write(
                     "			{\n"
                     f'				text: "{md[:-3]}",\n'
@@ -64,7 +64,7 @@ def refactor_sidebar():
             file.write("		],\n" "	},\n")
             if not collapsed:
                 collapsed = True
-        file.write("]")
+        file.write("];\n")
 
 
 def refactor_readmes():
@@ -72,11 +72,7 @@ def refactor_readmes():
         for md in files:
             with open(base + "/" + md, "r", encoding="utf-8") as file:
                 readme = file.read()
-                match_arr = re.findall(
-                    r"###\s\[_[a-zA-Z]+.._]\(.\/[a-zA-Z0-9_]+.[a-zA-Z]+\)", readme
-                ) or re.findall(
-                    r"###\s\[_[a-zA-Z]+.._]\([a-zA-Z0-9_]+.[a-zA-Z]+\)", readme
-                )
+                match_arr = re.findall(r"###\s+[\w+#./[\](]+\.[a-z)]+", readme)
                 for line in match_arr:
                     readme = readme.replace("\n\n" + line, "")
                 if "code-group" not in readme:
