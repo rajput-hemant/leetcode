@@ -17,6 +17,7 @@
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |    Array, Binary Search, Divide & Conquer     |  ![][hard]  |        |
 | **0007** |                        [Reverse Integer][7]                         |                     Math                      | ![][medium] |        |
 | **0009** |                       [Palindrome Number][9]                        |                     Math                      |  ![][easy]  |        |
+| **0013** |                       [Roman to Integer][13]                        |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0024** |                      [Swap Nodes in Pairs][24]                      |            Linked List, Recursion             | ![][medium] |        |
 | **0026** |                       [Remove Duplicates][26]                       |              Array, Two Pointers              |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |              Array, Two Pointers              |  ![][easy]  |        |
@@ -64,6 +65,7 @@
 | **0543** |                   [Diameter of Binary Tree][543]                    |            Tree, DFS, Binary Tree             |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST][653]                  |          Tree, DFS, BST, Binary Tree          |  ![][easy]  |        |
 | **0704** |                        [Binary Search][704]                         |             Array, Binary Search              |  ![][easy]  |        |
+| **0739** |                      [Daily Temperatures][739]                      |         Array, Stack, Monotonic Stack         | ![][medium] |        |
 | **0771** |                      [Jewels and Stones][771]                       |               String, Hashtable               |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |           Linked List, Two Pointers           |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
@@ -86,6 +88,7 @@
 [4]: ./solution/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays.md
 [7]: ./solution/0001-0100/007%20-%20Reverse%20Integer.md
 [9]: ./solution/0001-0100/009%20-%20Palindrome%20Number.md
+[13]: ./solution/0001-0100/013%20-%20Roman%20to%20Integer.md
 [24]: ./solution/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs.md
 [26]: ./solution/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array.md
 [27]: ./solution/0001-0100/027%20-%20Remove%20Element.md
@@ -133,6 +136,7 @@
 [543]: ./solution/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree.md
 [653]: ./solution/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.md
 [704]: ./solution/0701-0800/704%20-%20Binary%20Search.md
+[739]: ./solution/0701-0800/739%20-%20Daily%20Temperatures.md
 [771]: ./solution/0701-0800/771%20-%20Jewels%20and%20Stones.md
 [876]: ./solution/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List.md
 [888]: ./solution/0801-0900/888%20-%20Fair%20Candy%20Swap.md

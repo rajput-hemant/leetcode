@@ -25,6 +25,10 @@ export default Sidebar = [
 				link: "/solution/0001-0100/009 - Palindrome Number.md",
 			},
 			{
+				text: "013 - Roman to Integer",
+				link: "/solution/0001-0100/013 - Roman to Integer.md",
+			},
+			{
 				text: "024 - Swap Nodes in Pairs",
 				link: "/solution/0001-0100/024 - Swap Nodes in Pairs.md",
 			},
@@ -260,6 +264,10 @@ export default Sidebar = [
 			{
 				text: "704 - Binary Search",
 				link: "/solution/0701-0800/704 - Binary Search.md",
+			},
+			{
+				text: "739 - Daily Temperatures",
+				link: "/solution/0701-0800/739 - Daily Temperatures.md",
 			},
 			{
 				text: "771 - Jewels and Stones",

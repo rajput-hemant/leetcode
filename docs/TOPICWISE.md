@@ -32,6 +32,7 @@
 | **0506** |                        [Relative Ranks][506]                        |            Array, Sorting, Heap            |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |                 Array, DP                  | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |            Array, Binary Search            |  ![][easy]  |        |
+| **0739** |                      [Daily Temperatures][739]                      |       Array, Stack, Monotonic Stack        | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        | Array, Hash Table, Binary Search, Sorting  |  ![][easy]  |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |           Array, Math, Geometry            |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |             Array, Prefix Sum              |  ![][easy]  |        |
@@ -43,6 +44,7 @@
 
 |    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0013** |                    [Roman to Integer][13]                     |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
@@ -60,6 +62,7 @@
 |    #     |              Solution               |                     Tags                      | Difficulty  | Remark |
 | :------: | :---------------------------------: | :-------------------------------------------: | :---------: | :----: |
 | **0001** |            [Two Sum][1]             |               Array, Hash Table               |  ![][easy]  |        |
+| **0013** |       [Roman to Integer][13]        |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0389** |     [Find the Difference][389]      | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **0442** |     [Find All Duplicates][442]      |               Array, Hash Table               | ![][medium] |        |
 | **0653** | [Two Sum IV - Input is a BST ][653] |          Tree, DFS, BST, Binary Tree          |  ![][easy]  |        |
@@ -91,6 +94,7 @@
 | **0002** |          [Add Two Numbers][2]          |   Linked List, Math, Recursion    | ![][medium] |        |
 | **0007** |          [Reverse Integer][7]          |               Math                | ![][medium] |        |
 | **0009** |         [Palindrome Number][9]         |               Math                |  ![][easy]  |        |
+| **0013** |         [Roman to Integer][13]         |     String, Math, Hash Table      |  ![][easy]  |        |
 | **0070** |         [Climbing Stairs][70]          |      Math, DP, Memorization       |  ![][easy]  |        |
 | **0172** |   [Factorial Trailiing Zeroes][172]    |               Math                | ![][medium] |        |
 | **0231** |          [Power of Two][231]           | Math, Bit Manipulation, Recursion |  ![][easy]  |        |
@@ -251,6 +255,7 @@
 | **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
 | **0445** |            [Add Two Numbers II][445]             |   Linked List, Math, Stack    | ![][medium] |        |
+| **0739** |            [Daily Temperatures][739]             | Array, Stack, Monotonic Stack | ![][medium] |        |
 | **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         |  ![][easy]  |        |
 
 <!--
@@ -333,12 +338,11 @@
 | :-: | :------: | :--: | :--------: | :------: |
 -->
 
-<!--
 ## Monotonic Stack
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+|    #     |         Solution          |             Tags              | Difficulty  | Remark |
+| :------: | :-----------------------: | :---------------------------: | :---------: | :----: |
+| **0739** | [Daily Temperatures][739] | Array, Stack, Monotonic Stack | ![][medium] |        |
 
 ## Recursion
 
@@ -640,6 +644,7 @@
 [4]: ./solution/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays.md
 [7]: ./solution//0001-0100/007%20-%20Reverse%20Integer.md
 [9]: ./solution/0001-0100/009%20-%20Palindrome%20Number.md
+[13]: ./solution/0001-0100/013%20-%20Roman%20to%20Integer.md
 [24]: ./solution/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs.md
 [26]: ./solution/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array.md
 [27]: ./solution/0001-0100/027%20-%20Remove%20Element.md
@@ -687,6 +692,7 @@
 [543]: ./solution/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree.md
 [653]: ./solution/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.md
 [704]: ./solution/0701-0800/704%20-%20Binary%20Search.md
+[739]: ./solution/0701-0800/739%20-%20Daily%20Temperatures.md
 [771]: ./solution/0701-0800/771%20-%20Jewels%20and%20Stones.md
 [876]: ./solution/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List.md
 [888]: ./solution/0801-0900/888%20-%20Fair%20Candy%20Swap.md
