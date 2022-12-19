@@ -64,6 +64,7 @@
 | **0543** |                   [Diameter of Binary Tree][543]                    |            Tree, DFS, Binary Tree             |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST][653]                  |          Tree, DFS, BST, Binary Tree          |  ![][easy]  |        |
 | **0704** |                        [Binary Search][704]                         |             Array, Binary Search              |  ![][easy]  |        |
+| **0739** |                      [Daily Temperatures][739]                      |         Array, Stack, Monotonic Stack         | ![][medium] |        |
 | **0771** |                      [Jewels and Stones][771]                       |               String, Hashtable               |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |           Linked List, Two Pointers           |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
@@ -133,6 +134,7 @@
 [543]: ./0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [704]: ./0701-0800/704%20-%20Binary%20Search/
+[739]: ./0701-0800/739%20-%20Daily%20Temperatures/
 [771]: ./0701-0800/771%20-%20Jewels%20and%20Stones/
 [876]: ./0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./0801-0900/888%20-%20Fair%20Candy%20Swap/

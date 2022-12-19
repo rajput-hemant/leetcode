@@ -32,6 +32,7 @@
 | **0506** |                        [Relative Ranks][506]                        |            Array, Sorting, Heap            |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |                 Array, DP                  | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |            Array, Binary Search            |  ![][easy]  |        |
+| **0739** |                      [Daily Temperatures][739]                      |       Array, Stack, Monotonic Stack        | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        | Array, Hash Table, Binary Search, Sorting  |  ![][easy]  |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |           Array, Math, Geometry            |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |             Array, Prefix Sum              |  ![][easy]  |        |
@@ -251,6 +252,7 @@
 | **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
 | **0445** |            [Add Two Numbers II][445]             |   Linked List, Math, Stack    | ![][medium] |        |
+| **0739** |            [Daily Temperatures][739]             | Array, Stack, Monotonic Stack | ![][medium] |        |
 | **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         |  ![][easy]  |        |
 
 <!--
@@ -333,12 +335,11 @@
 | :-: | :------: | :--: | :--------: | :------: |
 -->
 
-<!--
 ## Monotonic Stack
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+|    #     |         Solution          |             Tags              | Difficulty  | Remark |
+| :------: | :-----------------------: | :---------------------------: | :---------: | :----: |
+| **0739** | [Daily Temperatures][739] | Array, Stack, Monotonic Stack | ![][medium] |        |
 
 ## Recursion
 
@@ -687,6 +688,7 @@
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [704]: ./src/0701-0800/704%20-%20Binary%20Search/
+[739]: ./src/0701-0800/739%20-%20Daily%20Temperatures/
 [771]: ./src/0701-0800/771%20-%20Jewels%20and%20Stones/
 [876]: ./src/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./src/0801-0900/888%20-%20Fair%20Candy%20Swap/
