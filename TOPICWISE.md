@@ -44,6 +44,7 @@
 
 |    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0013** |                    [Roman to Integer][13]                     |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
@@ -61,6 +62,7 @@
 |    #     |              Solution               |                     Tags                      | Difficulty  | Remark |
 | :------: | :---------------------------------: | :-------------------------------------------: | :---------: | :----: |
 | **0001** |            [Two Sum][1]             |               Array, Hash Table               |  ![][easy]  |        |
+| **0013** |       [Roman to Integer][13]        |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0389** |     [Find the Difference][389]      | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **0442** |     [Find All Duplicates][442]      |               Array, Hash Table               | ![][medium] |        |
 | **0653** | [Two Sum IV - Input is a BST ][653] |          Tree, DFS, BST, Binary Tree          |  ![][easy]  |        |
@@ -92,6 +94,7 @@
 | **0002** |          [Add Two Numbers][2]          |   Linked List, Math, Recursion    | ![][medium] |        |
 | **0007** |          [Reverse Integer][7]          |               Math                | ![][medium] |        |
 | **0009** |         [Palindrome Number][9]         |               Math                |  ![][easy]  |        |
+| **0013** |         [Roman to Integer][13]         |     String, Math, Hash Table      |  ![][easy]  |        |
 | **0070** |         [Climbing Stairs][70]          |      Math, DP, Memorization       |  ![][easy]  |        |
 | **0172** |   [Factorial Trailiing Zeroes][172]    |               Math                | ![][medium] |        |
 | **0231** |          [Power of Two][231]           | Math, Bit Manipulation, Recursion |  ![][easy]  |        |
@@ -641,6 +644,7 @@
 [4]: ./src/0001-0100/004%20-%20Median%20of%20Two%20Sorted%20Arrays/
 [7]: ./src//0001-0100/007%20-%20Reverse%20Integer/
 [9]: ./src/0001-0100/009%20-%20Palindrome%20Number/
+[13]: ./src/0001-0100/013%20-%20Roman%20to%20Integer/
 [24]: ./src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./src/0001-0100/027%20-%20Remove%20Element/
