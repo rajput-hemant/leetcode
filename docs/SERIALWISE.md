@@ -8,7 +8,7 @@
 
 ## 🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.
 
-### Press `Ctrl`+`F` or `⌘`+`F` to search for a specific problem
+### 🔍 PressPress `Ctrl`+`F` or `⌘`+`F` to search for a specific problem
 
 |    #     |                              Solution                               |                      Tag                      | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |

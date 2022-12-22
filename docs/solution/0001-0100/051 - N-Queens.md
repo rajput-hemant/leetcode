@@ -22,10 +22,12 @@ Output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
 **Explanation**: There exist two distinct solutions to the 4-queens puzzle as shown above
 
 ### Example 2:
+
 ```
 Input: n = 1
 Output: [["Q"]]
 ```
+
 ### Constraints:
 
 - 1 <= n <= 9

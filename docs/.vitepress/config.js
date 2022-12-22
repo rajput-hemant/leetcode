@@ -1,91 +1,91 @@
 import Sidebar from "./Sidebar";
 
 const ogTitle = "🏆 Leetcode",
-	ogImage =
-		"https://opengraph.githubassets.com/7f24f37a5bf5e31cd6280ac4e7c05f732560cdaffa991e63bd6f8e9209395681/rajput-hemant/leetcode",
-	ogDescription =
-		"🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.";
+  ogImage =
+    "https://opengraph.githubassets.com/7f24f37a5bf5e31cd6280ac4e7c05f732560cdaffa991e63bd6f8e9209395681/rajput-hemant/leetcode",
+  ogDescription =
+    "🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.";
 
 export default {
-	title: ogTitle,
-	description: ogDescription,
-	base: "/leetcode/",
-	lastUpdated: true,
-	cleanUrls: "without-subfolders",
+  title: ogTitle,
+  description: ogDescription,
+  base: "/leetcode/",
+  lastUpdated: true,
+  cleanUrls: "without-subfolders",
 
-	head: [
-		["link", { rel: "icon", type: "image/x-icon", href: "favicon.ico" }],
-		["meta", { property: "og:type", content: "website" }],
-		["meta", { property: "og:title", content: ogTitle }],
-		["meta", { property: "og:image", content: ogImage }],
-		["meta", { property: "og:description", content: ogDescription }],
-	],
+  head: [
+    ["link", { rel: "icon", type: "image/x-icon", href: "favicon.ico" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:title", content: ogTitle }],
+    ["meta", { property: "og:image", content: ogImage }],
+    ["meta", { property: "og:description", content: ogDescription }],
+  ],
 
-	// markdown: {
-	// 	lineNumbers: true,
-	// },
+  // markdown: {
+  // 	lineNumbers: true,
+  // },
 
-	themeConfig: {
-		nav: [
-			{
-				text: "Home",
-				link: "/",
-			},
-			{
-				text: "Topicwise",
-				link: "TOPICWISE.md",
-			},
-			{
-				text: "Serialwise",
-				link: "SERIALWISE.md",
-			},
-			{
-				text: "Other Repositories",
-				items: [
-					{
-						text: "Data Structures and Algorithms",
-						link: "https://github.com/rajput-hemant/data-structures-and-algorithms",
-					},
-					{
-						text: "Calculator App",
-						link: "https://github.com/rajput-hemant/calculator",
-					},
-					{
-						text: "Infinitunes (Music WebApp)",
-						link: "https://github.com/rajput-hemant/infinitunes",
-					},
-				],
-			},
-		],
-		sidebar: Sidebar,
+  themeConfig: {
+    nav: [
+      {
+        text: "Home",
+        link: "/",
+      },
+      {
+        text: "Topicwise",
+        link: "TOPICWISE.md",
+      },
+      {
+        text: "Serialwise",
+        link: "SERIALWISE.md",
+      },
+      {
+        text: "Other Repositories",
+        items: [
+          {
+            text: "Data Structures and Algorithms",
+            link: "https://github.com/rajput-hemant/data-structures-and-algorithms",
+          },
+          {
+            text: "Calculator App",
+            link: "https://github.com/rajput-hemant/calculator",
+          },
+          {
+            text: "Infinitunes (Music WebApp)",
+            link: "https://github.com/rajput-hemant/infinitunes",
+          },
+        ],
+      },
+    ],
+    sidebar: Sidebar,
 
-		editLink: {
-			pattern: "https://github.com/rajput-hemant/leetcode/fork",
-			text: "Contribute or Edit existing solution?",
-		},
+    editLink: {
+      pattern: "https://github.com/rajput-hemant/leetcode/fork",
+      text: "Contribute or Edit existing solution?",
+    },
 
-		socialLinks: [
-			{ icon: "github", link: "https://github.com/rajput-hemant/leetcode" },
-			{ icon: "twitter", link: "https://twitter.com/rajput_hemant01" },
-			{ icon: "discord", link: "https://discord.com/usersrajput-hemant#8269" },
-		],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/rajput-hemant/leetcode" },
+      { icon: "twitter", link: "https://twitter.com/rajput_hemant01" },
+      { icon: "discord", link: "https://discord.com/usersrajput-hemant#8269" },
+    ],
 
-		algolia: {
-			appId: "DCJ9TKHPLG",
-			apiKey: "447bb019470ae0d55cd244784a1db402",
-			indexName: "leetcode",
-			searchParameters: {
-				facetFilters: ["tags:en"],
-			},
-		},
+    algolia: {
+      appId: "DCJ9TKHPLG",
+      apiKey: "447bb019470ae0d55cd244784a1db402",
+      indexName: "leetcode",
+      searchParameters: {
+        facetFilters: ["tags:en"],
+      },
+    },
 
-		localeLinks: {
-			text: "English",
-		},
+    localeLinks: {
+      text: "English",
+    },
 
-		footer: {
-			message: `Released under the MIT License.`,
-			copyright: "Copyright © 2022 rajput-hemant@github",
-		},
-	},
+    footer: {
+      message: `Released under the MIT License.`,
+      copyright: "Copyright © 2022 rajput-hemant@github",
+    },
+  },
 };

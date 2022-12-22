@@ -2,6 +2,7 @@
 title: rajput-hemant
 titleTemplate: Leetcode
 sidebar: false
+aside: false
 editLink: false
 next: Go To First Problem
 ---
