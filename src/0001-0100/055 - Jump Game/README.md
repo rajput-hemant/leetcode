@@ -29,7 +29,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 - 1 <= nums.length <= 10<sup>4</sup>
 - 0 <= nums[i] <= 10<sup>5</sup>
 
-## Soltuion:
+## Solution:
 
 ### [_Java_](./JumpGame.java)
 

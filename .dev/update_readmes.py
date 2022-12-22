@@ -80,9 +80,9 @@ def refactor_readmes():
                     question,
                     subdir,
                 )
-            elif logs[f"{int(idx)}"] < len(problems):
+            elif logs[f"{int(idx)}"] != len(problems):
                 update_sols(subdir)
-                logs[f"{int(idx)}"] = len(problems)
+            logs[f"{int(idx)}"] = len(problems)
 
     with open(".dev/logs.json", "w", encoding="utf=8") as file:
         json.dump(logs, file, indent=2)
@@ -163,7 +163,7 @@ def write_readme(path, question, url):
         "\n- ".join(question["hints"])
     )
 
-    with open(path + "/README.md", "w", encoding="utf-8") as file:
+    with open(path + "/README.md", "w") as file:
         file.write(
             """# {0} [![share]]({1})\n
 ![][{2}]\n
@@ -203,7 +203,7 @@ def get_sols(path):
         if sol == "README.md":
             continue
         ext = sol.split(".")[-1]
-        with open(path + "/" + sol, "r", encoding="utf-8") as file:
+        with open(path + "/" + sol, "r") as file:
             code = file.read()
         sols_str += """\n### [_{}_]({})\n\n```{}\n{}\n```\n""".format(
             LANGS[ext], sol, ext, code
@@ -228,7 +228,7 @@ def update_sols(path):
         for line in file:
             if flag:
                 file_w.write(line)
-            if line.startswith("## Solutions"):
+            if line.startswith("## Solution"):
                 flag = 0
             if line.startswith("### [_..._]()"):
                 file_w.write(sols + "\n### [_..._]()\n")

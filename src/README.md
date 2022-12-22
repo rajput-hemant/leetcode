@@ -10,6 +10,8 @@
 
 ### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 |    #     |                              Solution                               |                      Tag                      | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
 | **0001** |                            [Two Sum][1]                             |               Array, Hash Table               |  ![][easy]  |        |

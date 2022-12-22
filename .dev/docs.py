@@ -7,22 +7,22 @@ TOPICWISE = "./docs/TOPICWISE.md"
 SIDEBAR = "./docs/.vitepress/Sidebar.js"
 
 TAGS = {
-    "BIT": "Binary Indexed Tree",
-    "BS": "Binary Search",
-    "BST": "Binary Search Tree",
-    "Bit Manip": "Bit Manipulation",
-    "BFS": "Breadth First Search",
-    "DFS": "Depth First Search",
-    "DNC": "Divide and Conquer",
-    "DLL": "Doubly Linked List",
-    "DP": "Dynamic Programming",
-    "LL": "Linked List",
-    "MEM": "Memoization",
-    "MST": "Minimum Spanning Tree",
-    "Q": "Queue",
-    "ST": "Stack",
-    "TAB": "Tabulation",
-    "2P": "Two Pointers",
+    "BIT,": "Binary Indexed Tree,",
+    "BS,": "Binary Search,",
+    "BST,": "Binary Search Tree,",
+    "Bit Manip,": "Bit Manipulation,",
+    "BFS,": "Breadth First Search,",
+    "DFS,": "Depth First Search,",
+    "DNC,": "Divide and Conquer,",
+    "DLL,": "Doubly Linked List,",
+    "DP,": "Dynamic Programming,",
+    "LL,": "Linked List,",
+    "MEM,": "Memoization,",
+    "MST,": "Minimum Spanning Tree,",
+    "Q,": "Queue,",
+    "ST,": "Stack,",
+    "TAB,": "Tabulation,",
+    "2P,": "Two Pointers,",
 }
 
 
@@ -111,8 +111,8 @@ def refactor_readmes():
 
 def main():
     refactor_serialwise()
-    # refactor_topicwise()
-    # refactor_sidebar()
+    refactor_topicwise()
+    refactor_sidebar()
     refactor_readmes()
 
 
