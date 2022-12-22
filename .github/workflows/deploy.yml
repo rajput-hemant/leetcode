@@ -1,13 +1,13 @@
 name: Deploy
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - master
     paths:
       - docs/**/*.md
-
-    workflow_dispatch:
 
 jobs:
   deploy:

@@ -16,8 +16,11 @@ jobs:
         with:
           python-version: "3.10" # install the python version needed
 
-      - name: execute py script # run get_total_problems_solved.py to get the latest solved problems count
-        run: python .dev/get_total_problems_solved.py
+      - name: Install dependencies
+        run: python -m pip install -r .dev/requirements.txt
+
+      - name: updating total problems solved # to get the latest solved problems count
+        run: python .dev/total_problems.py
 
       - name: commit files
         run: |
@@ -26,10 +29,20 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updating total problems solved" --allow-empty)
 
-      - name: execute scripts # to update docs
+      - name: updating all REAMDE files # to update docs
         run: |
-          sh ./start.sh
-          python docs/readme.py
+          python .dev/update_readmes.py
+          npx prettier --write .
+
+      - name: commit files
+        run: |
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "updating all READMEs" --allow-empty)
+
+      - name: updating docs # to update docs
+        run: |
+          sh start.sh
+          python .dev/docs.py
 
       - name: commit files
         run: |
