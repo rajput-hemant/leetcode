@@ -1,11 +1,18 @@
 import os
 import re
+import time
 import json
+import hashlib
 import requests
 from bs4 import BeautifulSoup
 from googlesearch import search
+from logging import basicConfig, info as log
+
+basicConfig(format="[%(asctime)s] - %(name)s - %(message)s", level="INFO")
+
 
 SRC_FOLDER = "./src"
+LOGS = ".dev/logs.json"
 TOPICWISE = "./TOPICWISE.md"
 SERIALWISE = "./src/README.md"
 LANGS = {
@@ -51,8 +58,8 @@ TAGS = {
 def refactor_readmes():
     """Refactors README.md files in the src folder."""
 
-    with open(".dev/logs.json", encoding="utf=8") as file:
-        logs = json.load(file)
+    log("Refactoring README.md files...")
+
     with open(SERIALWISE, encoding="utf=8") as file:
         serialwise = file.readlines()
     with open(TOPICWISE, encoding="utf=8") as file:
@@ -80,16 +87,65 @@ def refactor_readmes():
                     question,
                     subdir,
                 )
-            elif logs[f"{int(idx)}"] != len(problems):
+            elif generate_logs(idx, subdir, problems):
                 update_sols(subdir)
-            logs[f"{int(idx)}"] = len(problems)
 
-    with open(".dev/logs.json", "w", encoding="utf=8") as file:
-        json.dump(logs, file, indent=2)
     with open(SERIALWISE, "w", encoding="utf=8") as file:
         file.writelines(serialwise)
     with open(TOPICWISE, "w", encoding="utf=8") as file:
         file.writelines(topicwise)
+
+
+def generate_logs(index, path, problems):
+    """
+    Generates logs.json file.
+    params: index (str), path (str), problems (list)
+    returns: file_changed (bool)
+    """
+
+    log(f"Generating logs for {path.split('/')[-1]}")
+
+    idx = int(index)
+
+    def _check_checksum():
+        for problem in problems:
+            if problem == "README.md":
+                continue
+            file_path = os.path.join(path, problem)
+            checksum = file_checksum(file_path)
+            if checksum != logs[f"{idx}"]["sols"][problem]:
+                logs[f"{idx}"]["sols"][problem] = checksum
+                return True
+        return False
+
+    with open(LOGS, encoding="utf=8") as file:
+        logs = json.load(file)
+
+        if logs[f"{idx}"]["len"] == len(problems):
+            file_changed = _check_checksum()
+        else:
+            file_changed = True
+            logs[f"{idx}"]["len"] = len(problems)
+
+        with open(LOGS, "w", encoding="utf=8") as file:
+            json.dump(logs, file, indent=2)
+
+        return file_changed
+
+
+def file_checksum(path):
+    """
+    Calculates the checksum of the file.
+    params: path (str)
+    returns: checksum (str)
+    """
+
+    log(f"Calculating checksum of {path.split('/')[-1]}")
+
+    with open(path, "rb") as file:
+        checksum = hashlib.sha256(file.read()).hexdigest()
+
+    return checksum
 
 
 def gsearch(query):
@@ -98,6 +154,8 @@ def gsearch(query):
     params: query (str)
     returns: link (str)
     """
+
+    log(f"Searching Google for {query}")
 
     user_agent = (
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
@@ -111,6 +169,7 @@ def gsearch(query):
     ):
         link = re.match(r"https:\/\/leetcode.com\/problems\/[a-z-]+\/", url)[0]
 
+        log(f"Found link: {link}")
         return link
 
 
@@ -120,6 +179,8 @@ def parse_json(url):
     params: url (str)
     returns: question data (dict)
     """
+
+    log(f"Parsing JSON data from {url}")
 
     page = requests.get(url)
     soup = BeautifulSoup(page.text, "html.parser")
@@ -152,6 +213,8 @@ def write_readme(path, question, url):
     Writes the README.md file.
     params: path (str), question (dict), url (str)
     """
+
+    log(f"Writing README.md for {question['title']}")
 
     hints = """\n<details>
 <summary>\n
@@ -197,6 +260,8 @@ def get_sols(path):
     returns: sols_str (str)
     """
 
+    log("Getting Solutions for " + path)
+
     sols = os.listdir(path)
     sols_str = ""
     for sol in sols:
@@ -217,6 +282,8 @@ def update_sols(path):
     Gets the solutions from the solution folder.
     params: path (str)
     """
+
+    log("Updating Solutions for " + path)
 
     sols = get_sols(path)
     readme = path + "/" + "README.md"
@@ -241,6 +308,8 @@ def refactor_serialwise(file, question, path):
     params: file (list), question (dict), path (str)
     returns: updated file (list)
     """
+
+    log("Refactoring Serialwise Solutions...")
 
     flag = 0
     new_line = ""
@@ -280,6 +349,8 @@ def refactor_topicewise(file, line_, question, path):
     returns: updated file (list)
     """
 
+    log("Refactoring Topicwise Solutions...")
+
     flag = 0
     id = question["id"]
     tags = question["tags"]
@@ -306,7 +377,9 @@ def refactor_topicewise(file, line_, question, path):
 
 
 def main():
+    start_time = time.time()
     refactor_readmes()
+    log(f"took {(time.time() - start_time):.2f} seconds")
 
 
 main()
