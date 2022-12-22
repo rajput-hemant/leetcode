@@ -1,4 +1,4 @@
-# /usr/bin/env bash
+#!/usr/bin/env bash
 
 # Description: This script is used to generate the docs folder from the src folder
 

@@ -1,9 +1,29 @@
-import os, re
+import os
+import re
 
 SOLUTION_FOLDER = "./docs/solution"
 SERIALWISE = "./docs/SERIALWISE.md"
 TOPICWISE = "./docs/TOPICWISE.md"
 SIDEBAR = "./docs/.vitepress/Sidebar.js"
+
+TAGS = {
+    "BIT": "Binary Indexed Tree",
+    "BS": "Binary Search",
+    "BST": "Binary Search Tree",
+    "Bit Manip": "Bit Manipulation",
+    "BFS": "Breadth First Search",
+    "DFS": "Depth First Search",
+    "DNC": "Divide and Conquer",
+    "DLL": "Doubly Linked List",
+    "DP": "Dynamic Programming",
+    "LL": "Linked List",
+    "MEM": "Memoization",
+    "MST": "Minimum Spanning Tree",
+    "Q": "Queue",
+    "ST": "Stack",
+    "TAB": "Tabulation",
+    "2P": "Two Pointers",
+}
 
 
 def refactor_serialwise():
@@ -12,12 +32,14 @@ def refactor_serialwise():
     with open(SERIALWISE, "w", encoding="utf-8") as file:
         readme = (
             readme.replace("../docs/public", "")
+            .replace("/\n", ".md\n")
             .replace(
                 "<kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd>",
                 "`Ctrl`+`F` or `⌘`+`F`",
             )
-            .replace("/\n", ".md\n")
         )
+        for key, value in TAGS.items():
+            readme = readme.replace(key, value)
         if "./solution/" not in readme:
             readme = readme.replace("]: ./", "]: ./solution/")
         file.write(readme)
@@ -27,15 +49,18 @@ def refactor_topicwise():
     with open(TOPICWISE, "r", encoding="utf-8") as file:
         readme = file.read()
     with open(TOPICWISE, "w", encoding="utf-8") as file:
-        file.write(
+        readme = (
             readme.replace("docs/public", "")
+            .replace("/\n", ".md\n")
+            .replace("./src/", "./solution/")
             .replace(
                 "<kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd>",
                 "`Ctrl`+`F` or `⌘`+`F`",
             )
-            .replace("./src/", "./solution/")
-            .replace("/\n", ".md\n")
         )
+        for key, value in TAGS.items():
+            readme = readme.replace(key, value)
+        file.write(readme)
 
 
 def refactor_sidebar():
@@ -86,8 +111,8 @@ def refactor_readmes():
 
 def main():
     refactor_serialwise()
-    refactor_topicwise()
-    refactor_sidebar()
+    # refactor_topicwise()
+    # refactor_sidebar()
     refactor_readmes()
 
 
