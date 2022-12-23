@@ -14,31 +14,31 @@
 
 ## Array
 
-|    #     |                              Solution                               |                    Tags                    | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------------: | :----------------------------------------: | :---------: | :----: |
-| **0001** |                            [Two Sum][1]                             |             Array, Hash Table              |  ![][easy]  |        |
-| **0004** |                  [Median of Two Sorted Arrays][4]                   |   Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
-| **0026** |                       [Remove Duplicates][26]                       |            Array, Two Pointers             |  ![][easy]  |        |
-| **0027** |                        [Remove Element][27]                         |            Array, Two Pointers             |  ![][easy]  |        |
-| **0037** |                         [Sudoku Solver][37]                         |        Array, Backtracking, Matrix         |  ![][hard]  |        |
-| **0051** |                           [N-Queens][51]                            |            Array, Backtracking             |  ![][hard]  |        |
-| **0055** |                           [Jump Game][55]                           |             Array, Dynamic Programming, Greedy              | ![][medium] |        |
-| **0075** |                          [Sort Colors][75]                          |        Array, Two Pointers, Sorting        | ![][medium] |        |
-| **0122** |              [Best Time to Buy and Sell Stock II][122]              |             Array, Dynamic Programming, Greedy              | ![][medium] |        |
-| **0283** |                         [Move Zeroes][283]                          |            Array, Two Pointers             |  ![][easy]  |        |
-| **0300** |                [Longest Increasing Subsequence][300]                |          Array, Binary Search, DP          | ![][medium] |        |
-| **0322** |                         [Coin Change][322]                          |               Array, Dynamic Programming, BFS               | ![][medium] |        |
-| **0442** |                     [Find All Duplicates][442]                      |             Array, Hash Table              | ![][medium] |        |
-| **0506** |                        [Relative Ranks][506]                        |            Array, Sorting, Heap            |  ![][easy]  |        |
-| **0518** |                        [Coin Change 2][518]                         |                 Array, DP                  | ![][medium] |        |
-| **0704** |                        [Binary Search][704]                         |            Array, Binary Search            |  ![][easy]  |        |
-| **0739** |                      [Daily Temperatures][739]                      |       Array, Stack, Monotonic Stack        | ![][medium] |        |
-| **0888** |                       [Fair Candy Swap][888]                        | Array, Hash Table, Binary Search, Sorting  |  ![][easy]  |        |
-| **1232** |               [Check If It Is a Straight Line][1232]                |           Array, Math, Geometry            |  ![][easy]  |        |
-| **1480** |                   [Running Sum of 1d Array][1480]                   |             Array, Prefix Sum              |  ![][easy]  |        |
-| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |               Array, Sorting               |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
-| **1537** |                    [Get the Maximum Score][1537]                    |       Array, Two Pointer, Dynamic Programming, Greedy       |  ![][hard]  |        |
+|    #     |                              Solution                               |                      Tags                       | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
+| **0001** |                            [Two Sum][1]                             |                Array, Hash Table                |  ![][easy]  |        |
+| **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
+| **0026** |                       [Remove Duplicates][26]                       |               Array, Two Pointers               |  ![][easy]  |        |
+| **0027** |                        [Remove Element][27]                         |               Array, Two Pointers               |  ![][easy]  |        |
+| **0037** |                         [Sudoku Solver][37]                         |           Array, Backtracking, Matrix           |  ![][hard]  |        |
+| **0051** |                           [N-Queens][51]                            |               Array, Backtracking               |  ![][hard]  |        |
+| **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
+| **0122** |              [Best Time to Buy and Sell Stock II][122]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
+| **0300** |                [Longest Increasing Subsequence][300]                |            Array, Binary Search, DP             | ![][medium] |        |
+| **0322** |                         [Coin Change][322]                          |         Array, Dynamic Programming, BFS         | ![][medium] |        |
+| **0442** |                     [Find All Duplicates][442]                      |                Array, Hash Table                | ![][medium] |        |
+| **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
+| **0518** |                        [Coin Change 2][518]                         |                    Array, DP                    | ![][medium] |        |
+| **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
+| **0739** |                      [Daily Temperatures][739]                      |          Array, Stack, Monotonic Stack          | ![][medium] |        |
+| **0888** |                       [Fair Candy Swap][888]                        |    Array, Hash Table, Binary Search, Sorting    |  ![][easy]  |        |
+| **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
+| **1480** |                   [Running Sum of 1d Array][1480]                   |                Array, Prefix Sum                |  ![][easy]  |        |
+| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                 Array, Sorting                  |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |   Array, Two Pointer, Binary Search, Sorting    | ![][medium] |        |
+| **1537** |                    [Get the Maximum Score][1537]                    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
 
 ## String
 
@@ -59,49 +59,49 @@
 
 ## Hash Table
 
-|    #     |              Solution               |                     Tags                      | Difficulty  | Remark |
-| :------: | :---------------------------------: | :-------------------------------------------: | :---------: | :----: |
-| **0001** |            [Two Sum][1]             |               Array, Hash Table               |  ![][easy]  |        |
-| **0013** |       [Roman to Integer][13]        |           String, Math, Hash Table            |  ![][easy]  |        |
-| **0389** |     [Find the Difference][389]      | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
-| **0442** |     [Find All Duplicates][442]      |               Array, Hash Table               | ![][medium] |        |
-| **0653** | [Two Sum IV - Input is a BST ][653] |          Tree, Depth First Search, Binary Search Tree, Binary Tree          |  ![][easy]  |        |
-| **0888** |       [Fair Candy Swap][888]        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
-| **0771** |      [Jewels and Stones][771]       |               String, Hashtable               |  ![][easy]  |        |
+|    #     |              Solution               |                           Tags                            | Difficulty  | Remark |
+| :------: | :---------------------------------: | :-------------------------------------------------------: | :---------: | :----: |
+| **0001** |            [Two Sum][1]             |                     Array, Hash Table                     |  ![][easy]  |        |
+| **0013** |       [Roman to Integer][13]        |                 String, Math, Hash Table                  |  ![][easy]  |        |
+| **0389** |     [Find the Difference][389]      |       Hash Table, String, Bit Manipulation, Sorting       |  ![][easy]  |        |
+| **0442** |     [Find All Duplicates][442]      |                     Array, Hash Table                     | ![][medium] |        |
+| **0653** | [Two Sum IV - Input is a BST ][653] | Tree, Depth First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
+| **0888** |       [Fair Candy Swap][888]        |         Array, Hash Table, Binary Search, Sorting         |  ![][easy]  |        |
+| **0771** |      [Jewels and Stones][771]       |                     String, Hashtable                     |  ![][easy]  |        |
 
 ## Dynamic Programming
 
-|    #     |                        Solution                         |               Tags               | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------: | :------------------------------: | :---------: | :----: |
-| **0055** |                     [Jump Game][55]                     |        Array, Dynamic Programming, Greedy         | ![][medium] |        |
-| **0070** |                  [Climbing Stairs][70]                  |      Math, Dynamic Programming, Memoization       |  ![][easy]  |        |
-| **0072** |                   [Edit Distance][72]                   |            String, DP            |  ![][hard]  |        |
-| **0122** |        [Best Time to Buy and Sell Stock II][122]        |        Array, Dynamic Programming, Greedy         | ![][medium] |        |
-| **0300** |          [Longest Increasing Subsequence][300]          |     Array, Binary Search, DP     | ![][medium] |        |
-| **0322** |                   [Coin Change][322]                    |          Array, Dynamic Programming, BFS          | ![][medium] |        |
-| **0337** |                 [House Robber III][337]                 |    Dynamic Programming, Tree, Depth First Search, Binary Tree    | ![][medium] |        |
-| **0509** |                 [Fibonacci Number][509]                 | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
-| **0516** |         [Longest Palindromic Subsequence][516]          |            String, DP            | ![][medium] |        |
-| **0518** |                  [Coin Change 2][518]                   |            Array, DP             | ![][medium] |        |
-| **1092** | [Shortest Common Supersequence][1092] (Not in LeetCode) |            String, DP            |  ![][hard]  |        |
-| **1143** |           [Longest Common Subsequence][1143]            |            String, DP            | ![][medium] |        |
-| **1537** |              [Get the Maximum Score][1537]              |  Array, Two Pointer, Dynamic Programming, Greedy  |  ![][hard]  |        |
+|    #     |                        Solution                         |                            Tags                            | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------: | :--------------------------------------------------------: | :---------: | :----: |
+| **0055** |                     [Jump Game][55]                     |             Array, Dynamic Programming, Greedy             | ![][medium] |        |
+| **0070** |                  [Climbing Stairs][70]                  |           Math, Dynamic Programming, Memoization           |  ![][easy]  |        |
+| **0072** |                   [Edit Distance][72]                   |                         String, DP                         |  ![][hard]  |        |
+| **0122** |        [Best Time to Buy and Sell Stock II][122]        |             Array, Dynamic Programming, Greedy             | ![][medium] |        |
+| **0300** |          [Longest Increasing Subsequence][300]          |                  Array, Binary Search, DP                  | ![][medium] |        |
+| **0322** |                   [Coin Change][322]                    |              Array, Dynamic Programming, BFS               | ![][medium] |        |
+| **0337** |                 [House Robber III][337]                 | Dynamic Programming, Tree, Depth First Search, Binary Tree | ![][medium] |        |
+| **0509** |                 [Fibonacci Number][509]                 |     Math, Recursion, Dynamic Programming, Memoization      |  ![][easy]  |        |
+| **0516** |         [Longest Palindromic Subsequence][516]          |                         String, DP                         | ![][medium] |        |
+| **0518** |                  [Coin Change 2][518]                   |                         Array, DP                          | ![][medium] |        |
+| **1092** | [Shortest Common Supersequence][1092] (Not in LeetCode) |                         String, DP                         |  ![][hard]  |        |
+| **1143** |           [Longest Common Subsequence][1143]            |                         String, DP                         | ![][medium] |        |
+| **1537** |              [Get the Maximum Score][1537]              |      Array, Two Pointer, Dynamic Programming, Greedy       |  ![][hard]  |        |
 
 ## Math
 
-|    #     |                Solution                |               Tags                | Difficulty  | Remark |
-| :------: | :------------------------------------: | :-------------------------------: | :---------: | :----: |
-| **0002** |          [Add Two Numbers][2]          |   Linked List, Math, Recursion    | ![][medium] |        |
-| **0007** |          [Reverse Integer][7]          |               Math                | ![][medium] |        |
-| **0009** |         [Palindrome Number][9]         |               Math                |  ![][easy]  |        |
-| **0013** |         [Roman to Integer][13]         |     String, Math, Hash Table      |  ![][easy]  |        |
-| **0070** |         [Climbing Stairs][70]          |      Math, Dynamic Programming, Memorization       |  ![][easy]  |        |
-| **0172** |   [Factorial Trailiing Zeroes][172]    |               Math                | ![][medium] |        |
-| **0231** |          [Power of Two][231]           | Math, Bit Manipulation, Recursion |  ![][easy]  |        |
-| **0367** |      [Valid Perfect Square][367]       |        Math, Binary Search        |  ![][easy]  |        |
-| **0445** |       [Add Two Numbers II][445]        |     Linked List, Math, Stack      | ![][medium] |        |
-| **0509** |        [Fibonacci Number][509]         | Math, Recursion, Dynamic Programming, Memoization  |  ![][easy]  |        |
-| **1232** | [Check If It Is a Straight Line][1232] |       Array, Math, Geometry       |  ![][easy]  |        |
+|    #     |                Solution                |                       Tags                        | Difficulty  | Remark |
+| :------: | :------------------------------------: | :-----------------------------------------------: | :---------: | :----: |
+| **0002** |          [Add Two Numbers][2]          |           Linked List, Math, Recursion            | ![][medium] |        |
+| **0007** |          [Reverse Integer][7]          |                       Math                        | ![][medium] |        |
+| **0009** |         [Palindrome Number][9]         |                       Math                        |  ![][easy]  |        |
+| **0013** |         [Roman to Integer][13]         |             String, Math, Hash Table              |  ![][easy]  |        |
+| **0070** |         [Climbing Stairs][70]          |      Math, Dynamic Programming, Memorization      |  ![][easy]  |        |
+| **0172** |   [Factorial Trailiing Zeroes][172]    |                       Math                        | ![][medium] |        |
+| **0231** |          [Power of Two][231]           |         Math, Bit Manipulation, Recursion         |  ![][easy]  |        |
+| **0367** |      [Valid Perfect Square][367]       |                Math, Binary Search                |  ![][easy]  |        |
+| **0445** |       [Add Two Numbers II][445]        |             Linked List, Math, Stack              | ![][medium] |        |
+| **0509** |        [Fibonacci Number][509]         | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
+| **1232** | [Check If It Is a Straight Line][1232] |               Array, Math, Geometry               |  ![][easy]  |        |
 
 ## Sorting
 
@@ -116,30 +116,30 @@
 
 ## Depth-First Search
 
-|    #     |                Solution                |                 Tags                  | Difficulty  | Remark |
-| :------: | :------------------------------------: | :-----------------------------------: | :---------: | :----: |
-| **0100** |            [Same Tree][100]            |      Tree, Depth First Search, Breadth First Search, Binary Tree      | ![][medium] |        |
-| **0104** |  [Maximum Depth of Binary Tree][104]   |      Tree, Breadth First Search, Depth First Search, Binary Tree      |  ![][easy]  |        |
-| **0110** |      [Balanced Binary Tree][110]       |        Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
-| **0111** |  [Minimum Depth of Binary Tree][111]   |      Tree, Depth First Search, Breadth First Search, Binary Tree      |  ![][easy]  |        |
-| **0144** | [Binary Tree Preorder Traversal][144]  |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0145** | [Binary Tree Postorder Traversal][145] |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0199** |   [Binary Tree Right Side View][199]   |      Tree, Depth First Search, Breadth First Search, Binary Tree      | ![][medium] |        |
-| **0222** |    [Count Complete Tree Nodes][222]    | Binary Search, Tree, Depth First Search, Binary Tree | ![][medium] |        |
-| **0230** | [Kth Smallest Element in a BST ][230]  |      Tree, Depth First Search, Binary Search Tree, Binary Tree      | ![][medium] |        |
-| **0337** |        [House Robber III][337]         |      Dynamic Programming, Tree, Depth First Search, Binary Tree       | ![][medium] |        |
-| **0543** |     [Diameter of Binary Tree][543]     |        Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
-| **0653** |  [Two Sum IV - Input is a BST ][653]   |      Tree, Depth First Search, Binary Search Tree, Binary Tree      |  ![][easy]  |        |
+|    #     |                Solution                |                            Tags                             | Difficulty  | Remark |
+| :------: | :------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
+| **0100** |            [Same Tree][100]            | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
+| **0104** |  [Maximum Depth of Binary Tree][104]   | Tree, Breadth First Search, Depth First Search, Binary Tree |  ![][easy]  |        |
+| **0110** |      [Balanced Binary Tree][110]       |            Tree, Depth First Search, Binary Tree            |  ![][easy]  |        |
+| **0111** |  [Minimum Depth of Binary Tree][111]   | Tree, Depth First Search, Breadth First Search, Binary Tree |  ![][easy]  |        |
+| **0144** | [Binary Tree Preorder Traversal][144]  |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0145** | [Binary Tree Postorder Traversal][145] |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0199** |   [Binary Tree Right Side View][199]   | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
+| **0222** |    [Count Complete Tree Nodes][222]    |    Binary Search, Tree, Depth First Search, Binary Tree     | ![][medium] |        |
+| **0230** | [Kth Smallest Element in a BST ][230]  |  Tree, Depth First Search, Binary Search Tree, Binary Tree  | ![][medium] |        |
+| **0337** |        [House Robber III][337]         | Dynamic Programming, Tree, Depth First Search, Binary Tree  | ![][medium] |        |
+| **0543** |     [Diameter of Binary Tree][543]     |            Tree, Depth First Search, Binary Tree            |  ![][easy]  |        |
+| **0653** |  [Two Sum IV - Input is a BST ][653]   |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
 
 ## Greedy
 
-|    #     |                 Solution                  |              Tags              | Difficulty  | Remark |
-| :------: | :---------------------------------------: | :----------------------------: | :---------: | :----: |
-| **0055** |              [Jump Game][55]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
-| **0094** |    [Binary Tree Inorder Traversal][94]    | Stack, Tree, Depth First Search, Binary Tree  |  ![][easy]  |        |
-| **0098** |     [Validate Binary Search Tree][98]     |  Tree, Depth First Search, Binary Search Tree, Binary Tree   | ![][medium] |        |
-| **0122** | [Best Time to Buy and Sell Stock II][122] |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
-| **1537** |       [Get the Maximum Score][1537]       | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
+|    #     |                 Solution                  |                           Tags                            | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :-------------------------------------------------------: | :---------: | :----: |
+| **0055** |              [Jump Game][55]              |            Array, Dynamic Programming, Greedy             | ![][medium] |        |
+| **0094** |    [Binary Tree Inorder Traversal][94]    |       Stack, Tree, Depth First Search, Binary Tree        |  ![][easy]  |        |
+| **0098** |     [Validate Binary Search Tree][98]     | Tree, Depth First Search, Binary Search Tree, Binary Tree | ![][medium] |        |
+| **0122** | [Best Time to Buy and Sell Stock II][122] |            Array, Dynamic Programming, Greedy             | ![][medium] |        |
+| **1537** |       [Get the Maximum Score][1537]       |      Array, Two Pointer, Dynamic Programming, Greedy      |  ![][hard]  |        |
 
 <!--
 ## Database
@@ -150,50 +150,50 @@
 
 ## Breadth-First Search
 
-|    #     |                    Solution                     |            Tags             | Difficulty  | Remark |
-| :------: | :---------------------------------------------: | :-------------------------: | :---------: | :----: |
+|    #     |                    Solution                     |                            Tags                             | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
 | **0100** |                [Same Tree][100]                 | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
-| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |   Tree, Breadth First Search, Binary Tree    | ![][medium] |        |
+| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |           Tree, Breadth First Search, Binary Tree           | ![][medium] |        |
 | **0104** |       [Maximum Depth of Binary Tree][104]       | Tree, Breadth First Search, Depth First Search, Binary Tree |  ![][easy]  |        |
 | **0111** |       [Minimum Depth of Binary Tree][111]       | Tree, Depth First Search, Breadth First Search, Binary Tree |  ![][easy]  |        |
 | **0199** |       [Binary Tree Right Side View][199]        | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
-| **0230** |      [Kth Smallest Element in a BST ][230]      | Tree, Depth First Search, Binary Search Tree, Binary Tree | ![][medium] |        |
-| **0322** |               [Coin Change][322]                |       Array, Dynamic Programming, BFS        | ![][medium] |        |
-| **0653** |       [Two Sum IV - Input is a BST ][653]       | Tree, Depth First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
+| **0230** |      [Kth Smallest Element in a BST ][230]      |  Tree, Depth First Search, Binary Search Tree, Binary Tree  | ![][medium] |        |
+| **0322** |               [Coin Change][322]                |               Array, Dynamic Programming, BFS               | ![][medium] |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
 
 ## Tree
 
-|    #     |                    Solution                     |                 Tags                  | Difficulty  | Remark |
-| :------: | :---------------------------------------------: | :-----------------------------------: | :---------: | :----: |
-| **0094** |       [Binary Tree Inorder Traversal][94]       |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0098** |        [Validate Binary Search Tree][98]        |      Tree, Depth First Search, Binary Search Tree, Binary Tree      | ![][medium] |        |
-| **0100** |                [Same Tree][100]                 |      Tree, Depth First Search, Breadth First Search, Binary Tree      | ![][medium] |        |
-| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |        Tree, Breadth First Search, Binary Tree         | ![][medium] |        |
-| **0104** |       [Maximum Depth of Binary Tree][104]       |      Tree, Breadth First Search, Depth First Search, Binary Tree      |  ![][easy]  |        |
-| **0110** |           [Balanced Binary Tree][110]           |        Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
-| **0111** |       [Minimum Depth of Binary Tree][111]       |      Tree, Depth First Search, Breadth First Search, Binary Tree      |  ![][easy]  |        |
-| **0144** |      [Binary Tree Preorder Traversal][144]      |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0145** |     [Binary Tree Postorder Traversal][145]      |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0199** |       [Binary Tree Right Side View][199]        |      Tree, Depth First Search, Breadth First Search, Binary Tree      | ![][medium] |        |
-| **0222** |        [Count Complete Tree Nodes][222]         | Binary Search, Tree, Depth First Search, Binary Tree | ![][medium] |        |
-| **0230** |      [Kth Smallest Element in a BST ][230]      |      Tree, Depth First Search, Binary Search Tree, Binary Tree      | ![][medium] |        |
-| **0337** |             [House Robber III][337]             |      Dynamic Programming, Tree, Depth First Search, Binary Tree       | ![][medium] |        |
-| **0543** |         [Diameter of Binary Tree][543]          |        Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
-| **0653** |       [Two Sum IV - Input is a BST ][653]       |      Tree, Depth First Search, Binary Search Tree, Binary Tree      |  ![][easy]  |        |
-| **2236** |      [Root Equal to Sum of Children][2236]      |           Tree, Binary Tree           |  ![][easy]  |        |
+|    #     |                    Solution                     |                            Tags                             | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
+| **0094** |       [Binary Tree Inorder Traversal][94]       |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0098** |        [Validate Binary Search Tree][98]        |  Tree, Depth First Search, Binary Search Tree, Binary Tree  | ![][medium] |        |
+| **0100** |                [Same Tree][100]                 | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
+| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |           Tree, Breadth First Search, Binary Tree           | ![][medium] |        |
+| **0104** |       [Maximum Depth of Binary Tree][104]       | Tree, Breadth First Search, Depth First Search, Binary Tree |  ![][easy]  |        |
+| **0110** |           [Balanced Binary Tree][110]           |            Tree, Depth First Search, Binary Tree            |  ![][easy]  |        |
+| **0111** |       [Minimum Depth of Binary Tree][111]       | Tree, Depth First Search, Breadth First Search, Binary Tree |  ![][easy]  |        |
+| **0144** |      [Binary Tree Preorder Traversal][144]      |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0145** |     [Binary Tree Postorder Traversal][145]      |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0199** |       [Binary Tree Right Side View][199]        | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
+| **0222** |        [Count Complete Tree Nodes][222]         |    Binary Search, Tree, Depth First Search, Binary Tree     | ![][medium] |        |
+| **0230** |      [Kth Smallest Element in a BST ][230]      |  Tree, Depth First Search, Binary Search Tree, Binary Tree  | ![][medium] |        |
+| **0337** |             [House Robber III][337]             | Dynamic Programming, Tree, Depth First Search, Binary Tree  | ![][medium] |        |
+| **0543** |         [Diameter of Binary Tree][543]          |            Tree, Depth First Search, Binary Tree            |  ![][easy]  |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
+| **2236** |      [Root Equal to Sum of Children][2236]      |                      Tree, Binary Tree                      |  ![][easy]  |        |
 
 ## Binary Search
 
-|    #     |                              Solution                               |                    Tags                    | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------------: | :----------------------------------------: | :---------: | :----: |
-| **0004** |                  [Median of Two Sorted Arrays][4]                   |   Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
-| **0222** |                  [Count Complete Tree Nodes][222]                   |   Binary Search, Tree, Depth First Search, Binary Tree    | ![][medium] |        |
-| **0278** |                      [First Bad Version][278]                       |         Binary Search, Interactive         |  ![][easy]  |        |
-| **0300** |                [Longest Increasing Subsequence][300]                |          Array, Binary Search, DP          | ![][medium] |        |
-| **0367** |                     [Valid Perfect Square][367]                     |            Math, Binary Search             |  ![][easy]  |        |
-| **0704** |                        [Binary Search][704]                         |            Array, Binary Search            |  ![][easy]  |        |
-| **0888** |                       [Fair Candy Swap][888]                        | Array, Hash Table, Binary Search, Sorting  |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
+|    #     |                              Solution                               |                         Tags                         | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :--------------------------------------------------: | :---------: | :----: |
+| **0004** |                  [Median of Two Sorted Arrays][4]                   |        Array, Binary Search, Divide & Conquer        |  ![][hard]  |        |
+| **0222** |                  [Count Complete Tree Nodes][222]                   | Binary Search, Tree, Depth First Search, Binary Tree | ![][medium] |        |
+| **0278** |                      [First Bad Version][278]                       |              Binary Search, Interactive              |  ![][easy]  |        |
+| **0300** |                [Longest Increasing Subsequence][300]                |               Array, Binary Search, DP               | ![][medium] |        |
+| **0367** |                     [Valid Perfect Square][367]                     |                 Math, Binary Search                  |  ![][easy]  |        |
+| **0704** |                        [Binary Search][704]                         |                 Array, Binary Search                 |  ![][easy]  |        |
+| **0888** |                       [Fair Candy Swap][888]                        |      Array, Hash Table, Binary Search, Sorting       |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |      Array, Two Pointer, Binary Search, Sorting      | ![][medium] |        |
 
 ## Matrix
 
@@ -203,40 +203,40 @@
 
 ## Binary Tree
 
-|    #     |                    Solution                     |                 Tags                  | Difficulty  | Remark |
-| :------: | :---------------------------------------------: | :-----------------------------------: | :---------: | :----: |
-| **0094** |       [Binary Tree Inorder Traversal][94]       |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0098** |        [Validate Binary Search Tree][98]        |      Tree, Depth First Search, Binary Search Tree, Binary Tree      | ![][medium] |        |
-| **0100** |                [Same Tree][100]                 |      Tree, Depth First Search, Breadth First Search, Binary Tree      | ![][medium] |        |
-| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |        Tree, Breadth First Search, Binary Tree         | ![][medium] |        |
-| **0104** |       [Maximum Depth of Binary Tree][104]       |      Tree, Breadth First Search, Depth First Search, Binary Tree      |  ![][easy]  |        |
-| **0110** |           [Balanced Binary Tree][110]           |        Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
-| **0111** |       [Minimum Depth of Binary Tree][111]       |      Tree, Depth First Search, Breadth First Search, Binary Tree      |  ![][easy]  |        |
-| **0144** |      [Binary Tree Preorder Traversal][144]      |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0145** |     [Binary Tree Postorder Traversal][145]      |     Stack, Tree, Depth First Search, Binary Tree     |  ![][easy]  |        |
-| **0199** |       [Binary Tree Right Side View][199]        |      Tree, Depth First Search, Breadth First Search, Binary Tree      | ![][medium] |        |
-| **0222** |        [Count Complete Tree Nodes][222]         | Binary Search, Tree, Depth First Search, Binary Tree | ![][medium] |        |
-| **0230** |      [Kth Smallest Element in a BST ][230]      |      Tree, Depth First Search, Binary Search Tree, Binary Tree      | ![][medium] |        |
-| **0337** |             [House Robber III][337]             |      Dynamic Programming, Tree, Depth First Search, Binary Tree       | ![][medium] |        |
-| **0543** |         [Diameter of Binary Tree][543]          |        Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
-| **0653** |       [Two Sum IV - Input is a BST ][653]       |      Tree, Depth First Search, Binary Search Tree, Binary Tree      |  ![][easy]  |        |
-| **2236** |      [Root Equal to Sum of Children][2236]      |           Tree, Binary Tree           |  ![][easy]  |        |
+|    #     |                    Solution                     |                            Tags                             | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
+| **0094** |       [Binary Tree Inorder Traversal][94]       |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0098** |        [Validate Binary Search Tree][98]        |  Tree, Depth First Search, Binary Search Tree, Binary Tree  | ![][medium] |        |
+| **0100** |                [Same Tree][100]                 | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
+| **0103** | [Binary Tree Zigzag Level Order Traversal][103] |           Tree, Breadth First Search, Binary Tree           | ![][medium] |        |
+| **0104** |       [Maximum Depth of Binary Tree][104]       | Tree, Breadth First Search, Depth First Search, Binary Tree |  ![][easy]  |        |
+| **0110** |           [Balanced Binary Tree][110]           |            Tree, Depth First Search, Binary Tree            |  ![][easy]  |        |
+| **0111** |       [Minimum Depth of Binary Tree][111]       | Tree, Depth First Search, Breadth First Search, Binary Tree |  ![][easy]  |        |
+| **0144** |      [Binary Tree Preorder Traversal][144]      |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0145** |     [Binary Tree Postorder Traversal][145]      |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
+| **0199** |       [Binary Tree Right Side View][199]        | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
+| **0222** |        [Count Complete Tree Nodes][222]         |    Binary Search, Tree, Depth First Search, Binary Tree     | ![][medium] |        |
+| **0230** |      [Kth Smallest Element in a BST ][230]      |  Tree, Depth First Search, Binary Search Tree, Binary Tree  | ![][medium] |        |
+| **0337** |             [House Robber III][337]             | Dynamic Programming, Tree, Depth First Search, Binary Tree  | ![][medium] |        |
+| **0543** |         [Diameter of Binary Tree][543]          |            Tree, Depth First Search, Binary Tree            |  ![][easy]  |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
+| **2236** |      [Root Equal to Sum of Children][2236]      |                      Tree, Binary Tree                      |  ![][easy]  |        |
 
 ## Two Pointers
 
-|    #     |                              Solution                               |                    Tags                    | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------------: | :----------------------------------------: | :---------: | :----: |
-| **0004** |                  [Median of Two Sorted Arrays][4]                   |   Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
-| **0027** |                        [Remove Element][27]                         |            Array, Two Pointers             |  ![][easy]  |        |
-| **0061** |                          [Rotate List][61]                          |         Linked List, Two Pointers          | ![][medium] |        |
-| **0075** |                          [Sort Colors][75]                          |        Array, Two Pointers, Sorting        | ![][medium] |        |
-| **0283** |                         [Move Zeroes][283]                          |            Array, Two Pointers             |  ![][easy]  |        |
-| **0344** |                        [Reverse String][344]                        |      Two Pointers, String, Recursion       |  ![][easy]  |        |
-| **0541** |                      [Reverse String II][541]                       |            Two Pointers, String            |  ![][easy]  |        |
-| **0653** |                 [Two Sum IV - Input is a BST ][653]                 |        Tree, Depth First Search, Binary Search Tree, Binary Tree         |  ![][easy]  |        |
-| **0876** |                  [Middle of the Linked List][876]                   |         Linked List, Two Pointers          |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] | Array, Two Pointer, Binary Search, Sorting | ![][medium] |        |
-| **1537** |                    [Get the Maximum Score][1537]                    |       Array, Two Pointer, Dynamic Programming, Greedy       |  ![][hard]  |        |
+|    #     |                              Solution                               |                           Tags                            | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :-------------------------------------------------------: | :---------: | :----: |
+| **0004** |                  [Median of Two Sorted Arrays][4]                   |          Array, Binary Search, Divide & Conquer           |  ![][hard]  |        |
+| **0027** |                        [Remove Element][27]                         |                    Array, Two Pointers                    |  ![][easy]  |        |
+| **0061** |                          [Rotate List][61]                          |                 Linked List, Two Pointers                 | ![][medium] |        |
+| **0075** |                          [Sort Colors][75]                          |               Array, Two Pointers, Sorting                | ![][medium] |        |
+| **0283** |                         [Move Zeroes][283]                          |                    Array, Two Pointers                    |  ![][easy]  |        |
+| **0344** |                        [Reverse String][344]                        |              Two Pointers, String, Recursion              |  ![][easy]  |        |
+| **0541** |                      [Reverse String II][541]                       |                   Two Pointers, String                    |  ![][easy]  |        |
+| **0653** |                 [Two Sum IV - Input is a BST ][653]                 | Tree, Depth First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
+| **0876** |                  [Middle of the Linked List][876]                   |                 Linked List, Two Pointers                 |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |        Array, Two Pointer, Binary Search, Sorting         | ![][medium] |        |
+| **1537** |                    [Get the Maximum Score][1537]                    |      Array, Two Pointer, Dynamic Programming, Greedy      |  ![][hard]  |        |
 
 ## Bit Manipulation
 
@@ -249,14 +249,14 @@
 
 ## Stack
 
-|    #     |                     Solution                     |             Tags              | Difficulty  | Remark |
-| :------: | :----------------------------------------------: | :---------------------------: | :---------: | :----: |
+|    #     |                     Solution                     |                     Tags                     | Difficulty  | Remark |
+| :------: | :----------------------------------------------: | :------------------------------------------: | :---------: | :----: |
 | **0094** |       [Binary Tree Inorder Traversal][94]        | Tree, Stack, Depth First Search, Binary Tree |  ![][easy]  |        |
 | **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, Depth First Search, Binary Tree |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, Depth First Search, Binary Tree |  ![][easy]  |        |
-| **0445** |            [Add Two Numbers II][445]             |   Linked List, Math, Stack    | ![][medium] |        |
-| **0739** |            [Daily Temperatures][739]             | Array, Stack, Monotonic Stack | ![][medium] |        |
-| **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         |  ![][easy]  |        |
+| **0445** |            [Add Two Numbers II][445]             |           Linked List, Math, Stack           | ![][medium] |        |
+| **0739** |            [Daily Temperatures][739]             |        Array, Stack, Monotonic Stack         | ![][medium] |        |
+| **1047** | [Remove All Adjacent Duplicates In String][1047] |                String, Stack                 |  ![][easy]  |        |
 
 <!--
 ## Design
@@ -346,14 +346,14 @@
 
 ## Recursion
 
-|    #     |          Solution          |               Tags                | Difficulty  | Remark |
-| :------: | :------------------------: | :-------------------------------: | :---------: | :----: |
-| **0002** |    [Add Two Numbers][2]    |   Linked List, Math, Recursion    | ![][medium] |        |
-| **0024** | [Swap Nodes in Pairs][24]  |      Linked List, Recursion       | ![][medium] |        |
-| **0206** | [Reverse Linked List][206] |      Linked List, Recursion       |  ![][easy]  |        |
-| **0231** |    [Power of Two][231]     | Math, Bit Manipulation, Recursion |  ![][easy]  |        |
-| **0344** |   [Reverse String][344]    |  Two Pointers, String, Recursion  |  ![][easy]  |        |
-| **0509** |  [Fibonacci Number][509]   | Math, Recursion, Dynamic Programming, Memoization  |  ![][easy]  |        |
+|    #     |          Solution          |                       Tags                        | Difficulty  | Remark |
+| :------: | :------------------------: | :-----------------------------------------------: | :---------: | :----: |
+| **0002** |    [Add Two Numbers][2]    |           Linked List, Math, Recursion            | ![][medium] |        |
+| **0024** | [Swap Nodes in Pairs][24]  |              Linked List, Recursion               | ![][medium] |        |
+| **0206** | [Reverse Linked List][206] |              Linked List, Recursion               |  ![][easy]  |        |
+| **0231** |    [Power of Two][231]     |         Math, Bit Manipulation, Recursion         |  ![][easy]  |        |
+| **0344** |   [Reverse String][344]    |          Two Pointers, String, Recursion          |  ![][easy]  |        |
+| **0509** |  [Fibonacci Number][509]   | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
 
 <!--
 ## Trie
@@ -364,8 +364,8 @@
 
 ## Binary Search Tree
 
-|    #     |              Solution               |            Tags             | Difficulty | Remark |
-| :------: | :---------------------------------: | :-------------------------: | :--------: | :----: |
+|    #     |              Solution               |                           Tags                            | Difficulty | Remark |
+| :------: | :---------------------------------: | :-------------------------------------------------------: | :--------: | :----: |
 | **0653** | [Two Sum IV - Input is a BST ][653] | Tree, Depth First Search, Binary Search Tree, Binary Tree | ![][easy]  |        |
 
 ## Divide and Conquer
@@ -398,8 +398,8 @@
 
 ## Memoization
 
-|    #     |        Solution         |               Tags               | Difficulty | Remark |
-| :------: | :---------------------: | :------------------------------: | :--------: | :----: |
+|    #     |        Solution         |                       Tags                        | Difficulty | Remark |
+| :------: | :---------------------: | :-----------------------------------------------: | :--------: | :----: |
 | **0070** |  [Climbing Stairs][70]  |      Math, Dynamic Programming, Memoization       | ![][easy]  |        |
 | **0509** | [Fibonacci Number][509] | Math, Recursion, Dynamic Programming, Memoization | ![][easy]  |        |
 
