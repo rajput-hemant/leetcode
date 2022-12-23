@@ -65,7 +65,10 @@ def refactor_readmes():
     with open(TOPICWISE, encoding="utf=8") as file:
         topicwise = file.readlines()
 
+    total_dir = 0
+
     for path, dirs, _ in sorted(os.walk(SRC_FOLDER)):
+        total_dir += 1
         for dir_ in sorted(dirs):
             if re.match(r"\d{4}-\d{4}", dir_) or ("definitions" in dir_):
                 continue
@@ -90,6 +93,7 @@ def refactor_readmes():
             elif generate_logs(idx, subdir, problems):
                 update_sols(subdir)
 
+    update_total_problems_solved(total_dir)
     with open(SERIALWISE, "w", encoding="utf=8") as file:
         file.writelines(serialwise)
     with open(TOPICWISE, "w", encoding="utf=8") as file:
@@ -374,6 +378,26 @@ def refactor_topicewise(file, line_, question, path):
                 file.insert(i, new_line)
                 break
     return file
+
+
+def update_total_problems_solved(total_dirs):
+    """
+    Updates the total problems solved in the README.md & docs/index.md file.
+    params: total_dirs (int)
+    """
+    
+    total_probs = total_dirs - len(os.listdir(SRC_FOLDER))
+    line = f"### **Total Problems Solved: _{total_probs}_**\n"
+
+    with open("README.md") as file_1, open("./docs/index.md") as file_2:
+        data_1 = file_1.readlines()
+        data_2 = file_2.readlines()
+
+    data_1[97] = data_2[101] = line
+
+    with open("README.md", "w") as file_1, open("./docs/index.md", "w") as file_2:
+        file_1.writelines(data_1)
+        file_2.writelines(data_2)
 
 
 def main():
