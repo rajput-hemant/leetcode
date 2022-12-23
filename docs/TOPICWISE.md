@@ -10,7 +10,9 @@
 
 ## 🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.
 
-### Press `Ctrl`+`F` or `⌘`+`F` to search for a specific problem
+### 🔍 Press `Ctrl`+`F` or `⌘`+`F` to search for a specific problem
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Array
 
@@ -37,8 +39,10 @@
 | **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                Array, Prefix Sum                |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                 Array, Sorting                  |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |   Array, Two Pointer, Binary Search, Sorting    | ![][medium] |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |   Array, Two Pointers, Binary Search, Sorting   | ![][medium] |        |
 | **1537** |                    [Get the Maximum Score][1537]                    | Array, Two Pointer, Dynamic Programming, Greedy |  ![][hard]  |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## String
 
@@ -53,9 +57,11 @@
 | **0541** |                   [Reverse String II][541]                    |             Two Pointers, String              |  ![][easy]  |        |
 | **0771** |                   [Jewels and Stones][771]                    |               String, Hashtable               |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                 String, Stack                 |  ![][easy]  |        |
-| **1092** |    [Shortest Common Supersequence][1092] (Not in LeetCode)    |                  String, DP                   |  ![][hard]  |        |
+| **1092** |             [Shortest Common Supersequence][1092]             |                  String, DP                   |  ![][hard]  |        |
 | **1143** |              [Longest Common Subsequence][1143]               |                  String, DP                   | ![][medium] |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Hash Table
 
@@ -69,23 +75,27 @@
 | **0888** |       [Fair Candy Swap][888]        |         Array, Hash Table, Binary Search, Sorting         |  ![][easy]  |        |
 | **0771** |      [Jewels and Stones][771]       |                     String, Hashtable                     |  ![][easy]  |        |
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Dynamic Programming
 
-|    #     |                        Solution                         |                            Tags                            | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------: | :--------------------------------------------------------: | :---------: | :----: |
-| **0055** |                     [Jump Game][55]                     |             Array, Dynamic Programming, Greedy             | ![][medium] |        |
-| **0070** |                  [Climbing Stairs][70]                  |           Math, Dynamic Programming, Memoization           |  ![][easy]  |        |
-| **0072** |                   [Edit Distance][72]                   |                         String, DP                         |  ![][hard]  |        |
-| **0122** |        [Best Time to Buy and Sell Stock II][122]        |             Array, Dynamic Programming, Greedy             | ![][medium] |        |
-| **0300** |          [Longest Increasing Subsequence][300]          |                  Array, Binary Search, DP                  | ![][medium] |        |
-| **0322** |                   [Coin Change][322]                    |              Array, Dynamic Programming, BFS               | ![][medium] |        |
-| **0337** |                 [House Robber III][337]                 | Dynamic Programming, Tree, Depth First Search, Binary Tree | ![][medium] |        |
-| **0509** |                 [Fibonacci Number][509]                 |     Math, Recursion, Dynamic Programming, Memoization      |  ![][easy]  |        |
-| **0516** |         [Longest Palindromic Subsequence][516]          |                         String, DP                         | ![][medium] |        |
-| **0518** |                  [Coin Change 2][518]                   |                         Array, DP                          | ![][medium] |        |
-| **1092** | [Shortest Common Supersequence][1092] (Not in LeetCode) |                         String, DP                         |  ![][hard]  |        |
-| **1143** |           [Longest Common Subsequence][1143]            |                         String, DP                         | ![][medium] |        |
-| **1537** |              [Get the Maximum Score][1537]              |      Array, Two Pointer, Dynamic Programming, Greedy       |  ![][hard]  |        |
+|    #     |                 Solution                  |                            Tags                            | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :--------------------------------------------------------: | :---------: | :----: |
+| **0055** |              [Jump Game][55]              |             Array, Dynamic Programming, Greedy             | ![][medium] |        |
+| **0070** |           [Climbing Stairs][70]           |           Math, Dynamic Programming, Memoization           |  ![][easy]  |        |
+| **0072** |            [Edit Distance][72]            |                         String, DP                         |  ![][hard]  |        |
+| **0122** | [Best Time to Buy and Sell Stock II][122] |             Array, Dynamic Programming, Greedy             | ![][medium] |        |
+| **0300** |   [Longest Increasing Subsequence][300]   |                  Array, Binary Search, DP                  | ![][medium] |        |
+| **0322** |            [Coin Change][322]             |              Array, Dynamic Programming, BFS               | ![][medium] |        |
+| **0337** |          [House Robber III][337]          | Dynamic Programming, Tree, Depth First Search, Binary Tree | ![][medium] |        |
+| **0509** |          [Fibonacci Number][509]          |     Math, Recursion, Dynamic Programming, Memoization      |  ![][easy]  |        |
+| **0516** |  [Longest Palindromic Subsequence][516]   |                         String, DP                         | ![][medium] |        |
+| **0518** |           [Coin Change 2][518]            |                         Array, DP                          | ![][medium] |        |
+| **1092** |   [Shortest Common Supersequence][1092]   |                         String, DP                         |  ![][hard]  |        |
+| **1143** |    [Longest Common Subsequence][1143]     |                         String, DP                         | ![][medium] |        |
+| **1537** |       [Get the Maximum Score][1537]       |      Array, Two Pointer, Dynamic Programming, Greedy       |  ![][hard]  |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Math
 
@@ -103,6 +113,8 @@
 | **0509** |        [Fibonacci Number][509]         | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
 | **1232** | [Check If It Is a Straight Line][1232] |               Array, Math, Geometry               |  ![][easy]  |        |
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Sorting
 
 |    #     |                              Solution                               |                     Tags                      | Difficulty  | Remark |
@@ -111,10 +123,12 @@
 | **0389** |                     [Find the Difference][389]                      | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **0506** |                        [Relative Ranks][506]                        |             Array, Sorting, Heap              |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |  Array, Two Pointers, Binary Search, Sorting  | ![][medium] |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                Array, Sorting                 |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |  Array, Two Pointer, Binary Search, Sorting   | ![][medium] |        |
 
-## Depth-First Search
+<!---------------------------------{ Solution Table }-------------------------->
+
+## Depth First Search
 
 |    #     |                Solution                |                            Tags                             | Difficulty  | Remark |
 | :------: | :------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
@@ -131,6 +145,8 @@
 | **0543** |     [Diameter of Binary Tree][543]     |            Tree, Depth First Search, Binary Tree            |  ![][easy]  |        |
 | **0653** |  [Two Sum IV - Input is a BST ][653]   |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Greedy
 
 |    #     |                 Solution                  |                           Tags                            | Difficulty  | Remark |
@@ -141,14 +157,16 @@
 | **0122** | [Best Time to Buy and Sell Stock II][122] |            Array, Dynamic Programming, Greedy             | ![][medium] |        |
 | **1537** |       [Get the Maximum Score][1537]       |      Array, Two Pointer, Dynamic Programming, Greedy      |  ![][hard]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Database
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-## Breadth-First Search
+<!---------------------------------{ Solution Table }-------------------------->
+
+## Breadth First Search
 
 |    #     |                    Solution                     |                            Tags                             | Difficulty  | Remark |
 | :------: | :---------------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
@@ -160,6 +178,8 @@
 | **0230** |      [Kth Smallest Element in a BST ][230]      |  Tree, Depth First Search, Binary Search Tree, Binary Tree  | ![][medium] |        |
 | **0322** |               [Coin Change][322]                |               Array, Dynamic Programming, BFS               | ![][medium] |        |
 | **0653** |       [Two Sum IV - Input is a BST ][653]       |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Tree
 
@@ -182,6 +202,8 @@
 | **0653** |       [Two Sum IV - Input is a BST ][653]       |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
 | **2236** |      [Root Equal to Sum of Children][2236]      |                      Tree, Binary Tree                      |  ![][easy]  |        |
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Binary Search
 
 |    #     |                              Solution                               |                         Tags                         | Difficulty  | Remark |
@@ -192,14 +214,18 @@
 | **0300** |                [Longest Increasing Subsequence][300]                |               Array, Binary Search, DP               | ![][medium] |        |
 | **0367** |                     [Valid Perfect Square][367]                     |                 Math, Binary Search                  |  ![][easy]  |        |
 | **0704** |                        [Binary Search][704]                         |                 Array, Binary Search                 |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |     Array, Two Pointers, Binary Search, Sorting      | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        |      Array, Hash Table, Binary Search, Sorting       |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |      Array, Two Pointer, Binary Search, Sorting      | ![][medium] |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Matrix
 
 |    #     |      Solution       |            Tags             | Difficulty | Remark |
 | :------: | :-----------------: | :-------------------------: | :--------: | :----: |
 | **0037** | [Sudoku Solver][37] | Array, Backtracking, Matrix | ![][hard]  |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Binary Tree
 
@@ -222,6 +248,8 @@
 | **0653** |       [Two Sum IV - Input is a BST ][653]       |  Tree, Depth First Search, Binary Search Tree, Binary Tree  |  ![][easy]  |        |
 | **2236** |      [Root Equal to Sum of Children][2236]      |                      Tree, Binary Tree                      |  ![][easy]  |        |
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Two Pointers
 
 |    #     |                              Solution                               |                           Tags                            | Difficulty  | Remark |
@@ -235,8 +263,10 @@
 | **0541** |                      [Reverse String II][541]                       |                   Two Pointers, String                    |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST ][653]                 | Tree, Depth First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |                 Linked List, Two Pointers                 |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |        Array, Two Pointer, Binary Search, Sorting         | ![][medium] |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |        Array, Two Pointers, Binary Search, Sorting        | ![][medium] |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |      Array, Two Pointer, Dynamic Programming, Greedy      |  ![][hard]  |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Bit Manipulation
 
@@ -246,6 +276,8 @@
 | **0231** |                      [Power of Two][231]                      |       Math, Bit Manipulation, Recursion       |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Stack
 
@@ -258,12 +290,14 @@
 | **0739** |            [Daily Temperatures][739]             |        Array, Stack, Monotonic Stack         | ![][medium] |        |
 | **1047** | [Remove All Adjacent Duplicates In String][1047] |                String, Stack                 |  ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Design
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Heap (Priority Queue)
 
@@ -271,19 +305,21 @@
 | :------: | :-------------------: | :------------------: | :--------: | :----: |
 | **0506** | [Relative Ranks][506] | Array, Sorting, Heap | ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Graph
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Simulation
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Backtracking
 
@@ -292,25 +328,29 @@
 | **0037** | [Sudoku Solver][37] | Array, Backtracking, Matrix | ![][hard]  |        |
 | **0051** |   [N-Queens][51]    |     Array, Backtracking     | ![][hard]  |        |
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Prefix Sum
 
 |    #     |            Solution             |       Tags        | Difficulty | Remark |
 | :------: | :-----------------------------: | :---------------: | :--------: | :----: |
 | **1480** | [Running Sum of 1d Array][1480] | Array, Prefix Sum | ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Counting
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Sliding Window
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Linked List
 
@@ -324,25 +364,29 @@
 | **0445** |    [Add Two Numbers II][445]     |   Linked List, Math, Stack   | ![][medium] |        |
 | **0876** | [Middle of the Linked List][876] |  Linked List, Two Pointers   |  ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Union Find
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Ordered Set
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Monotonic Stack
 
 |    #     |         Solution          |             Tags              | Difficulty  | Remark |
 | :------: | :-----------------------: | :---------------------------: | :---------: | :----: |
 | **0739** | [Daily Temperatures][739] | Array, Stack, Monotonic Stack | ![][medium] |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Recursion
 
@@ -355,18 +399,22 @@
 | **0344** |   [Reverse String][344]    |          Two Pointers, String, Recursion          |  ![][easy]  |        |
 | **0509** |  [Fibonacci Number][509]   | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Trie
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Binary Search Tree
 
 |    #     |              Solution               |                           Tags                            | Difficulty | Remark |
 | :------: | :---------------------------------: | :-------------------------------------------------------: | :--------: | :----: |
 | **0653** | [Two Sum IV - Input is a BST ][653] | Tree, Depth First Search, Binary Search Tree, Binary Tree | ![][easy]  |        |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Divide and Conquer
 
@@ -375,26 +423,28 @@
 | **0004** | [Median of Two Sorted Arrays][4] | Array, Binary Search, Divide & Conquer | ![][hard]  |        |
 | **0191** |     [Number of 1 Bits][191]      |   Divide & Conquer, Bit Manipulation   | ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Enumeration
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Bitmask
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Queue
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Memoization
 
@@ -403,32 +453,36 @@
 | **0070** |  [Climbing Stairs][70]  |      Math, Dynamic Programming, Memoization       | ![][easy]  |        |
 | **0509** | [Fibonacci Number][509] | Math, Recursion, Dynamic Programming, Memoization | ![][easy]  |        |
 
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Geometry
 
 |    #     |                Solution                |         Tags          | Difficulty | Remark |
 | :------: | :------------------------------------: | :-------------------: | :--------: | :----: |
 | **1232** | [Check If It Is a Straight Line][1232] | Array, Math, Geometry | ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Topological Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Segment Tree
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Game Theory
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Hash Function
 
@@ -436,12 +490,14 @@
 | :------: | :-----------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Rolling Hash, Hash Function | ![][medium] |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Binary Indexed Tree
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Interactive
 
@@ -449,12 +505,14 @@
 | :------: | :----------------------: | :------------------------: | :--------: | :----: |
 | **0278** | [First Bad Version][278] | Binary Search, Interactive | ![][easy]  |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## String Matching
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
+
+<!---------------------------------{ Solution Table }-------------------------->
 
 ## Rolling Hash
 
@@ -462,182 +520,184 @@
 | :------: | :-----------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] | String, Hash Table, Rolling Hash, Hash Function | ![][medium] |        |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Shortest Path
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Number Theory
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Data Stream
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Combinatorics
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Randomized
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Monotonic Queue
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Iterator
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Merge Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Concurrency
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
-## Doubly-Linked List
+<!---------------------------------{ Solution Table }-------------------------->
+
+## Doubly Linked List
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Brainteaser
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Probability and Statistics
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Quickselect
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Bucket Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Suffix Array
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Minimum Spanning Tree
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Counting Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Shell
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Line Sweep
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Reservoir Sampling
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Eulerian Circuit
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Radix Sort
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Strongly Connected Component
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Rejection Sampling
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
-<!--
+<!---------------------------------{ Solution Table }-------------------------->
+
 ## Biconnected Component
 
 |  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :------: |
--->
+| :-: | :------: | :--: | :--------: | :----: |
 
 </div>
+
+<!---------------------------------{ Path Reference }-------------------------->
 
 [1]: ./solution/0001-0100/001%20-%20Two%20Sum.md
 [2]: ./solution/0001-0100/002%20-%20Add%20Two%20Numbers.md
