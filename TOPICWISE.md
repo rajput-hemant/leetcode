@@ -57,7 +57,7 @@
 | **0541** |                   [Reverse String II][541]                    |             Two Pointers, String              |  ![][easy]  |        |
 | **0771** |                   [Jewels and Stones][771]                    |               String, Hashtable               |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                 String, Stack                 |  ![][easy]  |        |
-| **1092** |    [Shortest Common Supersequence][1092] (Not in LeetCode)    |                  String, DP                   |  ![][hard]  |        |
+| **1092** |             [Shortest Common Supersequence][1092]             |                  String, DP                   |  ![][hard]  |        |
 | **1143** |              [Longest Common Subsequence][1143]               |                  String, DP                   | ![][medium] |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
 
@@ -79,21 +79,21 @@
 
 ## Dynamic Programming
 
-|    #     |                        Solution                         |               Tags               | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------: | :------------------------------: | :---------: | :----: |
-| **0055** |                     [Jump Game][55]                     |        Array, DP, Greedy         | ![][medium] |        |
-| **0070** |                  [Climbing Stairs][70]                  |      Math, DP, Memoization       |  ![][easy]  |        |
-| **0072** |                   [Edit Distance][72]                   |            String, DP            |  ![][hard]  |        |
-| **0122** |        [Best Time to Buy and Sell Stock II][122]        |        Array, DP, Greedy         | ![][medium] |        |
-| **0300** |          [Longest Increasing Subsequence][300]          |     Array, Binary Search, DP     | ![][medium] |        |
-| **0322** |                   [Coin Change][322]                    |          Array, DP, BFS          | ![][medium] |        |
-| **0337** |                 [House Robber III][337]                 |    DP, Tree, DFS, Binary Tree    | ![][medium] |        |
-| **0509** |                 [Fibonacci Number][509]                 | Math, Recursion, DP, Memoization |  ![][easy]  |        |
-| **0516** |         [Longest Palindromic Subsequence][516]          |            String, DP            | ![][medium] |        |
-| **0518** |                  [Coin Change 2][518]                   |            Array, DP             | ![][medium] |        |
-| **1092** | [Shortest Common Supersequence][1092] (Not in LeetCode) |            String, DP            |  ![][hard]  |        |
-| **1143** |           [Longest Common Subsequence][1143]            |            String, DP            | ![][medium] |        |
-| **1537** |              [Get the Maximum Score][1537]              |  Array, Two Pointer, DP, Greedy  |  ![][hard]  |        |
+|    #     |                 Solution                  |               Tags               | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :------------------------------: | :---------: | :----: |
+| **0055** |              [Jump Game][55]              |        Array, DP, Greedy         | ![][medium] |        |
+| **0070** |           [Climbing Stairs][70]           |      Math, DP, Memoization       |  ![][easy]  |        |
+| **0072** |            [Edit Distance][72]            |            String, DP            |  ![][hard]  |        |
+| **0122** | [Best Time to Buy and Sell Stock II][122] |        Array, DP, Greedy         | ![][medium] |        |
+| **0300** |   [Longest Increasing Subsequence][300]   |     Array, Binary Search, DP     | ![][medium] |        |
+| **0322** |            [Coin Change][322]             |          Array, DP, BFS          | ![][medium] |        |
+| **0337** |          [House Robber III][337]          |    DP, Tree, DFS, Binary Tree    | ![][medium] |        |
+| **0509** |          [Fibonacci Number][509]          | Math, Recursion, DP, Memoization |  ![][easy]  |        |
+| **0516** |  [Longest Palindromic Subsequence][516]   |            String, DP            | ![][medium] |        |
+| **0518** |           [Coin Change 2][518]            |            Array, DP             | ![][medium] |        |
+| **1092** |   [Shortest Common Supersequence][1092]   |            String, DP            |  ![][hard]  |        |
+| **1143** |    [Longest Common Subsequence][1143]     |            String, DP            | ![][medium] |        |
+| **1537** |       [Get the Maximum Score][1537]       |  Array, Two Pointer, DP, Greedy  |  ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 

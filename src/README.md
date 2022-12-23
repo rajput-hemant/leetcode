@@ -8,7 +8,7 @@
 
 ## 🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.
 
-### Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem
+### 🔍 Press <kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>⌘</kbd>+<kbd>F</kbd> to search for a specific problem
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -72,7 +72,7 @@
 | **0876** |                  [Middle of the Linked List][876]                   |           Linked List, Two Pointers           |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                 String, Stack                 |  ![][easy]  |        |
-| **1092** |       [Shortest Common Supersequence][1092] (Not in LeetCode)       |                  String, DP                   |  ![][hard]  |        |
+| **1092** |                [Shortest Common Supersequence][1092]                |                  String, DP                   |  ![][hard]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                  String, DP                   | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |             Array, Math, Geometry             |  ![][easy]  |        |
 | **1461** |    [Check If a String Contains All Binary Codes of Size K][1461]    |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
