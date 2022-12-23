@@ -19,23 +19,15 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r .dev/requirements.txt
 
-      - name: updating total problems solved # to get the latest solved problems count
-        run: python .dev/total_problems.py
-
-      - name: commit files
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updating total problems solved" --allow-empty)
-
-      - name: updating all REAMDE files # to update docs
+      - name: updating all README files # to update all READMEs in src/
         run: |
           python .dev/update_readmes.py
           npx prettier --write .
 
       - name: commit files
         run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updating all READMEs" --allow-empty)
 
@@ -43,6 +35,7 @@ jobs:
         run: |
           sh start.sh
           python .dev/docs.py
+          npx prettier --write .
 
       - name: commit files
         run: |
