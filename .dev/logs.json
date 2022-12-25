@@ -64,8 +64,10 @@
     }
   },
   "14": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "LongestCommonPrefix.java": "231e1d8fd486215e737568fcd85308bfebafb5ac3100ee6174e62dd524d55d5f"
+    }
   },
   "15": {
     "len": 0,
@@ -828,16 +830,20 @@
     "sols": {}
   },
   "193": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "valid_phone_numbers.sh": "3cff965ac47e4569e123e5a893ca5b9ec151ad68b3a8125ec59b71faf90509a8"
+    }
   },
   "194": {
     "len": 0,
     "sols": {}
   },
   "195": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "tenth_line.sh": "bc051b1d8bacb8a85f47df29dd23b0975b43ae973f62d4837182b67a67f60940"
+    }
   },
   "196": {
     "len": 0,
@@ -7958,8 +7964,10 @@
     "sols": {}
   },
   "1957": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "DeleteCharactersToMakeFancyString.java": "d0203c1c544fa09c7fa580696199c1497cef76a15fa7a15082613d69a109e814"
+    }
   },
   "1958": {
     "len": 0,

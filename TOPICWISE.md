@@ -49,6 +49,7 @@
 |    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
 | **0013** |                    [Roman to Integer][13]                     |           String, Math, Hash Table            |  ![][easy]  |        |
+| **0014** |                  [Longest Common Prefix][14]                  |                    String                     |  ![][easy]  |        |
 | **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
@@ -60,6 +61,7 @@
 | **1092** |             [Shortest Common Supersequence][1092]             |                  String, DP                   |  ![][hard]  |        |
 | **1143** |              [Longest Common Subsequence][1143]               |                  String, DP                   | ![][medium] |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
+| **1957** |        [Delete Characters to Make Fancy String][1957]         |                    String                     |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -643,8 +645,10 @@
 
 ## Shell
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |          Solution          | Tags  | Difficulty | Remark |
+| :------: | :------------------------: | :---: | :--------: | :----: |
+| **0193** | [Valid Phone Numbers][193] | Shell | ![][easy]  |        |
+| **0195** |     [Tenth Line][195]      | Shell | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -705,6 +709,7 @@
 [7]: ./src//0001-0100/007%20-%20Reverse%20Integer/
 [9]: ./src/0001-0100/009%20-%20Palindrome%20Number/
 [13]: ./src/0001-0100/013%20-%20Roman%20to%20Integer/
+[14]: ./src/0001-0100/014%20-%20Longest%20Common%20Prefix
 [24]: ./src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./src/0001-0100/027%20-%20Remove%20Element/
@@ -728,6 +733,8 @@
 [145]: ./src/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [172]: ./src/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
 [191]: ./src/0101-0200/191%20-%20Number%20of%201%20Bits/
+[193]: ./src/0101-0200/193%20-%20Valid%20Phone%20Numbers
+[195]: ./src/0101-0200/195%20-%20Tenth%20Line
 [199]: ./src/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View/
 [206]: ./src/0201-0300/206%20-%20Reverse%20Linked%20List/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
@@ -765,6 +772,7 @@
 [1491]: ./src/1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary/
 [1498]: ./src/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/
 [1537]: ./src/1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
+[1957]: ./src/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String
 [2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 
 <!----------------------------------{ Labels }--------------------------------->
