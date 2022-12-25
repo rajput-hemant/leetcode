@@ -20,6 +20,7 @@
 | **0007** |                        [Reverse Integer][7]                         |                            Math                             | ![][medium] |        |
 | **0009** |                       [Palindrome Number][9]                        |                            Math                             |  ![][easy]  |        |
 | **0013** |                       [Roman to Integer][13]                        |                  String, Math, Hash Table                   |  ![][easy]  |        |
+| **0014** |                     [Longest Common Prefix][14]                     |                           String                            |  ![][easy]  |        |
 | **0024** |                      [Swap Nodes in Pairs][24]                      |                   Linked List, Recursion                    | ![][medium] |        |
 | **0026** |                       [Remove Duplicates][26]                       |                     Array, Two Pointers                     |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |                     Array, Two Pointers                     |  ![][easy]  |        |
@@ -43,6 +44,8 @@
 | **0145** |               [Binary Tree Postorder Traversal][145]                |        Stack, Tree, Depth First Search, Binary Tree         |  ![][easy]  |        |
 | **0172** |                  [Factorial Trailing Zeroes][172]                   |                            Math                             | ![][medium] |        |
 | **0191** |                       [Number of 1 Bits][191]                       |             Divide & Conquer, Bit Manipulation              |  ![][easy]  |        |
+| **0193** |                     [Valid Phone Numbers][193]                      |                            Shell                            |  ![][easy]  |        |
+| **0195** |                          [Tenth Line][195]                          |                            Shell                            |  ![][easy]  |        |
 | **0199** |                 [Binary Tree Right Side View][199]                  | Tree, Depth First Search, Breadth First Search, Binary Tree | ![][medium] |        |
 | **0206** |                     [Reverse Linked List][206]                      |                   Linked List, Recursion                    |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |    Binary Search, Tree, Depth First Search, Binary Tree     | ![][medium] |        |
@@ -80,6 +83,7 @@
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                       Array, Sorting                        |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |         Array, Two Pointer, Binary Search, Sorting          | ![][medium] |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |       Array, Two Pointer, Dynamic Programming, Greedy       |  ![][hard]  |        |
+| **1957** |           [Delete Characters to Make Fancy String][1957]            |                           String                            |  ![][easy]  |        |
 | **2236** |                [Root Equal to Sum of Children][2236]                |                      Tree, Binary Tree                      |  ![][easy]  |        |
 
 </div>
@@ -91,6 +95,7 @@
 [7]: ./solution/0001-0100/007%20-%20Reverse%20Integer.md
 [9]: ./solution/0001-0100/009%20-%20Palindrome%20Number.md
 [13]: ./solution/0001-0100/013%20-%20Roman%20to%20Integer.md
+[14]: ./solution/0001-0100/014%20-%20Longest%20Common%20Prefix
 [24]: ./solution/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs.md
 [26]: ./solution/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array.md
 [27]: ./solution/0001-0100/027%20-%20Remove%20Element.md
@@ -114,6 +119,8 @@
 [145]: ./solution/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal.md
 [172]: ./solution/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes.md
 [191]: ./solution/0101-0200/191%20-%20Number%20of%201%20Bits.md
+[193]: ./solution/0101-0200/193%20-%20Valid%20Phone%20Numbers
+[195]: ./solution/0101-0200/195%20-%20Tenth%20Line
 [199]: ./solution/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View.md
 [206]: ./solution/0201-0300/206%20-%20Reverse%20Linked%20List.md
 [222]: ./solution/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes.md
@@ -151,6 +158,7 @@
 [1491]: ./solution/1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary.md
 [1498]: ./solution/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition.md
 [1537]: ./solution/1501-1600/1537%20-%20Get%20the%20Maximum%20Score.md
+[1957]: ./solution/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String
 [2236]: ./solution/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children.md
 
 <!----------------------------------{ Labels }--------------------------------->

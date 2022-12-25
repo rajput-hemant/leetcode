@@ -29,6 +29,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/013 - Roman to Integer.md",
       },
       {
+        text: "014 - Longest Common Prefix",
+        link: "/solution/0001-0100/014 - Longest Common Prefix.md",
+      },
+      {
         text: "024 - Swap Nodes in Pairs",
         link: "/solution/0001-0100/024 - Swap Nodes in Pairs.md",
       },
@@ -126,6 +130,14 @@ export default Sidebar = [
       {
         text: "191 - Number of 1 Bits",
         link: "/solution/0101-0200/191 - Number of 1 Bits.md",
+      },
+      {
+        text: "193 - Valid Phone Numbers",
+        link: "/solution/0101-0200/193 - Valid Phone Numbers.md",
+      },
+      {
+        text: "195 - Tenth Line",
+        link: "/solution/0101-0200/195 - Tenth Line.md",
       },
       {
         text: "199 - Binary Tree Right Side View",
@@ -358,6 +370,17 @@ export default Sidebar = [
       {
         text: "1537 - Get the Maximum Score",
         link: "/solution/1501-1600/1537 - Get the Maximum Score.md",
+      },
+    ],
+  },
+  {
+    text: "1901-2000",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "1957 - Delete Characters to Make Fancy String",
+        link: "/solution/1901-2000/1957 - Delete Characters to Make Fancy String.md",
       },
     ],
   },
