@@ -112,8 +112,8 @@
 ```mermaid
   graph TD;
       A[rajput-hemant/leetcode] --1--> B[create a fork <br> your-username/leetcode];
-      B --2--> C[git clone to your local machine];
-      C --3--> D[checkout new branch, make these changes <br> a. add solution <br> b. add problem README.md <br> c. update TOPICWISE.md & src/README.md];
+      B --2--> C[clone your fork to your local machine];
+      C --3--> D[checkout new branch, <br>update or add your solution in relevant folder];
       D --4--> E[commit & push changes];
       E --5--> B;
       B --6--> F[create a pull request];

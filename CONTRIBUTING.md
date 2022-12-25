@@ -27,7 +27,7 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 To send us a pull request, please:
 
 1. Fork the repository.
-2. Modify the source or Add your solution & problem README.md, and update TOPICWISE.md & src/README.md.
+2. Modify the source or Add your solution.
 3. Ensure all testcases passes.
 4. Commit to your fork with relevant commit messages.
 5. Send us a pull request.
