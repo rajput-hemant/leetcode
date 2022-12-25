@@ -34,6 +34,7 @@ LANGS = {
     "erl": "Erlang",
     "ex": "Elixir",
     "dart": "Dart",
+    "sh": "Shell",
 }
 TAGS = {
     "Binary Indexed Tree": "BIT",
@@ -60,10 +61,9 @@ def refactor_readmes():
 
     log("Refactoring README.md files...")
 
-    with open(SERIALWISE, encoding="utf=8") as file:
-        serialwise = file.readlines()
-    with open(TOPICWISE, encoding="utf=8") as file:
-        topicwise = file.readlines()
+    with open(SERIALWISE) as file_1, open(TOPICWISE) as file_2:
+        serialwise = file_1.readlines()
+        topicwise = file_2.readlines()
 
     total_dir = 0
 
@@ -74,7 +74,7 @@ def refactor_readmes():
                 continue
             subdir = os.path.join(path, dir_)
             problems = os.listdir(subdir)
-            idx = re.match(r"\d{1,4}", dir_)[0]
+            prblm_no = re.match(r"\d{1,4}", dir_)[0]
             if "README.md" not in problems:
                 url = gsearch(dir_)
                 question = parse_json(url)
@@ -90,26 +90,28 @@ def refactor_readmes():
                     question,
                     subdir,
                 )
-            elif generate_logs(idx, subdir, problems):
+            file_changed = generate_logs(prblm_no, subdir)
+            if file_changed:
                 update_sols(subdir)
 
     update_total_problems_solved(total_dir)
-    with open(SERIALWISE, "w", encoding="utf=8") as file:
-        file.writelines(serialwise)
-    with open(TOPICWISE, "w", encoding="utf=8") as file:
-        file.writelines(topicwise)
+
+    with open(SERIALWISE, "w") as file_1, open(TOPICWISE, "w") as file_2:
+        file_1.writelines(serialwise)
+        file_2.writelines(topicwise)
 
 
-def generate_logs(index, path, problems):
+def generate_logs(id, path):
     """
     Generates logs.json file.
-    params: index (str), path (str), problems (list)
+    params: problem id (str), path to solution folder (str)
     returns: file_changed (bool)
     """
 
     log(f"Generating logs for {path.split('/')[-1]}")
 
-    idx = int(index)
+    prblm_no = int(id)
+    problems = os.listdir(path)
 
     def _check_checksum():
         for problem in problems:
@@ -117,21 +119,22 @@ def generate_logs(index, path, problems):
                 continue
             file_path = os.path.join(path, problem)
             checksum = file_checksum(file_path)
-            if checksum != logs[f"{idx}"]["sols"][problem]:
-                logs[f"{idx}"]["sols"][problem] = checksum
+            if checksum != logs.get(f"{prblm_no}").get("sols").get(problem):
+                logs[f"{prblm_no}"]["sols"][problem] = checksum
                 return True
         return False
 
-    with open(LOGS, encoding="utf=8") as file:
+    with open(LOGS) as file:
         logs = json.load(file)
 
-        if logs[f"{idx}"]["len"] == len(problems):
+        if logs[f"{prblm_no}"]["len"] == len(problems):
             file_changed = _check_checksum()
         else:
             file_changed = True
-            logs[f"{idx}"]["len"] = len(problems)
+            _check_checksum()
+            logs[f"{prblm_no}"]["len"] = len(problems)
 
-        with open(LOGS, "w", encoding="utf=8") as file:
+        with open(LOGS, "w") as file:
             json.dump(logs, file, indent=2)
 
         return file_changed
@@ -190,7 +193,13 @@ def parse_json(url):
     soup = BeautifulSoup(page.text, "html.parser")
     data = soup.find("script", id="__NEXT_DATA__")
     json_ = json.loads(data.contents[0])
-    queries = json_["props"]["pageProps"]["dehydratedState"]["queries"]
+    for _ in range(5):
+        while True:
+            try:
+                queries = json_["props"]["pageProps"]["dehydratedState"]["queries"]
+            except KeyError:
+                continue
+            break
     id = queries[0]["state"]["data"]["question"]["questionFrontendId"]
     title = queries[0]["state"]["data"]["question"]["title"]
     question = queries[7]["state"]["data"]["question"]["content"]
@@ -275,7 +284,7 @@ def get_sols(path):
         with open(path + "/" + sol, "r") as file:
             code = file.read()
         sols_str += """\n### [_{}_]({})\n\n```{}\n{}\n```\n""".format(
-            LANGS[ext], sol, ext, code
+            LANGS.get(ext) or "", sol, ext, code
         )
 
     return sols_str
@@ -363,17 +372,20 @@ def refactor_topicewise(file, line_, question, path):
         if "Path Reference" in line:
             flag = 2
         tag = re.findall(r"## [\w ]+", line)
-        match = re.findall(r"\d{1,4}", line)
-        if len(tag):
-            if tag[0][3:] in tags:
-                flag = 1
-                continue
-        if flag == 1 and len(match):
-            if int(match[0]) > int(id) or ("Solution Table" in file[i + 2]):
+        prblm_match = re.findall(r"\d{1,4}", line)
+        if tag[0][3:] in tags if len(tag) else None:
+            flag = 1
+            continue
+        if flag == 1:
+            if (
+                int(prblm_match[0]) > int(id)
+                if len(prblm_match)
+                else None or ("Solution Table" in file[i + 1])
+            ):
                 file.insert(i, line_)
                 flag = 0
-        if flag == 2 and len(match):
-            if int(match[0]) > int(id):
+        if flag == 2:
+            if int(prblm_match[0]) > int(id) if len(prblm_match) else None:
                 new_line = "[{0}]: {1}\n".format(id, path.replace(" ", "%20"))
                 file.insert(i, new_line)
                 break
@@ -385,7 +397,7 @@ def update_total_problems_solved(total_dirs):
     Updates the total problems solved in the README.md & docs/index.md file.
     params: total_dirs (int)
     """
-    
+
     total_probs = total_dirs - len(os.listdir(SRC_FOLDER))
     line = f"### **Total Problems Solved: _{total_probs}_**\n"
 
