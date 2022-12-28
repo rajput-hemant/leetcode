@@ -6,7 +6,8 @@ on:
       - master
     paths:
       - docs/**/*.md
-  workflow_dispatch:
+
+  workflow_dispatch: null
 
 jobs:
   deploy:

@@ -1,15 +1,19 @@
-name: leetcode
+name: build READMEs & Docs
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "0 */6 * * *" # runs every 6 hours
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
         uses: actions/checkout@v3 # checkout the repository content to github runner
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -45,5 +49,5 @@ jobs:
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAT }}
           branch: master
