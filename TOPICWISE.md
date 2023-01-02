@@ -50,6 +50,7 @@
 | :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
 | **0013** |                    [Roman to Integer][13]                     |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0014** |                  [Longest Common Prefix][14]                  |                    String                     |  ![][easy]  |        |
+| **0022** |                  [Generate Parentheses][22]                   |           String, DP, Backtracking            | ![][medium] |        |
 | **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
@@ -83,6 +84,7 @@
 
 |    #     |                 Solution                  |               Tags               | Difficulty  | Remark |
 | :------: | :---------------------------------------: | :------------------------------: | :---------: | :----: |
+| **0022** |        [Generate Parentheses][22]         |     String, DP, Backtracking     | ![][medium] |        |
 | **0055** |              [Jump Game][55]              |        Array, DP, Greedy         | ![][medium] |        |
 | **0070** |           [Climbing Stairs][70]           |      Math, DP, Memoization       |  ![][easy]  |        |
 | **0072** |            [Edit Distance][72]            |            String, DP            |  ![][hard]  |        |
@@ -325,10 +327,11 @@
 
 ## Backtracking
 
-|    #     |      Solution       |            Tags             | Difficulty | Remark |
-| :------: | :-----------------: | :-------------------------: | :--------: | :----: |
-| **0037** | [Sudoku Solver][37] | Array, Backtracking, Matrix | ![][hard]  |        |
-| **0051** |   [N-Queens][51]    |     Array, Backtracking     | ![][hard]  |        |
+|    #     |          Solution          |            Tags             | Difficulty  | Remark |
+| :------: | :------------------------: | :-------------------------: | :---------: | :----: |
+| **0022** | [Generate Parentheses][22] |  String, DP, Backtracking   | ![][medium] |        |
+| **0037** |    [Sudoku Solver][37]     | Array, Backtracking, Matrix |  ![][hard]  |        |
+| **0051** |       [N-Queens][51]       |     Array, Backtracking     |  ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -710,6 +713,7 @@
 [9]: ./src/0001-0100/009%20-%20Palindrome%20Number/
 [13]: ./src/0001-0100/013%20-%20Roman%20to%20Integer/
 [14]: ./src/0001-0100/014%20-%20Longest%20Common%20Prefix
+[22]: ./src/0001-0100/022%20-%20Generate%20Parentheses
 [24]: ./src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./src/0001-0100/027%20-%20Remove%20Element/

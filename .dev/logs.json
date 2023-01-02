@@ -98,8 +98,10 @@
     "sols": {}
   },
   "22": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "GenerateParentheses.java": "240369931a6ec3437ab818c2e02560821f2e08a0e37ea4f6b54c50e6e41f86ff"
+    }
   },
   "23": {
     "len": 0,

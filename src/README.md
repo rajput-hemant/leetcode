@@ -21,6 +21,7 @@
 | **0009** |                       [Palindrome Number][9]                        |                     Math                      |  ![][easy]  |        |
 | **0013** |                       [Roman to Integer][13]                        |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0014** |                     [Longest Common Prefix][14]                     |                    String                     |  ![][easy]  |        |
+| **0022** |                     [Generate Parentheses][22]                      |           String, DP, Backtracking            | ![][medium] |        |
 | **0024** |                      [Swap Nodes in Pairs][24]                      |            Linked List, Recursion             | ![][medium] |        |
 | **0026** |                       [Remove Duplicates][26]                       |              Array, Two Pointers              |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |              Array, Two Pointers              |  ![][easy]  |        |
@@ -96,6 +97,7 @@
 [9]: ./0001-0100/009%20-%20Palindrome%20Number/
 [13]: ./0001-0100/013%20-%20Roman%20to%20Integer/
 [14]: ./0001-0100/014%20-%20Longest%20Common%20Prefix
+[22]: ./0001-0100/022%20-%20Generate%20Parentheses
 [24]: ./0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./0001-0100/027%20-%20Remove%20Element/
