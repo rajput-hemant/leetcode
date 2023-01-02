@@ -33,6 +33,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/014 - Longest Common Prefix.md",
       },
       {
+        text: "022 - Generate Parentheses",
+        link: "/solution/0001-0100/022 - Generate Parentheses.md",
+      },
+      {
         text: "024 - Swap Nodes in Pairs",
         link: "/solution/0001-0100/024 - Swap Nodes in Pairs.md",
       },
