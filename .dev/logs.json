@@ -3896,8 +3896,10 @@
     "sols": {}
   },
   "944": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "DeleteColumnsToMakeSorted.java": "3123d50f9a385ca200d6303aa71173b16ba4f10ee8cc6429db6a6ef5dabf5545"
+    }
   },
   "945": {
     "len": 0,

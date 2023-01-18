@@ -99,7 +99,7 @@ It might take some time to reflect changes from the repository.
 [**_Rejection Sampling_**][rejection sampling] &nbsp;•&nbsp;
 [**_Biconnected Component_**][biconnected component]
 
-### **Total Problems Solved: _72_**
+### **Total Problems Solved: _73_**
 
 ## Contributors
 
