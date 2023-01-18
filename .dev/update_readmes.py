@@ -202,13 +202,13 @@ def parse_json(url):
             break
     id = queries[0]["state"]["data"]["question"]["questionFrontendId"]
     title = queries[0]["state"]["data"]["question"]["title"]
-    question = queries[7]["state"]["data"]["question"]["content"]
+    question = queries[6]["state"]["data"]["question"]["content"]
     difficulty = queries[0]["state"]["data"]["question"]["difficulty"]
-    hints = queries[6]["state"]["data"]["question"]["hints"]
-    tags = [i["name"] for i in queries[9]["state"]["data"]["question"]["topicTags"]]
+    hints = queries[5]["state"]["data"]["question"]["hints"]
+    tags = [i["name"] for i in queries[8]["state"]["data"]["question"]["topicTags"]]
     # tags = [
     #     (lambda x: x.replace(x, TAGS.get(x, i["name"])))(i["name"])
-    #     for i in queries[9]["state"]["data"]["question"]["topicTags"]
+    #     for i in queries[8]["state"]["data"]["question"]["topicTags"]
     # ]
 
     return {
