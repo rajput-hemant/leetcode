@@ -75,6 +75,7 @@
 | **0771** |                      [Jewels and Stones][771]                       |                      String, Hashtable                      |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |                  Linked List, Two Pointers                  |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |          Array, Hash Table, Binary Search, Sorting          |  ![][easy]  |        |
+| **0944** |                [Delete Columns to Make Sorted][944]                 |                        Array, String                        |  ![][easy]  |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                        String, Stack                        |  ![][easy]  |        |
 | **1092** |                [Shortest Common Supersequence][1092]                |                         String, DP                          |  ![][hard]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                         String, DP                          | ![][medium] |        |
@@ -151,6 +152,7 @@
 [771]: ./solution/0701-0800/771%20-%20Jewels%20and%20Stones.md
 [876]: ./solution/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List.md
 [888]: ./solution/0801-0900/888%20-%20Fair%20Candy%20Swap.md
+[944]: ./solution/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted
 [1092]: ./solution/1001-1100/1092%20-%20Shortest%20Common%20Supersequence.md
 [1047]: ./solution/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md
 [1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md

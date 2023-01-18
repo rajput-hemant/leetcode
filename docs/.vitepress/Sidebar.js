@@ -307,6 +307,17 @@ export default Sidebar = [
     ],
   },
   {
+    text: "0901-1000",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "944 - Delete Columns to Make Sorted",
+        link: "/solution/0901-1000/944 - Delete Columns to Make Sorted.md",
+      },
+    ],
+  },
+  {
     text: "1001-1100",
     collapsible: true,
     collapsed: true,
