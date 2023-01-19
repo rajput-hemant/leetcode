@@ -48,17 +48,12 @@ No three consecutive characters are equal, so return &quot;aabaa&quot;.
 	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
 
-<details>
-<summary>
-
-#### _Click to open Hints_
-
-</summary>
+::: details _Click to open Hints_
 
 - What's the optimal way to delete characters if three or more consecutive characters are equal?
 - If three or more consecutive characters are equal, keep two of them and delete the rest.
 
-</details>
+:::
 
 ## Solution:
 

@@ -189,36 +189,36 @@ def parse_json(url):
 
     log(f"Parsing JSON data from {url}")
 
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, "html.parser")
-    data = soup.find("script", id="__NEXT_DATA__")
-    json_ = json.loads(data.contents[0])
-    for _ in range(5):
-        while True:
-            try:
-                queries = json_["props"]["pageProps"]["dehydratedState"]["queries"]
-            except KeyError:
-                continue
-            break
-    id = queries[0]["state"]["data"]["question"]["questionFrontendId"]
-    title = queries[0]["state"]["data"]["question"]["title"]
-    question = queries[6]["state"]["data"]["question"]["content"]
-    difficulty = queries[0]["state"]["data"]["question"]["difficulty"]
-    hints = queries[5]["state"]["data"]["question"]["hints"]
-    tags = [i["name"] for i in queries[8]["state"]["data"]["question"]["topicTags"]]
-    # tags = [
-    #     (lambda x: x.replace(x, TAGS.get(x, i["name"])))(i["name"])
-    #     for i in queries[8]["state"]["data"]["question"]["topicTags"]
-    # ]
+    for i in range(5):
+        try:
+            page = requests.get(url)
+            soup = BeautifulSoup(page.text, "html.parser")
+            data = soup.find("script", id="__NEXT_DATA__")
+            json_ = json.loads(data.contents[0])
+            queries = json_["props"]["pageProps"]["dehydratedState"]["queries"]
+        except KeyError:
+            if i == 4:
+                raise Exception("Something went wrong!")
+            continue
+        id = queries[0]["state"]["data"]["question"]["questionFrontendId"]
+        title = queries[0]["state"]["data"]["question"]["title"]
+        question = queries[6]["state"]["data"]["question"]["content"]
+        difficulty = queries[0]["state"]["data"]["question"]["difficulty"]
+        hints = queries[5]["state"]["data"]["question"]["hints"]
+        tags = [i["name"] for i in queries[8]["state"]["data"]["question"]["topicTags"]]
+        # tags = [
+        #     (lambda x: x.replace(x, TAGS.get(x, i["name"])))(i["name"])
+        #     for i in queries[8]["state"]["data"]["question"]["topicTags"]
+        # ]
 
-    return {
-        "id": id,
-        "title": title,
-        "question": question,
-        "difficulty": difficulty,
-        "hints": hints,
-        "tags": tags,
-    }
+        return {
+            "id": id,
+            "title": title,
+            "question": question,
+            "difficulty": difficulty,
+            "hints": hints,
+            "tags": tags,
+        }
 
 
 def write_readme(path, question, url):

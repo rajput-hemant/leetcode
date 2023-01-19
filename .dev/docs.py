@@ -97,13 +97,16 @@ def refactor_readmes():
         for md in files:
             with open(base + "/" + md, "r", encoding="utf-8") as file:
                 readme = file.read()
-                match_arr = re.findall(r"###\s+[\w+#./[\](]+\.[a-z)]+", readme)
-                for line in match_arr:
-                    readme = readme.replace("\n\n" + line, "")
+                readme = re.sub(r"\n\n###\s+[\w+#./[\](]+\.[a-z)]+", "", readme)
+                readme = re.sub(r"<\w+>\n<\w+>\n\n####", "::: details", readme)
+                readme = readme.replace("\n\n</summary>", "").replace(
+                    "</details>", ":::"
+                )
                 if "code-group" not in readme:
-                    readme = readme.replace(
-                        re.findall(r"##\sSol[a-z:]+", readme)[0],
+                    readme = re.sub(
+                        r"##\sSol[a-z:]+",
                         "## Solution:\n\n" + "::: code-group",
+                        readme,
                     ).replace("### [_..._]()", ":::\n\n" + "### [_..._](#)")
             with open(base + "/" + md, "w", encoding="utf-8") as file:
                 file.write(readme)
