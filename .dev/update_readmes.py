@@ -259,11 +259,27 @@ def write_readme(path, question, url):
                 path.split("/")[-1].replace(" -", ".").lstrip("0"),
                 url,
                 question["difficulty"].lower(),
-                question["question"],
+                get_rendered_code_blocks(question["question"]),
                 hints if question["hints"] else "",
                 get_sols(path),
             )
         )
+
+
+def get_rendered_code_blocks(question: str):
+    """
+    Replaces the <pre> tags w/ Markdown code blocks.
+    params: question (str)
+    returns: question (str)
+    """
+    soup = BeautifulSoup(question, "html.parser")
+    pre_tags = soup.find_all("pre")
+    for pre in pre_tags:
+        data = pre.text
+        pre.clear()
+        pre.append(data)
+        pre.name = "```"
+    return str(soup).replace("<```>", "\n```").replace("</```>", "```")
 
 
 def get_sols(path):
@@ -283,7 +299,7 @@ def get_sols(path):
         ext = sol.split(".")[-1]
         with open(path + "/" + sol, "r") as file:
             code = file.read()
-        sols_str += """\n### [_{}_]({})\n\n```{}\n{}\n```\n""".format(
+        sols_str += """\n### [_{0}_]({1})\n\n```{2} [{0}]\n{3}\n```\n""".format(
             LANGS.get(ext) or "", sol, ext, code
         )
 
@@ -346,7 +362,7 @@ def refactor_serialwise(file, question, path):
                 flag = 0
         if flag == 2 and len(match):
             if int(match[0]) > int(id):
-                line_ = "[{0}]: {1}\n".format(
+                line_ = "[{0}]: {1}/\n".format(
                     id, path.replace("./src/", "./").replace(" ", "%20")
                 )
                 file.insert(i, line_)
@@ -386,7 +402,7 @@ def refactor_topicewise(file, line_, question, path):
                 flag = 0
         if flag == 2:
             if int(prblm_match[0]) > int(id) if len(prblm_match) else None:
-                new_line = "[{0}]: {1}\n".format(id, path.replace(" ", "%20"))
+                new_line = "[{0}]: {1}/\n".format(id, path.replace(" ", "%20"))
                 file.insert(i, new_line)
                 break
     return file
