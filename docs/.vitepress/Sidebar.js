@@ -33,6 +33,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/014 - Longest Common Prefix.md",
       },
       {
+        text: "020 - Valid Parentheses",
+        link: "/solution/0001-0100/020 - Valid Parentheses.md",
+      },
+      {
         text: "022 - Generate Parentheses",
         link: "/solution/0001-0100/022 - Generate Parentheses.md",
       },
@@ -91,6 +95,10 @@ export default Sidebar = [
       {
         text: "100 - Same Tree",
         link: "/solution/0001-0100/100 - Same Tree.md",
+      },
+      {
+        text: "21 - Merge Two Sorted Lists",
+        link: "/solution/0001-0100/21 - Merge Two Sorted Lists.md",
       },
     ],
   },

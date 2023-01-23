@@ -51,6 +51,7 @@
 | :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
 | **0013** |                    [Roman to Integer][13]                     |           String, Math, Hash Table            |  ![][easy]  |        |
 | **0014** |                  [Longest Common Prefix][14]                  |                    String                     |  ![][easy]  |        |
+| **0020** |                    [Valid Parentheses][20]                    |                  String, ST                   |  ![][easy]  |        |
 | **0022** |                  [Generate Parentheses][22]                   |   String, Dynamic Programming, Backtracking   | ![][medium] |        |
 | **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
@@ -289,6 +290,7 @@
 
 |    #     |                     Solution                     |                     Tags                     | Difficulty  | Remark |
 | :------: | :----------------------------------------------: | :------------------------------------------: | :---------: | :----: |
+| **0020** |             [Valid Parentheses][20]              |                  String, ST                  |  ![][easy]  |        |
 | **0094** |       [Binary Tree Inorder Traversal][94]        | Tree, Stack, Depth First Search, Binary Tree |  ![][easy]  |        |
 | **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, Depth First Search, Binary Tree |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, Depth First Search, Binary Tree |  ![][easy]  |        |
@@ -364,6 +366,7 @@
 |    #     |             Solution             |             Tags             | Difficulty  | Remark |
 | :------: | :------------------------------: | :--------------------------: | :---------: | :----: |
 | **0002** |       [Add Two Numbers][2]       | Linked List, Math, Recursion | ![][medium] |        |
+| **0021** |   [Merge Two Sorted Lists][21]   |    Linked List, Recursion    |  ![][easy]  |        |
 | **0024** |    [Swap Nodes in Pairs][24]     |    Linked List, Recursion    | ![][medium] |        |
 | **0061** |        [Rotate List][61]         |  Linked List, Two Pointers   | ![][medium] |        |
 | **0206** |    [Reverse Linked List][206]    |    Linked List, Recursion    |  ![][easy]  |        |
@@ -397,14 +400,15 @@
 
 ## Recursion
 
-|    #     |          Solution          |                       Tags                        | Difficulty  | Remark |
-| :------: | :------------------------: | :-----------------------------------------------: | :---------: | :----: |
-| **0002** |    [Add Two Numbers][2]    |           Linked List, Math, Recursion            | ![][medium] |        |
-| **0024** | [Swap Nodes in Pairs][24]  |              Linked List, Recursion               | ![][medium] |        |
-| **0206** | [Reverse Linked List][206] |              Linked List, Recursion               |  ![][easy]  |        |
-| **0231** |    [Power of Two][231]     |         Math, Bit Manipulation, Recursion         |  ![][easy]  |        |
-| **0344** |   [Reverse String][344]    |          Two Pointers, String, Recursion          |  ![][easy]  |        |
-| **0509** |  [Fibonacci Number][509]   | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
+|    #     |           Solution           |                       Tags                        | Difficulty  | Remark |
+| :------: | :--------------------------: | :-----------------------------------------------: | :---------: | :----: |
+| **0002** |     [Add Two Numbers][2]     |           Linked List, Math, Recursion            | ![][medium] |        |
+| **0021** | [Merge Two Sorted Lists][21] |              Linked List, Recursion               |  ![][easy]  |        |
+| **0024** |  [Swap Nodes in Pairs][24]   |              Linked List, Recursion               | ![][medium] |        |
+| **0206** |  [Reverse Linked List][206]  |              Linked List, Recursion               |  ![][easy]  |        |
+| **0231** |     [Power of Two][231]      |         Math, Bit Manipulation, Recursion         |  ![][easy]  |        |
+| **0344** |    [Reverse String][344]     |          Two Pointers, String, Recursion          |  ![][easy]  |        |
+| **0509** |   [Fibonacci Number][509]    | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -715,6 +719,8 @@
 [9]: ./solution/0001-0100/009%20-%20Palindrome%20Number.md
 [13]: ./solution/0001-0100/013%20-%20Roman%20to%20Integer.md
 [14]: ./solution/0001-0100/014%20-%20Longest%20Common%20Prefix
+[20]: ./solution/0001-0100/020%20-%20Valid%20Parentheses
+[21]: ./solution/0001-0100/21%20-%20Merge%20Two%20Sorted%20Lists
 [22]: ./solution/0001-0100/022%20-%20Generate%20Parentheses
 [24]: ./solution/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs.md
 [26]: ./solution/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array.md
