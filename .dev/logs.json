@@ -90,12 +90,16 @@
     "sols": {}
   },
   "20": {
-    "len": 0,
-    "sols": {}
+    "len": 3,
+    "sols": {
+      "valid_parentheses.py": "7b396e6202fbe49b85fe16dee791452fd447a16bf3e26fc5f8c31a959c176616"
+    }
   },
   "21": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "solution.py": "d205c216b43eb8687dde7dc42ed60e9bb9aa661afd26078cfb8f4bbefd49cf55"
+    }
   },
   "22": {
     "len": 2,
