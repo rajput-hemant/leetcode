@@ -37,6 +37,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/020 - Valid Parentheses.md",
       },
       {
+        text: "021 - Merge Two Sorted Lists",
+        link: "/solution/0001-0100/021 - Merge Two Sorted Lists.md",
+      },
+      {
         text: "022 - Generate Parentheses",
         link: "/solution/0001-0100/022 - Generate Parentheses.md",
       },
@@ -51,6 +55,10 @@ export default Sidebar = [
       {
         text: "027 - Remove Element",
         link: "/solution/0001-0100/027 - Remove Element.md",
+      },
+      {
+        text: "035 - Search Insert Position",
+        link: "/solution/0001-0100/035 - Search Insert Position.md",
       },
       {
         text: "037 - Sudoku Solver",
@@ -71,6 +79,14 @@ export default Sidebar = [
       {
         text: "061 - Rotate List ",
         link: "/solution/0001-0100/061 - Rotate List .md",
+      },
+      {
+        text: "066 - Plus One",
+        link: "/solution/0001-0100/066 - Plus One.md",
+      },
+      {
+        text: "067 - Add Binary",
+        link: "/solution/0001-0100/067 - Add Binary.md",
       },
       {
         text: "070 - Climbing Stairs",
@@ -95,10 +111,6 @@ export default Sidebar = [
       {
         text: "100 - Same Tree",
         link: "/solution/0001-0100/100 - Same Tree.md",
-      },
-      {
-        text: "21 - Merge Two Sorted Lists",
-        link: "/solution/0001-0100/21 - Merge Two Sorted Lists.md",
       },
     ],
   },
@@ -322,6 +334,10 @@ export default Sidebar = [
       {
         text: "944 - Delete Columns to Make Sorted",
         link: "/solution/0901-1000/944 - Delete Columns to Make Sorted.md",
+      },
+      {
+        text: "997 - Find the Town Judge",
+        link: "/solution/0901-1000/997 - Find the Town Judge.md",
       },
     ],
   },

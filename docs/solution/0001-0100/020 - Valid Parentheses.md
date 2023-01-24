@@ -56,7 +56,7 @@
 
 ::: code-group
 
-```py
+```py [Python]
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -73,7 +73,7 @@ class Solution:
 
 ```
 
-```java
+```java [Java]
 import java.util.Stack;
 
 class Solution {

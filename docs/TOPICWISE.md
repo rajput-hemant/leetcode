@@ -22,9 +22,11 @@
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0026** |                       [Remove Duplicates][26]                       |               Array, Two Pointers               |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |               Array, Two Pointers               |  ![][easy]  |        |
+| **0035** |                    [Search Insert Position][35]                     |                    Array, BS                    |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |           Array, Backtracking, Matrix           |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |               Array, Backtracking               |  ![][hard]  |        |
 | **0055** |                           [Jump Game][55]                           |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
+| **0066** |                           [Plus One][66]                            |                   Array, Math                   |  ![][easy]  |        |
 | **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
 | **0122** |              [Best Time to Buy and Sell Stock II][122]              |       Array, Dynamic Programming, Greedy        | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |               Array, Two Pointers               |  ![][easy]  |        |
@@ -37,6 +39,7 @@
 | **0739** |                      [Daily Temperatures][739]                      |          Array, Stack, Monotonic Stack          | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        |    Array, Hash Table, Binary Search, Sorting    |  ![][easy]  |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                  Array, String                  |  ![][easy]  |        |
+| **0997** |                     [Find the Town Judge][997]                      |            Array, Hash Table, Graph             |  ![][easy]  |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                Array, Prefix Sum                |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                 Array, Sorting                  |  ![][easy]  |        |
@@ -54,6 +57,7 @@
 | **0020** |                    [Valid Parentheses][20]                    |                  String, ST                   |  ![][easy]  |        |
 | **0022** |                  [Generate Parentheses][22]                   |   String, Dynamic Programming, Backtracking   | ![][medium] |        |
 | **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
+| **0067** |                       [Add Binary][67]                        |  Math, String, Bit Manipulation, Simulation   |  ![][easy]  |        |
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
@@ -80,6 +84,7 @@
 | **0653** | [Two Sum IV - Input is a BST ][653] | Tree, Depth First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
 | **0888** |       [Fair Candy Swap][888]        |         Array, Hash Table, Binary Search, Sorting         |  ![][easy]  |        |
 | **0771** |      [Jewels and Stones][771]       |                     String, Hashtable                     |  ![][easy]  |        |
+| **0997** |     [Find the Town Judge][997]      |                 Array, Hash Table, Graph                  |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -112,6 +117,8 @@
 | **0007** |          [Reverse Integer][7]          |                       Math                        | ![][medium] |        |
 | **0009** |         [Palindrome Number][9]         |                       Math                        |  ![][easy]  |        |
 | **0013** |         [Roman to Integer][13]         |             String, Math, Hash Table              |  ![][easy]  |        |
+| **0066** |             [Plus One][66]             |                    Array, Math                    |  ![][easy]  |        |
+| **0067** |            [Add Binary][67]            |    Math, String, Bit Manipulation, Simulation     |  ![][easy]  |        |
 | **0070** |         [Climbing Stairs][70]          |      Math, Dynamic Programming, Memorization      |  ![][easy]  |        |
 | **0172** |   [Factorial Trailiing Zeroes][172]    |                       Math                        | ![][medium] |        |
 | **0231** |          [Power of Two][231]           |         Math, Bit Manipulation, Recursion         |  ![][easy]  |        |
@@ -216,6 +223,7 @@
 |    #     |                              Solution                               |                         Tags                         | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :--------------------------------------------------: | :---------: | :----: |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |        Array, Binary Search, Divide & Conquer        |  ![][hard]  |        |
+| **0035** |                    [Search Insert Position][35]                     |                      Array, BS                       |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   | Binary Search, Tree, Depth First Search, Binary Tree | ![][medium] |        |
 | **0278** |                      [First Bad Version][278]                       |              Binary Search, Interactive              |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |               Array, Binary Search, DP               | ![][medium] |        |
@@ -279,6 +287,7 @@
 
 |    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0067** |                       [Add Binary][67]                        |  Math, String, Bit Manipulation, Simulation   |  ![][easy]  |        |
 | **0191** |                    [Number of 1 Bits][191]                    |      Divide & Conquer, Bit Manipulation       |  ![][easy]  |        |
 | **0231** |                      [Power of Two][231]                      |       Math, Bit Manipulation, Recursion       |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
@@ -317,15 +326,17 @@
 
 ## Graph
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |          Solution          |           Tags           | Difficulty | Remark |
+| :------: | :------------------------: | :----------------------: | :--------: | :----: |
+| **0997** | [Find the Town Judge][997] | Array, Hash Table, Graph | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
 ## Simulation
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |     Solution     |                    Tags                    | Difficulty | Remark |
+| :------: | :--------------: | :----------------------------------------: | :--------: | :----: |
+| **0067** | [Add Binary][67] | Math, String, Bit Manipulation, Simulation | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -718,18 +729,25 @@
 [7]: ./solution//0001-0100/007%20-%20Reverse%20Integer.md
 [9]: ./solution/0001-0100/009%20-%20Palindrome%20Number.md
 [13]: ./solution/0001-0100/013%20-%20Roman%20to%20Integer.md
-[14]: ./solution/0001-0100/014%20-%20Longest%20Common%20Prefix
-[20]: ./solution/0001-0100/020%20-%20Valid%20Parentheses
-[21]: ./solution/0001-0100/21%20-%20Merge%20Two%20Sorted%20Lists
-[22]: ./solution/0001-0100/022%20-%20Generate%20Parentheses
+[14]: ./solution/0001-0100/014%20-%20Longest%20Common%20Prefix.md
+[20]: ./solution/0001-0100/020%20-%20Valid%20Parentheses.md
+[21]: ./solution/0001-0100/021%20-%20Merge%20Two%20Sorted%20Lists.md
+[22]: ./solution/0001-0100/022%20-%20Generate%20Parentheses.md
 [24]: ./solution/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs.md
 [26]: ./solution/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array.md
 [27]: ./solution/0001-0100/027%20-%20Remove%20Element.md
+[35]: ./solution/0001-0100/035%20-%20Search%20Insert%20Position.md
+[35]: ./solution/0001-0100/035%20-%20Search%20Insert%20Position.md
 [37]: ./solution/0001-0100/037%20-%20Sudoku%20Solver.md
 [51]: ./solution/0001-0100/051%20-%20N-Queens.md
 [55]: ./solution/0001-0100/055%20-%20Jump%20Game.md
 [58]: ./solution/0001-0100/058%20-%20Length%20of%20Last%20Word.md
 [61]: ./solution/0001-0100/061%20-%20Rotate%20List%20.md
+[63]: ./solution/0001-0100/063%20-%20Unique%20Paths%20II.md
+[66]: ./solution/0001-0100/066%20-%20Plus%20One.md
+[66]: ./solution/0001-0100/066%20-%20Plus%20One.md
+[67]: ./solution/0001-0100/067%20-%20Add%20Binary.md
+[67]: ./solution/0001-0100/067%20-%20Add%20Binary.md
 [70]: ./solution/0001-0100/070%20-%20Climbing%20Stairs.md
 [72]: ./solution/0001-0100/072%20-%20Edit%20Distance.md
 [75]: ./solution/0001-0100/075%20-%20Sort%20Colors.md
@@ -741,17 +759,20 @@
 [110]: ./solution/0101-0200/110%20-%20Balanced%20Binary%20Tree.md
 [111]: ./solution/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree.md
 [122]: ./solution/0101-0200/122%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md
+[134]: ./solution/0101-0200/134%20-%20Gas%20Station.md
 [144]: ./solution/0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal.md
 [145]: ./solution/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal.md
 [172]: ./solution/0101-0200/172%20-%20Factorial%20Trailing%20Zeroes.md
 [191]: ./solution/0101-0200/191%20-%20Number%20of%201%20Bits.md
-[193]: ./solution/0101-0200/193%20-%20Valid%20Phone%20Numbers
-[195]: ./solution/0101-0200/195%20-%20Tenth%20Line
+[193]: ./solution/0101-0200/193%20-%20Valid%20Phone%20Numbers.md
+[195]: ./solution/0101-0200/195%20-%20Tenth%20Line.md
+[198]: ./solution/0101-0200/198%20-%20House%20Robber.md
 [199]: ./solution/0101-0200/199%20-%20Binary%20Tree%20Right%20Side%20View.md
 [206]: ./solution/0201-0300/206%20-%20Reverse%20Linked%20List.md
 [222]: ./solution/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes.md
 [230]: ./solution/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST.md
 [231]: ./solution/0201-0300/231%20-%20Power%20of%20Two.md
+[239]: ./solution/0201-0300/239%20-%20Sliding%20Window%20Maximum.md
 [278]: ./solution/0201-0300/278%20-%20First%20Bad%20Version.md
 [283]: ./solution/0201-0300/283%20-%20Move%20Zeroes.md
 [300]: ./solution/0201-0300/300%20-%20Longest%20Increasing%20Subsequence.md
@@ -760,9 +781,11 @@
 [344]: ./solution/0301-0400/344%20-%20Reverse%20String.md
 [367]: ./solution/0301-0400/367%20-%20Valid%20Perfect%20Square.md
 [369]: ./solution/0301-0400/369%20-%20Plus%20One%20Linked%20List.md
+[387]: ./solution/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String.md
 [389]: ./solution/0301-0400/389%20-%20Find%20the%20Difference.md
 [442]: ./solution/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array.md
 [445]: ./solution/0401-0500/445%20-%20Add%20Two%20Numbers%20II.md
+[461]: ./solution/0401-0500/461%20-%20Hamming%20Distance.md
 [506]: ./solution/0501-0600/506%20-%20%20Relative%20Ranks.md
 [509]: ./solution/0501-0600/509%20-%20Fibonacci%20Number.md
 [516]: ./solution/0501-0600/516%20-%20Longest%20Palindromic%20Subsequence.md
@@ -775,7 +798,9 @@
 [771]: ./solution/0701-0800/771%20-%20Jewels%20and%20Stones.md
 [876]: ./solution/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List.md
 [888]: ./solution/0801-0900/888%20-%20Fair%20Candy%20Swap.md
-[944]: ./solution/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted
+[944]: ./solution/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted.md
+[997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
+[997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [1047]: ./solution/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md
 [1092]: ./solution/1001-1100/1092%20-%20Shortest%20Common%20Supersequence.md
 [1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md
@@ -785,7 +810,7 @@
 [1491]: ./solution/1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary.md
 [1498]: ./solution/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition.md
 [1537]: ./solution/1501-1600/1537%20-%20Get%20the%20Maximum%20Score.md
-[1957]: ./solution/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String
+[1957]: ./solution/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String.md
 [2236]: ./solution/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children.md
 
 <!----------------------------------{ Labels }--------------------------------->
