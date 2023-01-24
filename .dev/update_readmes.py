@@ -277,9 +277,10 @@ def get_rendered_code_blocks(question: str):
     for pre in pre_tags:
         data = pre.text
         pre.clear()
-        pre.append(data)
+        pre.append(data if data.startswith("\n") else f"\n{data}")
         pre.name = "```"
-    return str(soup).replace("<```>", "\n```").replace("</```>", "```")
+    refactored_code = str(soup).replace("<```>", "\n```").replace("</```>", "```\n")
+    return refactored_code
 
 
 def get_sols(path):
