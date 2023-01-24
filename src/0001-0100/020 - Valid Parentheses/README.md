@@ -61,7 +61,7 @@
 
 ### [_Python_](valid_parentheses.py)
 
-```py
+```py [Python]
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -80,7 +80,7 @@ class Solution:
 
 ### [_Java_](ValidParentheses.java)
 
-```java
+```java [Java]
 import java.util.Stack;
 
 class Solution {

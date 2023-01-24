@@ -27,11 +27,14 @@
 | **0024** |                      [Swap Nodes in Pairs][24]                      |            Linked List, Recursion             | ![][medium] |        |
 | **0026** |                       [Remove Duplicates][26]                       |              Array, Two Pointers              |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |              Array, Two Pointers              |  ![][easy]  |        |
+| **0035** |                    [Search Insert Position][35]                     |                   Array, BS                   |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |          Array, Backtracking, Matrix          |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |              Array, Backtracking              |  ![][hard]  |        |
 | **0055** |                           [Jump Game][55]                           |               Array, DP, Greedy               | ![][medium] |        |
 | **0058** |                      [Length of Last Word][58]                      |                    String                     |  ![][easy]  |        |
 | **0061** |                          [Rotate List][61]                          |           Linked List, Two Pointers           | ![][medium] |        |
+| **0066** |                           [Plus One][66]                            |                  Array, Math                  |  ![][easy]  |        |
+| **0067** |                          [Add Binary][67]                           |      Math, String, Bit Manip, Simulation      |  ![][easy]  |        |
 | **0070** |                        [Climbing Stairs][70]                        |            Math, DP, Memorization             |  ![][easy]  |        |
 | **0072** |                         [Edit Distance][72]                         |                  String, DP                   |  ![][hard]  |        |
 | **0075** |                          [Sort Colors][75]                          |         Array, Two Pointers, Sorting          | ![][medium] |        |
@@ -78,6 +81,7 @@
 | **0876** |                  [Middle of the Linked List][876]                   |           Linked List, Two Pointers           |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                 Array, String                 |  ![][easy]  |        |
+| **0997** |                     [Find the Town Judge][997]                      |           Array, Hash Table, Graph            |  ![][easy]  |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                 String, Stack                 |  ![][easy]  |        |
 | **1092** |                [Shortest Common Supersequence][1092]                |                  String, DP                   |  ![][hard]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                  String, DP                   | ![][medium] |        |
@@ -107,6 +111,7 @@
 [26]: ./0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./0001-0100/027%20-%20Remove%20Element/
 [35]: ./0001-0100/035%20-%20Search%20Insert%20Position/
+[35]: ./0001-0100/035%20-%20Search%20Insert%20Position/
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./0001-0100/051%20-%20N-Queens/
 [55]: ./0001-0100/055%20-%20Jump%20Game/
@@ -114,6 +119,8 @@
 [61]: ./0001-0100/061%20-%20Rotate%20List%20/
 [63]: ./0001-0100/063%20-%20Unique%20Paths%20II/
 [66]: ./0001-0100/066%20-%20Plus%20One/
+[66]: ./0001-0100/066%20-%20Plus%20One/
+[67]: ./0001-0100/067%20-%20Add%20Binary/
 [67]: ./0001-0100/067%20-%20Add%20Binary/
 [70]: ./0001-0100/070%20-%20Climbing%20Stairs/
 [72]: ./0001-0100/072%20-%20Edit%20Distance/
@@ -166,6 +173,7 @@
 [876]: ./0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./0801-0900/888%20-%20Fair%20Candy%20Swap/
 [944]: ./0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted/
+[997]: ./0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [997]: ./0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [1047]: ./1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1092]: ./1001-1100/1092%20-%20Shortest%20Common%20Supersequence/

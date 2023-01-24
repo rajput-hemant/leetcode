@@ -22,9 +22,11 @@
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |  Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
 | **0026** |                       [Remove Duplicates][26]                       |            Array, Two Pointers            |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |            Array, Two Pointers            |  ![][easy]  |        |
+| **0035** |                    [Search Insert Position][35]                     |                 Array, BS                 |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |        Array, Backtracking, Matrix        |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |            Array, Backtracking            |  ![][hard]  |        |
 | **0055** |                           [Jump Game][55]                           |             Array, DP, Greedy             | ![][medium] |        |
+| **0066** |                           [Plus One][66]                            |                Array, Math                |  ![][easy]  |        |
 | **0075** |                          [Sort Colors][75]                          |       Array, Two Pointers, Sorting        | ![][medium] |        |
 | **0122** |              [Best Time to Buy and Sell Stock II][122]              |             Array, DP, Greedy             | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |            Array, Two Pointers            |  ![][easy]  |        |
@@ -37,6 +39,7 @@
 | **0739** |                      [Daily Temperatures][739]                      |       Array, Stack, Monotonic Stack       | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        | Array, Hash Table, Binary Search, Sorting |  ![][easy]  |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |               Array, String               |  ![][easy]  |        |
+| **0997** |                     [Find the Town Judge][997]                      |         Array, Hash Table, Graph          |  ![][easy]  |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |           Array, Math, Geometry           |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |             Array, Prefix Sum             |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |              Array, Sorting               |  ![][easy]  |        |
@@ -54,6 +57,7 @@
 | **0020** |                    [Valid Parentheses][20]                    |                  String, ST                   |  ![][easy]  |        |
 | **0022** |                  [Generate Parentheses][22]                   |           String, DP, Backtracking            | ![][medium] |        |
 | **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
+| **0067** |                       [Add Binary][67]                        |      Math, String, Bit Manip, Simulation      |  ![][easy]  |        |
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
@@ -80,6 +84,7 @@
 | **0653** | [Two Sum IV - Input is a BST ][653] |          Tree, DFS, BST, Binary Tree          |  ![][easy]  |        |
 | **0888** |       [Fair Candy Swap][888]        |   Array, Hash Table, Binary Search, Sorting   |  ![][easy]  |        |
 | **0771** |      [Jewels and Stones][771]       |               String, Hashtable               |  ![][easy]  |        |
+| **0997** |     [Find the Town Judge][997]      |           Array, Hash Table, Graph            |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -106,19 +111,21 @@
 
 ## Math
 
-|    #     |                Solution                |               Tags                | Difficulty  | Remark |
-| :------: | :------------------------------------: | :-------------------------------: | :---------: | :----: |
-| **0002** |          [Add Two Numbers][2]          |   Linked List, Math, Recursion    | ![][medium] |        |
-| **0007** |          [Reverse Integer][7]          |               Math                | ![][medium] |        |
-| **0009** |         [Palindrome Number][9]         |               Math                |  ![][easy]  |        |
-| **0013** |         [Roman to Integer][13]         |     String, Math, Hash Table      |  ![][easy]  |        |
-| **0070** |         [Climbing Stairs][70]          |      Math, DP, Memorization       |  ![][easy]  |        |
-| **0172** |   [Factorial Trailiing Zeroes][172]    |               Math                | ![][medium] |        |
-| **0231** |          [Power of Two][231]           | Math, Bit Manipulation, Recursion |  ![][easy]  |        |
-| **0367** |      [Valid Perfect Square][367]       |        Math, Binary Search        |  ![][easy]  |        |
-| **0445** |       [Add Two Numbers II][445]        |     Linked List, Math, Stack      | ![][medium] |        |
-| **0509** |        [Fibonacci Number][509]         | Math, Recursion, DP, Memoization  |  ![][easy]  |        |
-| **1232** | [Check If It Is a Straight Line][1232] |       Array, Math, Geometry       |  ![][easy]  |        |
+|    #     |                Solution                |                Tags                 | Difficulty  | Remark |
+| :------: | :------------------------------------: | :---------------------------------: | :---------: | :----: |
+| **0002** |          [Add Two Numbers][2]          |    Linked List, Math, Recursion     | ![][medium] |        |
+| **0007** |          [Reverse Integer][7]          |                Math                 | ![][medium] |        |
+| **0009** |         [Palindrome Number][9]         |                Math                 |  ![][easy]  |        |
+| **0013** |         [Roman to Integer][13]         |      String, Math, Hash Table       |  ![][easy]  |        |
+| **0066** |             [Plus One][66]             |             Array, Math             |  ![][easy]  |        |
+| **0067** |            [Add Binary][67]            | Math, String, Bit Manip, Simulation |  ![][easy]  |        |
+| **0070** |         [Climbing Stairs][70]          |       Math, DP, Memorization        |  ![][easy]  |        |
+| **0172** |   [Factorial Trailiing Zeroes][172]    |                Math                 | ![][medium] |        |
+| **0231** |          [Power of Two][231]           |  Math, Bit Manipulation, Recursion  |  ![][easy]  |        |
+| **0367** |      [Valid Perfect Square][367]       |         Math, Binary Search         |  ![][easy]  |        |
+| **0445** |       [Add Two Numbers II][445]        |      Linked List, Math, Stack       | ![][medium] |        |
+| **0509** |        [Fibonacci Number][509]         |  Math, Recursion, DP, Memoization   |  ![][easy]  |        |
+| **1232** | [Check If It Is a Straight Line][1232] |        Array, Math, Geometry        |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -216,6 +223,7 @@
 |    #     |                              Solution                               |                   Tags                    | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------------: | :---------------------------------------: | :---------: | :----: |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |  Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
+| **0035** |                    [Search Insert Position][35]                     |                 Array, BS                 |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |   Binary Search, Tree, DFS, Binary Tree   | ![][medium] |        |
 | **0278** |                      [First Bad Version][278]                       |        Binary Search, Interactive         |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |         Array, Binary Search, DP          | ![][medium] |        |
@@ -279,6 +287,7 @@
 
 |    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
 | :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0067** |                       [Add Binary][67]                        |      Math, String, Bit Manip, Simulation      |  ![][easy]  |        |
 | **0191** |                    [Number of 1 Bits][191]                    |      Divide & Conquer, Bit Manipulation       |  ![][easy]  |        |
 | **0231** |                      [Power of Two][231]                      |       Math, Bit Manipulation, Recursion       |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
@@ -317,15 +326,17 @@
 
 ## Graph
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |          Solution          |           Tags           | Difficulty | Remark |
+| :------: | :------------------------: | :----------------------: | :--------: | :----: |
+| **0997** | [Find the Town Judge][997] | Array, Hash Table, Graph | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
 ## Simulation
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |     Solution     |                Tags                 | Difficulty | Remark |
+| :------: | :--------------: | :---------------------------------: | :--------: | :----: |
+| **0067** | [Add Binary][67] | Math, String, Bit Manip, Simulation | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -726,6 +737,7 @@
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./src/0001-0100/027%20-%20Remove%20Element/
 [35]: ./src/0001-0100/035%20-%20Search%20Insert%20Position/
+[35]: ./src/0001-0100/035%20-%20Search%20Insert%20Position/
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [55]: ./src/0001-0100/055%20-%20Jump%20Game/
@@ -733,6 +745,8 @@
 [61]: ./src/0001-0100/061%20-%20Rotate%20List%20/
 [63]: ./src/0001-0100/063%20-%20Unique%20Paths%20II/
 [66]: ./src/0001-0100/066%20-%20Plus%20One/
+[66]: ./src/0001-0100/066%20-%20Plus%20One/
+[67]: ./src/0001-0100/067%20-%20Add%20Binary/
 [67]: ./src/0001-0100/067%20-%20Add%20Binary/
 [70]: ./src/0001-0100/070%20-%20Climbing%20Stairs/
 [72]: ./src/0001-0100/072%20-%20Edit%20Distance/
@@ -785,6 +799,7 @@
 [876]: ./src/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./src/0801-0900/888%20-%20Fair%20Candy%20Swap/
 [944]: ./src/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted/
+[997]: ./src/0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [997]: ./src/0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1092]: ./src/1001-1100/1092%20-%20Shortest%20Common%20Supersequence/

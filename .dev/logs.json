@@ -92,7 +92,8 @@
   "20": {
     "len": 3,
     "sols": {
-      "valid_parentheses.py": "7b396e6202fbe49b85fe16dee791452fd447a16bf3e26fc5f8c31a959c176616"
+      "valid_parentheses.py": "7b396e6202fbe49b85fe16dee791452fd447a16bf3e26fc5f8c31a959c176616",
+      "ValidParentheses.java": "f738994d1eea1e2c7966928df9013877181ce6f73a7c33504e2580eae76bb327"
     }
   },
   "21": {
@@ -162,8 +163,10 @@
     "sols": {}
   },
   "35": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "solution.py": "6ed311fbdf421b9d9d3c4c0cd7131a362306f58b6563ecf21fde6281de398e71"
+    }
   },
   "36": {
     "len": 0,
@@ -296,12 +299,16 @@
     "sols": {}
   },
   "66": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "solution.py": "b44e4d674d3767fc7bb57d13f716e6ac58eb2c9db4d1cfe92d738ef181d2d0f8"
+    }
   },
   "67": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "solution.py": "20baff4e07e2723b39e1a6353587705258f78f33c09462537ea9282000e5cdeb"
+    }
   },
   "68": {
     "len": 0,
@@ -4114,8 +4121,10 @@
     "sols": {}
   },
   "997": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "solution.py": "1ef0b99f55d25a70d16a849ec1232aec0e71ad94f9c3cae1b9fc162974795819"
+    }
   },
   "998": {
     "len": 0,
