@@ -422,7 +422,7 @@ def update_total_problems_solved(total_dirs):
         data_1 = file_1.readlines()
         data_2 = file_2.readlines()
 
-    data_1[97] = data_2[101] = line
+    data_1[97] = data_2[105] = line
 
     with open("README.md", "w") as file_1, open("./docs/index.md", "w") as file_2:
         file_1.writelines(data_1)

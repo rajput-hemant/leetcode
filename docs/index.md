@@ -7,6 +7,12 @@ editLink: false
 next: Go To First Problem
 ---
 
+<script setup>
+import { useData } from 'vitepress'
+
+const { isDark } = useData();
+</script>
+
 ::: warning 💡 Note
 It might take some time to reflect changes from the repository.
 :::
@@ -14,11 +20,9 @@ It might take some time to reflect changes from the repository.
 <br>
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="/light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="/dark.png">
-  <img alt="Leetcode">
-</picture>
+
+<img v-if="isDark" src="/dark.png" />
+<img v-else src="/light.png" />
 
 ### 🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.
 
