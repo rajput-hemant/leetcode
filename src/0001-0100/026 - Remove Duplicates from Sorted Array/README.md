@@ -56,9 +56,9 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ## Solutions:
 
-### [_Python_](./RemoveDuplicatesFromSortedArray.py)
+### [_Python_](RemoveDuplicatesFromSortedArray.py)
 
-```python
+```py [Python]
 def removeDuplicates(nums: list[int]) -> int:
     k = 0
     for i, item in enumerate(nums):
@@ -67,6 +67,26 @@ def removeDuplicates(nums: list[int]) -> int:
         nums[k] = item
         k += 1
     return k
+
+```
+
+### [_Go_](remove_duplicates_from_sorted_array.go)
+
+```go [Go]
+package main
+
+func removeDuplicates(nums []int) int {
+	k := 0
+	for i := 1; i < len(nums); i++ {
+		if nums[i] != nums[k] {
+			k++
+			nums[k] = nums[i]
+		}
+	}
+
+	return k + 1
+}
+
 ```
 
 ### [_..._]()
