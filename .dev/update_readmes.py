@@ -55,6 +55,11 @@ TAGS = {
     "Two Pointers": "2P",
 }
 
+USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+    + " (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+)
+
 
 def refactor_readmes():
     """Refactors README.md files in the src folder."""
@@ -164,15 +169,11 @@ def gsearch(query):
 
     log(f"Searching Google for {query}")
 
-    user_agent = (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
-        + " (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
-    )
     for url in search(
         "site:leetcode.com " + query,
         stop=1,
         tld="com",
-        user_agent=user_agent,
+        user_agent=USER_AGENT,
     ):
         link = re.match(r"https:\/\/leetcode.com\/problems\/[a-z-]+\/", url)[0]
 
@@ -189,36 +190,63 @@ def parse_json(url):
 
     log(f"Parsing JSON data from {url}")
 
-    for i in range(5):
-        try:
-            page = requests.get(url)
-            soup = BeautifulSoup(page.text, "html.parser")
-            data = soup.find("script", id="__NEXT_DATA__")
-            json_ = json.loads(data.contents[0])
-            queries = json_["props"]["pageProps"]["dehydratedState"]["queries"]
-        except KeyError:
-            if i == 4:
-                raise Exception("Something went wrong!")
-            continue
-        id = queries[0]["state"]["data"]["question"]["questionFrontendId"]
-        title = queries[0]["state"]["data"]["question"]["title"]
-        question = queries[6]["state"]["data"]["question"]["content"]
-        difficulty = queries[0]["state"]["data"]["question"]["difficulty"]
-        hints = queries[5]["state"]["data"]["question"]["hints"]
-        tags = [i["name"] for i in queries[8]["state"]["data"]["question"]["topicTags"]]
-        # tags = [
-        #     (lambda x: x.replace(x, TAGS.get(x, i["name"])))(i["name"])
-        #     for i in queries[8]["state"]["data"]["question"]["topicTags"]
-        # ]
-
-        return {
-            "id": id,
-            "title": title,
-            "question": question,
-            "difficulty": difficulty,
-            "hints": hints,
-            "tags": tags,
+    graph_ql = "https://leetcode.com/graphql"
+    params = {
+        "operationName": "questionData",
+        "variables": {"titleSlug": url.split("/")[-2]},
+        "query": """
+            query questionData($titleSlug: String!) {
+            question(titleSlug: $titleSlug) {
+                questionId
+                title
+                content
+                difficulty
+                hints
+                topicTags {
+                    name
+                }
+            }
         }
+        """,
+    }
+
+    json_data = json.dumps(params).encode("utf8")
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "Referer": url,
+    }
+
+    res = None
+    while not res:
+        res = requests.post(
+            graph_ql,
+            data=json_data,
+            headers=headers,
+            timeout=10,
+        )
+    question: dict = res.json()["data"]["question"]
+
+    id = question["questionId"]
+    title = question["title"]
+    content = question["content"]
+    difficulty = question["difficulty"]
+    hints = question["hints"]
+    tags = [i["name"] for i in question["topicTags"]]
+    # tags = [
+    #     (lambda x: x.replace(x, TAGS.get(x, i["name"])))(i["name"])
+    #     for i in question["topicTags"]
+    # ]
+
+    return {
+        "id": id,
+        "title": title,
+        "question": content,
+        "difficulty": difficulty,
+        "hints": hints,
+        "tags": tags,
+    }
 
 
 def write_readme(path, question, url):
