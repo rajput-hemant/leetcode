@@ -69,6 +69,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/051 - N-Queens.md",
       },
       {
+        text: "053 - Maximum Subarray",
+        link: "/solution/0001-0100/053 - Maximum Subarray.md",
+      },
+      {
         text: "055 - Jump Game",
         link: "/solution/0001-0100/055 - Jump Game.md",
       },
@@ -89,6 +93,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/067 - Add Binary.md",
       },
       {
+        text: "069 - Sqrt(x)",
+        link: "/solution/0001-0100/069 - Sqrt(x).md",
+      },
+      {
         text: "070 - Climbing Stairs",
         link: "/solution/0001-0100/070 - Climbing Stairs.md",
       },
@@ -99,6 +107,18 @@ export default Sidebar = [
       {
         text: "075 - Sort Colors",
         link: "/solution/0001-0100/075 - Sort Colors.md",
+      },
+      {
+        text: "078 - Subsets",
+        link: "/solution/0001-0100/078 - Subsets.md",
+      },
+      {
+        text: "083 - Remove Duplicates from Sorted List",
+        link: "/solution/0001-0100/083 - Remove Duplicates from Sorted List.md",
+      },
+      {
+        text: "088 - Merge Sorted Array",
+        link: "/solution/0001-0100/088 - Merge Sorted Array.md",
       },
       {
         text: "094 - Binary Tree Inorder Traversal",
@@ -120,12 +140,20 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "101 - Symmetric Tree",
+        link: "/solution/0101-0200/101 - Symmetric Tree.md",
+      },
+      {
         text: "103 - Binary Tree Zigzag Level Order Traversal",
         link: "/solution/0101-0200/103 - Binary Tree Zigzag Level Order Traversal.md",
       },
       {
         text: "104 - Maximum Depth of Binary Tree",
         link: "/solution/0101-0200/104 - Maximum Depth of Binary Tree.md",
+      },
+      {
+        text: "108 - Convert Sorted Array to Binary Search Tree",
+        link: "/solution/0101-0200/108 - Convert Sorted Array to Binary Search Tree.md",
       },
       {
         text: "110 - Balanced Binary Tree",
@@ -136,8 +164,28 @@ export default Sidebar = [
         link: "/solution/0101-0200/111 - Minimum Depth of Binary Tree.md",
       },
       {
+        text: "112 - Path Sum",
+        link: "/solution/0101-0200/112 - Path Sum.md",
+      },
+      {
+        text: "118 - Pascals Triangle",
+        link: "/solution/0101-0200/118 - Pascals Triangle.md",
+      },
+      {
         text: "122 - Best Time to Buy and Sell Stock II",
         link: "/solution/0101-0200/122 - Best Time to Buy and Sell Stock II.md",
+      },
+      {
+        text: "125 - Valid Palindrome",
+        link: "/solution/0101-0200/125 - Valid Palindrome.md",
+      },
+      {
+        text: "136 - Single Number",
+        link: "/solution/0101-0200/136 - Single Number.md",
+      },
+      {
+        text: "141 - Linked List Cycle",
+        link: "/solution/0101-0200/141 - Linked List Cycle.md",
       },
       {
         text: "144 - Binary Tree Preorder Traversal",
@@ -146,6 +194,14 @@ export default Sidebar = [
       {
         text: "145 - Binary Tree Postorder Traversal",
         link: "/solution/0101-0200/145 - Binary Tree Postorder Traversal.md",
+      },
+      {
+        text: "160 - Intersection of Two Linked Lists",
+        link: "/solution/0101-0200/160 - Intersection of Two Linked Lists.md",
+      },
+      {
+        text: "169 - Majority Element",
+        link: "/solution/0101-0200/169 - Majority Element.md",
       },
       {
         text: "172 - Factorial Trailing Zeroes",
@@ -167,6 +223,10 @@ export default Sidebar = [
         text: "199 - Binary Tree Right Side View",
         link: "/solution/0101-0200/199 - Binary Tree Right Side View.md",
       },
+      {
+        text: "200 - Number of Islands",
+        link: "/solution/0101-0200/200 - Number of Islands.md",
+      },
     ],
   },
   {
@@ -174,6 +234,18 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "202 - Happy Number",
+        link: "/solution/0201-0300/202 - Happy Number.md",
+      },
+      {
+        text: "203 - Remove Linked List Elements",
+        link: "/solution/0201-0300/203 - Remove Linked List Elements.md",
+      },
+      {
+        text: "205 - Isomorphic Strings",
+        link: "/solution/0201-0300/205 - Isomorphic Strings.md",
+      },
       {
         text: "206 - Reverse Linked List",
         link: "/solution/0201-0300/206 - Reverse Linked List.md",
@@ -189,6 +261,10 @@ export default Sidebar = [
       {
         text: "231 - Power of Two",
         link: "/solution/0201-0300/231 - Power of Two.md",
+      },
+      {
+        text: "236 - Lowest Common Ancestor of a Binary Tree",
+        link: "/solution/0201-0300/236 - Lowest Common Ancestor of a Binary Tree.md",
       },
       {
         text: "278 - First Bad Version",
@@ -241,6 +317,10 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "438 - Find All Anagrams in a String",
+        link: "/solution/0401-0500/438 - Find All Anagrams in a String.md",
+      },
+      {
         text: "442 - Find All Duplicates in an Array",
         link: "/solution/0401-0500/442 - Find All Duplicates in an Array.md",
       },
@@ -270,6 +350,10 @@ export default Sidebar = [
       {
         text: "518 - Coin Change 2",
         link: "/solution/0501-0600/518 - Coin Change 2.md",
+      },
+      {
+        text: "530 - Minimum Absolute Difference in BST",
+        link: "/solution/0501-0600/530 - Minimum Absolute Difference in BST.md",
       },
       {
         text: "541 - Reverse String II",
@@ -308,6 +392,10 @@ export default Sidebar = [
       {
         text: "771 - Jewels and Stones",
         link: "/solution/0701-0800/771 - Jewels and Stones.md",
+      },
+      {
+        text: "783 - Minimum Distance Between BST Nodes",
+        link: "/solution/0701-0800/783 - Minimum Distance Between BST Nodes.md",
       },
     ],
   },
@@ -388,6 +476,10 @@ export default Sidebar = [
         link: "/solution/1401-1500/1461 - Check If a String Contains All Binary Codes of Size K.md",
       },
       {
+        text: "1470 - Shuffle the Array",
+        link: "/solution/1401-1500/1470 - Shuffle the Array.md",
+      },
+      {
         text: "1480 - Running Sum of 1d Array",
         link: "/solution/1401-1500/1480 - Running Sum of 1d Array.md",
       },
@@ -406,6 +498,10 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "1523. Count Odd Numbers in an Interval Range",
+        link: "/solution/1501-1600/1523. Count Odd Numbers in an Interval Range.md",
+      },
       {
         text: "1537 - Get the Maximum Score",
         link: "/solution/1501-1600/1537 - Get the Maximum Score.md",
