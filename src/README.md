@@ -72,6 +72,8 @@
 | **0203** |                 [Remove Linked List Elements][203]                  |                            LL, Recursion                            |  ![][easy]  |        |
 | **0205** |                      [Isomorphic Strings][205]                      |                         Hash Table, String                          |  ![][easy]  |        |
 | **0206** |                     [Reverse Linked List][206]                      |                       Linked List, Recursion                        |  ![][easy]  |        |
+| **0217** |                      [Contains Duplicate][217]                      |                     Array, Hash Table, Sorting                      |  ![][easy]  |        |
+| **0219** |                    [Contains Duplicate II][219]                     |                  Array, Hash Table, Sliding Window                  |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |                Binary Search, Tree, DFS, Binary Tree                | ![][medium] |        |
 | **0230** |                [Kth Smallest Element in a BST][230]                 |                     Tree, DFS, BST, Binary Tree                     | ![][medium] |        |
 | **0231** |                         [Power of Two][231]                         |                  Math, Bit Manipulation, Recursion                  |  ![][easy]  |        |
@@ -185,6 +187,8 @@
 [203]: ./0201-0300/203%20-%20Remove%20Linked%20List%20Elements/
 [205]: ./0201-0300/205%20-%20Isomorphic%20Strings/
 [206]: ./0201-0300/206%20-%20Reverse%20Linked%20List/
+[217]: ./0201-0300/217%20-%20Contains%20Duplicate/
+[219]: ./0201-0300/219%20-%20Contains%20Duplicate%20II/
 [222]: ./0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
 [230]: ./0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [231]: ./0201-0300/231%20-%20Power%20of%20Two/
