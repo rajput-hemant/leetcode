@@ -251,6 +251,14 @@ export default Sidebar = [
         link: "/solution/0201-0300/206 - Reverse Linked List.md",
       },
       {
+        text: "217 - Contains Duplicate",
+        link: "/solution/0201-0300/217 - Contains Duplicate.md",
+      },
+      {
+        text: "219 - Contains Duplicate II",
+        link: "/solution/0201-0300/219 - Contains Duplicate II.md",
+      },
+      {
         text: "222 - Count Complete Tree Nodes",
         link: "/solution/0201-0300/222 - Count Complete Tree Nodes.md",
       },

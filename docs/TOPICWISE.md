@@ -37,6 +37,8 @@
 | **0136** |                        [Single Number][136]                         |                          Array, Bit Manip                           |  ![][easy]  |        |
 | **0169** |                       [Majority Element][169]                       |      Array, Hash Table, Divide and Conquer, Sorting, Counting       |  ![][easy]  |        |
 | **0200** |                      [Number of Islands][200]                       | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
+| **0217** |                      [Contains Duplicate][217]                      |                     Array, Hash Table, Sorting                      |  ![][easy]  |        |
+| **0219** |                    [Contains Duplicate II][219]                     |                  Array, Hash Table, Sliding Window                  |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                         Array, Two Pointers                         |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                      Array, Binary Search, DP                       | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                   Array, Dynamic Programming, BFS                   | ![][medium] |        |
@@ -96,6 +98,8 @@
 | **0169** |         [Majority Element][169]         | Array, Hash Table, Divide and Conquer, Sorting, Counting  |  ![][easy]  |        |
 | **0202** |           [Happy Number][202]           |                   Hash Table, Math, 2P                    |  ![][easy]  |        |
 | **0205** |        [Isomorphic Strings][205]        |                    Hash Table, String                     |  ![][easy]  |        |
+| **0217** |        [Contains Duplicate][217]        |                Array, Hash Table, Sorting                 |  ![][easy]  |        |
+| **0219** |      [Contains Duplicate II][219]       |             Array, Hash Table, Sliding Window             |  ![][easy]  |        |
 | **0389** |       [Find the Difference][389]        |       Hash Table, String, Bit Manipulation, Sorting       |  ![][easy]  |        |
 | **0438** |  [Find All Anagrams in a String][438]   |            Hash Table, String, Sliding Window             | ![][medium] |        |
 | **0442** |       [Find All Duplicates][442]        |                     Array, Hash Table                     | ![][medium] |        |
@@ -159,6 +163,7 @@
 | **0075** |                          [Sort Colors][75]                          |               Array, Two Pointers, Sorting               | ![][medium] |        |
 | **0088** |                      [Merge Sorted Array][88]                       |               Array, Two Pointers, Sorting               |  ![][easy]  |        |
 | **0169** |                       [Majority Element][169]                       | Array, Hash Table, Divide and Conquer, Sorting, Counting |  ![][easy]  |        |
+| **0217** |                      [Contains Duplicate][217]                      |                Array, Hash Table, Sorting                |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |      Hash Table, String, Bit Manipulation, Sorting       |  ![][easy]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                   Array, Sorting, Heap                   |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |        Array, Hash Table, Binary Search, Sorting         |  ![][easy]  |        |
@@ -417,6 +422,7 @@
 
 |    #     |               Solution               |                Tags                | Difficulty  | Remark |
 | :------: | :----------------------------------: | :--------------------------------: | :---------: | :----: |
+| **0219** |     [Contains Duplicate II][219]     | Array, Hash Table, Sliding Window  |  ![][easy]  |        |
 | **0438** | [Find All Anagrams in a String][438] | Hash Table, String, Sliding Window | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
@@ -848,6 +854,8 @@
 [203]: ./solution/0201-0300/203%20-%20Remove%20Linked%20List%20Elements.md
 [205]: ./solution/0201-0300/205%20-%20Isomorphic%20Strings.md
 [206]: ./solution/0201-0300/206%20-%20Reverse%20Linked%20List.md
+[217]: ./solution/0201-0300/217%20-%20Contains%20Duplicate.md
+[219]: ./solution/0201-0300/219%20-%20Contains%20Duplicate%20II.md
 [222]: ./solution/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes.md
 [230]: ./solution/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST.md
 [231]: ./solution/0201-0300/231%20-%20Power%20of%20Two.md
