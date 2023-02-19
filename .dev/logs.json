@@ -1024,12 +1024,16 @@
     "sols": {}
   },
   "225": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "stack_using_queues.go": "2763c912408f75bca695972611c5e714babc32f989bda656393cd4af447a6aaa"
+    }
   },
   "226": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "invert_binary_tree.go": "593e11b04a9d4e0995eee40c612eeb3b344fad616b38f33523fc60a981dd1a64"
+    }
   },
   "227": {
     "len": 0,
@@ -1056,8 +1060,10 @@
     }
   },
   "232": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "queue_using_stacks.go": "5f7a0af2ebe7047999ceba68fa1d03c90f7a3383a79c0acf4e234455117cf809"
+    }
   },
   "233": {
     "len": 0,

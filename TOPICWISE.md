@@ -243,6 +243,7 @@
 | **0145** |      [Binary Tree Postorder Traversal][145]       |                  Stack, Tree, DFS, Binary Tree                   |  ![][easy]  |        |
 | **0199** |        [Binary Tree Right Side View][199]         |                   Tree, DFS, BFS, Binary Tree                    | ![][medium] |        |
 | **0222** |         [Count Complete Tree Nodes][222]          |              Binary Search, Tree, DFS, Binary Tree               | ![][medium] |        |
+| **0226** |             [Invert Binary Tree][226]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0230** |       [Kth Smallest Element in a BST ][230]       |                   Tree, DFS, BST, Binary Tree                    | ![][medium] |        |
 | **0236** |  [Lowest Common Ancestor of a Binary Tree][236]   |              Tree, Depth-First Search, Binary Tree               | ![][medium] |        |
 | **0337** |              [House Robber III][337]              |                    DP, Tree, DFS, Binary Tree                    | ![][medium] |        |
@@ -298,6 +299,7 @@
 | **0145** |      [Binary Tree Postorder Traversal][145]       |                  Stack, Tree, DFS, Binary Tree                   |  ![][easy]  |        |
 | **0199** |        [Binary Tree Right Side View][199]         |                   Tree, DFS, BFS, Binary Tree                    | ![][medium] |        |
 | **0222** |         [Count Complete Tree Nodes][222]          |              Binary Search, Tree, DFS, Binary Tree               | ![][medium] |        |
+| **0226** |             [Invert Binary Tree][226]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0230** |       [Kth Smallest Element in a BST ][230]       |                   Tree, DFS, BST, Binary Tree                    | ![][medium] |        |
 | **0236** |  [Lowest Common Ancestor of a Binary Tree][236]   |              Tree, Depth-First Search, Binary Tree               | ![][medium] |        |
 | **0337** |              [House Robber III][337]              |                    DP, Tree, DFS, Binary Tree                    | ![][medium] |        |
@@ -354,6 +356,8 @@
 | **0094** |       [Binary Tree Inorder Traversal][94]        | Tree, Stack, DFS, Binary Tree |  ![][easy]  |        |
 | **0144** |      [Binary Tree Preorder Traversal][144]       | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, DFS, Binary Tree |  ![][easy]  |        |
+| **0225** |       [Implement Stack using Queues][225]        |         ST, Design, Q         |  ![][easy]  |        |
+| **0232** |       [Implement Queue using Stacks][232]        |         ST, Design, Q         |  ![][easy]  |        |
 | **0445** |            [Add Two Numbers II][445]             |   Linked List, Math, Stack    | ![][medium] |        |
 | **0739** |            [Daily Temperatures][739]             | Array, Stack, Monotonic Stack | ![][medium] |        |
 | **1047** | [Remove All Adjacent Duplicates In String][1047] |         String, Stack         |  ![][easy]  |        |
@@ -362,8 +366,10 @@
 
 ## Design
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |              Solution               |     Tags      | Difficulty | Remark |
+| :------: | :---------------------------------: | :-----------: | :--------: | :----: |
+| **0225** | [Implement Stack using Queues][225] | ST, Design, Q | ![][easy]  |        |
+| **0232** | [Implement Queue using Stacks][232] | ST, Design, Q | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -530,8 +536,10 @@
 
 ## Queue
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |              Solution               |     Tags      | Difficulty | Remark |
+| :------: | :---------------------------------: | :-----------: | :--------: | :----: |
+| **0225** | [Implement Stack using Queues][225] | ST, Design, Q | ![][easy]  |        |
+| **0232** | [Implement Queue using Stacks][232] | ST, Design, Q | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -857,8 +865,11 @@
 [217]: ./src/0201-0300/217%20-%20Contains%20Duplicate/
 [219]: ./src/0201-0300/219%20-%20Contains%20Duplicate%20II/
 [222]: ./src/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
+[225]: ./src/0201-0300/225%20-%20Implement%20Stack%20using%20Queues/
+[226]: ./src/0201-0300/226%20-%20Invert%20Binary%20Tree/
 [230]: ./src/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [231]: ./src/0201-0300/231%20-%20Power%20of%20Two/
+[232]: ./src/0201-0300/232%20-%20Implement%20Queue%20using%20Stacks/
 [236]: ./src/0201-0300/236%20-%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/
 [239]: ./src/0201-0300/239%20-%20Sliding%20Window%20Maximum/
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/

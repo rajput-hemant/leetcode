@@ -75,8 +75,11 @@
 | **0217** |                      [Contains Duplicate][217]                      |                     Array, Hash Table, Sorting                      |  ![][easy]  |        |
 | **0219** |                    [Contains Duplicate II][219]                     |                  Array, Hash Table, Sliding Window                  |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |                Binary Search, Tree, DFS, Binary Tree                | ![][medium] |        |
+| **0225** |                 [Implement Stack using Queues][225]                 |                            ST, Design, Q                            |  ![][easy]  |        |
+| **0226** |                      [Invert Binary Tree][226]                      |     Tree, Depth-First Search, Breadth-First Search, Binary Tree     |  ![][easy]  |        |
 | **0230** |                [Kth Smallest Element in a BST][230]                 |                     Tree, DFS, BST, Binary Tree                     | ![][medium] |        |
 | **0231** |                         [Power of Two][231]                         |                  Math, Bit Manipulation, Recursion                  |  ![][easy]  |        |
+| **0232** |                 [Implement Queue using Stacks][232]                 |                            ST, Design, Q                            |  ![][easy]  |        |
 | **0236** |           [Lowest Common Ancestor of a Binary Tree][236]            |                Tree, Depth-First Search, Binary Tree                | ![][medium] |        |
 | **0278** |                      [First Bad Version][278]                       |                     Binary Search, Interactive                      |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                         Array, Two Pointers                         |  ![][easy]  |        |
@@ -190,8 +193,11 @@
 [217]: ./0201-0300/217%20-%20Contains%20Duplicate/
 [219]: ./0201-0300/219%20-%20Contains%20Duplicate%20II/
 [222]: ./0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes/
+[225]: ./0201-0300/225%20-%20Implement%20Stack%20using%20Queues/
+[226]: ./0201-0300/226%20-%20Invert%20Binary%20Tree/
 [230]: ./0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST/
 [231]: ./0201-0300/231%20-%20Power%20of%20Two/
+[232]: ./0201-0300/232%20-%20Implement%20Queue%20using%20Stacks/
 [236]: ./0201-0300/236%20-%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/
 [239]: ./0201-0300/239%20-%20Sliding%20Window%20Maximum/
 [278]: ./0201-0300/278%20-%20First%20Bad%20Version/
