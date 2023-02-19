@@ -263,12 +263,24 @@ export default Sidebar = [
         link: "/solution/0201-0300/222 - Count Complete Tree Nodes.md",
       },
       {
+        text: "225 - Implement Stack using Queues",
+        link: "/solution/0201-0300/225 - Implement Stack using Queues.md",
+      },
+      {
+        text: "226 - Invert Binary Tree",
+        link: "/solution/0201-0300/226 - Invert Binary Tree.md",
+      },
+      {
         text: "230 - Kth Smallest Element in a BST",
         link: "/solution/0201-0300/230 - Kth Smallest Element in a BST.md",
       },
       {
         text: "231 - Power of Two",
         link: "/solution/0201-0300/231 - Power of Two.md",
+      },
+      {
+        text: "232 - Implement Queue using Stacks",
+        link: "/solution/0201-0300/232 - Implement Queue using Stacks.md",
       },
       {
         text: "236 - Lowest Common Ancestor of a Binary Tree",
