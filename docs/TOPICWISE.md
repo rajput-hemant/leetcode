@@ -39,6 +39,7 @@
 | **0200** |                      [Number of Islands][200]                       | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
 | **0217** |                      [Contains Duplicate][217]                      |                     Array, Hash Table, Sorting                      |  ![][easy]  |        |
 | **0219** |                    [Contains Duplicate II][219]                     |                  Array, Hash Table, Sliding Window                  |  ![][easy]  |        |
+| **0228** |                        [Summary Ranges][228]                        |                                Array                                |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                         Array, Two Pointers                         |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                      Array, Binary Search, DP                       | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                   Array, Dynamic Programming, BFS                   | ![][medium] |        |
@@ -72,6 +73,7 @@
 | **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
 | **0125** |                    [Valid Palindrome][125]                    |             Two Pointers, String              |  ![][easy]  |        |
 | **0205** |                   [Isomorphic Strings][205]                   |              Hash Table, String               |  ![][easy]  |        |
+| **0242** |                     [Valid Anagram][242]                      |          Hash Table, String, Sorting          |  ![][easy]  |        |
 | **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **0438** |             [Find All Anagrams in a String][438]              |      Hash Table, String, Sliding Window       | ![][medium] |        |
@@ -100,6 +102,7 @@
 | **0205** |        [Isomorphic Strings][205]        |                    Hash Table, String                     |  ![][easy]  |        |
 | **0217** |        [Contains Duplicate][217]        |                Array, Hash Table, Sorting                 |  ![][easy]  |        |
 | **0219** |      [Contains Duplicate II][219]       |             Array, Hash Table, Sliding Window             |  ![][easy]  |        |
+| **0242** |          [Valid Anagram][242]           |                Hash Table, String, Sorting                |  ![][easy]  |        |
 | **0389** |       [Find the Difference][389]        |       Hash Table, String, Bit Manipulation, Sorting       |  ![][easy]  |        |
 | **0438** |  [Find All Anagrams in a String][438]   |            Hash Table, String, Sliding Window             | ![][medium] |        |
 | **0442** |       [Find All Duplicates][442]        |                     Array, Hash Table                     | ![][medium] |        |
@@ -164,6 +167,7 @@
 | **0088** |                      [Merge Sorted Array][88]                       |               Array, Two Pointers, Sorting               |  ![][easy]  |        |
 | **0169** |                       [Majority Element][169]                       | Array, Hash Table, Divide and Conquer, Sorting, Counting |  ![][easy]  |        |
 | **0217** |                      [Contains Duplicate][217]                      |                Array, Hash Table, Sorting                |  ![][easy]  |        |
+| **0242** |                        [Valid Anagram][242]                         |               Hash Table, String, Sorting                |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |      Hash Table, String, Bit Manipulation, Sorting       |  ![][easy]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                   Array, Sorting, Heap                   |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |        Array, Hash Table, Binary Search, Sorting         |  ![][easy]  |        |
@@ -324,6 +328,7 @@
 | **0141** |                      [Linked List Cycle][141]                       |                Hash Table, Linked List, 2P                |  ![][easy]  |        |
 | **0160** |               [Intersection of Two Linked Lists][160]               |                Hash Table, Linked List, 2P                |  ![][easy]  |        |
 | **0202** |                         [Happy Number][202]                         |                   Hash Table, Math, 2P                    |  ![][easy]  |        |
+| **0234** |                    [Palindrome Linked List][234]                    |        Linked List, Two Pointers, Stack, Recursion        |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                    Array, Two Pointers                    |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |              Two Pointers, String, Recursion              |  ![][easy]  |        |
 | **0541** |                      [Reverse String II][541]                       |                   Two Pointers, String                    |  ![][easy]  |        |
@@ -358,6 +363,7 @@
 | **0145** |      [Binary Tree Postorder Traversal][145]      | Stack, Tree, Depth First Search, Binary Tree |  ![][easy]  |        |
 | **0225** |       [Implement Stack using Queues][225]        |               Stack, Design, Q               |  ![][easy]  |        |
 | **0232** |       [Implement Queue using Stacks][232]        |               Stack, Design, Q               |  ![][easy]  |        |
+| **0234** |          [Palindrome Linked List][234]           | Linked List, Two Pointers, Stack, Recursion  |  ![][easy]  |        |
 | **0445** |            [Add Two Numbers II][445]             |           Linked List, Math, Stack           | ![][medium] |        |
 | **0739** |            [Daily Temperatures][739]             |        Array, Stack, Monotonic Stack         | ![][medium] |        |
 | **1047** | [Remove All Adjacent Duplicates In String][1047] |                String, Stack                 |  ![][easy]  |        |
@@ -435,20 +441,21 @@
 
 ## Linked List
 
-|    #     |                 Solution                 |             Tags             | Difficulty  | Remark |
-| :------: | :--------------------------------------: | :--------------------------: | :---------: | :----: |
-| **0002** |           [Add Two Numbers][2]           | Linked List, Math, Recursion | ![][medium] |        |
-| **0021** |       [Merge Two Sorted Lists][21]       |    Linked List, Recursion    |  ![][easy]  |        |
-| **0024** |        [Swap Nodes in Pairs][24]         |    Linked List, Recursion    | ![][medium] |        |
-| **0061** |            [Rotate List][61]             |  Linked List, Two Pointers   | ![][medium] |        |
-| **0083** | [Remove Duplicates from Sorted List][83] |              LL              |  ![][easy]  |        |
-| **0141** |         [Linked List Cycle][141]         | Hash Table, Linked List, 2P  |  ![][easy]  |        |
-| **0160** | [Intersection of Two Linked Lists][160]  | Hash Table, Linked List, 2P  |  ![][easy]  |        |
-| **0203** |    [Remove Linked List Elements][203]    |    Linked List, Recursion    |  ![][easy]  |        |
-| **0206** |        [Reverse Linked List][206]        |    Linked List, Recursion    |  ![][easy]  |        |
-| **0369** |       [Plus One Linked List][369]        |      Linked List, Math       | ![][medium] |   🔒   |
-| **0445** |        [Add Two Numbers II][445]         |   Linked List, Math, Stack   | ![][medium] |        |
-| **0876** |     [Middle of the Linked List][876]     |  Linked List, Two Pointers   |  ![][easy]  |        |
+|    #     |                 Solution                 |                    Tags                     | Difficulty  | Remark |
+| :------: | :--------------------------------------: | :-----------------------------------------: | :---------: | :----: |
+| **0002** |           [Add Two Numbers][2]           |        Linked List, Math, Recursion         | ![][medium] |        |
+| **0021** |       [Merge Two Sorted Lists][21]       |           Linked List, Recursion            |  ![][easy]  |        |
+| **0024** |        [Swap Nodes in Pairs][24]         |           Linked List, Recursion            | ![][medium] |        |
+| **0061** |            [Rotate List][61]             |          Linked List, Two Pointers          | ![][medium] |        |
+| **0083** | [Remove Duplicates from Sorted List][83] |                     LL                      |  ![][easy]  |        |
+| **0141** |         [Linked List Cycle][141]         |         Hash Table, Linked List, 2P         |  ![][easy]  |        |
+| **0160** | [Intersection of Two Linked Lists][160]  |         Hash Table, Linked List, 2P         |  ![][easy]  |        |
+| **0203** |    [Remove Linked List Elements][203]    |           Linked List, Recursion            |  ![][easy]  |        |
+| **0206** |        [Reverse Linked List][206]        |           Linked List, Recursion            |  ![][easy]  |        |
+| **0234** |      [Palindrome Linked List][234]       | Linked List, Two Pointers, Stack, Recursion |  ![][easy]  |        |
+| **0369** |       [Plus One Linked List][369]        |              Linked List, Math              | ![][medium] |   🔒   |
+| **0445** |        [Add Two Numbers II][445]         |          Linked List, Math, Stack           | ![][medium] |        |
+| **0876** |     [Middle of the Linked List][876]     |          Linked List, Two Pointers          |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -485,6 +492,7 @@
 | **0203** | [Remove Linked List Elements][203] |              Linked List, Recursion               |  ![][easy]  |        |
 | **0206** |     [Reverse Linked List][206]     |              Linked List, Recursion               |  ![][easy]  |        |
 | **0231** |        [Power of Two][231]         |         Math, Bit Manipulation, Recursion         |  ![][easy]  |        |
+| **0234** |   [Palindrome Linked List][234]    |    Linked List, Two Pointers, Stack, Recursion    |  ![][easy]  |        |
 | **0344** |       [Reverse String][344]        |          Two Pointers, String, Recursion          |  ![][easy]  |        |
 | **0509** |      [Fibonacci Number][509]       | Math, Recursion, Dynamic Programming, Memoization |  ![][easy]  |        |
 
@@ -867,11 +875,14 @@
 [222]: ./solution/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes.md
 [225]: ./solution/0201-0300/225%20-%20Implement%20Stack%20using%20Queues.md
 [226]: ./solution/0201-0300/226%20-%20Invert%20Binary%20Tree.md
+[228]: ./solution/0201-0300/228%20-%20Summary%20Ranges.md
 [230]: ./solution/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST.md
 [231]: ./solution/0201-0300/231%20-%20Power%20of%20Two.md
 [232]: ./solution/0201-0300/232%20-%20Implement%20Queue%20using%20Stacks.md
+[234]: ./solution/0201-0300/234%20-%20Palindrome%20Linked%20List.md
 [236]: ./solution/0201-0300/236%20-%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md
 [239]: ./solution/0201-0300/239%20-%20Sliding%20Window%20Maximum.md
+[242]: ./solution/0201-0300/242%20-%20Valid%20Anagram.md
 [278]: ./solution/0201-0300/278%20-%20First%20Bad%20Version.md
 [283]: ./solution/0201-0300/283%20-%20Move%20Zeroes.md
 [300]: ./solution/0201-0300/300%20-%20Longest%20Increasing%20Subsequence.md

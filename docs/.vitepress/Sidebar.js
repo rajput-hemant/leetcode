@@ -271,6 +271,10 @@ export default Sidebar = [
         link: "/solution/0201-0300/226 - Invert Binary Tree.md",
       },
       {
+        text: "228 - Summary Ranges",
+        link: "/solution/0201-0300/228 - Summary Ranges.md",
+      },
+      {
         text: "230 - Kth Smallest Element in a BST",
         link: "/solution/0201-0300/230 - Kth Smallest Element in a BST.md",
       },
@@ -283,8 +287,16 @@ export default Sidebar = [
         link: "/solution/0201-0300/232 - Implement Queue using Stacks.md",
       },
       {
+        text: "234 - Palindrome Linked List",
+        link: "/solution/0201-0300/234 - Palindrome Linked List.md",
+      },
+      {
         text: "236 - Lowest Common Ancestor of a Binary Tree",
         link: "/solution/0201-0300/236 - Lowest Common Ancestor of a Binary Tree.md",
+      },
+      {
+        text: "242 - Valid Anagram",
+        link: "/solution/0201-0300/242 - Valid Anagram.md",
       },
       {
         text: "278 - First Bad Version",

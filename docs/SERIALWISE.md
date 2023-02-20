@@ -77,10 +77,13 @@
 | **0222** |                  [Count Complete Tree Nodes][222]                   |              Binary Search, Tree, Depth First Search, Binary Tree               | ![][medium] |        |
 | **0225** |                 [Implement Stack using Queues][225]                 |                                Stack, Design, Q                                 |  ![][easy]  |        |
 | **0226** |                      [Invert Binary Tree][226]                      |           Tree, Depth-First Search, Breadth-First Search, Binary Tree           |  ![][easy]  |        |
+| **0228** |                        [Summary Ranges][228]                        |                                      Array                                      |  ![][easy]  |        |
 | **0230** |                [Kth Smallest Element in a BST][230]                 |            Tree, Depth First Search, Binary Search Tree, Binary Tree            | ![][medium] |        |
 | **0231** |                         [Power of Two][231]                         |                        Math, Bit Manipulation, Recursion                        |  ![][easy]  |        |
 | **0232** |                 [Implement Queue using Stacks][232]                 |                                Stack, Design, Q                                 |  ![][easy]  |        |
+| **0234** |                    [Palindrome Linked List][234]                    |                   Linked List, Two Pointers, Stack, Recursion                   |  ![][easy]  |        |
 | **0236** |           [Lowest Common Ancestor of a Binary Tree][236]            |                      Tree, Depth-First Search, Binary Tree                      | ![][medium] |        |
+| **0242** |                        [Valid Anagram][242]                         |                           Hash Table, String, Sorting                           |  ![][easy]  |        |
 | **0278** |                      [First Bad Version][278]                       |                           Binary Search, Interactive                            |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                               Array, Two Pointers                               |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                            Array, Binary Search, DP                             | ![][medium] |        |
@@ -195,11 +198,14 @@
 [222]: ./solution/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes.md
 [225]: ./solution/0201-0300/225%20-%20Implement%20Stack%20using%20Queues.md
 [226]: ./solution/0201-0300/226%20-%20Invert%20Binary%20Tree.md
+[228]: ./solution/0201-0300/228%20-%20Summary%20Ranges.md
 [230]: ./solution/0201-0300/230%20-%20Kth%20Smallest%20Element%20in%20a%20BST.md
 [231]: ./solution/0201-0300/231%20-%20Power%20of%20Two.md
 [232]: ./solution/0201-0300/232%20-%20Implement%20Queue%20using%20Stacks.md
+[234]: ./solution/0201-0300/234%20-%20Palindrome%20Linked%20List.md
 [236]: ./solution/0201-0300/236%20-%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md
 [239]: ./solution/0201-0300/239%20-%20Sliding%20Window%20Maximum.md
+[242]: ./solution/0201-0300/242%20-%20Valid%20Anagram.md
 [278]: ./solution/0201-0300/278%20-%20First%20Bad%20Version.md
 [283]: ./solution/0201-0300/283%20-%20Move%20Zeroes.md
 [300]: ./solution/0201-0300/300%20-%20Longest%20Increasing%20Subsequence.md
