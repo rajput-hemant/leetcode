@@ -480,9 +480,10 @@
     "sols": {}
   },
   "103": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "BinaryTreeZigzagLevelOrderTraversal.java": "5b36e31acd60129e35eda1ebc77773aecfdd8fa9b6cfac269e0a66314f70bdbf"
+      "BinaryTreeZigzagLevelOrderTraversal.java": "5b36e31acd60129e35eda1ebc77773aecfdd8fa9b6cfac269e0a66314f70bdbf",
+      "binary_tree_zigzag_level_order_traversal.go": "723e7fc5f155b7e56b2a9dc98c47580f8197a86d9b4744d646e740cb7a291ccc"
     }
   },
   "104": {
@@ -1040,8 +1041,10 @@
     "sols": {}
   },
   "228": {
-    "len": 0,
-    "sols": {}
+    "len": 3,
+    "sols": {
+      "summary_ranges.go": "d1db30df3efe5191e89899124902fb0702165b28f0fa8f10f35b84e4ffb6cd67"
+    }
   },
   "229": {
     "len": 0,
@@ -1070,8 +1073,10 @@
     "sols": {}
   },
   "234": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "palindrome_linked_list.go": "7163433d02dd0d1f5cc49c5eaddf4c32c57f2e5863b7844d494d54ec7f777700"
+    }
   },
   "235": {
     "len": 0,
@@ -1104,8 +1109,10 @@
     "sols": {}
   },
   "242": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "valid_anagram.rs": "99bcd843bb2afbcbf7eac879ed6646896d7b44fbe95f1a04968aa4d35d382a60"
+    }
   },
   "243": {
     "len": 0,
