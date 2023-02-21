@@ -172,6 +172,14 @@ export default Sidebar = [
         link: "/solution/0101-0200/118 - Pascals Triangle.md",
       },
       {
+        text: "119 - Pascals Triangle II",
+        link: "/solution/0101-0200/119 - Pascals Triangle II.md",
+      },
+      {
+        text: "121 - Best Time to Buy and Sell Stock",
+        link: "/solution/0101-0200/121 - Best Time to Buy and Sell Stock.md",
+      },
+      {
         text: "122 - Best Time to Buy and Sell Stock II",
         link: "/solution/0101-0200/122 - Best Time to Buy and Sell Stock II.md",
       },
@@ -297,6 +305,14 @@ export default Sidebar = [
       {
         text: "242 - Valid Anagram",
         link: "/solution/0201-0300/242 - Valid Anagram.md",
+      },
+      {
+        text: "257 - Binary Tree Paths",
+        link: "/solution/0201-0300/257 - Binary Tree Paths.md",
+      },
+      {
+        text: "258 - Add Digits",
+        link: "/solution/0201-0300/258 - Add Digits.md",
       },
       {
         text: "278 - First Bad Version",
