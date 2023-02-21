@@ -33,6 +33,8 @@
 | **0088** |                      [Merge Sorted Array][88]                       |                         Array, 2P, Sorting                          |  ![][easy]  |        |
 | **0108** |          [Convert Sorted Array to Binary Search Tree][108]          |                 Array, DNC, Tree, BST, Binary Tree                  |  ![][easy]  |        |
 | **0118** |                      [Pascal's Triangle][118]                       |                              Array, DP                              |  ![][easy]  |        |
+| **0119** |                     [Pascal's Triangle II][119]                     |                              Array, DP                              |  ![][easy]  |        |
+| **0121** |               [Best Time to Buy and Sell Stock][121]                |                              Array, DP                              |  ![][easy]  |        |
 | **0122** |              [Best Time to Buy and Sell Stock II][122]              |                          Array, DP, Greedy                          | ![][medium] |        |
 | **0136** |                        [Single Number][136]                         |                          Array, Bit Manip                           |  ![][easy]  |        |
 | **0169** |                       [Majority Element][169]                       |              Array, Hash Table, DNC, Sorting, Counting              |  ![][easy]  |        |
@@ -62,30 +64,31 @@
 
 ## String
 
-|    #     |                           Solution                            |                     Tags                      | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
-| **0013** |                    [Roman to Integer][13]                     |           String, Math, Hash Table            |  ![][easy]  |        |
-| **0014** |                  [Longest Common Prefix][14]                  |                    String                     |  ![][easy]  |        |
-| **0020** |                    [Valid Parentheses][20]                    |                  String, ST                   |  ![][easy]  |        |
-| **0022** |                  [Generate Parentheses][22]                   |           String, DP, Backtracking            | ![][medium] |        |
-| **0058** |                   [Length of Last Word][58]                   |                    String                     |  ![][easy]  |        |
-| **0067** |                       [Add Binary][67]                        |      Math, String, Bit Manip, Simulation      |  ![][easy]  |        |
-| **0072** |                      [Edit Distance][72]                      |                  String, DP                   |  ![][hard]  |        |
-| **0125** |                    [Valid Palindrome][125]                    |                  2P, String                   |  ![][easy]  |        |
-| **0205** |                   [Isomorphic Strings][205]                   |              Hash Table, String               |  ![][easy]  |        |
-| **0242** |                     [Valid Anagram][242]                      |          Hash Table, String, Sorting          |  ![][easy]  |        |
-| **0344** |                     [Reverse String][344]                     |        Two Pointers, String, Recursion        |  ![][easy]  |        |
-| **0389** |                  [Find the Difference][389]                   | Hash Table, String, Bit Manipulation, Sorting |  ![][easy]  |        |
-| **0438** |             [Find All Anagrams in a String][438]              |      Hash Table, String, Sliding Window       | ![][medium] |        |
-| **0516** |            [Longest Palindromic Subsequence][516]             |                  String, DP                   | ![][medium] |        |
-| **0541** |                   [Reverse String II][541]                    |             Two Pointers, String              |  ![][easy]  |        |
-| **0771** |                   [Jewels and Stones][771]                    |               String, Hashtable               |  ![][easy]  |        |
-| **0944** |             [Delete Columns to Make Sorted][944]              |                 Array, String                 |  ![][easy]  |        |
-| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                 String, Stack                 |  ![][easy]  |        |
-| **1092** |             [Shortest Common Supersequence][1092]             |                  String, DP                   |  ![][hard]  |        |
-| **1143** |              [Longest Common Subsequence][1143]               |                  String, DP                   | ![][medium] |        |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |     String, Hash Table, Bit Manipulation      | ![][medium] |        |
-| **1957** |        [Delete Characters to Make Fancy String][1957]         |                    String                     |  ![][easy]  |        |
+|    #     |                           Solution                            |                            Tags                             | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
+| **0013** |                    [Roman to Integer][13]                     |                  String, Math, Hash Table                   |  ![][easy]  |        |
+| **0014** |                  [Longest Common Prefix][14]                  |                           String                            |  ![][easy]  |        |
+| **0020** |                    [Valid Parentheses][20]                    |                         String, ST                          |  ![][easy]  |        |
+| **0022** |                  [Generate Parentheses][22]                   |                  String, DP, Backtracking                   | ![][medium] |        |
+| **0058** |                   [Length of Last Word][58]                   |                           String                            |  ![][easy]  |        |
+| **0067** |                       [Add Binary][67]                        |             Math, String, Bit Manip, Simulation             |  ![][easy]  |        |
+| **0072** |                      [Edit Distance][72]                      |                         String, DP                          |  ![][hard]  |        |
+| **0125** |                    [Valid Palindrome][125]                    |                         2P, String                          |  ![][easy]  |        |
+| **0205** |                   [Isomorphic Strings][205]                   |                     Hash Table, String                      |  ![][easy]  |        |
+| **0242** |                     [Valid Anagram][242]                      |                 Hash Table, String, Sorting                 |  ![][easy]  |        |
+| **0257** |                   [Binary Tree Paths][257]                    | String, Backtracking, Tree, Depth-First Search, Binary Tree |  ![][easy]  |        |
+| **0344** |                     [Reverse String][344]                     |               Two Pointers, String, Recursion               |  ![][easy]  |        |
+| **0389** |                  [Find the Difference][389]                   |        Hash Table, String, Bit Manipulation, Sorting        |  ![][easy]  |        |
+| **0438** |             [Find All Anagrams in a String][438]              |             Hash Table, String, Sliding Window              | ![][medium] |        |
+| **0516** |            [Longest Palindromic Subsequence][516]             |                         String, DP                          | ![][medium] |        |
+| **0541** |                   [Reverse String II][541]                    |                    Two Pointers, String                     |  ![][easy]  |        |
+| **0771** |                   [Jewels and Stones][771]                    |                      String, Hashtable                      |  ![][easy]  |        |
+| **0944** |             [Delete Columns to Make Sorted][944]              |                        Array, String                        |  ![][easy]  |        |
+| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                        String, Stack                        |  ![][easy]  |        |
+| **1092** |             [Shortest Common Supersequence][1092]             |                         String, DP                          |  ![][hard]  |        |
+| **1143** |              [Longest Common Subsequence][1143]               |                         String, DP                          | ![][medium] |        |
+| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |            String, Hash Table, Bit Manipulation             | ![][medium] |        |
+| **1957** |        [Delete Characters to Make Fancy String][1957]         |                           String                            |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -123,6 +126,8 @@
 | **0070** |           [Climbing Stairs][70]           |      Math, DP, Memoization       |  ![][easy]  |        |
 | **0072** |            [Edit Distance][72]            |            String, DP            |  ![][hard]  |        |
 | **0118** |         [Pascal's Triangle][118]          |            Array, DP             |  ![][easy]  |        |
+| **0119** |        [Pascal's Triangle II][119]        |            Array, DP             |  ![][easy]  |        |
+| **0121** |  [Best Time to Buy and Sell Stock][121]   |            Array, DP             |  ![][easy]  |        |
 | **0122** | [Best Time to Buy and Sell Stock II][122] |        Array, DP, Greedy         | ![][medium] |        |
 | **0300** |   [Longest Increasing Subsequence][300]   |     Array, Binary Search, DP     | ![][medium] |        |
 | **0322** |            [Coin Change][322]             |          Array, DP, BFS          | ![][medium] |        |
@@ -151,6 +156,7 @@
 | **0172** |       [Factorial Trailiing Zeroes][172]        |                Math                 | ![][medium] |        |
 | **0202** |              [Happy Number][202]               |        Hash Table, Math, 2P         |  ![][easy]  |        |
 | **0231** |              [Power of Two][231]               |  Math, Bit Manipulation, Recursion  |  ![][easy]  |        |
+| **0258** |               [Add Digits][258]                |   Math, Simulation, Number Theory   |  ![][easy]  |        |
 | **0367** |          [Valid Perfect Square][367]           |         Math, Binary Search         |  ![][easy]  |        |
 | **0445** |           [Add Two Numbers II][445]            |      Linked List, Math, Stack       | ![][medium] |        |
 | **0509** |            [Fibonacci Number][509]             |  Math, Recursion, DP, Memoization   |  ![][easy]  |        |
@@ -250,6 +256,7 @@
 | **0226** |             [Invert Binary Tree][226]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0230** |       [Kth Smallest Element in a BST ][230]       |                   Tree, DFS, BST, Binary Tree                    | ![][medium] |        |
 | **0236** |  [Lowest Common Ancestor of a Binary Tree][236]   |              Tree, Depth-First Search, Binary Tree               | ![][medium] |        |
+| **0257** |             [Binary Tree Paths][257]              |   String, Backtracking, Tree, Depth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0337** |              [House Robber III][337]              |                    DP, Tree, DFS, Binary Tree                    | ![][medium] |        |
 | **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **0543** |          [Diameter of Binary Tree][543]           |                      Tree, DFS, Binary Tree                      |  ![][easy]  |        |
@@ -306,6 +313,7 @@
 | **0226** |             [Invert Binary Tree][226]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0230** |       [Kth Smallest Element in a BST ][230]       |                   Tree, DFS, BST, Binary Tree                    | ![][medium] |        |
 | **0236** |  [Lowest Common Ancestor of a Binary Tree][236]   |              Tree, Depth-First Search, Binary Tree               | ![][medium] |        |
+| **0257** |             [Binary Tree Paths][257]              |   String, Backtracking, Tree, Depth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0337** |              [House Robber III][337]              |                    DP, Tree, DFS, Binary Tree                    | ![][medium] |        |
 | **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **0543** |          [Diameter of Binary Tree][543]           |                      Tree, DFS, Binary Tree                      |  ![][easy]  |        |
@@ -397,20 +405,22 @@
 
 ## Simulation
 
-|    #     |     Solution     |                Tags                 | Difficulty | Remark |
-| :------: | :--------------: | :---------------------------------: | :--------: | :----: |
-| **0067** | [Add Binary][67] | Math, String, Bit Manip, Simulation | ![][easy]  |        |
+|    #     |     Solution      |                Tags                 | Difficulty | Remark |
+| :------: | :---------------: | :---------------------------------: | :--------: | :----: |
+| **0067** | [Add Binary][67]  | Math, String, Bit Manip, Simulation | ![][easy]  |        |
+| **0258** | [Add Digits][258] |   Math, Simulation, Number Theory   | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
 ## Backtracking
 
-|    #     |          Solution          |              Tags              | Difficulty  | Remark |
-| :------: | :------------------------: | :----------------------------: | :---------: | :----: |
-| **0022** | [Generate Parentheses][22] |    String, DP, Backtracking    | ![][medium] |        |
-| **0037** |    [Sudoku Solver][37]     |  Array, Backtracking, Matrix   |  ![][hard]  |        |
-| **0051** |       [N-Queens][51]       |      Array, Backtracking       |  ![][hard]  |        |
-| **0078** |       [Subsets][78]        | Array, Backtracking, Bit Manip | ![][medium] |        |
+|    #     |          Solution          |                            Tags                             | Difficulty  | Remark |
+| :------: | :------------------------: | :---------------------------------------------------------: | :---------: | :----: |
+| **0022** | [Generate Parentheses][22] |                  String, DP, Backtracking                   | ![][medium] |        |
+| **0037** |    [Sudoku Solver][37]     |                 Array, Backtracking, Matrix                 |  ![][hard]  |        |
+| **0051** |       [N-Queens][51]       |                     Array, Backtracking                     |  ![][hard]  |        |
+| **0078** |       [Subsets][78]        |               Array, Backtracking, Bit Manip                | ![][medium] |        |
+| **0257** |  [Binary Tree Paths][257]  | String, Backtracking, Tree, Depth-First Search, Binary Tree |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -636,8 +646,9 @@
 
 ## Number Theory
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |     Solution      |              Tags               | Difficulty | Remark |
+| :------: | :---------------: | :-----------------------------: | :--------: | :----: |
+| **0258** | [Add Digits][258] | Math, Simulation, Number Theory | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -850,6 +861,8 @@
 [111]: ./src/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
 [112]: ./src/0101-0200/112%20-%20Path%20Sum/
 [118]: ./src/0101-0200/118%20-%20Pascals%20Triangle/
+[119]: ./src/0101-0200/119%20-%20Pascals%20Triangle%20II/
+[121]: ./src/0101-0200/121%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/
 [122]: ./src/0101-0200/122%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/
 [125]: ./src/0101-0200/125%20-%20Valid%20Palindrome/
 [134]: ./src/0101-0200/134%20-%20Gas%20Station/
@@ -883,6 +896,8 @@
 [236]: ./src/0201-0300/236%20-%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/
 [239]: ./src/0201-0300/239%20-%20Sliding%20Window%20Maximum/
 [242]: ./src/0201-0300/242%20-%20Valid%20Anagram/
+[257]: ./src/0201-0300/257%20-%20Binary%20Tree%20Paths/
+[258]: ./src/0201-0300/258%20-%20Add%20Digits/
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
 [300]: ./src/0201-0300/300%20-%20Longest%20Increasing%20Subsequence/

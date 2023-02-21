@@ -165,9 +165,10 @@
     "sols": {}
   },
   "35": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "solution.py": "6ed311fbdf421b9d9d3c4c0cd7131a362306f58b6563ecf21fde6281de398e71"
+      "solution.py": "6ed311fbdf421b9d9d3c4c0cd7131a362306f58b6563ecf21fde6281de398e71",
+      "search_insert_position.rs": "f8ea51542be3eb8bdf94c0d1e93862cdd93b947106bc6f4e91a35159c19e2ec0"
     }
   },
   "36": {
@@ -559,16 +560,20 @@
     }
   },
   "119": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "pascals_triangle_ii.rs": "e1c93c5deb2fada33b078cba160101cf06b78dfc3b0145ae572d34bd8aee3657"
+    }
   },
   "120": {
     "len": 0,
     "sols": {}
   },
   "121": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "best_time_to_buy_and_sell_stock.rs": "93764df62514c12ee4e09820c92f4c2c780c031c5cdeb765a02677b7e0e656e3"
+    }
   },
   "122": {
     "len": 2,
@@ -1043,7 +1048,8 @@
   "228": {
     "len": 3,
     "sols": {
-      "summary_ranges.go": "d1db30df3efe5191e89899124902fb0702165b28f0fa8f10f35b84e4ffb6cd67"
+      "summary_ranges.go": "d1db30df3efe5191e89899124902fb0702165b28f0fa8f10f35b84e4ffb6cd67",
+      "summary_ranges.rs": "74f498c18ed1c201c643f63481b49acf670c2d56b834c3a0e5b9afe439c6d18d"
     }
   },
   "229": {
@@ -1171,12 +1177,16 @@
     "sols": {}
   },
   "257": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "binary_tree_paths.go": "d3f5d019f74da016d33cad984a9c270ec10decf9db0044d7277ae4398778e0be"
+    }
   },
   "258": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "add_digits.rs": "3fa919ee56e46adf7a178ea5d657723f79075bdd25fa32b78b36ebcc511339d8"
+    }
   },
   "259": {
     "len": 0,

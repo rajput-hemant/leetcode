@@ -54,6 +54,8 @@
 | **0111** |                 [Minimum Depth of Binary Tree][111]                 |                     Tree, DFS, BFS, Binary Tree                     |  ![][easy]  |        |
 | **0112** |                           [Path Sum][112]                           |     Tree, Depth-First Search, Breadth-First Search, Binary Tree     |  ![][easy]  |        |
 | **0118** |                      [Pascal's Triangle][118]                       |                              Array, DP                              |  ![][easy]  |        |
+| **0119** |                     [Pascal's Triangle II][119]                     |                              Array, DP                              |  ![][easy]  |        |
+| **0121** |               [Best Time to Buy and Sell Stock][121]                |                              Array, DP                              |  ![][easy]  |        |
 | **0122** |              [Best Time to Buy and Sell Stock II][122]              |                          Array, DP, Greedy                          | ![][medium] |        |
 | **0125** |                       [Valid Palindrome][125]                       |                             2P, String                              |  ![][easy]  |        |
 | **0136** |                        [Single Number][136]                         |                          Array, Bit Manip                           |  ![][easy]  |        |
@@ -84,6 +86,8 @@
 | **0234** |                    [Palindrome Linked List][234]                    |                        LL, 2P, ST, Recursion                        |  ![][easy]  |        |
 | **0236** |           [Lowest Common Ancestor of a Binary Tree][236]            |                Tree, Depth-First Search, Binary Tree                | ![][medium] |        |
 | **0242** |                        [Valid Anagram][242]                         |                     Hash Table, String, Sorting                     |  ![][easy]  |        |
+| **0257** |                      [Binary Tree Paths][257]                       |     String, Backtracking, Tree, Depth-First Search, Binary Tree     |  ![][easy]  |        |
+| **0258** |                          [Add Digits][258]                          |                   Math, Simulation, Number Theory                   |  ![][easy]  |        |
 | **0278** |                      [First Bad Version][278]                       |                     Binary Search, Interactive                      |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                         Array, Two Pointers                         |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                      Array, Binary Search, DP                       | ![][medium] |        |
@@ -173,6 +177,8 @@
 [111]: ./0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
 [112]: ./0101-0200/112%20-%20Path%20Sum/
 [118]: ./0101-0200/118%20-%20Pascals%20Triangle/
+[119]: ./0101-0200/119%20-%20Pascals%20Triangle%20II/
+[121]: ./0101-0200/121%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/
 [122]: ./0101-0200/122%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/
 [125]: ./0101-0200/125%20-%20Valid%20Palindrome/
 [134]: ./0101-0200/134%20-%20Gas%20Station/
@@ -206,6 +212,8 @@
 [236]: ./0201-0300/236%20-%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/
 [239]: ./0201-0300/239%20-%20Sliding%20Window%20Maximum/
 [242]: ./0201-0300/242%20-%20Valid%20Anagram/
+[257]: ./0201-0300/257%20-%20Binary%20Tree%20Paths/
+[258]: ./0201-0300/258%20-%20Add%20Digits/
 [278]: ./0201-0300/278%20-%20First%20Bad%20Version/
 [283]: ./0201-0300/283%20-%20Move%20Zeroes/
 [300]: ./0201-0300/300%20-%20Longest%20Increasing%20Subsequence/
