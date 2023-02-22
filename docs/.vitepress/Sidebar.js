@@ -315,12 +315,24 @@ export default Sidebar = [
         link: "/solution/0201-0300/258 - Add Digits.md",
       },
       {
+        text: "263 - Ugly Number",
+        link: "/solution/0201-0300/263 - Ugly Number.md",
+      },
+      {
+        text: "268 - Missing Number",
+        link: "/solution/0201-0300/268 - Missing Number.md",
+      },
+      {
         text: "278 - First Bad Version",
         link: "/solution/0201-0300/278 - First Bad Version.md",
       },
       {
         text: "283 - Move Zeroes",
         link: "/solution/0201-0300/283 - Move Zeroes.md",
+      },
+      {
+        text: "290 - Word Pattern",
+        link: "/solution/0201-0300/290 - Word Pattern.md",
       },
       {
         text: "300 - Longest Increasing Subsequence",
@@ -402,6 +414,10 @@ export default Sidebar = [
       {
         text: "530 - Minimum Absolute Difference in BST",
         link: "/solution/0501-0600/530 - Minimum Absolute Difference in BST.md",
+      },
+      {
+        text: "540 - Single Element in a Sorted Array",
+        link: "/solution/0501-0600/540 - Single Element in a Sorted Array.md",
       },
       {
         text: "541 - Reverse String II",

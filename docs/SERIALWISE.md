@@ -88,8 +88,11 @@
 | **0242** |                        [Valid Anagram][242]                         |                           Hash Table, String, Sorting                           |  ![][easy]  |        |
 | **0257** |                      [Binary Tree Paths][257]                       |           String, Backtracking, Tree, Depth-First Search, Binary Tree           |  ![][easy]  |        |
 | **0258** |                          [Add Digits][258]                          |                         Math, Simulation, Number Theory                         |  ![][easy]  |        |
+| **0263** |                         [Ugly Number][263]                          |                                      Math                                       |  ![][easy]  |        |
+| **0268** |                        [Missing Number][268]                        |        Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting        |  ![][easy]  |        |
 | **0278** |                      [First Bad Version][278]                       |                           Binary Search, Interactive                            |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                               Array, Two Pointers                               |  ![][easy]  |        |
+| **0290** |                         [Word Pattern][290]                         |                               Hash Table, String                                |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                            Array, Binary Search, DP                             | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                         Array, Dynamic Programming, BFS                         | ![][medium] |        |
 | **0337** |                       [House Robber III][337]                       |           Dynamic Programming, Tree, Depth First Search, Binary Tree            | ![][medium] |        |
@@ -105,6 +108,7 @@
 | **0516** |               [Longest Palindromic Subsequence][516]                |                                   String, DP                                    | ![][medium] |        |
 | **0518** |                        [Coin Change 2][518]                         |                                    Array, DP                                    | ![][medium] |        |
 | **0530** |              [Minimum Absolute Difference in BST][530]              | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
+| **0540** |               [Single Element in a Sorted Array][540]               |                                    Array, BS                                    | ![][medium] |        |
 | **0541** |                      [Reverse String II][541]                       |                              Two Pointers, String                               |  ![][easy]  |        |
 | **0543** |                   [Diameter of Binary Tree][543]                    |                      Tree, Depth First Search, Binary Tree                      |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST][653]                  |            Tree, Depth First Search, Binary Search Tree, Binary Tree            |  ![][easy]  |        |
@@ -214,8 +218,11 @@
 [242]: ./solution/0201-0300/242%20-%20Valid%20Anagram.md
 [257]: ./solution/0201-0300/257%20-%20Binary%20Tree%20Paths.md
 [258]: ./solution/0201-0300/258%20-%20Add%20Digits.md
+[263]: ./solution/0201-0300/263%20-%20Ugly%20Number.md
+[268]: ./solution/0201-0300/268%20-%20Missing%20Number.md
 [278]: ./solution/0201-0300/278%20-%20First%20Bad%20Version.md
 [283]: ./solution/0201-0300/283%20-%20Move%20Zeroes.md
+[290]: ./solution/0201-0300/290%20-%20Word%20Pattern.md
 [300]: ./solution/0201-0300/300%20-%20Longest%20Increasing%20Subsequence.md
 [322]: ./solution/0301-0400/322%20-%20Coin%20Change.md
 [337]: ./solution/0301-0400/337%20-%20House%20Robber%20III.md
@@ -233,6 +240,7 @@
 [516]: ./solution/0501-0600/516%20-%20Longest%20Palindromic%20Subsequence.md
 [518]: ./solution/0501-0600/518%20-%20Coin%20Change%202.md
 [530]: ./solution/0501-0600/530%20-%20Minimum%20Absolute%20Difference%20in%20BST.md
+[540]: ./solution/0501-0600/540%20-%20Single%20Element%20in%20a%20Sorted%20Array.md
 [541]: ./solution/0501-0600/541%20-%20Reverse%20String%20II.md
 [543]: ./solution/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree.md
 [653]: ./solution/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.md
