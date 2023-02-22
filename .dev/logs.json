@@ -1205,8 +1205,10 @@
     "sols": {}
   },
   "263": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "ugly_number.rs": "ebb74480d33a319159396c7bae48c3b6ca61f68e6849938217586342bb4c01dc"
+    }
   },
   "264": {
     "len": 0,
@@ -1225,8 +1227,10 @@
     "sols": {}
   },
   "268": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "missing_number.rs": "7277cfc1308e60e0bddf6dd2ea98b92db4212934dceea3e770110dea6261da82"
+    }
   },
   "269": {
     "len": 0,
@@ -1317,8 +1321,10 @@
     "sols": {}
   },
   "290": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "word_pattern.go": "433577fa96ba056054a920abf18a53bb17d92495ff3f91f307798bbd76f73360"
+    }
   },
   "291": {
     "len": 0,
@@ -2347,8 +2353,10 @@
     "sols": {}
   },
   "540": {
-    "len": 0,
-    "sols": {}
+    "len": 3,
+    "sols": {
+      "single_element_in_a_sorted_array.go": "dd09479928d273f34941a56d90b195cf9faed2f73e00df125084e785886bcc2e"
+    }
   },
   "541": {
     "len": 2,
