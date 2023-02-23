@@ -335,6 +335,10 @@ export default Sidebar = [
         link: "/solution/0201-0300/290 - Word Pattern.md",
       },
       {
+        text: "292 - Nim Game",
+        link: "/solution/0201-0300/292 - Nim Game.md",
+      },
+      {
         text: "300 - Longest Increasing Subsequence",
         link: "/solution/0201-0300/300 - Longest Increasing Subsequence.md",
       },
@@ -498,6 +502,10 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "1011 - Capacity To Ship Packages Within D Days",
+        link: "/solution/1001-1100/1011 - Capacity To Ship Packages Within D Days.md",
+      },
       {
         text: "1047 - Remove All Adjacent Duplicates In String",
         link: "/solution/1001-1100/1047 - Remove All Adjacent Duplicates In String.md",

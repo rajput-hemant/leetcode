@@ -93,6 +93,7 @@
 | **0278** |                      [First Bad Version][278]                       |                           Binary Search, Interactive                            |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |                               Array, Two Pointers                               |  ![][easy]  |        |
 | **0290** |                         [Word Pattern][290]                         |                               Hash Table, String                                |  ![][easy]  |        |
+| **0292** |                           [Nim Game][292]                           |                         Math, Brainteaser, Game Theory                          |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                            Array, Binary Search, DP                             | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                         Array, Dynamic Programming, BFS                         | ![][medium] |        |
 | **0337** |                       [House Robber III][337]                       |           Dynamic Programming, Tree, Depth First Search, Binary Tree            | ![][medium] |        |
@@ -121,6 +122,7 @@
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                                  Array, String                                  |  ![][easy]  |        |
 | **0997** |                     [Find the Town Judge][997]                      |                            Array, Hash Table, Graph                             |  ![][easy]  |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                                  String, Stack                                  |  ![][easy]  |        |
+| **1056** |           [Capacity To Ship Packages Within D Days][1056]           |                                    Array, BS                                    | ![][medium] |        |
 | **1092** |                [Shortest Common Supersequence][1092]                |                                   String, DP                                    |  ![][hard]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                                   String, DP                                    | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                              Array, Math, Geometry                              |  ![][easy]  |        |
@@ -223,6 +225,7 @@
 [278]: ./solution/0201-0300/278%20-%20First%20Bad%20Version.md
 [283]: ./solution/0201-0300/283%20-%20Move%20Zeroes.md
 [290]: ./solution/0201-0300/290%20-%20Word%20Pattern.md
+[292]: ./solution/0201-0300/292%20-%20Nim%20Game.md
 [300]: ./solution/0201-0300/300%20-%20Longest%20Increasing%20Subsequence.md
 [322]: ./solution/0301-0400/322%20-%20Coin%20Change.md
 [337]: ./solution/0301-0400/337%20-%20House%20Robber%20III.md
@@ -254,6 +257,7 @@
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [1047]: ./solution/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md
+[1056]: ./solution/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.md
 [1092]: ./solution/1001-1100/1092%20-%20Shortest%20Common%20Supersequence.md
 [1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md
 [1232]: ./solution/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line.md

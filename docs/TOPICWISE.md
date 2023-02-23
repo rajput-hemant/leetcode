@@ -55,6 +55,7 @@
 | **0888** |                       [Fair Candy Swap][888]                        |              Array, Hash Table, Binary Search, Sorting              |  ![][easy]  |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                            Array, String                            |  ![][easy]  |        |
 | **0997** |                     [Find the Town Judge][997]                      |                      Array, Hash Table, Graph                       |  ![][easy]  |        |
+| **1056** |           [Capacity To Ship Packages Within D Days][1056]           |                              Array, BS                              | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                        Array, Math, Geometry                        |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                          Array, Prefix Sum                          |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                           Array, Sorting                            |  ![][easy]  |        |
@@ -164,6 +165,7 @@
 | **0258** |               [Add Digits][258]                |                  Math, Simulation, Number Theory                  |  ![][easy]  |        |
 | **0263** |               [Ugly Number][263]               |                               Math                                |  ![][easy]  |        |
 | **0268** |             [Missing Number][268]              | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0292** |                [Nim Game][292]                 |                  Math, Brainteaser, Game Theory                   |  ![][easy]  |        |
 | **0367** |          [Valid Perfect Square][367]           |                        Math, Binary Search                        |  ![][easy]  |        |
 | **0445** |           [Add Two Numbers II][445]            |                     Linked List, Math, Stack                      | ![][medium] |        |
 | **0509** |            [Fibonacci Number][509]             |         Math, Recursion, Dynamic Programming, Memoization         |  ![][easy]  |        |
@@ -288,6 +290,7 @@
 | **0367** |                     [Valid Perfect Square][367]                     |                        Math, Binary Search                        |  ![][easy]  |        |
 | **0540** |               [Single Element in a Sorted Array][540]               |                             Array, BS                             | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |                       Array, Binary Search                        |  ![][easy]  |        |
+| **1056** |           [Capacity To Ship Packages Within D Days][1056]           |                             Array, BS                             | ![][medium] |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |            Array, Two Pointers, Binary Search, Sorting            | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        |             Array, Hash Table, Binary Search, Sorting             |  ![][easy]  |        |
 
@@ -605,8 +608,9 @@
 
 ## Game Theory
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |    Solution     |              Tags              | Difficulty | Remark |
+| :------: | :-------------: | :----------------------------: | :--------: | :----: |
+| **0292** | [Nim Game][292] | Math, Brainteaser, Game Theory | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -721,8 +725,9 @@
 
 ## Brainteaser
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |    Solution     |              Tags              | Difficulty | Remark |
+| :------: | :-------------: | :----------------------------: | :--------: | :----: |
+| **0292** | [Nim Game][292] | Math, Brainteaser, Game Theory | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -914,6 +919,7 @@
 [278]: ./solution/0201-0300/278%20-%20First%20Bad%20Version.md
 [283]: ./solution/0201-0300/283%20-%20Move%20Zeroes.md
 [290]: ./solution/0201-0300/290%20-%20Word%20Pattern.md
+[292]: ./solution/0201-0300/292%20-%20Nim%20Game.md
 [300]: ./solution/0201-0300/300%20-%20Longest%20Increasing%20Subsequence.md
 [322]: ./solution/0301-0400/322%20-%20Coin%20Change.md
 [337]: ./solution/0301-0400/337%20-%20House%20Robber%20III.md
@@ -945,6 +951,7 @@
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [1047]: ./solution/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md
+[1056]: ./solution/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.md
 [1092]: ./solution/1001-1100/1092%20-%20Shortest%20Common%20Supersequence.md
 [1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md
 [1232]: ./solution/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line.md
