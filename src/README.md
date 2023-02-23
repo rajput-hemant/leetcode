@@ -121,8 +121,8 @@
 | **0888** |                       [Fair Candy Swap][888]                        |              Array, Hash Table, Binary Search, Sorting              |  ![][easy]  |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                            Array, String                            |  ![][easy]  |        |
 | **0997** |                     [Find the Town Judge][997]                      |                      Array, Hash Table, Graph                       |  ![][easy]  |        |
+| **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                              Array, BS                              | ![][medium] |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                            String, Stack                            |  ![][easy]  |        |
-| **1056** |           [Capacity To Ship Packages Within D Days][1056]           |                              Array, BS                              | ![][medium] |        |
 | **1092** |                [Shortest Common Supersequence][1092]                |                             String, DP                              |  ![][hard]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                             String, DP                              | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                        Array, Math, Geometry                        |  ![][easy]  |        |
@@ -153,7 +153,6 @@
 [26]: ./0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./0001-0100/027%20-%20Remove%20Element/
 [35]: ./0001-0100/035%20-%20Search%20Insert%20Position/
-[35]: ./0001-0100/035%20-%20Search%20Insert%20Position/
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./0001-0100/051%20-%20N-Queens/
 [53]: ./0001-0100/053%20-%20Maximum%20Subarray/
@@ -162,8 +161,6 @@
 [61]: ./0001-0100/061%20-%20Rotate%20List%20/
 [63]: ./0001-0100/063%20-%20Unique%20Paths%20II/
 [66]: ./0001-0100/066%20-%20Plus%20One/
-[66]: ./0001-0100/066%20-%20Plus%20One/
-[67]: ./0001-0100/067%20-%20Add%20Binary/
 [67]: ./0001-0100/067%20-%20Add%20Binary/
 [69]: ./0001-0100/069%20-%20Sqrt(x)/
 [70]: ./0001-0100/070%20-%20Climbing%20Stairs/
@@ -256,8 +253,8 @@
 [944]: ./0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted/
 [997]: ./0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [997]: ./0901-1000/997%20-%20Find%20the%20Town%20Judge/
+[1011]: ./1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/
 [1047]: ./1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
-[1056]: ./1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/
 [1092]: ./1001-1100/1092%20-%20Shortest%20Common%20Supersequence/
 [1143]: ./1101-1200/1143%20-%20Longest%20Common%20Subsequence/
 [1232]: ./1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/

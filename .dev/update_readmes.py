@@ -198,6 +198,7 @@ def parse_json(url):
             query questionData($titleSlug: String!) {
             question(titleSlug: $titleSlug) {
                 questionId
+                questionFrontendId
                 title
                 content
                 difficulty
@@ -228,7 +229,7 @@ def parse_json(url):
         )
     question: dict = res.json()["data"]["question"]
 
-    id = question["questionId"]
+    id = question["questionFrontendId"]
     title = question["title"]
     content = question["content"]
     difficulty = question["difficulty"]

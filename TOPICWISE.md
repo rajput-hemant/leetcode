@@ -55,7 +55,7 @@
 | **0888** |                       [Fair Candy Swap][888]                        |              Array, Hash Table, Binary Search, Sorting              |  ![][easy]  |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                            Array, String                            |  ![][easy]  |        |
 | **0997** |                     [Find the Town Judge][997]                      |                      Array, Hash Table, Graph                       |  ![][easy]  |        |
-| **1056** |           [Capacity To Ship Packages Within D Days][1056]           |                              Array, BS                              | ![][medium] |        |
+| **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                              Array, BS                              | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                        Array, Math, Geometry                        |  ![][easy]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                          Array, Prefix Sum                          |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                           Array, Sorting                            |  ![][easy]  |        |
@@ -290,7 +290,7 @@
 | **0367** |                     [Valid Perfect Square][367]                     |               Math, Binary Search               |  ![][easy]  |        |
 | **0540** |               [Single Element in a Sorted Array][540]               |                    Array, BS                    | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
-| **1056** |           [Capacity To Ship Packages Within D Days][1056]           |                    Array, BS                    | ![][medium] |        |
+| **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                    Array, BS                    | ![][medium] |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |             Array, 2P, BS, Sorting              | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        |    Array, Hash Table, Binary Search, Sorting    |  ![][easy]  |        |
 
@@ -847,7 +847,6 @@
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./src/0001-0100/027%20-%20Remove%20Element/
 [35]: ./src/0001-0100/035%20-%20Search%20Insert%20Position/
-[35]: ./src/0001-0100/035%20-%20Search%20Insert%20Position/
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [53]: ./src/0001-0100/053%20-%20Maximum%20Subarray/
@@ -856,8 +855,6 @@
 [61]: ./src/0001-0100/061%20-%20Rotate%20List%20/
 [63]: ./src/0001-0100/063%20-%20Unique%20Paths%20II/
 [66]: ./src/0001-0100/066%20-%20Plus%20One/
-[66]: ./src/0001-0100/066%20-%20Plus%20One/
-[67]: ./src/0001-0100/067%20-%20Add%20Binary/
 [67]: ./src/0001-0100/067%20-%20Add%20Binary/
 [69]: ./src/0001-0100/069%20-%20Sqrt(x)/
 [70]: ./src/0001-0100/070%20-%20Climbing%20Stairs/
@@ -949,9 +946,8 @@
 [888]: ./src/0801-0900/888%20-%20Fair%20Candy%20Swap/
 [944]: ./src/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted/
 [997]: ./src/0901-1000/997%20-%20Find%20the%20Town%20Judge/
-[997]: ./src/0901-1000/997%20-%20Find%20the%20Town%20Judge/
+[1011]: ./src/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
-[1056]: ./src/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/
 [1092]: ./src/1001-1100/1092%20-%20Shortest%20Common%20Supersequence/
 [1143]: ./src/1101-1200/1143%20-%20Longest%20Common%20Subsequence/
 [1232]: ./src/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
