@@ -168,7 +168,7 @@
     "len": 3,
     "sols": {
       "solution.py": "6ed311fbdf421b9d9d3c4c0cd7131a362306f58b6563ecf21fde6281de398e71",
-      "search_insert_position.rs": "f8ea51542be3eb8bdf94c0d1e93862cdd93b947106bc6f4e91a35159c19e2ec0"
+      "search_insert_position.rs": "fd805d477dd36261f23c7441f2d83bf39c5ffdb986be3957aafc7c3f1d292cf5"
     }
   },
   "36": {
@@ -1331,8 +1331,10 @@
     "sols": {}
   },
   "292": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "nim_game.rs": "163b742857fcca7b2d30e3e09f22d661a2ec0cb0e91129e6329f21de96ff0f68"
+    }
   },
   "293": {
     "len": 0,
@@ -2355,7 +2357,8 @@
   "540": {
     "len": 3,
     "sols": {
-      "single_element_in_a_sorted_array.go": "dd09479928d273f34941a56d90b195cf9faed2f73e00df125084e785886bcc2e"
+      "single_element_in_a_sorted_array.go": "dd09479928d273f34941a56d90b195cf9faed2f73e00df125084e785886bcc2e",
+      "single_element_in_a_sorted_array.rs": "39e6dce0547f86488a2b6ca94ea3a81d95d2f8484d0c4bf1e16123ac2d09e174"
     }
   },
   "541": {
@@ -4261,8 +4264,10 @@
     "sols": {}
   },
   "1011": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "capacity_to_ship_packages_within_d_days.rs": "212be1fc5b4c283a11bdf9b810865fb72c496335353dc280cb557ad4d524e9e8"
+    }
   },
   "1012": {
     "len": 0,
