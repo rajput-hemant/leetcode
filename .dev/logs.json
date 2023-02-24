@@ -1473,8 +1473,10 @@
     "sols": {}
   },
   "326": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "power_of_three.rs": "a411e448082c6f9a00e1f3e673b30765e78d2402495ac34f01a736b698e3f5dc"
+    }
   },
   "327": {
     "len": 0,
@@ -1523,8 +1525,10 @@
     }
   },
   "338": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "counting_bits.rs": "810d9baf66015fbbb84cfdfdd77984a2da6dac850329d83d624ac6eb17167a5f"
+    }
   },
   "339": {
     "len": 0,
@@ -1539,8 +1543,10 @@
     "sols": {}
   },
   "342": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "power_of_four.rs": "de8881cbb1ecb0da127d1418aa699232356bb3f463917f087493fd9267b59e7f"
+    }
   },
   "343": {
     "len": 0,
@@ -1553,8 +1559,10 @@
     }
   },
   "345": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "reverse_vowels_of_a_string.rs": "bebf5b4ea69ac9e4a60dfc84ce0a98a6d10d53318bfdb4461fc44e769b348bf8"
+    }
   },
   "346": {
     "len": 0,
@@ -2193,8 +2201,10 @@
     "sols": {}
   },
   "502": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "Ipo.java": "28d55d9801505fe82e672eeb60112de6376568d8be68d5639a8ac12520e2f3af"
+    }
   },
   "503": {
     "len": 0,

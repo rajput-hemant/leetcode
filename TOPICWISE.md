@@ -47,6 +47,7 @@
 | **0300** |                [Longest Increasing Subsequence][300]                |                      Array, Binary Search, DP                       | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                           Array, DP, BFS                            | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
+| **0502** |                             [IPO][502]                              |            Array, Greedy, Sorting, Heap (Priority Queue)            |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                        Array, Sorting, Heap                         |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |                              Array, DP                              | ![][medium] |        |
 | **0540** |               [Single Element in a Sorted Array][540]               |                              Array, BS                              | ![][medium] |        |
@@ -82,6 +83,7 @@
 | **0257** |                   [Binary Tree Paths][257]                    | String, Backtracking, Tree, Depth-First Search, Binary Tree |  ![][easy]  |        |
 | **0290** |                      [Word Pattern][290]                      |                     Hash Table, String                      |  ![][easy]  |        |
 | **0344** |                     [Reverse String][344]                     |               Two Pointers, String, Recursion               |  ![][easy]  |        |
+| **0345** |               [Reverse Vowels of a String][345]               |                         2P, String                          |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   |        Hash Table, String, Bit Manipulation, Sorting        |  ![][easy]  |        |
 | **0438** |             [Find All Anagrams in a String][438]              |             Hash Table, String, Sliding Window              | ![][medium] |        |
 | **0516** |            [Longest Palindromic Subsequence][516]             |                         String, DP                          | ![][medium] |        |
@@ -138,6 +140,7 @@
 | **0300** |   [Longest Increasing Subsequence][300]   |     Array, Binary Search, DP     | ![][medium] |        |
 | **0322** |            [Coin Change][322]             |          Array, DP, BFS          | ![][medium] |        |
 | **0337** |          [House Robber III][337]          |    DP, Tree, DFS, Binary Tree    | ![][medium] |        |
+| **0338** |           [Counting Bits][338]            |          DP, Bit Manip           |  ![][easy]  |        |
 | **0509** |          [Fibonacci Number][509]          | Math, Recursion, DP, Memoization |  ![][easy]  |        |
 | **0516** |  [Longest Palindromic Subsequence][516]   |            String, DP            | ![][medium] |        |
 | **0518** |           [Coin Change 2][518]            |            Array, DP             | ![][medium] |        |
@@ -166,6 +169,8 @@
 | **0263** |               [Ugly Number][263]               |                      Math                       |  ![][easy]  |        |
 | **0268** |             [Missing Number][268]              | Array, Hash Table, Math, BS, Bit Manip, Sorting |  ![][easy]  |        |
 | **0292** |                [Nim Game][292]                 |         Math, Brainteaser, Game Theory          |  ![][easy]  |        |
+| **0326** |             [Power of Three][326]              |                 Math, Recursion                 |  ![][easy]  |        |
+| **0342** |              [Power of Four][342]              |           Math, Bit Manip, Recursion            |  ![][easy]  |        |
 | **0367** |          [Valid Perfect Square][367]           |               Math, Binary Search               |  ![][easy]  |        |
 | **0445** |           [Add Two Numbers II][445]            |            Linked List, Math, Stack             | ![][medium] |        |
 | **0509** |            [Fibonacci Number][509]             |        Math, Recursion, DP, Memoization         |  ![][easy]  |        |
@@ -185,6 +190,7 @@
 | **0242** |                        [Valid Anagram][242]                         |           Hash Table, String, Sorting           |  ![][easy]  |        |
 | **0268** |                        [Missing Number][268]                        | Array, Hash Table, Math, BS, Bit Manip, Sorting |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
+| **0502** |                             [IPO][502]                              |  Array, Greedy, Sorting, Heap (Priority Queue)  |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |    Array, Hash Table, Binary Search, Sorting    |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |             Array, 2P, BS, Sorting              | ![][medium] |        |
@@ -213,13 +219,14 @@
 
 ## Greedy
 
-|    #     |                 Solution                  |              Tags              | Difficulty  | Remark |
-| :------: | :---------------------------------------: | :----------------------------: | :---------: | :----: |
-| **0055** |              [Jump Game][55]              |       Array, DP, Greedy        | ![][medium] |        |
-| **0094** |    [Binary Tree Inorder Traversal][94]    | Stack, Tree, DFS, Binary Tree  |  ![][easy]  |        |
-| **0098** |     [Validate Binary Search Tree][98]     |  Tree, DFS, BST, Binary Tree   | ![][medium] |        |
-| **0122** | [Best Time to Buy and Sell Stock II][122] |       Array, DP, Greedy        | ![][medium] |        |
-| **1537** |       [Get the Maximum Score][1537]       | Array, Two Pointer, DP, Greedy |  ![][hard]  |        |
+|    #     |                 Solution                  |                     Tags                      | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0055** |              [Jump Game][55]              |               Array, DP, Greedy               | ![][medium] |        |
+| **0094** |    [Binary Tree Inorder Traversal][94]    |         Stack, Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0098** |     [Validate Binary Search Tree][98]     |          Tree, DFS, BST, Binary Tree          | ![][medium] |        |
+| **0122** | [Best Time to Buy and Sell Stock II][122] |               Array, DP, Greedy               | ![][medium] |        |
+| **0502** |                [IPO][502]                 | Array, Greedy, Sorting, Heap (Priority Queue) |  ![][hard]  |        |
+| **1537** |       [Get the Maximum Score][1537]       |        Array, Two Pointer, DP, Greedy         |  ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -352,6 +359,7 @@
 | **0234** |                    [Palindrome Linked List][234]                    |         LL, 2P, ST, Recursion          |  ![][easy]  |        |
 | **0283** |                         [Move Zeroes][283]                          |          Array, Two Pointers           |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |    Two Pointers, String, Recursion     |  ![][easy]  |        |
+| **0345** |                  [Reverse Vowels of a String][345]                  |               2P, String               |  ![][easy]  |        |
 | **0541** |                      [Reverse String II][541]                       |          Two Pointers, String          |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST ][653]                 |      Tree, DFS, BST, Binary Tree       |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |       Linked List, Two Pointers        |  ![][easy]  |        |
@@ -370,6 +378,8 @@
 | **0191** |                    [Number of 1 Bits][191]                    |       Divide & Conquer, Bit Manipulation        |  ![][easy]  |        |
 | **0231** |                      [Power of Two][231]                      |        Math, Bit Manipulation, Recursion        |  ![][easy]  |        |
 | **0268** |                     [Missing Number][268]                     | Array, Hash Table, Math, BS, Bit Manip, Sorting |  ![][easy]  |        |
+| **0338** |                     [Counting Bits][338]                      |                  DP, Bit Manip                  |  ![][easy]  |        |
+| **0342** |                     [Power of Four][342]                      |           Math, Bit Manip, Recursion            |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |      String, Hash Table, Bit Manipulation       | ![][medium] |        |
 
@@ -517,6 +527,8 @@
 | **0206** |     [Reverse Linked List][206]     |      Linked List, Recursion       |  ![][easy]  |        |
 | **0231** |        [Power of Two][231]         | Math, Bit Manipulation, Recursion |  ![][easy]  |        |
 | **0234** |   [Palindrome Linked List][234]    |       LL, 2P, ST, Recursion       |  ![][easy]  |        |
+| **0326** |       [Power of Three][326]        |          Math, Recursion          |  ![][easy]  |        |
+| **0342** |        [Power of Four][342]        |    Math, Bit Manip, Recursion     |  ![][easy]  |        |
 | **0344** |       [Reverse String][344]        |  Two Pointers, String, Recursion  |  ![][easy]  |        |
 | **0509** |      [Fibonacci Number][509]       | Math, Recursion, DP, Memoization  |  ![][easy]  |        |
 
@@ -919,8 +931,12 @@
 [292]: ./src/0201-0300/292%20-%20Nim%20Game/
 [300]: ./src/0201-0300/300%20-%20Longest%20Increasing%20Subsequence/
 [322]: ./src/0301-0400/322%20-%20Coin%20Change/
+[326]: ./src/0301-0400/326%20-%20Power%20Of%20Three/
 [337]: ./src/0301-0400/337%20-%20House%20Robber%20III/
+[338]: ./src/0301-0400/338%20-%20Counting%20Bits/
+[342]: ./src/0301-0400/342%20-%20Power%20of%20Four/
 [344]: ./src/0301-0400/344%20-%20Reverse%20String/
+[345]: ./src/0301-0400/345%20-%20Reverse%20Vowels%20of%20a%20String/
 [367]: ./src/0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./src/0301-0400/369%20-%20Plus%20One%20Linked%20List/
 [387]: ./src/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
@@ -929,6 +945,7 @@
 [442]: ./src/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [461]: ./src/0401-0500/461%20-%20Hamming%20Distance/
+[502]: ./src/0501-0600/502%20-%20IPO/
 [506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
 [509]: ./src/0501-0600/509%20-%20Fibonacci%20Number/
 [516]: ./src/0501-0600/516%20-%20Longest%20Palindromic%20Subsequence/

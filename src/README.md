@@ -96,14 +96,19 @@
 | **0292** |                           [Nim Game][292]                           |                   Math, Brainteaser, Game Theory                    |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                      Array, Binary Search, DP                       | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                           Array, DP, BFS                            | ![][medium] |        |
+| **0326** |                        [Power of Three][326]                        |                           Math, Recursion                           |  ![][easy]  |        |
 | **0337** |                       [House Robber III][337]                       |                     DP, Tree, DFS, Binary Tree                      | ![][medium] |        |
+| **0338** |                        [Counting Bits][338]                         |                            DP, Bit Manip                            |  ![][easy]  |        |
+| **0342** |                        [Power of Four][342]                         |                     Math, Bit Manip, Recursion                      |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |                   Two Pointers, String, Recursion                   |  ![][easy]  |        |
+| **0345** |                  [Reverse Vowels of a String][345]                  |                             2P, String                              |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |                         Math, Binary Search                         |  ![][easy]  |        |
 | **0369** |                     [Plus One Linked List][369]                     |                          Linked List, Math                          | ![][medium] |   🔒   |
 | **0389** |                     [Find the Difference][389]                      |            Hash Table, String, Bit Manipulation, Sorting            |  ![][easy]  |        |
 | **0438** |                [Find All Anagrams in a String][438]                 |                 Hash Table, String, Sliding Window                  | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
 | **0445** |                      [Add Two Numbers II][445]                      |                      Linked List, Math, Stack                       | ![][medium] |        |
+| **0502** |                             [IPO][502]                              |            Array, Greedy, Sorting, Heap (Priority Queue)            |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                        Array, Sorting, Heap                         |  ![][easy]  |        |
 | **0509** |                       [Fibonacci Number][509]                       |                  Math, Recursion, DP, Memoization                   |  ![][easy]  |        |
 | **0516** |               [Longest Palindromic Subsequence][516]                |                             String, DP                              | ![][medium] |        |
@@ -225,8 +230,12 @@
 [292]: ./0201-0300/292%20-%20Nim%20Game/
 [300]: ./0201-0300/300%20-%20Longest%20Increasing%20Subsequence/
 [322]: ./0301-0400/322%20-%20Coin%20Change/
+[326]: ./0301-0400/326%20-%20Power%20Of%20Three/
 [337]: ./0301-0400/337%20-%20House%20Robber%20III/
+[338]: ./0301-0400/338%20-%20Counting%20Bits/
+[342]: ./0301-0400/342%20-%20Power%20of%20Four/
 [344]: ./0301-0400/344%20-%20Reverse%20String/
+[345]: ./0301-0400/345%20-%20Reverse%20Vowels%20of%20a%20String/
 [367]: ./0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
@@ -235,6 +244,7 @@
 [442]: ./0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [461]: ./0401-0500/461%20-%20Hamming%20Distance/
+[502]: ./0501-0600/502%20-%20IPO/
 [506]: ./0501-0600/506%20-%20%20Relative%20Ranks/
 [509]: ./0501-0600/509%20-%20Fibonacci%20Number/
 [516]: ./0501-0600/516%20-%20Longest%20Palindromic%20Subsequence/
