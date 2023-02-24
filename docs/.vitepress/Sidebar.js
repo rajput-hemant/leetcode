@@ -354,12 +354,28 @@ export default Sidebar = [
         link: "/solution/0301-0400/322 - Coin Change.md",
       },
       {
+        text: "326 - Power Of Three",
+        link: "/solution/0301-0400/326 - Power Of Three.md",
+      },
+      {
         text: "337 - House Robber III",
         link: "/solution/0301-0400/337 - House Robber III.md",
       },
       {
+        text: "338 - Counting Bits",
+        link: "/solution/0301-0400/338 - Counting Bits.md",
+      },
+      {
+        text: "342 - Power of Four",
+        link: "/solution/0301-0400/342 - Power of Four.md",
+      },
+      {
         text: "344 - Reverse String",
         link: "/solution/0301-0400/344 - Reverse String.md",
+      },
+      {
+        text: "345 - Reverse Vowels of a String",
+        link: "/solution/0301-0400/345 - Reverse Vowels of a String.md",
       },
       {
         text: "367 - Valid Perfect Square",
@@ -399,6 +415,10 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "502 - IPO",
+        link: "/solution/0501-0600/502 - IPO.md",
+      },
       {
         text: "506 -  Relative Ranks",
         link: "/solution/0501-0600/506 -  Relative Ranks.md",

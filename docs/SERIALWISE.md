@@ -96,14 +96,19 @@
 | **0292** |                           [Nim Game][292]                           |                         Math, Brainteaser, Game Theory                          |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                            Array, Binary Search, DP                             | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                         Array, Dynamic Programming, BFS                         | ![][medium] |        |
+| **0326** |                        [Power of Three][326]                        |                                 Math, Recursion                                 |  ![][easy]  |        |
 | **0337** |                       [House Robber III][337]                       |           Dynamic Programming, Tree, Depth First Search, Binary Tree            | ![][medium] |        |
+| **0338** |                        [Counting Bits][338]                         |                         Dynamic Programming, Bit Manip                          |  ![][easy]  |        |
+| **0342** |                        [Power of Four][342]                         |                        Math, Bit Manipulation, Recursion                        |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |                         Two Pointers, String, Recursion                         |  ![][easy]  |        |
+| **0345** |                  [Reverse Vowels of a String][345]                  |                              Two Pointers, String                               |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |                               Math, Binary Search                               |  ![][easy]  |        |
 | **0369** |                     [Plus One Linked List][369]                     |                                Linked List, Math                                | ![][medium] |   🔒   |
 | **0389** |                     [Find the Difference][389]                      |                  Hash Table, String, Bit Manipulation, Sorting                  |  ![][easy]  |        |
 | **0438** |                [Find All Anagrams in a String][438]                 |                       Hash Table, String, Sliding Window                        | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |                                Array, Hash Table                                | ![][medium] |        |
 | **0445** |                      [Add Two Numbers II][445]                      |                            Linked List, Math, Stack                             | ![][medium] |        |
+| **0502** |                             [IPO][502]                              |                  Array, Greedy, Sorting, Heap (Priority Queue)                  |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                              Array, Sorting, Heap                               |  ![][easy]  |        |
 | **0509** |                       [Fibonacci Number][509]                       |                Math, Recursion, Dynamic Programming, Memoization                |  ![][easy]  |        |
 | **0516** |               [Longest Palindromic Subsequence][516]                |                                   String, DP                                    | ![][medium] |        |
@@ -121,8 +126,8 @@
 | **0888** |                       [Fair Candy Swap][888]                        |                    Array, Hash Table, Binary Search, Sorting                    |  ![][easy]  |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                                  Array, String                                  |  ![][easy]  |        |
 | **0997** |                     [Find the Town Judge][997]                      |                            Array, Hash Table, Graph                             |  ![][easy]  |        |
+| **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                                    Array, BS                                    | ![][medium] |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                                  String, Stack                                  |  ![][easy]  |        |
-| **1056** |           [Capacity To Ship Packages Within D Days][1056]           |                                    Array, BS                                    | ![][medium] |        |
 | **1092** |                [Shortest Common Supersequence][1092]                |                                   String, DP                                    |  ![][hard]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                                   String, DP                                    | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                              Array, Math, Geometry                              |  ![][easy]  |        |
@@ -153,7 +158,6 @@
 [26]: ./solution/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array.md
 [27]: ./solution/0001-0100/027%20-%20Remove%20Element.md
 [35]: ./solution/0001-0100/035%20-%20Search%20Insert%20Position.md
-[35]: ./solution/0001-0100/035%20-%20Search%20Insert%20Position.md
 [37]: ./solution/0001-0100/037%20-%20Sudoku%20Solver.md
 [51]: ./solution/0001-0100/051%20-%20N-Queens.md
 [53]: ./solution/0001-0100/053%20-%20Maximum%20Subarray.md
@@ -162,8 +166,6 @@
 [61]: ./solution/0001-0100/061%20-%20Rotate%20List%20.md
 [63]: ./solution/0001-0100/063%20-%20Unique%20Paths%20II.md
 [66]: ./solution/0001-0100/066%20-%20Plus%20One.md
-[66]: ./solution/0001-0100/066%20-%20Plus%20One.md
-[67]: ./solution/0001-0100/067%20-%20Add%20Binary.md
 [67]: ./solution/0001-0100/067%20-%20Add%20Binary.md
 [69]: ./solution/0001-0100/069%20-%20Sqrt(x).md
 [70]: ./solution/0001-0100/070%20-%20Climbing%20Stairs.md
@@ -228,8 +230,12 @@
 [292]: ./solution/0201-0300/292%20-%20Nim%20Game.md
 [300]: ./solution/0201-0300/300%20-%20Longest%20Increasing%20Subsequence.md
 [322]: ./solution/0301-0400/322%20-%20Coin%20Change.md
+[326]: ./solution/0301-0400/326%20-%20Power%20Of%20Three.md
 [337]: ./solution/0301-0400/337%20-%20House%20Robber%20III.md
+[338]: ./solution/0301-0400/338%20-%20Counting%20Bits.md
+[342]: ./solution/0301-0400/342%20-%20Power%20of%20Four.md
 [344]: ./solution/0301-0400/344%20-%20Reverse%20String.md
+[345]: ./solution/0301-0400/345%20-%20Reverse%20Vowels%20of%20a%20String.md
 [367]: ./solution/0301-0400/367%20-%20Valid%20Perfect%20Square.md
 [369]: ./solution/0301-0400/369%20-%20Plus%20One%20Linked%20List.md
 [387]: ./solution/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String.md
@@ -238,6 +244,7 @@
 [442]: ./solution/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array.md
 [445]: ./solution/0401-0500/445%20-%20Add%20Two%20Numbers%20II.md
 [461]: ./solution/0401-0500/461%20-%20Hamming%20Distance.md
+[502]: ./solution/0501-0600/502%20-%20IPO.md
 [506]: ./solution/0501-0600/506%20-%20%20Relative%20Ranks.md
 [509]: ./solution/0501-0600/509%20-%20Fibonacci%20Number.md
 [516]: ./solution/0501-0600/516%20-%20Longest%20Palindromic%20Subsequence.md
@@ -256,8 +263,8 @@
 [944]: ./solution/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted.md
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
+[1011]: ./solution/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.md
 [1047]: ./solution/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md
-[1056]: ./solution/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.md
 [1092]: ./solution/1001-1100/1092%20-%20Shortest%20Common%20Supersequence.md
 [1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md
 [1232]: ./solution/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line.md
