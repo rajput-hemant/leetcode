@@ -46,6 +46,7 @@
 | **0283** |                         [Move Zeroes][283]                          |                         Array, Two Pointers                         |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                      Array, Binary Search, DP                       | ![][medium] |        |
 | **0322** |                         [Coin Change][322]                          |                   Array, Dynamic Programming, BFS                   | ![][medium] |        |
+| **0349** |                  [Intersection of Two Arrays][349]                  |       Array, Hash Table, Two Pointers, Binary Search, Sorting       |  ![][easy]  |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
 | **0502** |                             [IPO][502]                              |            Array, Greedy, Sorting, Heap (Priority Queue)            |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                        Array, Sorting, Heap                         |  ![][easy]  |        |
@@ -84,6 +85,7 @@
 | **0290** |                      [Word Pattern][290]                      |                     Hash Table, String                      |  ![][easy]  |        |
 | **0344** |                     [Reverse String][344]                     |               Two Pointers, String, Recursion               |  ![][easy]  |        |
 | **0345** |               [Reverse Vowels of a String][345]               |                    Two Pointers, String                     |  ![][easy]  |        |
+| **0387** |           [First Unique Character in a String][387]           |             Hash Table, String, Queue, Counting             |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   |        Hash Table, String, Bit Manipulation, Sorting        |  ![][easy]  |        |
 | **0438** |             [Find All Anagrams in a String][438]              |             Hash Table, String, Sliding Window              | ![][medium] |        |
 | **0516** |            [Longest Palindromic Subsequence][516]             |                         String, DP                          | ![][medium] |        |
@@ -100,27 +102,29 @@
 
 ## Hash Table
 
-|    #     |                Solution                 |                               Tags                                | Difficulty  | Remark |
-| :------: | :-------------------------------------: | :---------------------------------------------------------------: | :---------: | :----: |
-| **0001** |              [Two Sum][1]               |                         Array, Hash Table                         |  ![][easy]  |        |
-| **0013** |         [Roman to Integer][13]          |                     String, Math, Hash Table                      |  ![][easy]  |        |
-| **0141** |        [Linked List Cycle][141]         |                    Hash Table, Linked List, 2P                    |  ![][easy]  |        |
-| **0160** | [Intersection of Two Linked Lists][160] |                    Hash Table, Linked List, 2P                    |  ![][easy]  |        |
-| **0169** |         [Majority Element][169]         |     Array, Hash Table, Divide and Conquer, Sorting, Counting      |  ![][easy]  |        |
-| **0202** |           [Happy Number][202]           |                       Hash Table, Math, 2P                        |  ![][easy]  |        |
-| **0205** |        [Isomorphic Strings][205]        |                        Hash Table, String                         |  ![][easy]  |        |
-| **0217** |        [Contains Duplicate][217]        |                    Array, Hash Table, Sorting                     |  ![][easy]  |        |
-| **0219** |      [Contains Duplicate II][219]       |                 Array, Hash Table, Sliding Window                 |  ![][easy]  |        |
-| **0242** |          [Valid Anagram][242]           |                    Hash Table, String, Sorting                    |  ![][easy]  |        |
-| **0268** |          [Missing Number][268]          | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  ![][easy]  |        |
-| **0290** |           [Word Pattern][290]           |                        Hash Table, String                         |  ![][easy]  |        |
-| **0389** |       [Find the Difference][389]        |           Hash Table, String, Bit Manipulation, Sorting           |  ![][easy]  |        |
-| **0438** |  [Find All Anagrams in a String][438]   |                Hash Table, String, Sliding Window                 | ![][medium] |        |
-| **0442** |       [Find All Duplicates][442]        |                         Array, Hash Table                         | ![][medium] |        |
-| **0653** |   [Two Sum IV - Input is a BST ][653]   |     Tree, Depth First Search, Binary Search Tree, Binary Tree     |  ![][easy]  |        |
-| **0888** |         [Fair Candy Swap][888]          |             Array, Hash Table, Binary Search, Sorting             |  ![][easy]  |        |
-| **0771** |        [Jewels and Stones][771]         |                         String, Hashtable                         |  ![][easy]  |        |
-| **0997** |       [Find the Town Judge][997]        |                     Array, Hash Table, Graph                      |  ![][easy]  |        |
+|    #     |                 Solution                  |                               Tags                                | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :---------------------------------------------------------------: | :---------: | :----: |
+| **0001** |               [Two Sum][1]                |                         Array, Hash Table                         |  ![][easy]  |        |
+| **0013** |          [Roman to Integer][13]           |                     String, Math, Hash Table                      |  ![][easy]  |        |
+| **0141** |         [Linked List Cycle][141]          |                    Hash Table, Linked List, 2P                    |  ![][easy]  |        |
+| **0160** |  [Intersection of Two Linked Lists][160]  |                    Hash Table, Linked List, 2P                    |  ![][easy]  |        |
+| **0169** |          [Majority Element][169]          |     Array, Hash Table, Divide and Conquer, Sorting, Counting      |  ![][easy]  |        |
+| **0202** |            [Happy Number][202]            |                       Hash Table, Math, 2P                        |  ![][easy]  |        |
+| **0205** |         [Isomorphic Strings][205]         |                        Hash Table, String                         |  ![][easy]  |        |
+| **0217** |         [Contains Duplicate][217]         |                    Array, Hash Table, Sorting                     |  ![][easy]  |        |
+| **0219** |       [Contains Duplicate II][219]        |                 Array, Hash Table, Sliding Window                 |  ![][easy]  |        |
+| **0242** |           [Valid Anagram][242]            |                    Hash Table, String, Sorting                    |  ![][easy]  |        |
+| **0268** |           [Missing Number][268]           | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0290** |            [Word Pattern][290]            |                        Hash Table, String                         |  ![][easy]  |        |
+| **0349** |     [Intersection of Two Arrays][349]     |      Array, Hash Table, Two Pointers, Binary Search, Sorting      |  ![][easy]  |        |
+| **0387** | [First Unique Character in a String][387] |                Hash Table, String, Queue, Counting                |  ![][easy]  |        |
+| **0389** |        [Find the Difference][389]         |           Hash Table, String, Bit Manipulation, Sorting           |  ![][easy]  |        |
+| **0438** |   [Find All Anagrams in a String][438]    |                Hash Table, String, Sliding Window                 | ![][medium] |        |
+| **0442** |        [Find All Duplicates][442]         |                         Array, Hash Table                         | ![][medium] |        |
+| **0653** |    [Two Sum IV - Input is a BST ][653]    |     Tree, Depth First Search, Binary Search Tree, Binary Tree     |  ![][easy]  |        |
+| **0888** |          [Fair Candy Swap][888]           |             Array, Hash Table, Binary Search, Sorting             |  ![][easy]  |        |
+| **0771** |         [Jewels and Stones][771]          |                         String, Hashtable                         |  ![][easy]  |        |
+| **0997** |        [Find the Town Judge][997]         |                     Array, Hash Table, Graph                      |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -189,6 +193,7 @@
 | **0217** |                      [Contains Duplicate][217]                      |                    Array, Hash Table, Sorting                     |  ![][easy]  |        |
 | **0242** |                        [Valid Anagram][242]                         |                    Hash Table, String, Sorting                    |  ![][easy]  |        |
 | **0268** |                        [Missing Number][268]                        | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0349** |                  [Intersection of Two Arrays][349]                  |      Array, Hash Table, Two Pointers, Binary Search, Sorting      |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |           Hash Table, String, Bit Manipulation, Sorting           |  ![][easy]  |        |
 | **0502** |                             [IPO][502]                              |           Array, Greedy, Sorting, Heap (Priority Queue)           |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                       Array, Sorting, Heap                        |  ![][easy]  |        |
@@ -294,6 +299,7 @@
 | **0268** |                        [Missing Number][268]                        | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  ![][easy]  |        |
 | **0278** |                      [First Bad Version][278]                       |                    Binary Search, Interactive                     |  ![][easy]  |        |
 | **0300** |                [Longest Increasing Subsequence][300]                |                     Array, Binary Search, DP                      | ![][medium] |        |
+| **0349** |                  [Intersection of Two Arrays][349]                  |      Array, Hash Table, Two Pointers, Binary Search, Sorting      |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |                        Math, Binary Search                        |  ![][easy]  |        |
 | **0540** |               [Single Element in a Sorted Array][540]               |                             Array, BS                             | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |                       Array, Binary Search                        |  ![][easy]  |        |
@@ -360,6 +366,7 @@
 | **0283** |                         [Move Zeroes][283]                          |                    Array, Two Pointers                    |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |              Two Pointers, String, Recursion              |  ![][easy]  |        |
 | **0345** |                  [Reverse Vowels of a String][345]                  |                   Two Pointers, String                    |  ![][easy]  |        |
+| **0349** |                  [Intersection of Two Arrays][349]                  |  Array, Hash Table, Two Pointers, Binary Search, Sorting  |  ![][easy]  |        |
 | **0541** |                      [Reverse String II][541]                       |                   Two Pointers, String                    |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST ][653]                 | Tree, Depth First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |                 Linked List, Two Pointers                 |  ![][easy]  |        |
@@ -458,9 +465,10 @@
 
 ## Counting
 
-|    #     |        Solution         |                           Tags                           | Difficulty | Remark |
-| :------: | :---------------------: | :------------------------------------------------------: | :--------: | :----: |
-| **0169** | [Majority Element][169] | Array, Hash Table, Divide and Conquer, Sorting, Counting | ![][easy]  |        |
+|    #     |                 Solution                  |                           Tags                           | Difficulty | Remark |
+| :------: | :---------------------------------------: | :------------------------------------------------------: | :--------: | :----: |
+| **0169** |          [Majority Element][169]          | Array, Hash Table, Divide and Conquer, Sorting, Counting | ![][easy]  |        |
+| **0387** | [First Unique Character in a String][387] |           Hash Table, String, Queue, Counting            | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -580,10 +588,11 @@
 
 ## Queue
 
-|    #     |              Solution               |       Tags       | Difficulty | Remark |
-| :------: | :---------------------------------: | :--------------: | :--------: | :----: |
-| **0225** | [Implement Stack using Queues][225] | Stack, Design, Q | ![][easy]  |        |
-| **0232** | [Implement Queue using Stacks][232] | Stack, Design, Q | ![][easy]  |        |
+|    #     |                 Solution                  |                Tags                 | Difficulty | Remark |
+| :------: | :---------------------------------------: | :---------------------------------: | :--------: | :----: |
+| **0225** |    [Implement Stack using Queues][225]    |          Stack, Design, Q           | ![][easy]  |        |
+| **0232** |    [Implement Queue using Stacks][232]    |          Stack, Design, Q           | ![][easy]  |        |
+| **0387** | [First Unique Character in a String][387] | Hash Table, String, Queue, Counting | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -937,8 +946,10 @@
 [342]: ./solution/0301-0400/342%20-%20Power%20of%20Four.md
 [344]: ./solution/0301-0400/344%20-%20Reverse%20String.md
 [345]: ./solution/0301-0400/345%20-%20Reverse%20Vowels%20of%20a%20String.md
+[349]: ./solution/0301-0400/349%20-%20Intersection%20of%20Two%20Arrays.md
 [367]: ./solution/0301-0400/367%20-%20Valid%20Perfect%20Square.md
 [369]: ./solution/0301-0400/369%20-%20Plus%20One%20Linked%20List.md
+[387]: ./solution/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String.md
 [387]: ./solution/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String.md
 [389]: ./solution/0301-0400/389%20-%20Find%20the%20Difference.md
 [438]: ./solution/0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String.md

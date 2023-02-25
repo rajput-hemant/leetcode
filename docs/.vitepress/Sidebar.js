@@ -378,12 +378,20 @@ export default Sidebar = [
         link: "/solution/0301-0400/345 - Reverse Vowels of a String.md",
       },
       {
+        text: "349 - Intersection of Two Arrays",
+        link: "/solution/0301-0400/349 - Intersection of Two Arrays.md",
+      },
+      {
         text: "367 - Valid Perfect Square",
         link: "/solution/0301-0400/367 - Valid Perfect Square.md",
       },
       {
         text: "369 - Plus One Linked List",
         link: "/solution/0301-0400/369 - Plus One Linked List.md",
+      },
+      {
+        text: "387 - First Unique Character in a String",
+        link: "/solution/0301-0400/387 - First Unique Character in a String.md",
       },
       {
         text: "389 - Find the Difference",
