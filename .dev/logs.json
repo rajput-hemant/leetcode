@@ -1577,8 +1577,10 @@
     "sols": {}
   },
   "349": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "intersection_of_two_arrays.rs": "9f56f5c80ea61def926f1fb305e6097c0affa1a4172a02329a413c21a4d2e087"
+    }
   },
   "350": {
     "len": 0,
@@ -1733,8 +1735,10 @@
     "sols": {}
   },
   "387": {
-    "len": 1,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "first_unique_char_in_a_string.rs": "ac57cce965475438b2e41689147f2fd63b81af7aa54aefd4e163451b991d5bbb"
+    }
   },
   "388": {
     "len": 0,

@@ -102,8 +102,10 @@
 | **0342** |                        [Power of Four][342]                         |                     Math, Bit Manip, Recursion                      |  ![][easy]  |        |
 | **0344** |                        [Reverse String][344]                        |                   Two Pointers, String, Recursion                   |  ![][easy]  |        |
 | **0345** |                  [Reverse Vowels of a String][345]                  |                             2P, String                              |  ![][easy]  |        |
+| **0349** |                  [Intersection of Two Arrays][349]                  |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |                         Math, Binary Search                         |  ![][easy]  |        |
 | **0369** |                     [Plus One Linked List][369]                     |                          Linked List, Math                          | ![][medium] |   🔒   |
+| **0387** |              [First Unique Character in a String][387]              |                   Hash Table, String, Q, Counting                   |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |            Hash Table, String, Bit Manipulation, Sorting            |  ![][easy]  |        |
 | **0438** |                [Find All Anagrams in a String][438]                 |                 Hash Table, String, Sliding Window                  | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
@@ -236,8 +238,10 @@
 [342]: ./0301-0400/342%20-%20Power%20of%20Four/
 [344]: ./0301-0400/344%20-%20Reverse%20String/
 [345]: ./0301-0400/345%20-%20Reverse%20Vowels%20of%20a%20String/
+[349]: ./0301-0400/349%20-%20Intersection%20of%20Two%20Arrays/
 [367]: ./0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/
+[387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [389]: ./0301-0400/389%20-%20Find%20the%20Difference/
 [438]: ./0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
