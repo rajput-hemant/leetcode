@@ -336,11 +336,12 @@
     "sols": {}
   },
   "72": {
-    "len": 4,
+    "len": 6,
     "sols": {
       "EditDistance.cpp": "b4bd72e93856ab894bf96b1cb40a481ffca34a55fd05bb108db05ef85ebe99a8",
       "EditDistance.java": "b6f792cc2b8699d82eb3cf63c8703f2e088b48a52643f0857d054dec3b6cf87d",
-      "edit_distance.py": "dc97b086e122419fe3fe563f202ff1262f8f5597cc234468d521866782a45bd5"
+      "edit_distance.py": "dc97b086e122419fe3fe563f202ff1262f8f5597cc234468d521866782a45bd5",
+      "edit_distance.rs": "dea16c9d3cffaf7dcd7a6b80a1fef890f8b5c75859e3fd5240b7e90b1c355796"
     }
   },
   "73": {
@@ -1728,7 +1729,8 @@
   "383": {
     "len": 3,
     "sols": {
-      "ransom_note.rs": "5190c18b45536110cb5b71847b08da4f99ef6932e19ea90823e865916a6acedb"
+      "ransom_note.rs": "5190c18b45536110cb5b71847b08da4f99ef6932e19ea90823e865916a6acedb",
+      "ransom_note.go": "5520c849c8d8aa51f4fc71863bef798c2df0e8086f90d0bf775800487ea5aadb"
     }
   },
   "384": {
@@ -1818,8 +1820,10 @@
     "sols": {}
   },
   "404": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "sum_of_left_leaves.go": "4e520eea1b625355244c9d8335b68a0d8a8388b0270355f9e0a2818fadb02146"
+    }
   },
   "405": {
     "len": 0,

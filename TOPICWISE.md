@@ -287,6 +287,7 @@
 | **0236** |  [Lowest Common Ancestor of a Binary Tree][236]   |              Tree, Depth-First Search, Binary Tree               | ![][medium] |        |
 | **0257** |             [Binary Tree Paths][257]              |   String, Backtracking, Tree, Depth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0337** |              [House Robber III][337]              |                    DP, Tree, DFS, Binary Tree                    | ![][medium] |        |
+| **0404** |             [Sum of Left Leaves][404]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **0543** |          [Diameter of Binary Tree][543]           |                      Tree, DFS, Binary Tree                      |  ![][easy]  |        |
 | **0653** |        [Two Sum IV - Input is a BST ][653]        |                   Tree, DFS, BST, Binary Tree                    |  ![][easy]  |        |
@@ -350,6 +351,7 @@
 | **0236** |  [Lowest Common Ancestor of a Binary Tree][236]   |              Tree, Depth-First Search, Binary Tree               | ![][medium] |        |
 | **0257** |             [Binary Tree Paths][257]              |   String, Backtracking, Tree, Depth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0337** |              [House Robber III][337]              |                    DP, Tree, DFS, Binary Tree                    | ![][medium] |        |
+| **0404** |             [Sum of Left Leaves][404]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **0543** |          [Diameter of Binary Tree][543]           |                      Tree, DFS, Binary Tree                      |  ![][easy]  |        |
 | **0653** |        [Two Sum IV - Input is a BST ][653]        |                   Tree, DFS, BST, Binary Tree                    |  ![][easy]  |        |
@@ -972,6 +974,7 @@
 [387]: ./src/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [389]: ./src/0301-0400/389%20-%20Find%20the%20Difference/
 [392]: ./src/0301-0400/392%20-%20Is%20Subsequence/
+[404]: ./src/0401-0500/404%20-%20Sum%20of%20Left%20Leaves/
 [438]: ./src/0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
 [442]: ./src/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/

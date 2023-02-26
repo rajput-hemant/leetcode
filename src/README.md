@@ -112,6 +112,7 @@
 | **0387** |              [First Unique Character in a String][387]              |                   Hash Table, String, Q, Counting                   |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |            Hash Table, String, Bit Manipulation, Sorting            |  ![][easy]  |        |
 | **0392** |                        [Is Subsequence][392]                        |                           2P, String, DP                            |  ![][easy]  |        |
+| **0404** |                      [Sum of Left Leaves][404]                      |     Tree, Depth-First Search, Breadth-First Search, Binary Tree     |  ![][easy]  |        |
 | **0438** |                [Find All Anagrams in a String][438]                 |                 Hash Table, String, Sliding Window                  | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
 | **0445** |                      [Add Two Numbers II][445]                      |                      Linked List, Math, Stack                       | ![][medium] |        |
@@ -254,6 +255,7 @@
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [389]: ./0301-0400/389%20-%20Find%20the%20Difference/
 [392]: ./0301-0400/392%20-%20Is%20Subsequence/
+[404]: ./0401-0500/404%20-%20Sum%20of%20Left%20Leaves/
 [438]: ./0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
 [442]: ./0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./0401-0500/445%20-%20Add%20Two%20Numbers%20II/
