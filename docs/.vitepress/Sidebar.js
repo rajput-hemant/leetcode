@@ -425,6 +425,10 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "404 - Sum of Left Leaves",
+        link: "/solution/0401-0500/404 - Sum of Left Leaves.md",
+      },
+      {
         text: "438 - Find All Anagrams in a String",
         link: "/solution/0401-0500/438 - Find All Anagrams in a String.md",
       },
