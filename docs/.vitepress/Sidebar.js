@@ -216,6 +216,10 @@ export default Sidebar = [
         link: "/solution/0101-0200/172 - Factorial Trailing Zeroes.md",
       },
       {
+        text: "190 - Reverse Bits",
+        link: "/solution/0101-0200/190 - Reverse Bits.md",
+      },
+      {
         text: "191 - Number of 1 Bits",
         link: "/solution/0101-0200/191 - Number of 1 Bits.md",
       },
@@ -382,6 +386,10 @@ export default Sidebar = [
         link: "/solution/0301-0400/349 - Intersection of Two Arrays.md",
       },
       {
+        text: "350 - Intersection of Two Arrays II",
+        link: "/solution/0301-0400/350 - Intersection of Two Arrays II.md",
+      },
+      {
         text: "367 - Valid Perfect Square",
         link: "/solution/0301-0400/367 - Valid Perfect Square.md",
       },
@@ -390,12 +398,24 @@ export default Sidebar = [
         link: "/solution/0301-0400/369 - Plus One Linked List.md",
       },
       {
+        text: "374 - Guess Number Higher or Lower",
+        link: "/solution/0301-0400/374 - Guess Number Higher or Lower.md",
+      },
+      {
+        text: "383 - Ransom Note",
+        link: "/solution/0301-0400/383 - Ransom Note.md",
+      },
+      {
         text: "387 - First Unique Character in a String",
         link: "/solution/0301-0400/387 - First Unique Character in a String.md",
       },
       {
         text: "389 - Find the Difference",
         link: "/solution/0301-0400/389 - Find the Difference.md",
+      },
+      {
+        text: "392 - Is Subsequence",
+        link: "/solution/0301-0400/392 - Is Subsequence.md",
       },
     ],
   },
