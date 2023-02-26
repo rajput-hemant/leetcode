@@ -65,6 +65,7 @@
 | **0160** |               [Intersection of Two Linked Lists][160]               |                         Hash Table, LL, 2P                          |  ![][easy]  |        |
 | **0169** |                       [Majority Element][169]                       |              Array, Hash Table, DNC, Sorting, Counting              |  ![][easy]  |        |
 | **0172** |                  [Factorial Trailing Zeroes][172]                   |                                Math                                 | ![][medium] |        |
+| **0190** |                         [Reverse Bits][190]                         |                           DNC, Bit Manip                            |  ![][easy]  |        |
 | **0191** |                       [Number of 1 Bits][191]                       |                 Divide & Conquer, Bit Manipulation                  |  ![][easy]  |        |
 | **0193** |                     [Valid Phone Numbers][193]                      |                                Shell                                |  ![][easy]  |        |
 | **0195** |                          [Tenth Line][195]                          |                                Shell                                |  ![][easy]  |        |
@@ -103,10 +104,14 @@
 | **0344** |                        [Reverse String][344]                        |                   Two Pointers, String, Recursion                   |  ![][easy]  |        |
 | **0345** |                  [Reverse Vowels of a String][345]                  |                             2P, String                              |  ![][easy]  |        |
 | **0349** |                  [Intersection of Two Arrays][349]                  |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
+| **0350** |                [Intersection of Two Arrays II][350]                 |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |                         Math, Binary Search                         |  ![][easy]  |        |
 | **0369** |                     [Plus One Linked List][369]                     |                          Linked List, Math                          | ![][medium] |   🔒   |
+| **0374** |                 [Guess Number Higher or Lower][374]                 |                           BS, Interactive                           |  ![][easy]  |        |
+| **0383** |                         [Ransom Note][383]                          |                    Hash Table, String, Counting                     |  ![][easy]  |        |
 | **0387** |              [First Unique Character in a String][387]              |                   Hash Table, String, Q, Counting                   |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |            Hash Table, String, Bit Manipulation, Sorting            |  ![][easy]  |        |
+| **0392** |                        [Is Subsequence][392]                        |                           2P, String, DP                            |  ![][easy]  |        |
 | **0438** |                [Find All Anagrams in a String][438]                 |                 Hash Table, String, Sliding Window                  | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
 | **0445** |                      [Add Two Numbers II][445]                      |                      Linked List, Math, Stack                       | ![][medium] |        |
@@ -199,6 +204,7 @@
 [160]: ./0101-0200/160%20-%20Intersection%20of%20Two%20Linked%20Lists/
 [169]: ./0101-0200/169%20-%20Majority%20Element/
 [172]: ./0101-0200/172%20-%20Factorial%20Trailing%20Zeroes/
+[190]: ./0101-0200/190%20-%20Reverse%20Bits/
 [191]: ./0101-0200/191%20-%20Number%20of%201%20Bits/
 [193]: ./0101-0200/193%20-%20Valid%20Phone%20Numbers/
 [195]: ./0101-0200/195%20-%20Tenth%20Line/
@@ -239,11 +245,15 @@
 [344]: ./0301-0400/344%20-%20Reverse%20String/
 [345]: ./0301-0400/345%20-%20Reverse%20Vowels%20of%20a%20String/
 [349]: ./0301-0400/349%20-%20Intersection%20of%20Two%20Arrays/
+[350]: ./0301-0400/350%20-%20Intersection%20of%20Two%20Arrays%20II/
 [367]: ./0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/
+[374]: ./0301-0400/374%20-%20Guess%20Number%20Higher%20or%20Lower/
+[383]: ./0301-0400/383%20-%20Ransom%20Note/
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [389]: ./0301-0400/389%20-%20Find%20the%20Difference/
+[392]: ./0301-0400/392%20-%20Is%20Subsequence/
 [438]: ./0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
 [442]: ./0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./0401-0500/445%20-%20Add%20Two%20Numbers%20II/

@@ -570,9 +570,10 @@
     "sols": {}
   },
   "121": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "best_time_to_buy_and_sell_stock.rs": "93764df62514c12ee4e09820c92f4c2c780c031c5cdeb765a02677b7e0e656e3"
+      "best_time_to_buy_and_sell_stock.rs": "93764df62514c12ee4e09820c92f4c2c780c031c5cdeb765a02677b7e0e656e3",
+      "best_time_to_buy_and_sell_stock.go": "aa1e2639600c928e7fedacf097b32419569517a2c21425cc0a5009b2938d21d6"
     }
   },
   "122": {
@@ -866,8 +867,10 @@
     "sols": {}
   },
   "190": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "reverse_bits.rs": "a36151328a59e7b9765c31e3038aaaecbba0afc3f1de346ba220f5a79f201676"
+    }
   },
   "191": {
     "len": 2,
@@ -1583,8 +1586,10 @@
     }
   },
   "350": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "intersection_of_two_arrays_2.rs": "f882a79769a171b8264bc635abdc2da1e8dfee0060439c55a6941c0f4d481c05"
+    }
   },
   "351": {
     "len": 0,
@@ -1683,8 +1688,10 @@
     "sols": {}
   },
   "374": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "guess_num_higher_or_lower.rs": "b6eaed287bf0172bd832c024ceaf5a6840dac23203587af10390b65bb33985ca"
+    }
   },
   "375": {
     "len": 0,
@@ -1719,8 +1726,10 @@
     "sols": {}
   },
   "383": {
-    "len": 0,
-    "sols": {}
+    "len": 3,
+    "sols": {
+      "ransom_note.rs": "5190c18b45536110cb5b71847b08da4f99ef6932e19ea90823e865916a6acedb"
+    }
   },
   "384": {
     "len": 0,
@@ -1759,8 +1768,10 @@
     "sols": {}
   },
   "392": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "is_subsequence.rs": "1c547fa9d8dbc0d034ab1a903a9865e59585f036f8471c9ab89e5bb21cb3fff2"
+    }
   },
   "393": {
     "len": 0,
