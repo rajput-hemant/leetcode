@@ -112,7 +112,10 @@
 | **0387** |              [First Unique Character in a String][387]              |                   Hash Table, String, Q, Counting                   |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |            Hash Table, String, Bit Manipulation, Sorting            |  ![][easy]  |        |
 | **0392** |                        [Is Subsequence][392]                        |                           2P, String, DP                            |  ![][easy]  |        |
+| **0401** |                         [Binary Watch][401]                         |                       Backtracking, Bit Manip                       |  ![][easy]  |        |
 | **0404** |                      [Sum of Left Leaves][404]                      |     Tree, Depth-First Search, Breadth-First Search, Binary Tree     |  ![][easy]  |        |
+| **0412** |                          [Fizz Buzz][412]                           |                      Math, String, Simulation                       |  ![][easy]  |        |
+| **0414** |                     [Third Maximum Number][414]                     |                           Array, Sorting                            |  ![][easy]  |        |
 | **0438** |                [Find All Anagrams in a String][438]                 |                 Hash Table, String, Sliding Window                  | ![][medium] |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
 | **0445** |                      [Add Two Numbers II][445]                      |                      Linked List, Math, Stack                       | ![][medium] |        |
@@ -147,6 +150,7 @@
 | **1580** |                      [Shuffle the Array][1580]                      |                                Array                                |  ![][easy]  |        |
 | **1630** |           [Count Odd Numbers in an Interval Range][1630]            |                                Math                                 |  ![][easy]  |        |
 | **1957** |           [Delete Characters to Make Fancy String][1957]            |                               String                                |  ![][easy]  |        |
+| **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                Array                                |  ![][easy]  |        |
 | **2236** |                [Root Equal to Sum of Children][2236]                |                          Tree, Binary Tree                          |  ![][easy]  |        |
 
 </div>
@@ -255,7 +259,10 @@
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [389]: ./0301-0400/389%20-%20Find%20the%20Difference/
 [392]: ./0301-0400/392%20-%20Is%20Subsequence/
+[401]: ./0401-0500/401%20-%20Binary%20Watch/
 [404]: ./0401-0500/404%20-%20Sum%20of%20Left%20Leaves/
+[412]: ./0401-0500/412%20-%20Fizz%20Buzz/
+[414]: ./0401-0500/414%20-%20Third%20Maximum%20Number/
 [438]: ./0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
 [442]: ./0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./0401-0500/445%20-%20Add%20Two%20Numbers%20II/
@@ -292,6 +299,7 @@
 [1580]: ./1401-1500/1470%20-%20Shuffle%20the%20Array/
 [1630]: ./1501-1600/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/
 [1957]: ./1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String/
+[2176]: ./2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array/
 [2236]: ./2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 
 <!----------------------------------{ Labels }--------------------------------->

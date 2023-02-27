@@ -48,6 +48,7 @@
 | **0322** |                         [Coin Change][322]                          |                           Array, DP, BFS                            | ![][medium] |        |
 | **0349** |                  [Intersection of Two Arrays][349]                  |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
 | **0350** |                [Intersection of Two Arrays II][350]                 |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
+| **0414** |                     [Third Maximum Number][414]                     |                           Array, Sorting                            |  ![][easy]  |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
 | **0502** |                             [IPO][502]                              |            Array, Greedy, Sorting, Heap (Priority Queue)            |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                        Array, Sorting, Heap                         |  ![][easy]  |        |
@@ -65,6 +66,7 @@
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                       Array, 2P, BS, Sorting                        | ![][medium] |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |                   Array, Two Pointer, DP, Greedy                    |  ![][hard]  |        |
 | **1580** |                      [Shuffle the Array][1580]                      |                                Array                                |  ![][easy]  |        |
+| **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                Array                                |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -90,6 +92,7 @@
 | **0387** |           [First Unique Character in a String][387]           |               Hash Table, String, Q, Counting               |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   |        Hash Table, String, Bit Manipulation, Sorting        |  ![][easy]  |        |
 | **0392** |                     [Is Subsequence][392]                     |                       2P, String, DP                        |  ![][easy]  |        |
+| **0412** |                       [Fizz Buzz][412]                        |                  Math, String, Simulation                   |  ![][easy]  |        |
 | **0438** |             [Find All Anagrams in a String][438]              |             Hash Table, String, Sliding Window              | ![][medium] |        |
 | **0516** |            [Longest Palindromic Subsequence][516]             |                         String, DP                          | ![][medium] |        |
 | **0541** |                   [Reverse String II][541]                    |                    Two Pointers, String                     |  ![][easy]  |        |
@@ -182,6 +185,7 @@
 | **0326** |             [Power of Three][326]              |                 Math, Recursion                 |  ![][easy]  |        |
 | **0342** |              [Power of Four][342]              |           Math, Bit Manip, Recursion            |  ![][easy]  |        |
 | **0367** |          [Valid Perfect Square][367]           |               Math, Binary Search               |  ![][easy]  |        |
+| **0412** |                [Fizz Buzz][412]                |            Math, String, Simulation             |  ![][easy]  |        |
 | **0445** |           [Add Two Numbers II][445]            |            Linked List, Math, Stack             | ![][medium] |        |
 | **0509** |            [Fibonacci Number][509]             |        Math, Recursion, DP, Memoization         |  ![][easy]  |        |
 | **1232** |     [Check If It Is a Straight Line][1232]     |              Array, Math, Geometry              |  ![][easy]  |        |
@@ -202,6 +206,7 @@
 | **0349** |                  [Intersection of Two Arrays][349]                  |       Array, Hash Table, 2P, BS, Sorting        |  ![][easy]  |        |
 | **0350** |                [Intersection of Two Arrays II][350]                 |       Array, Hash Table, 2P, BS, Sorting        |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
+| **0414** |                     [Third Maximum Number][414]                     |                 Array, Sorting                  |  ![][easy]  |        |
 | **0502** |                             [IPO][502]                              |  Array, Greedy, Sorting, Heap (Priority Queue)  |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |    Array, Hash Table, Binary Search, Sorting    |  ![][easy]  |        |
@@ -402,6 +407,7 @@
 | **0338** |                     [Counting Bits][338]                      |                  DP, Bit Manip                  |  ![][easy]  |        |
 | **0342** |                     [Power of Four][342]                      |           Math, Bit Manip, Recursion            |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
+| **0401** |                      [Binary Watch][401]                      |             Backtracking, Bit Manip             |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |      String, Hash Table, Bit Manipulation       | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
@@ -454,6 +460,7 @@
 | :------: | :---------------: | :---------------------------------: | :--------: | :----: |
 | **0067** | [Add Binary][67]  | Math, String, Bit Manip, Simulation | ![][easy]  |        |
 | **0258** | [Add Digits][258] |   Math, Simulation, Number Theory   | ![][easy]  |        |
+| **0412** | [Fizz Buzz][412]  |      Math, String, Simulation       | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -466,6 +473,7 @@
 | **0051** |       [N-Queens][51]       |                     Array, Backtracking                     |  ![][hard]  |        |
 | **0078** |       [Subsets][78]        |               Array, Backtracking, Bit Manip                | ![][medium] |        |
 | **0257** |  [Binary Tree Paths][257]  | String, Backtracking, Tree, Depth-First Search, Binary Tree |  ![][easy]  |        |
+| **0401** |    [Binary Watch][401]     |                   Backtracking, Bit Manip                   |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -974,7 +982,10 @@
 [387]: ./src/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [389]: ./src/0301-0400/389%20-%20Find%20the%20Difference/
 [392]: ./src/0301-0400/392%20-%20Is%20Subsequence/
+[401]: ./src/0401-0500/401%20-%20Binary%20Watch/
 [404]: ./src/0401-0500/404%20-%20Sum%20of%20Left%20Leaves/
+[412]: ./src/0401-0500/412%20-%20Fizz%20Buzz/
+[414]: ./src/0401-0500/414%20-%20Third%20Maximum%20Number/
 [438]: ./src/0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
 [442]: ./src/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
@@ -1010,6 +1021,7 @@
 [1580]: ./src/1401-1500/1470%20-%20Shuffle%20the%20Array/
 [1630]: ./src/1501-1600/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/
 [1957]: ./src/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String/
+[2176]: ./src/2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array/
 [2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 
 <!----------------------------------{ Labels }--------------------------------->
