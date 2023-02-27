@@ -425,8 +425,20 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "401 - Binary Watch",
+        link: "/solution/0401-0500/401 - Binary Watch.md",
+      },
+      {
         text: "404 - Sum of Left Leaves",
         link: "/solution/0401-0500/404 - Sum of Left Leaves.md",
+      },
+      {
+        text: "412 - Fizz Buzz",
+        link: "/solution/0401-0500/412 - Fizz Buzz.md",
+      },
+      {
+        text: "414 - Third Maximum Number",
+        link: "/solution/0401-0500/414 - Third Maximum Number.md",
       },
       {
         text: "438 - Find All Anagrams in a String",
@@ -644,6 +656,17 @@ export default Sidebar = [
     ],
   },
   {
+    text: "2101-2200",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "2176 - Count Equal and Divisible Pairs in an Array",
+        link: "/solution/2101-2200/2176 - Count Equal and Divisible Pairs in an Array.md",
+      },
+    ],
+  },
+  {
     text: "2201-2300",
     collapsible: true,
     collapsed: true,
@@ -651,6 +674,17 @@ export default Sidebar = [
       {
         text: "2236 - Root Equals Sum of Children",
         link: "/solution/2201-2300/2236 - Root Equals Sum of Children.md",
+      },
+    ],
+  },
+  {
+    text: "2401-2500",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "2427 - Number of Common Factors",
+        link: "/solution/2401-2500/2427 - Number of Common Factors.md",
       },
     ],
   },
