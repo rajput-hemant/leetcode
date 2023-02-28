@@ -152,6 +152,7 @@
 | **1957** |           [Delete Characters to Make Fancy String][1957]            |                               String                                |  ![][easy]  |        |
 | **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                Array                                |  ![][easy]  |        |
 | **2236** |                [Root Equal to Sum of Children][2236]                |                          Tree, Binary Tree                          |  ![][easy]  |        |
+| **2427** |                  [Number of Common Factors][2427]                   |                  Math, Enumeration, Number Theory                   |  ![][easy]  |        |
 
 </div>
 <!---------------------------------{ Path Reference }-------------------------->
@@ -301,6 +302,7 @@
 [1957]: ./1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String/
 [2176]: ./2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array/
 [2236]: ./2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
+[2427]: ./2401-2500/2427%20-%20Number%20of%20Common%20Factors/
 
 <!----------------------------------{ Labels }--------------------------------->
 
