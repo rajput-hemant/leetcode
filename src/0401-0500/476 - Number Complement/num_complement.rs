@@ -1,6 +1,6 @@
 impl Solution {
     pub fn find_complement(num: i32) -> i32 {
-        let mut res = String::new();
+        let mut res = String::default();
 
         for ch in format!("{:b}", num).chars() {
             if ch == '0' {
