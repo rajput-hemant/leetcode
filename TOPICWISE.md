@@ -50,6 +50,8 @@
 | **0350** |                [Intersection of Two Arrays II][350]                 |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
 | **0414** |                     [Third Maximum Number][414]                     |                           Array, Sorting                            |  ![][easy]  |        |
 | **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
+| **0448** |           [Find All Numbers Disappeared in an Array][448]           |                          Array, Hash Table                          |  ![][easy]  |        |
+| **0485** |                     [Max Consecutive Ones][485]                     |                                Array                                |  ![][easy]  |        |
 | **0502** |                             [IPO][502]                              |            Array, Greedy, Sorting, Heap (Priority Queue)            |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                        Array, Sorting, Heap                         |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |                              Array, DP                              | ![][medium] |        |
@@ -93,7 +95,9 @@
 | **0389** |                  [Find the Difference][389]                   |        Hash Table, String, Bit Manipulation, Sorting        |  ![][easy]  |        |
 | **0392** |                     [Is Subsequence][392]                     |                       2P, String, DP                        |  ![][easy]  |        |
 | **0412** |                       [Fizz Buzz][412]                        |                  Math, String, Simulation                   |  ![][easy]  |        |
+| **0434** |             [Number of Segments in a String][434]             |                           String                            |  ![][easy]  |        |
 | **0438** |             [Find All Anagrams in a String][438]              |             Hash Table, String, Sliding Window              | ![][medium] |        |
+| **0482** |                 [License Key Formatting][482]                 |                           String                            |  ![][easy]  |        |
 | **0516** |            [Longest Palindromic Subsequence][516]             |                         String, DP                          | ![][medium] |        |
 | **0541** |                   [Reverse String II][541]                    |                    Two Pointers, String                     |  ![][easy]  |        |
 | **0771** |                   [Jewels and Stones][771]                    |                      String, Hashtable                      |  ![][easy]  |        |
@@ -108,31 +112,33 @@
 
 ## Hash Table
 
-|    #     |                 Solution                  |                      Tags                       | Difficulty  | Remark |
-| :------: | :---------------------------------------: | :---------------------------------------------: | :---------: | :----: |
-| **0001** |               [Two Sum][1]                |                Array, Hash Table                |  ![][easy]  |        |
-| **0013** |          [Roman to Integer][13]           |            String, Math, Hash Table             |  ![][easy]  |        |
-| **0141** |         [Linked List Cycle][141]          |               Hash Table, LL, 2P                |  ![][easy]  |        |
-| **0160** |  [Intersection of Two Linked Lists][160]  |               Hash Table, LL, 2P                |  ![][easy]  |        |
-| **0169** |          [Majority Element][169]          |    Array, Hash Table, DNC, Sorting, Counting    |  ![][easy]  |        |
-| **0202** |            [Happy Number][202]            |              Hash Table, Math, 2P               |  ![][easy]  |        |
-| **0205** |         [Isomorphic Strings][205]         |               Hash Table, String                |  ![][easy]  |        |
-| **0217** |         [Contains Duplicate][217]         |           Array, Hash Table, Sorting            |  ![][easy]  |        |
-| **0219** |       [Contains Duplicate II][219]        |        Array, Hash Table, Sliding Window        |  ![][easy]  |        |
-| **0242** |           [Valid Anagram][242]            |           Hash Table, String, Sorting           |  ![][easy]  |        |
-| **0268** |           [Missing Number][268]           | Array, Hash Table, Math, BS, Bit Manip, Sorting |  ![][easy]  |        |
-| **0290** |            [Word Pattern][290]            |               Hash Table, String                |  ![][easy]  |        |
-| **0349** |     [Intersection of Two Arrays][349]     |       Array, Hash Table, 2P, BS, Sorting        |  ![][easy]  |        |
-| **0350** |   [Intersection of Two Arrays II][350]    |       Array, Hash Table, 2P, BS, Sorting        |  ![][easy]  |        |
-| **0383** |            [Ransom Note][383]             |          Hash Table, String, Counting           |  ![][easy]  |        |
-| **0387** | [First Unique Character in a String][387] |         Hash Table, String, Q, Counting         |  ![][easy]  |        |
-| **0389** |        [Find the Difference][389]         |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
-| **0438** |   [Find All Anagrams in a String][438]    |       Hash Table, String, Sliding Window        | ![][medium] |        |
-| **0442** |        [Find All Duplicates][442]         |                Array, Hash Table                | ![][medium] |        |
-| **0653** |    [Two Sum IV - Input is a BST ][653]    |           Tree, DFS, BST, Binary Tree           |  ![][easy]  |        |
-| **0888** |          [Fair Candy Swap][888]           |    Array, Hash Table, Binary Search, Sorting    |  ![][easy]  |        |
-| **0771** |         [Jewels and Stones][771]          |                String, Hashtable                |  ![][easy]  |        |
-| **0997** |        [Find the Town Judge][997]         |            Array, Hash Table, Graph             |  ![][easy]  |        |
+|    #     |                    Solution                     |                       Tags                        | Difficulty  | Remark |
+| :------: | :---------------------------------------------: | :-----------------------------------------------: | :---------: | :----: |
+| **0001** |                  [Two Sum][1]                   |                 Array, Hash Table                 |  ![][easy]  |        |
+| **0013** |             [Roman to Integer][13]              |             String, Math, Hash Table              |  ![][easy]  |        |
+| **0141** |            [Linked List Cycle][141]             |                Hash Table, LL, 2P                 |  ![][easy]  |        |
+| **0160** |     [Intersection of Two Linked Lists][160]     |                Hash Table, LL, 2P                 |  ![][easy]  |        |
+| **0169** |             [Majority Element][169]             |     Array, Hash Table, DNC, Sorting, Counting     |  ![][easy]  |        |
+| **0202** |               [Happy Number][202]               |               Hash Table, Math, 2P                |  ![][easy]  |        |
+| **0205** |            [Isomorphic Strings][205]            |                Hash Table, String                 |  ![][easy]  |        |
+| **0217** |            [Contains Duplicate][217]            |            Array, Hash Table, Sorting             |  ![][easy]  |        |
+| **0219** |          [Contains Duplicate II][219]           |         Array, Hash Table, Sliding Window         |  ![][easy]  |        |
+| **0242** |              [Valid Anagram][242]               |            Hash Table, String, Sorting            |  ![][easy]  |        |
+| **0268** |              [Missing Number][268]              |  Array, Hash Table, Math, BS, Bit Manip, Sorting  |  ![][easy]  |        |
+| **0290** |               [Word Pattern][290]               |                Hash Table, String                 |  ![][easy]  |        |
+| **0349** |        [Intersection of Two Arrays][349]        |        Array, Hash Table, 2P, BS, Sorting         |  ![][easy]  |        |
+| **0350** |      [Intersection of Two Arrays II][350]       |        Array, Hash Table, 2P, BS, Sorting         |  ![][easy]  |        |
+| **0383** |               [Ransom Note][383]                |           Hash Table, String, Counting            |  ![][easy]  |        |
+| **0387** |    [First Unique Character in a String][387]    |          Hash Table, String, Q, Counting          |  ![][easy]  |        |
+| **0389** |           [Find the Difference][389]            |   Hash Table, String, Bit Manipulation, Sorting   |  ![][easy]  |        |
+| **0438** |      [Find All Anagrams in a String][438]       |        Hash Table, String, Sliding Window         | ![][medium] |        |
+| **0442** |           [Find All Duplicates][442]            |                 Array, Hash Table                 | ![][medium] |        |
+| **0448** | [Find All Numbers Disappeared in an Array][448] |                 Array, Hash Table                 |  ![][easy]  |        |
+| **0652** |         [Find Duplicate Subtrees][652]          | Hash Table, Tree, Depth-First Search, Binary Tree | ![][medium] |        |
+| **0653** |       [Two Sum IV - Input is a BST ][653]       |            Tree, DFS, BST, Binary Tree            |  ![][easy]  |        |
+| **0888** |             [Fair Candy Swap][888]              |     Array, Hash Table, Binary Search, Sorting     |  ![][easy]  |        |
+| **0771** |            [Jewels and Stones][771]             |                 String, Hashtable                 |  ![][easy]  |        |
+| **0997** |           [Find the Town Judge][997]            |             Array, Hash Table, Graph              |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -186,7 +192,11 @@
 | **0342** |              [Power of Four][342]              |           Math, Bit Manip, Recursion            |  ![][easy]  |        |
 | **0367** |          [Valid Perfect Square][367]           |               Math, Binary Search               |  ![][easy]  |        |
 | **0412** |                [Fizz Buzz][412]                |            Math, String, Simulation             |  ![][easy]  |        |
+| **0441** |             [Arranging Coins][441]             |                    Math, BS                     |  ![][easy]  |        |
 | **0445** |           [Add Two Numbers II][445]            |            Linked List, Math, Stack             | ![][medium] |        |
+| **0492** |         [Construct the Rectangle][492]         |                      Math                       |  ![][easy]  |        |
+| **0504** |                 [Base 7][504]                  |                      Math                       |  ![][easy]  |        |
+| **0507** |             [Perfect Number][507]              |                      Math                       |  ![][easy]  |        |
 | **0509** |            [Fibonacci Number][509]             |        Math, Recursion, DP, Memoization         |  ![][easy]  |        |
 | **1232** |     [Check If It Is a Straight Line][1232]     |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1630** | [Count Odd Numbers in an Interval Range][1630] |                      Math                       |  ![][easy]  |        |
@@ -296,6 +306,7 @@
 | **0404** |             [Sum of Left Leaves][404]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **0543** |          [Diameter of Binary Tree][543]           |                      Tree, DFS, Binary Tree                      |  ![][easy]  |        |
+| **0652** |          [Find Duplicate Subtrees][652]           |        Hash Table, Tree, Depth-First Search, Binary Tree         | ![][medium] |        |
 | **0653** |        [Two Sum IV - Input is a BST ][653]        |                   Tree, DFS, BST, Binary Tree                    |  ![][easy]  |        |
 | **0799** |     [Minimum Distance Between BST Nodes][799]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **2236** |       [Root Equal to Sum of Children][2236]       |                        Tree, Binary Tree                         |  ![][easy]  |        |
@@ -317,6 +328,7 @@
 | **0350** |                [Intersection of Two Arrays II][350]                 |       Array, Hash Table, 2P, BS, Sorting        |  ![][easy]  |        |
 | **0367** |                     [Valid Perfect Square][367]                     |               Math, Binary Search               |  ![][easy]  |        |
 | **0374** |                 [Guess Number Higher or Lower][374]                 |                 BS, Interactive                 |  ![][easy]  |        |
+| **0441** |                       [Arranging Coins][441]                        |                    Math, BS                     |  ![][easy]  |        |
 | **0540** |               [Single Element in a Sorted Array][540]               |                    Array, BS                    | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |              Array, Binary Search               |  ![][easy]  |        |
 | **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                    Array, BS                    | ![][medium] |        |
@@ -360,6 +372,7 @@
 | **0404** |             [Sum of Left Leaves][404]             |   Tree, Depth-First Search, Breadth-First Search, Binary Tree    |  ![][easy]  |        |
 | **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **0543** |          [Diameter of Binary Tree][543]           |                      Tree, DFS, Binary Tree                      |  ![][easy]  |        |
+| **0652** |          [Find Duplicate Subtrees][652]           |        Hash Table, Tree, Depth-First Search, Binary Tree         | ![][medium] |        |
 | **0653** |        [Two Sum IV - Input is a BST ][653]        |                   Tree, DFS, BST, Binary Tree                    |  ![][easy]  |        |
 | **0799** |     [Minimum Distance Between BST Nodes][799]     | Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree |  ![][easy]  |        |
 | **2236** |       [Root Equal to Sum of Children][2236]       |                        Tree, Binary Tree                         |  ![][easy]  |        |
@@ -409,6 +422,8 @@
 | **0342** |                     [Power of Four][342]                      |           Math, Bit Manip, Recursion            |  ![][easy]  |        |
 | **0389** |                  [Find the Difference][389]                   |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
 | **0401** |                      [Binary Watch][401]                      |             Backtracking, Bit Manip             |  ![][easy]  |        |
+| **0461** |                    [Hamming Distance][461]                    |                    Bit Manip                    |  ![][easy]  |        |
+| **0476** |                   [Number Complement][476]                    |                    Bit Manip                    |  ![][easy]  |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |      String, Hash Table, Bit Manipulation       | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
@@ -989,12 +1004,22 @@
 [404]: ./src/0401-0500/404%20-%20Sum%20of%20Left%20Leaves/
 [412]: ./src/0401-0500/412%20-%20Fizz%20Buzz/
 [414]: ./src/0401-0500/414%20-%20Third%20Maximum%20Number/
+[434]: ./src/0401-0500/434%20-%20Number%20of%20Segments%20in%20a%20String/
 [438]: ./src/0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
+[441]: ./src/0401-0500/441%20-%20Arranging%20Coins/
 [442]: ./src/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
+[448]: ./src/0401-0500/448%20-%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array/
 [461]: ./src/0401-0500/461%20-%20Hamming%20Distance/
+[461]: ./src/0401-0500/461%20-%20Hamming%20Distance/
+[476]: ./src/0401-0500/476%20-%20Number%20Complement/
+[482]: ./src/0401-0500/482%20-%20License%20Key%20Formatting/
+[485]: ./src/0401-0500/485%20-%20Max%20Consecutive%20Ones/
+[492]: ./src/0401-0500/492%20-%20Construct%20the%20Rectangle/
 [502]: ./src/0501-0600/502%20-%20IPO/
+[504]: ./src/0501-0600/504%20-%20Base%207/
 [506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
+[507]: ./src/0501-0600/507%20-%20Perfect%20Number/
 [509]: ./src/0501-0600/509%20-%20Fibonacci%20Number/
 [516]: ./src/0501-0600/516%20-%20Longest%20Palindromic%20Subsequence/
 [518]: ./src/0501-0600/518%20-%20Coin%20Change%202/
@@ -1002,6 +1027,7 @@
 [540]: ./src/0501-0600/540%20-%20Single%20Element%20in%20a%20Sorted%20Array/
 [541]: ./src/0501-0600/541%20-%20Reverse%20String%20II/
 [543]: ./src/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
+[652]: ./src/0601-0700/652%20-%20Find%20Duplicate%20Subtrees/
 [653]: ./src/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
 [704]: ./src/0701-0800/704%20-%20Binary%20Search/
 [739]: ./src/0701-0800/739%20-%20Daily%20Temperatures/

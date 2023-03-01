@@ -564,7 +564,7 @@
   "119": {
     "len": 2,
     "sols": {
-      "pascals_triangle_ii.rs": "e1c93c5deb2fada33b078cba160101cf06b78dfc3b0145ae572d34bd8aee3657"
+      "pascals_triangle_ii.rs": "8814e159d72f58244d84e552a73267cf72681042364cac5b63ad3cf452603ed4"
     }
   },
   "120": {
@@ -1949,8 +1949,10 @@
     "sols": {}
   },
   "434": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "num_of_segments_in_a_string.rs": "73b72f788def1874bc63bbd5004ff06d7d634d16c0481bae0019c1ab960744fd"
+    }
   },
   "435": {
     "len": 0,
@@ -1979,8 +1981,10 @@
     "sols": {}
   },
   "441": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "arrange_coins.rs": "7511e59eca47d35b9bf3a19f97ce94061eb30b79b49433c247756a857e0c80a5"
+    }
   },
   "442": {
     "len": 2,
@@ -2011,8 +2015,10 @@
     "sols": {}
   },
   "448": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "find_all_nums_disappeared_in_an_array.rs": "b2979d0dcfaeeee5e770a5b4021bb832d018b72fa9e561f696984c862d23f317"
+    }
   },
   "449": {
     "len": 0,
@@ -2064,7 +2070,9 @@
   },
   "461": {
     "len": 2,
-    "sols": {}
+    "sols": {
+      "hamming_distance.rs": "234590f9ef9d50ee923fa50696e9e7bff2e26b5a520039ffab8737eaa31f63e1"
+    }
   },
   "462": {
     "len": 0,
@@ -2123,8 +2131,10 @@
     "sols": {}
   },
   "476": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "num_complement.rs": "73cc4ddb9888bd00977018f66d8692edadcff3e0da522819255e4e7908a59555"
+    }
   },
   "477": {
     "len": 0,
@@ -2147,8 +2157,10 @@
     "sols": {}
   },
   "482": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "license_key_formatting.rs": "117e6eb67ac6f2f51950188bc4704e05dcae48698e0f537ee02fd2e22cffc2eb"
+    }
   },
   "483": {
     "len": 0,
@@ -2159,8 +2171,10 @@
     "sols": {}
   },
   "485": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "max_consecutive_ones.rs": "dba7a2bb4d4f64e4790c5c3ca375a5618c32c015d33381b0dc5a2027c0e3e8d4"
+    }
   },
   "486": {
     "len": 0,
@@ -2187,8 +2201,10 @@
     "sols": {}
   },
   "492": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "contruct_the_rectangle.rs": "ed34544ff2d7ef33c8e3d47300022b17c2a8961ad481e019e6ec4f02b8024c64"
+    }
   },
   "493": {
     "len": 0,
@@ -2237,8 +2253,10 @@
     "sols": {}
   },
   "504": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "base_7.rs": "2262f7dad68c75b223d441adfe03c58428540ca18c576443e8ddf163adfc6ba4"
+    }
   },
   "505": {
     "len": 0,
@@ -2251,8 +2269,10 @@
     }
   },
   "507": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "perfect_number.rs": "0d2a1b8a0cda72b57e7218480a046ae0cae8808e54a259e873a92d36a1f9776d"
+    }
   },
   "508": {
     "len": 0,
@@ -2846,8 +2866,10 @@
     "sols": {}
   },
   "652": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "find_duplicate_subtrees.go": "82b2412584e7d8a6976a877856d9342ce8503644991df3aa885f032c059a082a"
+    }
   },
   "653": {
     "len": 2,
