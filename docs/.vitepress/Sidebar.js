@@ -441,8 +441,16 @@ export default Sidebar = [
         link: "/solution/0401-0500/414 - Third Maximum Number.md",
       },
       {
+        text: "434 - Number of Segments in a String",
+        link: "/solution/0401-0500/434 - Number of Segments in a String.md",
+      },
+      {
         text: "438 - Find All Anagrams in a String",
         link: "/solution/0401-0500/438 - Find All Anagrams in a String.md",
+      },
+      {
+        text: "441 - Arranging Coins",
+        link: "/solution/0401-0500/441 - Arranging Coins.md",
       },
       {
         text: "442 - Find All Duplicates in an Array",
@@ -451,6 +459,30 @@ export default Sidebar = [
       {
         text: "445 - Add Two Numbers II",
         link: "/solution/0401-0500/445 - Add Two Numbers II.md",
+      },
+      {
+        text: "448 - Find All Numbers Disappeared in an Array",
+        link: "/solution/0401-0500/448 - Find All Numbers Disappeared in an Array.md",
+      },
+      {
+        text: "461 - Hamming Distance",
+        link: "/solution/0401-0500/461 - Hamming Distance.md",
+      },
+      {
+        text: "476 - Number Complement",
+        link: "/solution/0401-0500/476 - Number Complement.md",
+      },
+      {
+        text: "482 - License Key Formatting",
+        link: "/solution/0401-0500/482 - License Key Formatting.md",
+      },
+      {
+        text: "485 - Max Consecutive Ones",
+        link: "/solution/0401-0500/485 - Max Consecutive Ones.md",
+      },
+      {
+        text: "492 - Construct the Rectangle",
+        link: "/solution/0401-0500/492 - Construct the Rectangle.md",
       },
     ],
   },
@@ -464,8 +496,16 @@ export default Sidebar = [
         link: "/solution/0501-0600/502 - IPO.md",
       },
       {
+        text: "504 - Base 7",
+        link: "/solution/0501-0600/504 - Base 7.md",
+      },
+      {
         text: "506 -  Relative Ranks",
         link: "/solution/0501-0600/506 -  Relative Ranks.md",
+      },
+      {
+        text: "507 - Perfect Number",
+        link: "/solution/0501-0600/507 - Perfect Number.md",
       },
       {
         text: "509 - Fibonacci Number",
@@ -502,6 +542,10 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "652 - Find Duplicate Subtrees",
+        link: "/solution/0601-0700/652 - Find Duplicate Subtrees.md",
+      },
       {
         text: "653 - Two Sum IV - Input is a BST",
         link: "/solution/0601-0700/653 - Two Sum IV - Input is a BST.md",
