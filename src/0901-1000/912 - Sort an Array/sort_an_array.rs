@@ -19,7 +19,10 @@ impl Solution {
     }
 
     fn partition(nums: &mut Vec<i32>, start: i32, end: i32) -> i32 {
-        let pivot = nums[end as usize];
+        let pivot_index = Self::choose_pivot(nums, start as usize, end as usize);
+        let pivot = nums[pivot_index as usize];
+        nums.swap(pivot_index as usize, end as usize);
+
         let mut i = start;
 
         for j in start..end {
@@ -32,5 +35,17 @@ impl Solution {
         nums.swap(i as usize, end as usize);
 
         i
+    }
+
+		// this is to optimize the pivot selection
+    fn choose_pivot(nums: &mut Vec<i32>, start: usize, end: usize) -> usize {
+        let mid = start + (end - start) / 2;
+        if nums[start] <= nums[mid] && nums[mid] <= nums[end] {
+            mid
+        } else if nums[start] <= nums[end] && nums[end] <= nums[mid] {
+            end
+        } else {
+            start
+        }
     }
 }
