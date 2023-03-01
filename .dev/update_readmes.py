@@ -175,7 +175,7 @@ def gsearch(query):
         tld="com",
         user_agent=USER_AGENT,
     ):
-        link = re.match(r"https:\/\/leetcode.com\/problems\/[a-z-]+\/", url)[0]
+        link = re.match(r"https:\/\/leetcode.com\/problems\/[a-z-\d]+\/", url)[0]
 
         log(f"Found link: {link}")
         return link
