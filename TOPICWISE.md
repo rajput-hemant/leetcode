@@ -16,59 +16,62 @@
 
 ## Array
 
-|    #     |                              Solution                               |                                Tags                                 | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------------: | :-----------------------------------------------------------------: | :---------: | :----: |
-| **0001** |                            [Two Sum][1]                             |                          Array, Hash Table                          |  ![][easy]  |        |
-| **0004** |                  [Median of Two Sorted Arrays][4]                   |               Array, Binary Search, Divide & Conquer                |  ![][hard]  |        |
-| **0026** |                       [Remove Duplicates][26]                       |                         Array, Two Pointers                         |  ![][easy]  |        |
-| **0027** |                        [Remove Element][27]                         |                         Array, Two Pointers                         |  ![][easy]  |        |
-| **0035** |                    [Search Insert Position][35]                     |                              Array, BS                              |  ![][easy]  |        |
-| **0037** |                         [Sudoku Solver][37]                         |                     Array, Backtracking, Matrix                     |  ![][hard]  |        |
-| **0051** |                           [N-Queens][51]                            |                         Array, Backtracking                         |  ![][hard]  |        |
-| **0053** |                       [Maximum Subarray][53]                        |                           Array, DNC, DP                            | ![][medium] |        |
-| **0055** |                           [Jump Game][55]                           |                          Array, DP, Greedy                          | ![][medium] |        |
-| **0066** |                           [Plus One][66]                            |                             Array, Math                             |  ![][easy]  |        |
-| **0075** |                          [Sort Colors][75]                          |                    Array, Two Pointers, Sorting                     | ![][medium] |        |
-| **0078** |                            [Subsets][78]                            |                   Array, Backtracking, Bit Manip                    | ![][medium] |        |
-| **0088** |                      [Merge Sorted Array][88]                       |                         Array, 2P, Sorting                          |  ![][easy]  |        |
-| **0108** |          [Convert Sorted Array to Binary Search Tree][108]          |                 Array, DNC, Tree, BST, Binary Tree                  |  ![][easy]  |        |
-| **0118** |                      [Pascal's Triangle][118]                       |                              Array, DP                              |  ![][easy]  |        |
-| **0119** |                     [Pascal's Triangle II][119]                     |                              Array, DP                              |  ![][easy]  |        |
-| **0121** |               [Best Time to Buy and Sell Stock][121]                |                              Array, DP                              |  ![][easy]  |        |
-| **0122** |              [Best Time to Buy and Sell Stock II][122]              |                          Array, DP, Greedy                          | ![][medium] |        |
-| **0136** |                        [Single Number][136]                         |                          Array, Bit Manip                           |  ![][easy]  |        |
-| **0169** |                       [Majority Element][169]                       |              Array, Hash Table, DNC, Sorting, Counting              |  ![][easy]  |        |
-| **0200** |                      [Number of Islands][200]                       | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
-| **0217** |                      [Contains Duplicate][217]                      |                     Array, Hash Table, Sorting                      |  ![][easy]  |        |
-| **0219** |                    [Contains Duplicate II][219]                     |                  Array, Hash Table, Sliding Window                  |  ![][easy]  |        |
-| **0228** |                        [Summary Ranges][228]                        |                                Array                                |  ![][easy]  |        |
-| **0268** |                        [Missing Number][268]                        |           Array, Hash Table, Math, BS, Bit Manip, Sorting           |  ![][easy]  |        |
-| **0283** |                         [Move Zeroes][283]                          |                         Array, Two Pointers                         |  ![][easy]  |        |
-| **0300** |                [Longest Increasing Subsequence][300]                |                      Array, Binary Search, DP                       | ![][medium] |        |
-| **0322** |                         [Coin Change][322]                          |                           Array, DP, BFS                            | ![][medium] |        |
-| **0349** |                  [Intersection of Two Arrays][349]                  |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
-| **0350** |                [Intersection of Two Arrays II][350]                 |                 Array, Hash Table, 2P, BS, Sorting                  |  ![][easy]  |        |
-| **0414** |                     [Third Maximum Number][414]                     |                           Array, Sorting                            |  ![][easy]  |        |
-| **0442** |                     [Find All Duplicates][442]                      |                          Array, Hash Table                          | ![][medium] |        |
-| **0448** |           [Find All Numbers Disappeared in an Array][448]           |                          Array, Hash Table                          |  ![][easy]  |        |
-| **0485** |                     [Max Consecutive Ones][485]                     |                                Array                                |  ![][easy]  |        |
-| **0502** |                             [IPO][502]                              |            Array, Greedy, Sorting, Heap (Priority Queue)            |  ![][hard]  |        |
-| **0506** |                        [Relative Ranks][506]                        |                        Array, Sorting, Heap                         |  ![][easy]  |        |
-| **0518** |                        [Coin Change 2][518]                         |                              Array, DP                              | ![][medium] |        |
-| **0540** |               [Single Element in a Sorted Array][540]               |                              Array, BS                              | ![][medium] |        |
-| **0704** |                        [Binary Search][704]                         |                        Array, Binary Search                         |  ![][easy]  |        |
-| **0739** |                      [Daily Temperatures][739]                      |                    Array, Stack, Monotonic Stack                    | ![][medium] |        |
-| **0888** |                       [Fair Candy Swap][888]                        |              Array, Hash Table, Binary Search, Sorting              |  ![][easy]  |        |
-| **0944** |                [Delete Columns to Make Sorted][944]                 |                            Array, String                            |  ![][easy]  |        |
-| **0997** |                     [Find the Town Judge][997]                      |                      Array, Hash Table, Graph                       |  ![][easy]  |        |
-| **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                              Array, BS                              | ![][medium] |        |
-| **1232** |               [Check If It Is a Straight Line][1232]                |                        Array, Math, Geometry                        |  ![][easy]  |        |
-| **1480** |                   [Running Sum of 1d Array][1480]                   |                          Array, Prefix Sum                          |  ![][easy]  |        |
-| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                           Array, Sorting                            |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                       Array, 2P, BS, Sorting                        | ![][medium] |        |
-| **1537** |                    [Get the Maximum Score][1537]                    |                   Array, Two Pointer, DP, Greedy                    |  ![][hard]  |        |
-| **1580** |                      [Shuffle the Array][1580]                      |                                Array                                |  ![][easy]  |        |
-| **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                Array                                |  ![][easy]  |        |
+|    #     |                              Solution                               |                                              Tags                                              | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :---------: | :----: |
+| **0001** |                            [Two Sum][1]                             |                                       Array, Hash Table                                        |  ![][easy]  |        |
+| **0004** |                  [Median of Two Sorted Arrays][4]                   |                             Array, Binary Search, Divide & Conquer                             |  ![][hard]  |        |
+| **0026** |                       [Remove Duplicates][26]                       |                                      Array, Two Pointers                                       |  ![][easy]  |        |
+| **0027** |                        [Remove Element][27]                         |                                      Array, Two Pointers                                       |  ![][easy]  |        |
+| **0035** |                    [Search Insert Position][35]                     |                                           Array, BS                                            |  ![][easy]  |        |
+| **0037** |                         [Sudoku Solver][37]                         |                                  Array, Backtracking, Matrix                                   |  ![][hard]  |        |
+| **0051** |                           [N-Queens][51]                            |                                      Array, Backtracking                                       |  ![][hard]  |        |
+| **0053** |                       [Maximum Subarray][53]                        |                                         Array, DNC, DP                                         | ![][medium] |        |
+| **0055** |                           [Jump Game][55]                           |                                       Array, DP, Greedy                                        | ![][medium] |        |
+| **0066** |                           [Plus One][66]                            |                                          Array, Math                                           |  ![][easy]  |        |
+| **0075** |                          [Sort Colors][75]                          |                                  Array, Two Pointers, Sorting                                  | ![][medium] |        |
+| **0078** |                            [Subsets][78]                            |                                 Array, Backtracking, Bit Manip                                 | ![][medium] |        |
+| **0088** |                      [Merge Sorted Array][88]                       |                                       Array, 2P, Sorting                                       |  ![][easy]  |        |
+| **0108** |          [Convert Sorted Array to Binary Search Tree][108]          |                               Array, DNC, Tree, BST, Binary Tree                               |  ![][easy]  |        |
+| **0118** |                      [Pascal's Triangle][118]                       |                                           Array, DP                                            |  ![][easy]  |        |
+| **0119** |                     [Pascal's Triangle II][119]                     |                                           Array, DP                                            |  ![][easy]  |        |
+| **0121** |               [Best Time to Buy and Sell Stock][121]                |                                           Array, DP                                            |  ![][easy]  |        |
+| **0122** |              [Best Time to Buy and Sell Stock II][122]              |                                       Array, DP, Greedy                                        | ![][medium] |        |
+| **0136** |                        [Single Number][136]                         |                                        Array, Bit Manip                                        |  ![][easy]  |        |
+| **0169** |                       [Majority Element][169]                       |                           Array, Hash Table, DNC, Sorting, Counting                            |  ![][easy]  |        |
+| **0200** |                      [Number of Islands][200]                       |              Array, Depth-First Search, Breadth-First Search, Union Find, Matrix               | ![][medium] |        |
+| **0217** |                      [Contains Duplicate][217]                      |                                   Array, Hash Table, Sorting                                   |  ![][easy]  |        |
+| **0219** |                    [Contains Duplicate II][219]                     |                               Array, Hash Table, Sliding Window                                |  ![][easy]  |        |
+| **0228** |                        [Summary Ranges][228]                        |                                             Array                                              |  ![][easy]  |        |
+| **0268** |                        [Missing Number][268]                        |                        Array, Hash Table, Math, BS, Bit Manip, Sorting                         |  ![][easy]  |        |
+| **0283** |                         [Move Zeroes][283]                          |                                      Array, Two Pointers                                       |  ![][easy]  |        |
+| **0300** |                [Longest Increasing Subsequence][300]                |                                    Array, Binary Search, DP                                    | ![][medium] |        |
+| **0322** |                         [Coin Change][322]                          |                                         Array, DP, BFS                                         | ![][medium] |        |
+| **0349** |                  [Intersection of Two Arrays][349]                  |                               Array, Hash Table, 2P, BS, Sorting                               |  ![][easy]  |        |
+| **0350** |                [Intersection of Two Arrays II][350]                 |                               Array, Hash Table, 2P, BS, Sorting                               |  ![][easy]  |        |
+| **0414** |                     [Third Maximum Number][414]                     |                                         Array, Sorting                                         |  ![][easy]  |        |
+| **0442** |                     [Find All Duplicates][442]                      |                                       Array, Hash Table                                        | ![][medium] |        |
+| **0448** |           [Find All Numbers Disappeared in an Array][448]           |                                       Array, Hash Table                                        |  ![][easy]  |        |
+| **0485** |                     [Max Consecutive Ones][485]                     |                                             Array                                              |  ![][easy]  |        |
+| **0502** |                             [IPO][502]                              |                         Array, Greedy, Sorting, Heap (Priority Queue)                          |  ![][hard]  |        |
+| **0506** |                        [Relative Ranks][506]                        |                                      Array, Sorting, Heap                                      |  ![][easy]  |        |
+| **0518** |                        [Coin Change 2][518]                         |                                           Array, DP                                            | ![][medium] |        |
+| **0540** |               [Single Element in a Sorted Array][540]               |                                           Array, BS                                            | ![][medium] |        |
+| **0704** |                        [Binary Search][704]                         |                                      Array, Binary Search                                      |  ![][easy]  |        |
+| **0739** |                      [Daily Temperatures][739]                      |                                 Array, Stack, Monotonic Stack                                  | ![][medium] |        |
+| **0888** |                       [Fair Candy Swap][888]                        |                           Array, Hash Table, Binary Search, Sorting                            |  ![][easy]  |        |
+| **0912** |                        [Sort an Array][912]                         | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
+| **0944** |                [Delete Columns to Make Sorted][944]                 |                                         Array, String                                          |  ![][easy]  |        |
+| **0997** |                     [Find the Town Judge][997]                      |                                    Array, Hash Table, Graph                                    |  ![][easy]  |        |
+| **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                                           Array, BS                                            | ![][medium] |        |
+| **1232** |               [Check If It Is a Straight Line][1232]                |                                     Array, Math, Geometry                                      |  ![][easy]  |        |
+| **1480** |                   [Running Sum of 1d Array][1480]                   |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
+| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                         Array, Sorting                                         |  ![][easy]  |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                     Array, 2P, BS, Sorting                                     | ![][medium] |        |
+| **1537** |                    [Get the Maximum Score][1537]                    |                                 Array, Two Pointer, DP, Greedy                                 |  ![][hard]  |        |
+| **1580** |                      [Shuffle the Array][1580]                      |                                             Array                                              |  ![][easy]  |        |
+| **1920** |                [Build Array from Permutation][1920]                 |                                       Array, Simulation                                        |  ![][easy]  |        |
+| **1929** |                   [Concatenation of Array][1929]                    |                                             Array                                              |  ![][easy]  |        |
+| **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                             Array                                              |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -97,6 +100,7 @@
 | **0412** |                       [Fizz Buzz][412]                        |                  Math, String, Simulation                   |  ![][easy]  |        |
 | **0434** |             [Number of Segments in a String][434]             |                           String                            |  ![][easy]  |        |
 | **0438** |             [Find All Anagrams in a String][438]              |             Hash Table, String, Sliding Window              | ![][medium] |        |
+| **0443** |                   [String Compression][443]                   |                         2P, String                          | ![][medium] |        |
 | **0482** |                 [License Key Formatting][482]                 |                           String                            |  ![][easy]  |        |
 | **0516** |            [Longest Palindromic Subsequence][516]             |                         String, DP                          | ![][medium] |        |
 | **0541** |                   [Reverse String II][541]                    |                    Two Pointers, String                     |  ![][easy]  |        |
@@ -104,6 +108,7 @@
 | **0944** |             [Delete Columns to Make Sorted][944]              |                        Array, String                        |  ![][easy]  |        |
 | **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                        String, Stack                        |  ![][easy]  |        |
 | **1092** |             [Shortest Common Supersequence][1092]             |                         String, DP                          |  ![][hard]  |        |
+| **1108** |                [Defanging an IP Address][1108]                |                           String                            |  ![][easy]  |        |
 | **1143** |              [Longest Common Subsequence][1143]               |                         String, DP                          | ![][medium] |        |
 | **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |            String, Hash Table, Bit Manipulation             | ![][medium] |        |
 | **1957** |        [Delete Characters to Make Fancy String][1957]         |                           String                            |  ![][easy]  |        |
@@ -207,23 +212,24 @@
 
 ## Sorting
 
-|    #     |                              Solution                               |                      Tags                       | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------------: | :---------------------------------------------: | :---------: | :----: |
-| **0075** |                          [Sort Colors][75]                          |          Array, Two Pointers, Sorting           | ![][medium] |        |
-| **0088** |                      [Merge Sorted Array][88]                       |               Array, 2P, Sorting                |  ![][easy]  |        |
-| **0169** |                       [Majority Element][169]                       |    Array, Hash Table, DNC, Sorting, Counting    |  ![][easy]  |        |
-| **0217** |                      [Contains Duplicate][217]                      |           Array, Hash Table, Sorting            |  ![][easy]  |        |
-| **0242** |                        [Valid Anagram][242]                         |           Hash Table, String, Sorting           |  ![][easy]  |        |
-| **0268** |                        [Missing Number][268]                        | Array, Hash Table, Math, BS, Bit Manip, Sorting |  ![][easy]  |        |
-| **0349** |                  [Intersection of Two Arrays][349]                  |       Array, Hash Table, 2P, BS, Sorting        |  ![][easy]  |        |
-| **0350** |                [Intersection of Two Arrays II][350]                 |       Array, Hash Table, 2P, BS, Sorting        |  ![][easy]  |        |
-| **0389** |                     [Find the Difference][389]                      |  Hash Table, String, Bit Manipulation, Sorting  |  ![][easy]  |        |
-| **0414** |                     [Third Maximum Number][414]                     |                 Array, Sorting                  |  ![][easy]  |        |
-| **0502** |                             [IPO][502]                              |  Array, Greedy, Sorting, Heap (Priority Queue)  |  ![][hard]  |        |
-| **0506** |                        [Relative Ranks][506]                        |              Array, Sorting, Heap               |  ![][easy]  |        |
-| **0888** |                       [Fair Candy Swap][888]                        |    Array, Hash Table, Binary Search, Sorting    |  ![][easy]  |        |
-| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |             Array, 2P, BS, Sorting              | ![][medium] |        |
-| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                 Array, Sorting                  |  ![][easy]  |        |
+|    #     |                              Solution                               |                                              Tags                                              | Difficulty  | Remark |
+| :------: | :-----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :---------: | :----: |
+| **0075** |                          [Sort Colors][75]                          |                                  Array, Two Pointers, Sorting                                  | ![][medium] |        |
+| **0088** |                      [Merge Sorted Array][88]                       |                                       Array, 2P, Sorting                                       |  ![][easy]  |        |
+| **0169** |                       [Majority Element][169]                       |                           Array, Hash Table, DNC, Sorting, Counting                            |  ![][easy]  |        |
+| **0217** |                      [Contains Duplicate][217]                      |                                   Array, Hash Table, Sorting                                   |  ![][easy]  |        |
+| **0242** |                        [Valid Anagram][242]                         |                                  Hash Table, String, Sorting                                   |  ![][easy]  |        |
+| **0268** |                        [Missing Number][268]                        |                        Array, Hash Table, Math, BS, Bit Manip, Sorting                         |  ![][easy]  |        |
+| **0349** |                  [Intersection of Two Arrays][349]                  |                               Array, Hash Table, 2P, BS, Sorting                               |  ![][easy]  |        |
+| **0350** |                [Intersection of Two Arrays II][350]                 |                               Array, Hash Table, 2P, BS, Sorting                               |  ![][easy]  |        |
+| **0389** |                     [Find the Difference][389]                      |                         Hash Table, String, Bit Manipulation, Sorting                          |  ![][easy]  |        |
+| **0414** |                     [Third Maximum Number][414]                     |                                         Array, Sorting                                         |  ![][easy]  |        |
+| **0502** |                             [IPO][502]                              |                         Array, Greedy, Sorting, Heap (Priority Queue)                          |  ![][hard]  |        |
+| **0506** |                        [Relative Ranks][506]                        |                                      Array, Sorting, Heap                                      |  ![][easy]  |        |
+| **0888** |                       [Fair Candy Swap][888]                        |                           Array, Hash Table, Binary Search, Sorting                            |  ![][easy]  |        |
+| **0912** |                        [Sort an Array][912]                         | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
+| **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                     Array, 2P, BS, Sorting                                     | ![][medium] |        |
+| **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                         Array, Sorting                                         |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -400,6 +406,7 @@
 | **0349** |                  [Intersection of Two Arrays][349]                  |   Array, Hash Table, 2P, BS, Sorting   |  ![][easy]  |        |
 | **0350** |                [Intersection of Two Arrays II][350]                 |   Array, Hash Table, 2P, BS, Sorting   |  ![][easy]  |        |
 | **0392** |                        [Is Subsequence][392]                        |             2P, String, DP             |  ![][easy]  |        |
+| **0443** |                      [String Compression][443]                      |               2P, String               | ![][medium] |        |
 | **0541** |                      [Reverse String II][541]                       |          Two Pointers, String          |  ![][easy]  |        |
 | **0653** |                 [Two Sum IV - Input is a BST ][653]                 |      Tree, DFS, BST, Binary Tree       |  ![][easy]  |        |
 | **0876** |                  [Middle of the Linked List][876]                   |       Linked List, Two Pointers        |  ![][easy]  |        |
@@ -473,11 +480,12 @@
 
 ## Simulation
 
-|    #     |     Solution      |                Tags                 | Difficulty | Remark |
-| :------: | :---------------: | :---------------------------------: | :--------: | :----: |
-| **0067** | [Add Binary][67]  | Math, String, Bit Manip, Simulation | ![][easy]  |        |
-| **0258** | [Add Digits][258] |   Math, Simulation, Number Theory   | ![][easy]  |        |
-| **0412** | [Fizz Buzz][412]  |      Math, String, Simulation       | ![][easy]  |        |
+|    #     |               Solution               |                Tags                 | Difficulty | Remark |
+| :------: | :----------------------------------: | :---------------------------------: | :--------: | :----: |
+| **0067** |           [Add Binary][67]           | Math, String, Bit Manip, Simulation | ![][easy]  |        |
+| **0258** |          [Add Digits][258]           |   Math, Simulation, Number Theory   | ![][easy]  |        |
+| **0412** |           [Fizz Buzz][412]           |      Math, String, Simulation       | ![][easy]  |        |
+| **1920** | [Build Array from Permutation][1920] |          Array, Simulation          | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -602,14 +610,15 @@
 
 ## Divide and Conquer
 
-|    #     |                     Solution                      |                   Tags                    | Difficulty  | Remark |
-| :------: | :-----------------------------------------------: | :---------------------------------------: | :---------: | :----: |
-| **0004** |         [Median of Two Sorted Arrays][4]          |  Array, Binary Search, Divide & Conquer   |  ![][hard]  |        |
-| **0053** |              [Maximum Subarray][53]               |              Array, DNC, DP               | ![][medium] |        |
-| **0108** | [Convert Sorted Array to Binary Search Tree][108] |    Array, DNC, Tree, BST, Binary Tree     |  ![][easy]  |        |
-| **0169** |              [Majority Element][169]              | Array, Hash Table, DNC, Sorting, Counting |  ![][easy]  |        |
-| **0190** |                [Reverse Bits][190]                |              DNC, Bit Manip               |  ![][easy]  |        |
-| **0191** |              [Number of 1 Bits][191]              |    Divide & Conquer, Bit Manipulation     |  ![][easy]  |        |
+|    #     |                     Solution                      |                                              Tags                                              | Difficulty  | Remark |
+| :------: | :-----------------------------------------------: | :--------------------------------------------------------------------------------------------: | :---------: | :----: |
+| **0004** |         [Median of Two Sorted Arrays][4]          |                             Array, Binary Search, Divide & Conquer                             |  ![][hard]  |        |
+| **0053** |              [Maximum Subarray][53]               |                                         Array, DNC, DP                                         | ![][medium] |        |
+| **0108** | [Convert Sorted Array to Binary Search Tree][108] |                               Array, DNC, Tree, BST, Binary Tree                               |  ![][easy]  |        |
+| **0169** |              [Majority Element][169]              |                           Array, Hash Table, DNC, Sorting, Counting                            |  ![][easy]  |        |
+| **0190** |                [Reverse Bits][190]                |                                         DNC, Bit Manip                                         |  ![][easy]  |        |
+| **0191** |              [Number of 1 Bits][191]              |                               Divide & Conquer, Bit Manipulation                               |  ![][easy]  |        |
+| **0912** |               [Sort an Array][912]                | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -769,8 +778,9 @@
 
 ## Merge Sort
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |       Solution       |                                              Tags                                              | Difficulty  | Remark |
+| :------: | :------------------: | :--------------------------------------------------------------------------------------------: | :---------: | :----: |
+| **0912** | [Sort an Array][912] | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -812,8 +822,9 @@
 
 ## Bucket Sort
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |       Solution       |                                              Tags                                              | Difficulty  | Remark |
+| :------: | :------------------: | :--------------------------------------------------------------------------------------------: | :---------: | :----: |
+| **0912** | [Sort an Array][912] | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -833,8 +844,9 @@
 
 ## Counting Sort
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |       Solution       |                                              Tags                                              | Difficulty  | Remark |
+| :------: | :------------------: | :--------------------------------------------------------------------------------------------: | :---------: | :----: |
+| **0912** | [Sort an Array][912] | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -870,8 +882,9 @@
 
 ## Radix Sort
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |       Solution       |                                              Tags                                              | Difficulty  | Remark |
+| :------: | :------------------: | :--------------------------------------------------------------------------------------------: | :---------: | :----: |
+| **0912** | [Sort an Array][912] | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -1009,6 +1022,7 @@
 [438]: ./src/0401-0500/438%20-%20Find%20All%20Anagrams%20in%20a%20String/
 [441]: ./src/0401-0500/441%20-%20Arranging%20Coins/
 [442]: ./src/0401-0500/442%20-%20Find%20All%20Duplicates%20in%20an%20Array/
+[443]: ./src/0401-0500/443%20-%20String%20Compression/
 [445]: ./src/0401-0500/445%20-%20Add%20Two%20Numbers%20II/
 [448]: ./src/0401-0500/448%20-%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array/
 [461]: ./src/0401-0500/461%20-%20Hamming%20Distance/
@@ -1036,11 +1050,13 @@
 [799]: ./src/0701-0800/783%20-%20Minimum%20Distance%20Between%20BST%20Nodes/
 [876]: ./src/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./src/0801-0900/888%20-%20Fair%20Candy%20Swap/
+[912]: ./src/0901-1000/912%20-%20Sort%20an%20Array/
 [944]: ./src/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted/
 [997]: ./src/0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [1011]: ./src/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1092]: ./src/1001-1100/1092%20-%20Shortest%20Common%20Supersequence/
+[1108]: ./src/1101-1200/1108%20-%20Defanging%20an%20IP%20Address/
 [1143]: ./src/1101-1200/1143%20-%20Longest%20Common%20Subsequence/
 [1232]: ./src/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
 [1461]: ./src/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
@@ -1050,6 +1066,8 @@
 [1537]: ./src/1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
 [1580]: ./src/1401-1500/1470%20-%20Shuffle%20the%20Array/
 [1630]: ./src/1501-1600/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/
+[1920]: ./src/1901-2000/1920%20-%20Build%20Array%20from%20Permutation/
+[1929]: ./src/1901-2000/1929%20-%20Concatenation%20of%20Array/
 [1957]: ./src/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String/
 [2176]: ./src/2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array/
 [2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/

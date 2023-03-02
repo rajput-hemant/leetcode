@@ -1993,8 +1993,10 @@
     }
   },
   "443": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "string_compression.rs": "5fb302855760a7a4d0ea4295ed9a857d55bc05720be8684b9b6fc3d354b4dc92"
+    }
   },
   "444": {
     "len": 0,
@@ -3922,8 +3924,10 @@
     "sols": {}
   },
   "912": {
-    "len": 0,
-    "sols": {}
+    "len": 3,
+    "sols": {
+      "sort_an_array.go": "6c1d42703394ec5fdc2c84b9104e3d421203cbe7e8e2f1a50735a8de6a62fa0a"
+    }
   },
   "913": {
     "len": 0,
@@ -4716,8 +4720,10 @@
     "sols": {}
   },
   "1108": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "defanging_an_ip_address.rs": "ce3c86c9d7374f52d4e425f6d3b59a5f00044500e044ea321a747df3248716c8"
+    }
   },
   "1109": {
     "len": 0,
@@ -7982,8 +7988,10 @@
     "sols": {}
   },
   "1920": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "build_array_from_permutation.rs": "b9c95f880619e12a98dcec4b79ce9da4a529e86c877a25220d13f30b45d41944"
+    }
   },
   "1921": {
     "len": 0,
@@ -8018,8 +8026,10 @@
     "sols": {}
   },
   "1929": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "concatenation_of_array.rs": "6cf40b85b961b1afc615c836527ab8e7930882df779261c3cd4b78e61f125bcc"
+    }
   },
   "1930": {
     "len": 0,
@@ -10186,8 +10196,10 @@
     "sols": {}
   },
   "2469": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "convert_the_temperature.rs": "ef8d6a2f6e262d0f555e505b1849edfbe01c662c4b1f4983ff2e8847919321c5"
+    }
   },
   "2470": {
     "len": 0,
