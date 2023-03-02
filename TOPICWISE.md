@@ -201,6 +201,7 @@
 | **1232** |     [Check If It Is a Straight Line][1232]     |              Array, Math, Geometry              |  ![][easy]  |        |
 | **1630** | [Count Odd Numbers in an Interval Range][1630] |                      Math                       |  ![][easy]  |        |
 | **2427** |        [Number of Common Factors][2427]        |        Math, Enumeration, Number Theory         |  ![][easy]  |        |
+| **2469** |        [Convert the Temperature][2469]         |                      Math                       |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -1053,6 +1054,7 @@
 [2176]: ./src/2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array/
 [2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 [2427]: ./src/2401-2500/2427%20-%20Number%20of%20Common%20Factors/
+[2469]: ./src/2401-2500/2469%20-%20Convert%20the%20Temperature/
 
 <!----------------------------------{ Labels }--------------------------------->
 
