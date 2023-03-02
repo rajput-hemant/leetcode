@@ -171,14 +171,13 @@ def gsearch(query):
 
     for url in search(
         "site:leetcode.com " + query,
-        stop=1,
+        stop=5,
         tld="com",
         user_agent=USER_AGENT,
     ):
-        link = re.match(r"https:\/\/leetcode.com\/problems\/[a-z-\d]+\/", url)[0]
-
-        log(f"Found link: {link}")
-        return link
+        if re.match(r"^https:\/\/leetcode.com\/problems\/[a-z-\d]+\/$", url):
+            log(f"Found link: {url}")
+            return url
 
 
 def parse_json(url):
