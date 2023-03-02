@@ -457,6 +457,10 @@ export default Sidebar = [
         link: "/solution/0401-0500/442 - Find All Duplicates in an Array.md",
       },
       {
+        text: "443 - String Compression",
+        link: "/solution/0401-0500/443 - String Compression.md",
+      },
+      {
         text: "445 - Add Two Numbers II",
         link: "/solution/0401-0500/445 - Add Two Numbers II.md",
       },
@@ -596,6 +600,10 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "912 - Sort an Array",
+        link: "/solution/0901-1000/912 - Sort an Array.md",
+      },
+      {
         text: "944 - Delete Columns to Make Sorted",
         link: "/solution/0901-1000/944 - Delete Columns to Make Sorted.md",
       },
@@ -629,6 +637,10 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "1108 - Defanging an IP Address",
+        link: "/solution/1101-1200/1108 - Defanging an IP Address.md",
+      },
       {
         text: "1143 - Longest Common Subsequence",
         link: "/solution/1101-1200/1143 - Longest Common Subsequence.md",
@@ -694,6 +706,14 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "1920 - Build Array from Permutation",
+        link: "/solution/1901-2000/1920 - Build Array from Permutation.md",
+      },
+      {
+        text: "1929 - Concatenation of Array",
+        link: "/solution/1901-2000/1929 - Concatenation of Array.md",
+      },
+      {
         text: "1957 - Delete Characters to Make Fancy String",
         link: "/solution/1901-2000/1957 - Delete Characters to Make Fancy String.md",
       },
@@ -729,6 +749,10 @@ export default Sidebar = [
       {
         text: "2427 - Number of Common Factors",
         link: "/solution/2401-2500/2427 - Number of Common Factors.md",
+      },
+      {
+        text: "2469 - Convert the Temperature",
+        link: "/solution/2401-2500/2469 - Convert the Temperature.md",
       },
     ],
   },
