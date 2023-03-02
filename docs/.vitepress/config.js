@@ -6,6 +6,8 @@ const ogTitle = "🏆 Leetcode",
   ogDescription =
     "🏆 Curated solutions to Leetcode problems in multiple languages to ace the Coding Interviews.";
 
+const currentYear = new Date().getFullYear();
+
 export default {
   title: ogTitle,
   description: ogDescription,
@@ -67,7 +69,7 @@ export default {
     socialLinks: [
       { icon: "github", link: "https://github.com/rajput-hemant/leetcode" },
       { icon: "twitter", link: "https://twitter.com/rajput_hemant01" },
-      { icon: "discord", link: "https://discord.com/usersrajput-hemant#8269" },
+      { icon: "discord", link: "https://discord.com/users/rajput-hemant#8269" },
     ],
 
     algolia: {
@@ -81,8 +83,8 @@ export default {
     },
 
     footer: {
-      message: `Released under the MIT License.`,
-      copyright: "Copyright © 2022 rajput-hemant@github",
+      message: "Released under the MIT License.",
+      copyright: `Copyright © 2022-${currentYear} rajput-hemant@github`,
     },
   },
 };
