@@ -72,6 +72,7 @@
 | **1920** |                [Build Array from Permutation][1920]                 |                                       Array, Simulation                                        |  ![][easy]  |        |
 | **1929** |                   [Concatenation of Array][1929]                    |                                             Array                                              |  ![][easy]  |        |
 | **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                             Array                                              |  ![][easy]  |        |
+| **2574** |               [Left and Right Sum Differences][2574]                |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -504,9 +505,10 @@
 
 ## Prefix Sum
 
-|    #     |            Solution             |       Tags        | Difficulty | Remark |
-| :------: | :-----------------------------: | :---------------: | :--------: | :----: |
-| **1480** | [Running Sum of 1d Array][1480] | Array, Prefix Sum | ![][easy]  |        |
+|    #     |                Solution                |       Tags        | Difficulty | Remark |
+| :------: | :------------------------------------: | :---------------: | :--------: | :----: |
+| **1480** |    [Running Sum of 1d Array][1480]     | Array, Prefix Sum | ![][easy]  |        |
+| **2574** | [Left and Right Sum Differences][2574] | Array, Prefix Sum | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -1073,6 +1075,7 @@
 [2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 [2427]: ./src/2401-2500/2427%20-%20Number%20of%20Common%20Factors/
 [2469]: ./src/2401-2500/2469%20-%20Convert%20the%20Temperature/
+[2574]: ./src/2401-2500/2574%20-%20Left%20and%20Right%20Sum%20Differences/
 
 <!----------------------------------{ Labels }--------------------------------->
 

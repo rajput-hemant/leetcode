@@ -170,6 +170,7 @@
 | **2236** |                [Root Equal to Sum of Children][2236]                |                                       Tree, Binary Tree                                        |  ![][easy]  |        |
 | **2427** |                  [Number of Common Factors][2427]                   |                                Math, Enumeration, Number Theory                                |  ![][easy]  |        |
 | **2469** |                   [Convert the Temperature][2469]                   |                                              Math                                              |  ![][easy]  |        |
+| **2574** |               [Left and Right Sum Differences][2574]                |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
 
 </div>
 <!---------------------------------{ Path Reference }-------------------------->
@@ -337,6 +338,7 @@
 [2236]: ./2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 [2427]: ./2401-2500/2427%20-%20Number%20of%20Common%20Factors/
 [2469]: ./2401-2500/2469%20-%20Convert%20the%20Temperature/
+[2574]: ./2401-2500/2574%20-%20Left%20and%20Right%20Sum%20Differences/
 
 <!----------------------------------{ Labels }--------------------------------->
 
