@@ -81,9 +81,8 @@ def refactor_readmes():
             problems = os.listdir(subdir)
             prblm_no = re.match(r"\d{1,4}", dir_)[0]
             if "README.md" not in problems:
-                url = gsearch(dir_)
-                question = parse_json(url)
-                write_readme(subdir, question, url)
+                question = get_ques_data(dir_)
+                write_readme(subdir, question)
                 serialwise, line = refactor_serialwise(
                     serialwise,
                     question,
@@ -131,6 +130,12 @@ def generate_logs(id, path):
 
     with open(LOGS) as file:
         logs = json.load(file)
+
+        if not logs.get(f"{prblm_no}"):
+            logs[f"{prblm_no}"] = {
+                "len": len(problems),
+                "sols": {},
+            }
 
         if logs[f"{prblm_no}"]["len"] == len(problems):
             file_changed = _check_checksum()
@@ -180,15 +185,67 @@ def gsearch(query):
             return url
 
 
-def parse_json(url):
+def get_question_title(query):
+    """
+    Returns the title of the question.
+    params: query (str)
+    returns: title (str)
+    >>> 1001 - Some Question Title
+    >>> some-question-title
+    """
+
+    title = query[6:].strip().lower()
+    title = re.sub(r"[^a-z\d\- ]", "", title)
+    title = re.sub(r"\s+", "-", title)
+
+    return title
+
+
+def get_ques_data(ques):
+    """
+    Returns the question data.
+    params: question (str)
+    returns: question (dict)
+    """
+
+    log(f"Getting question data for {ques}...")
+
+    title = get_question_title(ques)
+    url = f"https://leetcode.com/problems/{title}/"
+
+    question = parse_data(url)
+    if question is None:
+        url = gsearch(ques)
+        question = parse_data(url)
+
+    id = question["questionFrontendId"]
+    title = question["title"]
+    content = question["content"]
+    difficulty = question["difficulty"]
+    hints = question["hints"]
+    tags = [i["name"] for i in question["topicTags"]]
+    # tags = [
+    #     (lambda x: x.replace(x, TAGS.get(x, i["name"])))(i["name"])
+    #     for i in question["topicTags"]
+    # ]
+
+    return {
+        "id": id,
+        "title": title,
+        "question": content,
+        "difficulty": difficulty,
+        "hints": hints,
+        "tags": tags,
+        "url": url,
+    }
+
+
+def parse_data(url):
     """
     Parses the JSON data from the LeetCode page.
     params: url (str)
     returns: question data (dict)
     """
-
-    log(f"Parsing JSON data from {url}")
-
     graph_ql = "https://leetcode.com/graphql"
     params = {
         "operationName": "questionData",
@@ -228,31 +285,13 @@ def parse_json(url):
         )
     question: dict = res.json()["data"]["question"]
 
-    id = question["questionFrontendId"]
-    title = question["title"]
-    content = question["content"]
-    difficulty = question["difficulty"]
-    hints = question["hints"]
-    tags = [i["name"] for i in question["topicTags"]]
-    # tags = [
-    #     (lambda x: x.replace(x, TAGS.get(x, i["name"])))(i["name"])
-    #     for i in question["topicTags"]
-    # ]
-
-    return {
-        "id": id,
-        "title": title,
-        "question": content,
-        "difficulty": difficulty,
-        "hints": hints,
-        "tags": tags,
-    }
+    return question
 
 
-def write_readme(path, question, url):
+def write_readme(path, question):
     """
     Writes the README.md file.
-    params: path (str), question (dict), url (str)
+    params: path (str), question (dict)
     """
 
     log(f"Writing README.md for {question['title']}")
@@ -285,7 +324,7 @@ def write_readme(path, question, url):
 [hard]: https://img.shields.io/badge/Difficulty-Hard-red.svg
 """.format(
                 path.split("/")[-1].replace(" -", ".").lstrip("0"),
-                url,
+                question["url"],
                 question["difficulty"].lower(),
                 get_rendered_code_blocks(question["question"]),
                 hints if question["hints"] else "",
