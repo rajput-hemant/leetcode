@@ -57,6 +57,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/027 - Remove Element.md",
       },
       {
+        text: "028 - Find the Index of the First Occurrence in a String",
+        link: "/solution/0001-0100/028 - Find the Index of the First Occurrence in a String.md",
+      },
+      {
         text: "035 - Search Insert Position",
         link: "/solution/0001-0100/035 - Search Insert Position.md",
       },
@@ -691,12 +695,31 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "1512 - Number of Good Pairs",
+        link: "/solution/1501-1600/1512 - Number of Good Pairs.md",
+      },
+      {
         text: "1523. Count Odd Numbers in an Interval Range",
         link: "/solution/1501-1600/1523. Count Odd Numbers in an Interval Range.md",
       },
       {
         text: "1537 - Get the Maximum Score",
         link: "/solution/1501-1600/1537 - Get the Maximum Score.md",
+      },
+    ],
+  },
+  {
+    text: "1601-1700",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "1672 - Richest Customer Wealth",
+        link: "/solution/1601-1700/1672 - Richest Customer Wealth.md",
+      },
+      {
+        text: "1689 - Partitioning Into Minimum Number Of Deci-Binary Numbers",
+        link: "/solution/1601-1700/1689 - Partitioning Into Minimum Number Of Deci-Binary Numbers.md",
       },
     ],
   },
@@ -725,8 +748,20 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "2011 - Final Value of Variable After Performing Operations",
+        link: "/solution/2101-2200/2011 - Final Value of Variable After Performing Operations.md",
+      },
+      {
+        text: "2114 - Maximum Number of Words Found in Sentences",
+        link: "/solution/2101-2200/2114 - Maximum Number of Words Found in Sentences.md",
+      },
+      {
         text: "2176 - Count Equal and Divisible Pairs in an Array",
         link: "/solution/2101-2200/2176 - Count Equal and Divisible Pairs in an Array.md",
+      },
+      {
+        text: "2413 - Smallest Even Multiple",
+        link: "/solution/2101-2200/2413 - Smallest Even Multiple.md",
       },
     ],
   },
@@ -736,8 +771,23 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "2235 - Add Two Integers",
+        link: "/solution/2201-2300/2235 - Add Two Integers.md",
+      },
+      {
         text: "2236 - Root Equals Sum of Children",
         link: "/solution/2201-2300/2236 - Root Equals Sum of Children.md",
+      },
+    ],
+  },
+  {
+    text: "2301-2400",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "2396 - Strictly Palindromic Number",
+        link: "/solution/2301-2400/2396 - Strictly Palindromic Number.md",
       },
     ],
   },
@@ -751,8 +801,16 @@ export default Sidebar = [
         link: "/solution/2401-2500/2427 - Number of Common Factors.md",
       },
       {
+        text: "2444 - Count Subarrays With Fixed Bounds",
+        link: "/solution/2401-2500/2444 - Count Subarrays With Fixed Bounds.md",
+      },
+      {
         text: "2469 - Convert the Temperature",
         link: "/solution/2401-2500/2469 - Convert the Temperature.md",
+      },
+      {
+        text: "2574 - Left and Right Sum Differences",
+        link: "/solution/2401-2500/2574 - Left and Right Sum Differences.md",
       },
     ],
   },

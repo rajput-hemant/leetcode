@@ -27,6 +27,7 @@
 | **0024** |                      [Swap Nodes in Pairs][24]                      |                                            Linked List, Recursion                                             | ![][medium] |        |
 | **0026** |                       [Remove Duplicates][26]                       |                                              Array, Two Pointers                                              |  ![][easy]  |        |
 | **0027** |                        [Remove Element][27]                         |                                              Array, Two Pointers                                              |  ![][easy]  |        |
+| **0028** |      [Find the Index of the First Occurrence in a String][28]       |                                     Two Pointers, String, String Matching                                     | ![][medium] |        |
 | **0035** |                    [Search Insert Position][35]                     |                                                   Array, BS                                                   |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |                                          Array, Backtracking, Matrix                                          |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |                                              Array, Backtracking                                              |  ![][hard]  |        |
@@ -160,16 +161,26 @@
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                                               Array, Prefix Sum                                               |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                                Array, Sorting                                                 |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                  Array, Two Pointer, Binary Search, Sorting                                   | ![][medium] |        |
+| **1512** |                    [Number of Good Pairs][1512]                     |                                       Array, Hash Table, Math, Counting                                       |  ![][easy]  |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |                                Array, Two Pointer, Dynamic Programming, Greedy                                |  ![][hard]  |        |
 | **1580** |                      [Shuffle the Array][1580]                      |                                                     Array                                                     |  ![][easy]  |        |
 | **1630** |           [Count Odd Numbers in an Interval Range][1630]            |                                                     Math                                                      |  ![][easy]  |        |
+| **1672** |                   [Richest Customer Wealth][1672]                   |                                                 Array, Matrix                                                 |  ![][easy]  |        |
+| **1689** |   [Partitioning Into Minimum Number Of Deci-Binary Numbers][1689]   |                                                String, Greedy                                                 | ![][medium] |        |
 | **1920** |                [Build Array from Permutation][1920]                 |                                               Array, Simulation                                               |  ![][easy]  |        |
 | **1929** |                   [Concatenation of Array][1929]                    |                                                     Array                                                     |  ![][easy]  |        |
 | **1957** |           [Delete Characters to Make Fancy String][1957]            |                                                    String                                                     |  ![][easy]  |        |
+| **2011** |     [Final Value of Variable After Performing Operations][2011]     |                                           Array, String, Simulation                                           |  ![][easy]  |        |
+| **2114** |         [Maximum Number of Words Found in Sentences][2114]          |                                                 Array, String                                                 |  ![][easy]  |        |
 | **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                                     Array                                                     |  ![][easy]  |        |
+| **2235** |                      [Add Two Integers][2235]                       |                                                     Math                                                      |  ![][easy]  |        |
 | **2236** |                [Root Equal to Sum of Children][2236]                |                                               Tree, Binary Tree                                               |  ![][easy]  |        |
+| **2396** |                 [Strictly Palindromic Number][2396]                 |                                        Math, Two Pointers, Brainteaser                                        | ![][medium] |        |
+| **2413** |                   [Smallest Even Multiple][2413]                    |                                              Math, Number Theory                                              |  ![][easy]  |        |
 | **2427** |                  [Number of Common Factors][2427]                   |                                       Math, Enumeration, Number Theory                                        |  ![][easy]  |        |
+| **2444** |              [Count Subarrays With Fixed Bounds][2444]              |                                 Array, Queue, Sliding Window, Monotonic Queue                                 |  ![][hard]  |        |
 | **2469** |                   [Convert the Temperature][2469]                   |                                                     Math                                                      |  ![][easy]  |        |
+| **2574** |               [Left and Right Sum Differences][2574]                |                                               Array, Prefix Sum                                               |  ![][easy]  |        |
 
 </div>
 <!---------------------------------{ Path Reference }-------------------------->
@@ -187,6 +198,7 @@
 [24]: ./solution/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs.md
 [26]: ./solution/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array.md
 [27]: ./solution/0001-0100/027%20-%20Remove%20Element.md
+[28]: ./solution/0001-0100/028%20-%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.md
 [35]: ./solution/0001-0100/035%20-%20Search%20Insert%20Position.md
 [37]: ./solution/0001-0100/037%20-%20Sudoku%20Solver.md
 [51]: ./solution/0001-0100/051%20-%20N-Queens.md
@@ -327,16 +339,26 @@
 [1480]: ./solution/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array.md
 [1491]: ./solution/1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary.md
 [1498]: ./solution/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition.md
+[1512]: ./solution/1501-1600/1512%20-%20Number%20of%20Good%20Pairs.md
 [1537]: ./solution/1501-1600/1537%20-%20Get%20the%20Maximum%20Score.md
 [1580]: ./solution/1401-1500/1470%20-%20Shuffle%20the%20Array.md
 [1630]: ./solution/1501-1600/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md
+[1672]: ./solution/1601-1700/1672%20-%20Richest%20Customer%20Wealth.md
+[1689]: ./solution/1601-1700/1689%20-%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.md
 [1920]: ./solution/1901-2000/1920%20-%20Build%20Array%20from%20Permutation.md
 [1929]: ./solution/1901-2000/1929%20-%20Concatenation%20of%20Array.md
 [1957]: ./solution/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String.md
+[2011]: ./solution/2101-2200/2011%20-%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.md
+[2114]: ./solution/2101-2200/2114%20-%20Maximum%20Number%20of%20Words%20Found%20in%20Sentences.md
 [2176]: ./solution/2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array.md
+[2235]: ./solution/2201-2300/2235%20-%20Add%20Two%20Integers.md
 [2236]: ./solution/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children.md
+[2396]: ./solution/2301-2400/2396%20-%20Strictly%20Palindromic%20Number.md
+[2413]: ./solution/2101-2200/2413%20-%20Smallest%20Even%20Multiple.md
 [2427]: ./solution/2401-2500/2427%20-%20Number%20of%20Common%20Factors.md
+[2444]: ./solution/2401-2500/2444%20-%20Count%20Subarrays%20With%20Fixed%20Bounds.md
 [2469]: ./solution/2401-2500/2469%20-%20Convert%20the%20Temperature.md
+[2574]: ./solution/2401-2500/2574%20-%20Left%20and%20Right%20Sum%20Differences.md
 
 <!----------------------------------{ Labels }--------------------------------->
 
