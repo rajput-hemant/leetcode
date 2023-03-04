@@ -67,52 +67,61 @@
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                         Array, Sorting                                         |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                     Array, 2P, BS, Sorting                                     | ![][medium] |        |
+| **1512** |                    [Number of Good Pairs][1512]                     |                               Array, Hash Table, Math, Counting                                |  ![][easy]  |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |                                 Array, Two Pointer, DP, Greedy                                 |  ![][hard]  |        |
 | **1580** |                      [Shuffle the Array][1580]                      |                                             Array                                              |  ![][easy]  |        |
+| **1672** |                   [Richest Customer Wealth][1672]                   |                                         Array, Matrix                                          |  ![][easy]  |        |
 | **1920** |                [Build Array from Permutation][1920]                 |                                       Array, Simulation                                        |  ![][easy]  |        |
 | **1929** |                   [Concatenation of Array][1929]                    |                                             Array                                              |  ![][easy]  |        |
+| **2011** |     [Final Value of Variable After Performing Operations][2011]     |                                   Array, String, Simulation                                    |  ![][easy]  |        |
+| **2114** |         [Maximum Number of Words Found in Sentences][2114]          |                                         Array, String                                          |  ![][easy]  |        |
 | **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                             Array                                              |  ![][easy]  |        |
+| **2444** |              [Count Subarrays With Fixed Bounds][2444]              |                           Array, Q, Sliding Window, Monotonic Queue                            |  ![][hard]  |        |
 | **2574** |               [Left and Right Sum Differences][2574]                |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
 ## String
 
-|    #     |                           Solution                            |                            Tags                             | Difficulty  | Remark |
-| :------: | :-----------------------------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
-| **0013** |                    [Roman to Integer][13]                     |                  String, Math, Hash Table                   |  ![][easy]  |        |
-| **0014** |                  [Longest Common Prefix][14]                  |                           String                            |  ![][easy]  |        |
-| **0020** |                    [Valid Parentheses][20]                    |                         String, ST                          |  ![][easy]  |        |
-| **0022** |                  [Generate Parentheses][22]                   |                  String, DP, Backtracking                   | ![][medium] |        |
-| **0058** |                   [Length of Last Word][58]                   |                           String                            |  ![][easy]  |        |
-| **0067** |                       [Add Binary][67]                        |             Math, String, Bit Manip, Simulation             |  ![][easy]  |        |
-| **0072** |                      [Edit Distance][72]                      |                         String, DP                          |  ![][hard]  |        |
-| **0125** |                    [Valid Palindrome][125]                    |                         2P, String                          |  ![][easy]  |        |
-| **0205** |                   [Isomorphic Strings][205]                   |                     Hash Table, String                      |  ![][easy]  |        |
-| **0242** |                     [Valid Anagram][242]                      |                 Hash Table, String, Sorting                 |  ![][easy]  |        |
-| **0257** |                   [Binary Tree Paths][257]                    | String, Backtracking, Tree, Depth-First Search, Binary Tree |  ![][easy]  |        |
-| **0290** |                      [Word Pattern][290]                      |                     Hash Table, String                      |  ![][easy]  |        |
-| **0344** |                     [Reverse String][344]                     |               Two Pointers, String, Recursion               |  ![][easy]  |        |
-| **0345** |               [Reverse Vowels of a String][345]               |                         2P, String                          |  ![][easy]  |        |
-| **0383** |                      [Ransom Note][383]                       |                Hash Table, String, Counting                 |  ![][easy]  |        |
-| **0387** |           [First Unique Character in a String][387]           |               Hash Table, String, Q, Counting               |  ![][easy]  |        |
-| **0389** |                  [Find the Difference][389]                   |        Hash Table, String, Bit Manipulation, Sorting        |  ![][easy]  |        |
-| **0392** |                     [Is Subsequence][392]                     |                       2P, String, DP                        |  ![][easy]  |        |
-| **0412** |                       [Fizz Buzz][412]                        |                  Math, String, Simulation                   |  ![][easy]  |        |
-| **0434** |             [Number of Segments in a String][434]             |                           String                            |  ![][easy]  |        |
-| **0438** |             [Find All Anagrams in a String][438]              |             Hash Table, String, Sliding Window              | ![][medium] |        |
-| **0443** |                   [String Compression][443]                   |                         2P, String                          | ![][medium] |        |
-| **0482** |                 [License Key Formatting][482]                 |                           String                            |  ![][easy]  |        |
-| **0516** |            [Longest Palindromic Subsequence][516]             |                         String, DP                          | ![][medium] |        |
-| **0541** |                   [Reverse String II][541]                    |                    Two Pointers, String                     |  ![][easy]  |        |
-| **0771** |                   [Jewels and Stones][771]                    |                      String, Hashtable                      |  ![][easy]  |        |
-| **0944** |             [Delete Columns to Make Sorted][944]              |                        Array, String                        |  ![][easy]  |        |
-| **1047** |       [Remove All Adjacent Duplicates In String][1047]        |                        String, Stack                        |  ![][easy]  |        |
-| **1092** |             [Shortest Common Supersequence][1092]             |                         String, DP                          |  ![][hard]  |        |
-| **1108** |                [Defanging an IP Address][1108]                |                           String                            |  ![][easy]  |        |
-| **1143** |              [Longest Common Subsequence][1143]               |                         String, DP                          | ![][medium] |        |
-| **1461** | [Check If a String Contains All Binary Codes of Size K][1461] |            String, Hash Table, Bit Manipulation             | ![][medium] |        |
-| **1957** |        [Delete Characters to Make Fancy String][1957]         |                           String                            |  ![][easy]  |        |
+|    #     |                            Solution                             |                            Tags                             | Difficulty  | Remark |
+| :------: | :-------------------------------------------------------------: | :---------------------------------------------------------: | :---------: | :----: |
+| **0013** |                     [Roman to Integer][13]                      |                  String, Math, Hash Table                   |  ![][easy]  |        |
+| **0014** |                   [Longest Common Prefix][14]                   |                           String                            |  ![][easy]  |        |
+| **0020** |                     [Valid Parentheses][20]                     |                         String, ST                          |  ![][easy]  |        |
+| **0022** |                   [Generate Parentheses][22]                    |                  String, DP, Backtracking                   | ![][medium] |        |
+| **0028** |    [Find the Index of the First Occurrence in a String][28]     |                 2P, String, String Matching                 | ![][medium] |        |
+| **0058** |                    [Length of Last Word][58]                    |                           String                            |  ![][easy]  |        |
+| **0067** |                        [Add Binary][67]                         |             Math, String, Bit Manip, Simulation             |  ![][easy]  |        |
+| **0072** |                       [Edit Distance][72]                       |                         String, DP                          |  ![][hard]  |        |
+| **0125** |                     [Valid Palindrome][125]                     |                         2P, String                          |  ![][easy]  |        |
+| **0205** |                    [Isomorphic Strings][205]                    |                     Hash Table, String                      |  ![][easy]  |        |
+| **0242** |                      [Valid Anagram][242]                       |                 Hash Table, String, Sorting                 |  ![][easy]  |        |
+| **0257** |                    [Binary Tree Paths][257]                     | String, Backtracking, Tree, Depth-First Search, Binary Tree |  ![][easy]  |        |
+| **0290** |                       [Word Pattern][290]                       |                     Hash Table, String                      |  ![][easy]  |        |
+| **0344** |                      [Reverse String][344]                      |               Two Pointers, String, Recursion               |  ![][easy]  |        |
+| **0345** |                [Reverse Vowels of a String][345]                |                         2P, String                          |  ![][easy]  |        |
+| **0383** |                       [Ransom Note][383]                        |                Hash Table, String, Counting                 |  ![][easy]  |        |
+| **0387** |            [First Unique Character in a String][387]            |               Hash Table, String, Q, Counting               |  ![][easy]  |        |
+| **0389** |                   [Find the Difference][389]                    |        Hash Table, String, Bit Manipulation, Sorting        |  ![][easy]  |        |
+| **0392** |                      [Is Subsequence][392]                      |                       2P, String, DP                        |  ![][easy]  |        |
+| **0412** |                        [Fizz Buzz][412]                         |                  Math, String, Simulation                   |  ![][easy]  |        |
+| **0434** |              [Number of Segments in a String][434]              |                           String                            |  ![][easy]  |        |
+| **0438** |              [Find All Anagrams in a String][438]               |             Hash Table, String, Sliding Window              | ![][medium] |        |
+| **0443** |                    [String Compression][443]                    |                         2P, String                          | ![][medium] |        |
+| **0482** |                  [License Key Formatting][482]                  |                           String                            |  ![][easy]  |        |
+| **0516** |             [Longest Palindromic Subsequence][516]              |                         String, DP                          | ![][medium] |        |
+| **0541** |                    [Reverse String II][541]                     |                    Two Pointers, String                     |  ![][easy]  |        |
+| **0771** |                    [Jewels and Stones][771]                     |                      String, Hashtable                      |  ![][easy]  |        |
+| **0944** |              [Delete Columns to Make Sorted][944]               |                        Array, String                        |  ![][easy]  |        |
+| **1047** |        [Remove All Adjacent Duplicates In String][1047]         |                        String, Stack                        |  ![][easy]  |        |
+| **1092** |              [Shortest Common Supersequence][1092]              |                         String, DP                          |  ![][hard]  |        |
+| **1108** |                 [Defanging an IP Address][1108]                 |                           String                            |  ![][easy]  |        |
+| **1143** |               [Longest Common Subsequence][1143]                |                         String, DP                          | ![][medium] |        |
+| **1461** |  [Check If a String Contains All Binary Codes of Size K][1461]  |            String, Hash Table, Bit Manipulation             | ![][medium] |        |
+| **1689** | [Partitioning Into Minimum Number Of Deci-Binary Numbers][1689] |                       String, Greedy                        | ![][medium] |        |
+| **1957** |         [Delete Characters to Make Fancy String][1957]          |                           String                            |  ![][easy]  |        |
+| **2011** |   [Final Value of Variable After Performing Operations][2011]   |                  Array, String, Simulation                  |  ![][easy]  |        |
+| **2114** |       [Maximum Number of Words Found in Sentences][2114]        |                        Array, String                        |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -145,6 +154,7 @@
 | **0888** |             [Fair Candy Swap][888]              |     Array, Hash Table, Binary Search, Sorting     |  ![][easy]  |        |
 | **0771** |            [Jewels and Stones][771]             |                 String, Hashtable                 |  ![][easy]  |        |
 | **0997** |           [Find the Town Judge][997]            |             Array, Hash Table, Graph              |  ![][easy]  |        |
+| **1512** |          [Number of Good Pairs][1512]           |         Array, Hash Table, Math, Counting         |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -205,7 +215,11 @@
 | **0507** |             [Perfect Number][507]              |                      Math                       |  ![][easy]  |        |
 | **0509** |            [Fibonacci Number][509]             |        Math, Recursion, DP, Memoization         |  ![][easy]  |        |
 | **1232** |     [Check If It Is a Straight Line][1232]     |              Array, Math, Geometry              |  ![][easy]  |        |
+| **1512** |          [Number of Good Pairs][1512]          |        Array, Hash Table, Math, Counting        |  ![][easy]  |        |
 | **1630** | [Count Odd Numbers in an Interval Range][1630] |                      Math                       |  ![][easy]  |        |
+| **2235** |            [Add Two Integers][2235]            |                      Math                       |  ![][easy]  |        |
+| **2396** |      [Strictly Palindromic Number][2396]       |              Math, 2P, Brainteaser              | ![][medium] |        |
+| **2413** |         [Smallest Even Multiple][2413]         |               Math, Number Theory               |  ![][easy]  |        |
 | **2427** |        [Number of Common Factors][2427]        |        Math, Enumeration, Number Theory         |  ![][easy]  |        |
 | **2469** |        [Convert the Temperature][2469]         |                      Math                       |  ![][easy]  |        |
 
@@ -255,14 +269,15 @@
 
 ## Greedy
 
-|    #     |                 Solution                  |                     Tags                      | Difficulty  | Remark |
-| :------: | :---------------------------------------: | :-------------------------------------------: | :---------: | :----: |
-| **0055** |              [Jump Game][55]              |               Array, DP, Greedy               | ![][medium] |        |
-| **0094** |    [Binary Tree Inorder Traversal][94]    |         Stack, Tree, DFS, Binary Tree         |  ![][easy]  |        |
-| **0098** |     [Validate Binary Search Tree][98]     |          Tree, DFS, BST, Binary Tree          | ![][medium] |        |
-| **0122** | [Best Time to Buy and Sell Stock II][122] |               Array, DP, Greedy               | ![][medium] |        |
-| **0502** |                [IPO][502]                 | Array, Greedy, Sorting, Heap (Priority Queue) |  ![][hard]  |        |
-| **1537** |       [Get the Maximum Score][1537]       |        Array, Two Pointer, DP, Greedy         |  ![][hard]  |        |
+|    #     |                            Solution                             |                     Tags                      | Difficulty  | Remark |
+| :------: | :-------------------------------------------------------------: | :-------------------------------------------: | :---------: | :----: |
+| **0055** |                         [Jump Game][55]                         |               Array, DP, Greedy               | ![][medium] |        |
+| **0094** |               [Binary Tree Inorder Traversal][94]               |         Stack, Tree, DFS, Binary Tree         |  ![][easy]  |        |
+| **0098** |                [Validate Binary Search Tree][98]                |          Tree, DFS, BST, Binary Tree          | ![][medium] |        |
+| **0122** |            [Best Time to Buy and Sell Stock II][122]            |               Array, DP, Greedy               | ![][medium] |        |
+| **0502** |                           [IPO][502]                            | Array, Greedy, Sorting, Heap (Priority Queue) |  ![][hard]  |        |
+| **1537** |                  [Get the Maximum Score][1537]                  |        Array, Two Pointer, DP, Greedy         |  ![][hard]  |        |
+| **1689** | [Partitioning Into Minimum Number Of Deci-Binary Numbers][1689] |                String, Greedy                 | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -347,10 +362,11 @@
 
 ## Matrix
 
-|    #     |         Solution         |                                Tags                                 | Difficulty  | Remark |
-| :------: | :----------------------: | :-----------------------------------------------------------------: | :---------: | :----: |
-| **0037** |   [Sudoku Solver][37]    |                     Array, Backtracking, Matrix                     |  ![][hard]  |        |
-| **0200** | [Number of Islands][200] | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
+|    #     |            Solution             |                                Tags                                 | Difficulty  | Remark |
+| :------: | :-----------------------------: | :-----------------------------------------------------------------: | :---------: | :----: |
+| **0037** |       [Sudoku Solver][37]       |                     Array, Backtracking, Matrix                     |  ![][hard]  |        |
+| **0200** |    [Number of Islands][200]     | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
+| **1672** | [Richest Customer Wealth][1672] |                            Array, Matrix                            |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -393,6 +409,7 @@
 | :------: | :-----------------------------------------------------------------: | :------------------------------------: | :---------: | :----: |
 | **0004** |                  [Median of Two Sorted Arrays][4]                   | Array, Binary Search, Divide & Conquer |  ![][hard]  |        |
 | **0027** |                        [Remove Element][27]                         |          Array, Two Pointers           |  ![][easy]  |        |
+| **0028** |      [Find the Index of the First Occurrence in a String][28]       |      2P, String, String Matching       | ![][medium] |        |
 | **0061** |                          [Rotate List][61]                          |       Linked List, Two Pointers        | ![][medium] |        |
 | **0075** |                          [Sort Colors][75]                          |      Array, Two Pointers, Sorting      | ![][medium] |        |
 | **0088** |                      [Merge Sorted Array][88]                       |           Array, 2P, Sorting           |  ![][easy]  |        |
@@ -413,6 +430,7 @@
 | **0876** |                  [Middle of the Linked List][876]                   |       Linked List, Two Pointers        |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |         Array, 2P, BS, Sorting         | ![][medium] |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |     Array, Two Pointer, DP, Greedy     |  ![][hard]  |        |
+| **2396** |                 [Strictly Palindromic Number][2396]                 |         Math, 2P, Brainteaser          | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -481,12 +499,13 @@
 
 ## Simulation
 
-|    #     |               Solution               |                Tags                 | Difficulty | Remark |
-| :------: | :----------------------------------: | :---------------------------------: | :--------: | :----: |
-| **0067** |           [Add Binary][67]           | Math, String, Bit Manip, Simulation | ![][easy]  |        |
-| **0258** |          [Add Digits][258]           |   Math, Simulation, Number Theory   | ![][easy]  |        |
-| **0412** |           [Fizz Buzz][412]           |      Math, String, Simulation       | ![][easy]  |        |
-| **1920** | [Build Array from Permutation][1920] |          Array, Simulation          | ![][easy]  |        |
+|    #     |                          Solution                           |                Tags                 | Difficulty | Remark |
+| :------: | :---------------------------------------------------------: | :---------------------------------: | :--------: | :----: |
+| **0067** |                      [Add Binary][67]                       | Math, String, Bit Manip, Simulation | ![][easy]  |        |
+| **0258** |                      [Add Digits][258]                      |   Math, Simulation, Number Theory   | ![][easy]  |        |
+| **0412** |                      [Fizz Buzz][412]                       |      Math, String, Simulation       | ![][easy]  |        |
+| **1920** |            [Build Array from Permutation][1920]             |          Array, Simulation          | ![][easy]  |        |
+| **2011** | [Final Value of Variable After Performing Operations][2011] |      Array, String, Simulation      | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -519,15 +538,17 @@
 | **0169** |          [Majority Element][169]          | Array, Hash Table, DNC, Sorting, Counting | ![][easy]  |        |
 | **0383** |            [Ransom Note][383]             |       Hash Table, String, Counting        | ![][easy]  |        |
 | **0387** | [First Unique Character in a String][387] |      Hash Table, String, Q, Counting      | ![][easy]  |        |
+| **1512** |       [Number of Good Pairs][1512]        |     Array, Hash Table, Math, Counting     | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
 ## Sliding Window
 
-|    #     |               Solution               |                Tags                | Difficulty  | Remark |
-| :------: | :----------------------------------: | :--------------------------------: | :---------: | :----: |
-| **0219** |     [Contains Duplicate II][219]     | Array, Hash Table, Sliding Window  |  ![][easy]  |        |
-| **0438** | [Find All Anagrams in a String][438] | Hash Table, String, Sliding Window | ![][medium] |        |
+|    #     |                 Solution                  |                   Tags                    | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :---------------------------------------: | :---------: | :----: |
+| **0219** |       [Contains Duplicate II][219]        |     Array, Hash Table, Sliding Window     |  ![][easy]  |        |
+| **0438** |   [Find All Anagrams in a String][438]    |    Hash Table, String, Sliding Window     | ![][medium] |        |
+| **2444** | [Count Subarrays With Fixed Bounds][2444] | Array, Q, Sliding Window, Monotonic Queue |  ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -641,11 +662,12 @@
 
 ## Queue
 
-|    #     |                 Solution                  |              Tags               | Difficulty | Remark |
-| :------: | :---------------------------------------: | :-----------------------------: | :--------: | :----: |
-| **0225** |    [Implement Stack using Queues][225]    |          ST, Design, Q          | ![][easy]  |        |
-| **0232** |    [Implement Queue using Stacks][232]    |          ST, Design, Q          | ![][easy]  |        |
-| **0387** | [First Unique Character in a String][387] | Hash Table, String, Q, Counting | ![][easy]  |        |
+|    #     |                 Solution                  |                   Tags                    | Difficulty | Remark |
+| :------: | :---------------------------------------: | :---------------------------------------: | :--------: | :----: |
+| **0225** |    [Implement Stack using Queues][225]    |               ST, Design, Q               | ![][easy]  |        |
+| **0232** |    [Implement Queue using Stacks][232]    |               ST, Design, Q               | ![][easy]  |        |
+| **0387** | [First Unique Character in a String][387] |      Hash Table, String, Q, Counting      | ![][easy]  |        |
+| **2444** | [Count Subarrays With Fixed Bounds][2444] | Array, Q, Sliding Window, Monotonic Queue | ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -714,8 +736,9 @@
 
 ## String Matching
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |                         Solution                         |            Tags             | Difficulty  | Remark |
+| :------: | :------------------------------------------------------: | :-------------------------: | :---------: | :----: |
+| **0028** | [Find the Index of the First Occurrence in a String][28] | 2P, String, String Matching | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -739,6 +762,7 @@
 |    #     |             Solution             |               Tags               | Difficulty | Remark |
 | :------: | :------------------------------: | :------------------------------: | :--------: | :----: |
 | **0258** |        [Add Digits][258]         | Math, Simulation, Number Theory  | ![][easy]  |        |
+| **2413** |  [Smallest Even Multiple][2413]  |       Math, Number Theory        | ![][easy]  |        |
 | **2427** | [Number of Common Factors][2427] | Math, Enumeration, Number Theory | ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
@@ -766,8 +790,9 @@
 
 ## Monotonic Queue
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |                 Solution                  |                   Tags                    | Difficulty | Remark |
+| :------: | :---------------------------------------: | :---------------------------------------: | :--------: | :----: |
+| **2444** | [Count Subarrays With Fixed Bounds][2444] | Array, Q, Sliding Window, Monotonic Queue | ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -802,9 +827,10 @@
 
 ## Brainteaser
 
-|    #     |    Solution     |              Tags              | Difficulty | Remark |
-| :------: | :-------------: | :----------------------------: | :--------: | :----: |
-| **0292** | [Nim Game][292] | Math, Brainteaser, Game Theory | ![][easy]  |        |
+|    #     |              Solution               |              Tags              | Difficulty  | Remark |
+| :------: | :---------------------------------: | :----------------------------: | :---------: | :----: |
+| **0292** |           [Nim Game][292]           | Math, Brainteaser, Game Theory |  ![][easy]  |        |
+| **2396** | [Strictly Palindromic Number][2396] |     Math, 2P, Brainteaser      | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -926,6 +952,7 @@
 [24]: ./src/0001-0100/024%20-%20Swap%20Nodes%20in%20Pairs/
 [26]: ./src/0001-0100/026%20-%20Remove%20Duplicates%20from%20Sorted%20Array/
 [27]: ./src/0001-0100/027%20-%20Remove%20Element/
+[28]: ./src/0001-0100/028%20-%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/
 [35]: ./src/0001-0100/035%20-%20Search%20Insert%20Position/
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
@@ -1065,15 +1092,24 @@
 [1480]: ./src/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
 [1491]: ./src/1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary/
 [1498]: ./src/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/
+[1512]: ./src/1501-1600/1512%20-%20Number%20of%20Good%20Pairs/
 [1537]: ./src/1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
 [1580]: ./src/1401-1500/1470%20-%20Shuffle%20the%20Array/
 [1630]: ./src/1501-1600/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/
+[1672]: ./src/1601-1700/1672%20-%20Richest%20Customer%20Wealth/
+[1689]: ./src/1601-1700/1689%20-%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers/
 [1920]: ./src/1901-2000/1920%20-%20Build%20Array%20from%20Permutation/
 [1929]: ./src/1901-2000/1929%20-%20Concatenation%20of%20Array/
 [1957]: ./src/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String/
+[2011]: ./src/2101-2200/2011%20-%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/
+[2114]: ./src/2101-2200/2114%20-%20Maximum%20Number%20of%20Words%20Found%20in%20Sentences/
 [2176]: ./src/2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array/
+[2235]: ./src/2201-2300/2235%20-%20Add%20Two%20Integers/
 [2236]: ./src/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
+[2396]: ./src/2301-2400/2396%20-%20Strictly%20Palindromic%20Number/
+[2413]: ./src/2101-2200/2413%20-%20Smallest%20Even%20Multiple/
 [2427]: ./src/2401-2500/2427%20-%20Number%20of%20Common%20Factors/
+[2444]: ./src/2401-2500/2444%20-%20Count%20Subarrays%20With%20Fixed%20Bounds/
 [2469]: ./src/2401-2500/2469%20-%20Convert%20the%20Temperature/
 [2574]: ./src/2401-2500/2574%20-%20Left%20and%20Right%20Sum%20Differences/
 

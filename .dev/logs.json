@@ -137,8 +137,10 @@
     }
   },
   "28": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "find_the_index_of_the_first_ccurrence_in_a_string.rs": "12556d8e491c54b20196b5a876751be0f5b5327b620a2608a67675b19477def0"
+    }
   },
   "29": {
     "len": 0,
@@ -3926,7 +3928,8 @@
   "912": {
     "len": 3,
     "sols": {
-      "sort_an_array.go": "6c1d42703394ec5fdc2c84b9104e3d421203cbe7e8e2f1a50735a8de6a62fa0a"
+      "sort_an_array.go": "6c1d42703394ec5fdc2c84b9104e3d421203cbe7e8e2f1a50735a8de6a62fa0a",
+      "sort_an_array.rs": "c2610f7828436fefba02cb4b33fb170612f18d666d0885004a598ebc5128fcff"
     }
   },
   "913": {
@@ -6352,8 +6355,10 @@
     "sols": {}
   },
   "1512": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "number_of_good_pairs.rs": "003d19f133a9d31e078de05ddb7e5a0cbe39626a3f4a53e1d7dc47f0ef623cad"
+    }
   },
   "1513": {
     "len": 0,
@@ -6996,8 +7001,10 @@
     "sols": {}
   },
   "1672": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "richest_customer_wealth.rs": "fef21e52b9d3406ed262289dbab2b86f4d9b5df0c7244e240fa48b244ffe8906"
+    }
   },
   "1673": {
     "len": 0,
@@ -7064,8 +7071,10 @@
     "sols": {}
   },
   "1689": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "partitioning_into_minimum_number_of_deci_binary_numbers.rs": "c3f823f06625aeaf855cc2d6c6ae001e7da1e78ab41a14d5d863def70823332e"
+    }
   },
   "1690": {
     "len": 0,
@@ -8358,8 +8367,10 @@
     "sols": {}
   },
   "2011": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "final_value_of_variables_after_performing_operations.rs": "5621285f0c0ae83211e5476a20a734952c02a2ba1536b0827cf9299370f472d4"
+    }
   },
   "2012": {
     "len": 0,
@@ -8770,8 +8781,10 @@
     "sols": {}
   },
   "2114": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "max_num_of_words_found_in_a_sentence.rs": "ffd65aec1202f5fc2df491b544fdd1bd1ae8aa040d559f8aaccc5b74c7fa4d3b"
+    }
   },
   "2115": {
     "len": 0,
@@ -9256,8 +9269,10 @@
     "sols": {}
   },
   "2235": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "add_two_integers.rs": "d34d53238dc7e5b2018456ea68b14655453bce7cfd3637246630230667913fd0"
+    }
   },
   "2236": {
     "len": 2,
@@ -9902,8 +9917,10 @@
     "sols": {}
   },
   "2396": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "strictly_palindromic_number.rs": "d06103c5b46fa0414f8ff13355a2e44fc23790399ce0ce4aa1994d58434518d6"
+    }
   },
   "2397": {
     "len": 0,
@@ -9970,8 +9987,10 @@
     "sols": {}
   },
   "2413": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "smallest_even_multiple.rs": "84ec13c6cb1e0582cb96f031c3ff64f139cd822617e395af0a81d648727b9d1b"
+    }
   },
   "2414": {
     "len": 0,
@@ -10096,8 +10115,10 @@
     "sols": {}
   },
   "2444": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "count_subarrays_with_fixed_bounds.rs": "70b1766a935a16a3eab48337fca22806fdf31583c04d2b3b56603a9aef987b6d"
+    }
   },
   "2445": {
     "len": 0,
@@ -10356,5 +10377,11 @@
   "2508": {
     "len": 0,
     "sols": {}
+  },
+  "2574": {
+    "len": 2,
+    "sols": {
+      "left_and_right_sum_differences.rs": "e82dccb7152fb1bd9268100531ead21bca1f7bcdb6cc688e506949f6046f4774"
+    }
   }
 }
