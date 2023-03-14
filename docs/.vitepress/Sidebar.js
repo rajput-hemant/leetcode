@@ -160,6 +160,10 @@ export default Sidebar = [
         link: "/solution/0101-0200/108 - Convert Sorted Array to Binary Search Tree.md",
       },
       {
+        text: "109 - Convert Sorted List to Binary Search Tree",
+        link: "/solution/0101-0200/109 - Convert Sorted List to Binary Search Tree.md",
+      },
+      {
         text: "110 - Balanced Binary Tree",
         link: "/solution/0101-0200/110 - Balanced Binary Tree.md",
       },
@@ -192,12 +196,20 @@ export default Sidebar = [
         link: "/solution/0101-0200/125 - Valid Palindrome.md",
       },
       {
+        text: "129 - Sum Root to Leaf Numbers",
+        link: "/solution/0101-0200/129 - Sum Root to Leaf Numbers.md",
+      },
+      {
         text: "136 - Single Number",
         link: "/solution/0101-0200/136 - Single Number.md",
       },
       {
         text: "141 - Linked List Cycle",
         link: "/solution/0101-0200/141 - Linked List Cycle.md",
+      },
+      {
+        text: "142 - Linked List Cycle II",
+        link: "/solution/0101-0200/142 - Linked List Cycle II.md",
       },
       {
         text: "144 - Binary Tree Preorder Traversal",
@@ -406,6 +418,10 @@ export default Sidebar = [
         link: "/solution/0301-0400/374 - Guess Number Higher or Lower.md",
       },
       {
+        text: "382 - Linked List Random Node",
+        link: "/solution/0301-0400/382 - Linked List Random Node.md",
+      },
+      {
         text: "383 - Ransom Note",
         link: "/solution/0301-0400/383 - Ransom Note.md",
       },
@@ -558,6 +574,10 @@ export default Sidebar = [
         text: "653 - Two Sum IV - Input is a BST",
         link: "/solution/0601-0700/653 - Two Sum IV - Input is a BST.md",
       },
+      {
+        text: "695 - Max Area of Island",
+        link: "/solution/0601-0700/695 - Max Area of Island.md",
+      },
     ],
   },
   {
@@ -588,6 +608,10 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "875 - Koko Eating Bananas",
+        link: "/solution/0801-0900/875 - Koko Eating Bananas.md",
+      },
       {
         text: "876 - Middle of the Linked List",
         link: "/solution/0801-0900/876 - Middle of the Linked List.md",
@@ -663,6 +687,17 @@ export default Sidebar = [
     ],
   },
   {
+    text: "1301-1400",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "1345 - Jump Game IV",
+        link: "/solution/1301-1400/1345 - Jump Game IV.md",
+      },
+    ],
+  },
+  {
     text: "1401-1500",
     collapsible: true,
     collapsed: true,
@@ -705,6 +740,10 @@ export default Sidebar = [
       {
         text: "1537 - Get the Maximum Score",
         link: "/solution/1501-1600/1537 - Get the Maximum Score.md",
+      },
+      {
+        text: "1539 - Kth Missing Positive Number",
+        link: "/solution/1501-1600/1539 - Kth Missing Positive Number.md",
       },
     ],
   },
@@ -756,8 +795,16 @@ export default Sidebar = [
         link: "/solution/2101-2200/2114 - Maximum Number of Words Found in Sentences.md",
       },
       {
+        text: "2160 - Minimum Sum of Four Digit Number After Splitting Digits",
+        link: "/solution/2101-2200/2160 - Minimum Sum of Four Digit Number After Splitting Digits.md",
+      },
+      {
         text: "2176 - Count Equal and Divisible Pairs in an Array",
         link: "/solution/2101-2200/2176 - Count Equal and Divisible Pairs in an Array.md",
+      },
+      {
+        text: "2187 - Minimum Time to Complete Trips",
+        link: "/solution/2101-2200/2187 - Minimum Time to Complete Trips.md",
       },
       {
         text: "2413 - Smallest Even Multiple",

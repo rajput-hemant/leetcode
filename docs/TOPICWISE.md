@@ -56,19 +56,23 @@
 | **0506** |                        [Relative Ranks][506]                        |                                             Array, Sorting, Heap                                              |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |                                                   Array, DP                                                   | ![][medium] |        |
 | **0540** |               [Single Element in a Sorted Array][540]               |                                                   Array, BS                                                   | ![][medium] |        |
+| **0695** |                      [Max Area of Island][695]                      |                      Array, Depth-First Search, Breadth-First Search, Union Find, Matrix                      | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |                                             Array, Binary Search                                              |  ![][easy]  |        |
 | **0739** |                      [Daily Temperatures][739]                      |                                         Array, Stack, Monotonic Stack                                         | ![][medium] |        |
+| **0875** |                     [Koko Eating Bananas][875]                      |                                                   Array, BS                                                   | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        |                                   Array, Hash Table, Binary Search, Sorting                                   |  ![][easy]  |        |
 | **0912** |                        [Sort an Array][912]                         | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                                                 Array, String                                                 |  ![][easy]  |        |
 | **0997** |                     [Find the Town Judge][997]                      |                                           Array, Hash Table, Graph                                            |  ![][easy]  |        |
 | **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                                                   Array, BS                                                   | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                                             Array, Math, Geometry                                             |  ![][easy]  |        |
+| **1345** |                        [Jump Game IV][1345]                         |                                    Array, Hash Table, Breadth-First Search                                    |  ![][hard]  |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                                               Array, Prefix Sum                                               |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                                Array, Sorting                                                 |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                  Array, Two Pointers, Binary Search, Sorting                                  | ![][medium] |        |
 | **1512** |                    [Number of Good Pairs][1512]                     |                                       Array, Hash Table, Math, Counting                                       |  ![][easy]  |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |                                Array, Two Pointer, Dynamic Programming, Greedy                                |  ![][hard]  |        |
+| **1539** |                 [Kth Missing Positive Number][1539]                 |                                                   Array, BS                                                   |  ![][easy]  |        |
 | **1580** |                      [Shuffle the Array][1580]                      |                                                     Array                                                     |  ![][easy]  |        |
 | **1672** |                   [Richest Customer Wealth][1672]                   |                                                 Array, Matrix                                                 |  ![][easy]  |        |
 | **1920** |                [Build Array from Permutation][1920]                 |                                               Array, Simulation                                               |  ![][easy]  |        |
@@ -76,6 +80,7 @@
 | **2011** |     [Final Value of Variable After Performing Operations][2011]     |                                           Array, String, Simulation                                           |  ![][easy]  |        |
 | **2114** |         [Maximum Number of Words Found in Sentences][2114]          |                                                 Array, String                                                 |  ![][easy]  |        |
 | **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                                     Array                                                     |  ![][easy]  |        |
+| **2187** |               [Minimum Time to Complete Trips][2187]                |                                                   Array, BS                                                   | ![][medium] |        |
 | **2444** |              [Count Subarrays With Fixed Bounds][2444]              |                                 Array, Queue, Sliding Window, Monotonic Queue                                 |  ![][hard]  |        |
 | **2574** |               [Left and Right Sum Differences][2574]                |                                               Array, Prefix Sum                                               |  ![][easy]  |        |
 
@@ -132,6 +137,7 @@
 | **0001** |                  [Two Sum][1]                   |                         Array, Hash Table                         |  ![][easy]  |        |
 | **0013** |             [Roman to Integer][13]              |                     String, Math, Hash Table                      |  ![][easy]  |        |
 | **0141** |            [Linked List Cycle][141]             |                    Hash Table, Linked List, 2P                    |  ![][easy]  |        |
+| **0142** |           [Linked List Cycle II][142]           |                    Hash Table, Linked List, 2P                    | ![][medium] |        |
 | **0160** |     [Intersection of Two Linked Lists][160]     |                    Hash Table, Linked List, 2P                    |  ![][easy]  |        |
 | **0169** |             [Majority Element][169]             |     Array, Hash Table, Divide and Conquer, Sorting, Counting      |  ![][easy]  |        |
 | **0202** |               [Happy Number][202]               |                       Hash Table, Math, 2P                        |  ![][easy]  |        |
@@ -154,6 +160,7 @@
 | **0888** |             [Fair Candy Swap][888]              |             Array, Hash Table, Binary Search, Sorting             |  ![][easy]  |        |
 | **0771** |            [Jewels and Stones][771]             |                         String, Hashtable                         |  ![][easy]  |        |
 | **0997** |           [Find the Town Judge][997]            |                     Array, Hash Table, Graph                      |  ![][easy]  |        |
+| **1345** |              [Jump Game IV][1345]               |              Array, Hash Table, Breadth-First Search              |  ![][hard]  |        |
 | **1512** |          [Number of Good Pairs][1512]           |                 Array, Hash Table, Math, Counting                 |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
@@ -187,41 +194,43 @@
 
 ## Math
 
-|    #     |                    Solution                    |                               Tags                                | Difficulty  | Remark |
-| :------: | :--------------------------------------------: | :---------------------------------------------------------------: | :---------: | :----: |
-| **0002** |              [Add Two Numbers][2]              |                   Linked List, Math, Recursion                    | ![][medium] |        |
-| **0007** |              [Reverse Integer][7]              |                               Math                                | ![][medium] |        |
-| **0009** |             [Palindrome Number][9]             |                               Math                                |  ![][easy]  |        |
-| **0013** |             [Roman to Integer][13]             |                     String, Math, Hash Table                      |  ![][easy]  |        |
-| **0066** |                 [Plus One][66]                 |                            Array, Math                            |  ![][easy]  |        |
-| **0067** |                [Add Binary][67]                |            Math, String, Bit Manipulation, Simulation             |  ![][easy]  |        |
-| **0069** |                 [Sqrt(x)][69]                  |                             Math, BS                              |  ![][easy]  |        |
-| **0070** |             [Climbing Stairs][70]              |              Math, Dynamic Programming, Memorization              |  ![][easy]  |        |
-| **0172** |       [Factorial Trailiing Zeroes][172]        |                               Math                                | ![][medium] |        |
-| **0202** |              [Happy Number][202]               |                       Hash Table, Math, 2P                        |  ![][easy]  |        |
-| **0231** |              [Power of Two][231]               |                 Math, Bit Manipulation, Recursion                 |  ![][easy]  |        |
-| **0258** |               [Add Digits][258]                |                  Math, Simulation, Number Theory                  |  ![][easy]  |        |
-| **0263** |               [Ugly Number][263]               |                               Math                                |  ![][easy]  |        |
-| **0268** |             [Missing Number][268]              | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  ![][easy]  |        |
-| **0292** |                [Nim Game][292]                 |                  Math, Brainteaser, Game Theory                   |  ![][easy]  |        |
-| **0326** |             [Power of Three][326]              |                          Math, Recursion                          |  ![][easy]  |        |
-| **0342** |              [Power of Four][342]              |                 Math, Bit Manipulation, Recursion                 |  ![][easy]  |        |
-| **0367** |          [Valid Perfect Square][367]           |                        Math, Binary Search                        |  ![][easy]  |        |
-| **0412** |                [Fizz Buzz][412]                |                     Math, String, Simulation                      |  ![][easy]  |        |
-| **0441** |             [Arranging Coins][441]             |                             Math, BS                              |  ![][easy]  |        |
-| **0445** |           [Add Two Numbers II][445]            |                     Linked List, Math, Stack                      | ![][medium] |        |
-| **0492** |         [Construct the Rectangle][492]         |                               Math                                |  ![][easy]  |        |
-| **0504** |                 [Base 7][504]                  |                               Math                                |  ![][easy]  |        |
-| **0507** |             [Perfect Number][507]              |                               Math                                |  ![][easy]  |        |
-| **0509** |            [Fibonacci Number][509]             |         Math, Recursion, Dynamic Programming, Memoization         |  ![][easy]  |        |
-| **1232** |     [Check If It Is a Straight Line][1232]     |                       Array, Math, Geometry                       |  ![][easy]  |        |
-| **1512** |          [Number of Good Pairs][1512]          |                 Array, Hash Table, Math, Counting                 |  ![][easy]  |        |
-| **1630** | [Count Odd Numbers in an Interval Range][1630] |                               Math                                |  ![][easy]  |        |
-| **2235** |            [Add Two Integers][2235]            |                               Math                                |  ![][easy]  |        |
-| **2396** |      [Strictly Palindromic Number][2396]       |                  Math, Two Pointers, Brainteaser                  | ![][medium] |        |
-| **2413** |         [Smallest Even Multiple][2413]         |                        Math, Number Theory                        |  ![][easy]  |        |
-| **2427** |        [Number of Common Factors][2427]        |                 Math, Enumeration, Number Theory                  |  ![][easy]  |        |
-| **2469** |        [Convert the Temperature][2469]         |                               Math                                |  ![][easy]  |        |
+|    #     |                            Solution                             |                               Tags                                | Difficulty  | Remark |
+| :------: | :-------------------------------------------------------------: | :---------------------------------------------------------------: | :---------: | :----: |
+| **0002** |                      [Add Two Numbers][2]                       |                   Linked List, Math, Recursion                    | ![][medium] |        |
+| **0007** |                      [Reverse Integer][7]                       |                               Math                                | ![][medium] |        |
+| **0009** |                     [Palindrome Number][9]                      |                               Math                                |  ![][easy]  |        |
+| **0013** |                     [Roman to Integer][13]                      |                     String, Math, Hash Table                      |  ![][easy]  |        |
+| **0066** |                         [Plus One][66]                          |                            Array, Math                            |  ![][easy]  |        |
+| **0067** |                        [Add Binary][67]                         |            Math, String, Bit Manipulation, Simulation             |  ![][easy]  |        |
+| **0069** |                          [Sqrt(x)][69]                          |                             Math, BS                              |  ![][easy]  |        |
+| **0070** |                      [Climbing Stairs][70]                      |              Math, Dynamic Programming, Memorization              |  ![][easy]  |        |
+| **0172** |                [Factorial Trailiing Zeroes][172]                |                               Math                                | ![][medium] |        |
+| **0202** |                       [Happy Number][202]                       |                       Hash Table, Math, 2P                        |  ![][easy]  |        |
+| **0231** |                       [Power of Two][231]                       |                 Math, Bit Manipulation, Recursion                 |  ![][easy]  |        |
+| **0258** |                        [Add Digits][258]                        |                  Math, Simulation, Number Theory                  |  ![][easy]  |        |
+| **0263** |                       [Ugly Number][263]                        |                               Math                                |  ![][easy]  |        |
+| **0268** |                      [Missing Number][268]                      | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  ![][easy]  |        |
+| **0292** |                         [Nim Game][292]                         |                  Math, Brainteaser, Game Theory                   |  ![][easy]  |        |
+| **0326** |                      [Power of Three][326]                      |                          Math, Recursion                          |  ![][easy]  |        |
+| **0342** |                      [Power of Four][342]                       |                 Math, Bit Manipulation, Recursion                 |  ![][easy]  |        |
+| **0367** |                   [Valid Perfect Square][367]                   |                        Math, Binary Search                        |  ![][easy]  |        |
+| **0382** |                 [Linked List Random Node][382]                  |         Linked List, Math, Reservoir Sampling, Randomized         | ![][medium] |        |
+| **0412** |                        [Fizz Buzz][412]                         |                     Math, String, Simulation                      |  ![][easy]  |        |
+| **0441** |                     [Arranging Coins][441]                      |                             Math, BS                              |  ![][easy]  |        |
+| **0445** |                    [Add Two Numbers II][445]                    |                     Linked List, Math, Stack                      | ![][medium] |        |
+| **0492** |                 [Construct the Rectangle][492]                  |                               Math                                |  ![][easy]  |        |
+| **0504** |                          [Base 7][504]                          |                               Math                                |  ![][easy]  |        |
+| **0507** |                      [Perfect Number][507]                      |                               Math                                |  ![][easy]  |        |
+| **0509** |                     [Fibonacci Number][509]                     |         Math, Recursion, Dynamic Programming, Memoization         |  ![][easy]  |        |
+| **1232** |             [Check If It Is a Straight Line][1232]              |                       Array, Math, Geometry                       |  ![][easy]  |        |
+| **1512** |                  [Number of Good Pairs][1512]                   |                 Array, Hash Table, Math, Counting                 |  ![][easy]  |        |
+| **1630** |         [Count Odd Numbers in an Interval Range][1630]          |                               Math                                |  ![][easy]  |        |
+| **2160** | [Minimum Sum of Four Digit Number After Splitting Digits][2160] |                       Math, Greedy, Sorting                       |  ![][easy]  |        |
+| **2235** |                    [Add Two Integers][2235]                     |                               Math                                |  ![][easy]  |        |
+| **2396** |               [Strictly Palindromic Number][2396]               |                  Math, Two Pointers, Brainteaser                  | ![][medium] |        |
+| **2413** |                 [Smallest Even Multiple][2413]                  |                        Math, Number Theory                        |  ![][easy]  |        |
+| **2427** |                [Number of Common Factors][2427]                 |                 Math, Enumeration, Number Theory                  |  ![][easy]  |        |
+| **2469** |                 [Convert the Temperature][2469]                 |                               Math                                |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -245,6 +254,7 @@
 | **0912** |                        [Sort an Array][912]                         | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                  Array, Two Pointers, Binary Search, Sorting                                  | ![][medium] |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                                Array, Sorting                                                 |  ![][easy]  |        |
+| **2160** |   [Minimum Sum of Four Digit Number After Splitting Digits][2160]   |                                             Math, Greedy, Sorting                                             |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -278,6 +288,7 @@
 | **0502** |                           [IPO][502]                            |       Array, Greedy, Sorting, Heap (Priority Queue)       |  ![][hard]  |        |
 | **1537** |                  [Get the Maximum Score][1537]                  |      Array, Two Pointer, Dynamic Programming, Greedy      |  ![][hard]  |        |
 | **1689** | [Partitioning Into Minimum Number Of Deci-Binary Numbers][1689] |                      String, Greedy                       | ![][medium] |        |
+| **2160** | [Minimum Sum of Four Digit Number After Splitting Digits][2160] |                   Math, Greedy, Sorting                   |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -314,9 +325,11 @@
 | **0103** |  [Binary Tree Zigzag Level Order Traversal][103]  |                     Tree, Breadth First Search, Binary Tree                     | ![][medium] |        |
 | **0104** |        [Maximum Depth of Binary Tree][104]        |           Tree, Breadth First Search, Depth First Search, Binary Tree           |  ![][easy]  |        |
 | **0108** | [Convert Sorted Array to Binary Search Tree][108] |        Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree         |  ![][easy]  |        |
+| **0109** | [Convert Sorted List to Binary Search Tree][109]  |     Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree      | ![][medium] |        |
 | **0110** |            [Balanced Binary Tree][110]            |                      Tree, Depth First Search, Binary Tree                      |  ![][easy]  |        |
 | **0111** |        [Minimum Depth of Binary Tree][111]        |           Tree, Depth First Search, Breadth First Search, Binary Tree           |  ![][easy]  |        |
 | **0112** |                  [Path Sum][112]                  |           Tree, Depth-First Search, Breadth-First Search, Binary Tree           |  ![][easy]  |        |
+| **0129** |          [Sum Root to Leaf Numbers][129]          |                      Tree, Depth-First Search, Binary Tree                      | ![][medium] |        |
 | **0144** |       [Binary Tree Preorder Traversal][144]       |                  Stack, Tree, Depth First Search, Binary Tree                   |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]       |                  Stack, Tree, Depth First Search, Binary Tree                   |  ![][easy]  |        |
 | **0199** |        [Binary Tree Right Side View][199]         |           Tree, Depth First Search, Breadth First Search, Binary Tree           | ![][medium] |        |
@@ -354,9 +367,12 @@
 | **0441** |                       [Arranging Coins][441]                        |                             Math, BS                              |  ![][easy]  |        |
 | **0540** |               [Single Element in a Sorted Array][540]               |                             Array, BS                             | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |                       Array, Binary Search                        |  ![][easy]  |        |
+| **0875** |                     [Koko Eating Bananas][875]                      |                             Array, BS                             | ![][medium] |        |
 | **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                             Array, BS                             | ![][medium] |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |            Array, Two Pointers, Binary Search, Sorting            | ![][medium] |        |
 | **0888** |                       [Fair Candy Swap][888]                        |             Array, Hash Table, Binary Search, Sorting             |  ![][easy]  |        |
+| **1539** |                 [Kth Missing Positive Number][1539]                 |                             Array, BS                             |  ![][easy]  |        |
+| **2187** |               [Minimum Time to Complete Trips][2187]                |                             Array, BS                             | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -366,6 +382,7 @@
 | :------: | :-----------------------------: | :-----------------------------------------------------------------: | :---------: | :----: |
 | **0037** |       [Sudoku Solver][37]       |                     Array, Backtracking, Matrix                     |  ![][hard]  |        |
 | **0200** |    [Number of Islands][200]     | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
+| **0695** |    [Max Area of Island][695]    | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
 | **1672** | [Richest Customer Wealth][1672] |                            Array, Matrix                            |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
@@ -381,9 +398,11 @@
 | **0103** |  [Binary Tree Zigzag Level Order Traversal][103]  |                     Tree, Breadth First Search, Binary Tree                     | ![][medium] |        |
 | **0104** |        [Maximum Depth of Binary Tree][104]        |           Tree, Breadth First Search, Depth First Search, Binary Tree           |  ![][easy]  |        |
 | **0108** | [Convert Sorted Array to Binary Search Tree][108] |        Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree         |  ![][easy]  |        |
+| **0109** | [Convert Sorted List to Binary Search Tree][109]  |     Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree      | ![][medium] |        |
 | **0110** |            [Balanced Binary Tree][110]            |                      Tree, Depth First Search, Binary Tree                      |  ![][easy]  |        |
 | **0111** |        [Minimum Depth of Binary Tree][111]        |           Tree, Depth First Search, Breadth First Search, Binary Tree           |  ![][easy]  |        |
 | **0112** |                  [Path Sum][112]                  |           Tree, Depth-First Search, Breadth-First Search, Binary Tree           |  ![][easy]  |        |
+| **0129** |          [Sum Root to Leaf Numbers][129]          |                      Tree, Depth-First Search, Binary Tree                      | ![][medium] |        |
 | **0144** |       [Binary Tree Preorder Traversal][144]       |                  Stack, Tree, Depth First Search, Binary Tree                   |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]       |                  Stack, Tree, Depth First Search, Binary Tree                   |  ![][easy]  |        |
 | **0199** |        [Binary Tree Right Side View][199]         |           Tree, Depth First Search, Breadth First Search, Binary Tree           | ![][medium] |        |
@@ -415,6 +434,7 @@
 | **0088** |                      [Merge Sorted Array][88]                       |               Array, Two Pointers, Sorting                |  ![][easy]  |        |
 | **0125** |                       [Valid Palindrome][125]                       |                   Two Pointers, String                    |  ![][easy]  |        |
 | **0141** |                      [Linked List Cycle][141]                       |                Hash Table, Linked List, 2P                |  ![][easy]  |        |
+| **0142** |                     [Linked List Cycle II][142]                     |                Hash Table, Linked List, 2P                | ![][medium] |        |
 | **0160** |               [Intersection of Two Linked Lists][160]               |                Hash Table, Linked List, 2P                |  ![][easy]  |        |
 | **0202** |                         [Happy Number][202]                         |                   Hash Table, Math, 2P                    |  ![][easy]  |        |
 | **0234** |                    [Palindrome Linked List][234]                    |        Linked List, Two Pointers, Stack, Recursion        |  ![][easy]  |        |
@@ -554,29 +574,33 @@
 
 ## Linked List
 
-|    #     |                 Solution                 |                    Tags                     | Difficulty  | Remark |
-| :------: | :--------------------------------------: | :-----------------------------------------: | :---------: | :----: |
-| **0002** |           [Add Two Numbers][2]           |        Linked List, Math, Recursion         | ![][medium] |        |
-| **0021** |       [Merge Two Sorted Lists][21]       |           Linked List, Recursion            |  ![][easy]  |        |
-| **0024** |        [Swap Nodes in Pairs][24]         |           Linked List, Recursion            | ![][medium] |        |
-| **0061** |            [Rotate List][61]             |          Linked List, Two Pointers          | ![][medium] |        |
-| **0083** | [Remove Duplicates from Sorted List][83] |                     LL                      |  ![][easy]  |        |
-| **0141** |         [Linked List Cycle][141]         |         Hash Table, Linked List, 2P         |  ![][easy]  |        |
-| **0160** | [Intersection of Two Linked Lists][160]  |         Hash Table, Linked List, 2P         |  ![][easy]  |        |
-| **0203** |    [Remove Linked List Elements][203]    |           Linked List, Recursion            |  ![][easy]  |        |
-| **0206** |        [Reverse Linked List][206]        |           Linked List, Recursion            |  ![][easy]  |        |
-| **0234** |      [Palindrome Linked List][234]       | Linked List, Two Pointers, Stack, Recursion |  ![][easy]  |        |
-| **0369** |       [Plus One Linked List][369]        |              Linked List, Math              | ![][medium] |   🔒   |
-| **0445** |        [Add Two Numbers II][445]         |          Linked List, Math, Stack           | ![][medium] |        |
-| **0876** |     [Middle of the Linked List][876]     |          Linked List, Two Pointers          |  ![][easy]  |        |
+|    #     |                     Solution                     |                                  Tags                                  | Difficulty  | Remark |
+| :------: | :----------------------------------------------: | :--------------------------------------------------------------------: | :---------: | :----: |
+| **0002** |               [Add Two Numbers][2]               |                      Linked List, Math, Recursion                      | ![][medium] |        |
+| **0021** |           [Merge Two Sorted Lists][21]           |                         Linked List, Recursion                         |  ![][easy]  |        |
+| **0024** |            [Swap Nodes in Pairs][24]             |                         Linked List, Recursion                         | ![][medium] |        |
+| **0061** |                [Rotate List][61]                 |                       Linked List, Two Pointers                        | ![][medium] |        |
+| **0083** |     [Remove Duplicates from Sorted List][83]     |                                   LL                                   |  ![][easy]  |        |
+| **0109** | [Convert Sorted List to Binary Search Tree][109] | Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree | ![][medium] |        |
+| **0141** |             [Linked List Cycle][141]             |                      Hash Table, Linked List, 2P                       |  ![][easy]  |        |
+| **0142** |           [Linked List Cycle II][142]            |                      Hash Table, Linked List, 2P                       | ![][medium] |        |
+| **0160** |     [Intersection of Two Linked Lists][160]      |                      Hash Table, Linked List, 2P                       |  ![][easy]  |        |
+| **0203** |        [Remove Linked List Elements][203]        |                         Linked List, Recursion                         |  ![][easy]  |        |
+| **0206** |            [Reverse Linked List][206]            |                         Linked List, Recursion                         |  ![][easy]  |        |
+| **0234** |          [Palindrome Linked List][234]           |              Linked List, Two Pointers, Stack, Recursion               |  ![][easy]  |        |
+| **0369** |           [Plus One Linked List][369]            |                           Linked List, Math                            | ![][medium] |   🔒   |
+| **0382** |          [Linked List Random Node][382]          |           Linked List, Math, Reservoir Sampling, Randomized            | ![][medium] |        |
+| **0445** |            [Add Two Numbers II][445]             |                        Linked List, Math, Stack                        | ![][medium] |        |
+| **0876** |         [Middle of the Linked List][876]         |                       Linked List, Two Pointers                        |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
 ## Union Find
 
-|    #     |         Solution         |                                Tags                                 | Difficulty  | Remark |
-| :------: | :----------------------: | :-----------------------------------------------------------------: | :---------: | :----: |
-| **0200** | [Number of Islands][200] | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
+|    #     |         Solution          |                                Tags                                 | Difficulty  | Remark |
+| :------: | :-----------------------: | :-----------------------------------------------------------------: | :---------: | :----: |
+| **0200** | [Number of Islands][200]  | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
+| **0695** | [Max Area of Island][695] | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -622,12 +646,13 @@
 
 ## Binary Search Tree
 
-|    #     |                     Solution                      |                                      Tags                                       | Difficulty | Remark |
-| :------: | :-----------------------------------------------: | :-----------------------------------------------------------------------------: | :--------: | :----: |
-| **0108** | [Convert Sorted Array to Binary Search Tree][108] |        Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree         | ![][easy]  |        |
-| **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree | ![][easy]  |        |
-| **0653** |        [Two Sum IV - Input is a BST ][653]        |            Tree, Depth First Search, Binary Search Tree, Binary Tree            | ![][easy]  |        |
-| **0799** |     [Minimum Distance Between BST Nodes][799]     | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree | ![][easy]  |        |
+|    #     |                     Solution                      |                                      Tags                                       | Difficulty  | Remark |
+| :------: | :-----------------------------------------------: | :-----------------------------------------------------------------------------: | :---------: | :----: |
+| **0108** | [Convert Sorted Array to Binary Search Tree][108] |        Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree         |  ![][easy]  |        |
+| **0109** | [Convert Sorted List to Binary Search Tree][109]  |     Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree      | ![][medium] |        |
+| **0530** |     [Minimum Absolute Difference in BST][530]     | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
+| **0653** |        [Two Sum IV - Input is a BST ][653]        |            Tree, Depth First Search, Binary Search Tree, Binary Tree            |  ![][easy]  |        |
+| **0799** |     [Minimum Distance Between BST Nodes][799]     | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -638,6 +663,7 @@
 | **0004** |         [Median of Two Sorted Arrays][4]          |                                    Array, Binary Search, Divide & Conquer                                     |  ![][hard]  |        |
 | **0053** |              [Maximum Subarray][53]               |                                         Array, Divide and Conquer, DP                                         | ![][medium] |        |
 | **0108** | [Convert Sorted Array to Binary Search Tree][108] |                       Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree                        |  ![][easy]  |        |
+| **0109** | [Convert Sorted List to Binary Search Tree][109]  |                    Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree                     | ![][medium] |        |
 | **0169** |              [Majority Element][169]              |                           Array, Hash Table, Divide and Conquer, Sorting, Counting                            |  ![][easy]  |        |
 | **0190** |                [Reverse Bits][190]                |                                         Divide and Conquer, Bit Manip                                         |  ![][easy]  |        |
 | **0191** |              [Number of 1 Bits][191]              |                                      Divide & Conquer, Bit Manipulation                                       |  ![][easy]  |        |
@@ -783,8 +809,9 @@
 
 ## Randomized
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |            Solution            |                       Tags                        | Difficulty  | Remark |
+| :------: | :----------------------------: | :-----------------------------------------------: | :---------: | :----: |
+| **0382** | [Linked List Random Node][382] | Linked List, Math, Reservoir Sampling, Randomized | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -896,8 +923,9 @@
 
 ## Reservoir Sampling
 
-|  #  | Solution | Tags | Difficulty | Remark |
-| :-: | :------: | :--: | :--------: | :----: |
+|    #     |            Solution            |                       Tags                        | Difficulty  | Remark |
+| :------: | :----------------------------: | :-----------------------------------------------: | :---------: | :----: |
+| **0382** | [Linked List Random Node][382] | Linked List, Math, Reservoir Sampling, Randomized | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -977,6 +1005,7 @@
 [103]: ./solution/0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md
 [104]: ./solution/0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree.md
 [108]: ./solution/0101-0200/108%20-%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md
+[109]: ./solution/0101-0200/109%20-%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.md
 [110]: ./solution/0101-0200/110%20-%20Balanced%20Binary%20Tree.md
 [111]: ./solution/0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree.md
 [112]: ./solution/0101-0200/112%20-%20Path%20Sum.md
@@ -985,9 +1014,11 @@
 [121]: ./solution/0101-0200/121%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
 [122]: ./solution/0101-0200/122%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md
 [125]: ./solution/0101-0200/125%20-%20Valid%20Palindrome.md
+[129]: ./solution/0101-0200/129%20-%20Sum%20Root%20to%20Leaf%20Numbers.md
 [134]: ./solution/0101-0200/134%20-%20Gas%20Station.md
 [136]: ./solution/0101-0200/136%20-%20Single%20Number.md
 [141]: ./solution/0101-0200/141%20-%20Linked%20List%20Cycle.md
+[142]: ./solution/0101-0200/142%20-%20Linked%20List%20Cycle%20II.md
 [144]: ./solution/0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal.md
 [145]: ./solution/0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal.md
 [160]: ./solution/0101-0200/160%20-%20Intersection%20of%20Two%20Linked%20Lists.md
@@ -1038,6 +1069,7 @@
 [367]: ./solution/0301-0400/367%20-%20Valid%20Perfect%20Square.md
 [369]: ./solution/0301-0400/369%20-%20Plus%20One%20Linked%20List.md
 [374]: ./solution/0301-0400/374%20-%20Guess%20Number%20Higher%20or%20Lower.md
+[382]: ./solution/0301-0400/382%20-%20Linked%20List%20Random%20Node.md
 [383]: ./solution/0301-0400/383%20-%20Ransom%20Note.md
 [387]: ./solution/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String.md
 [387]: ./solution/0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String.md
@@ -1073,10 +1105,12 @@
 [543]: ./solution/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree.md
 [652]: ./solution/0601-0700/652%20-%20Find%20Duplicate%20Subtrees.md
 [653]: ./solution/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.md
+[695]: ./solution/0601-0700/695%20-%20Max%20Area%20of%20Island.md
 [704]: ./solution/0701-0800/704%20-%20Binary%20Search.md
 [739]: ./solution/0701-0800/739%20-%20Daily%20Temperatures.md
 [771]: ./solution/0701-0800/771%20-%20Jewels%20and%20Stones.md
 [799]: ./solution/0701-0800/783%20-%20Minimum%20Distance%20Between%20BST%20Nodes.md
+[875]: ./solution/0801-0900/875%20-%20Koko%20Eating%20Bananas.md
 [876]: ./solution/0801-0900/876%20-%20Middle%20of%20the%20Linked%20List.md
 [888]: ./solution/0801-0900/888%20-%20Fair%20Candy%20Swap.md
 [912]: ./solution/0901-1000/912%20-%20Sort%20an%20Array.md
@@ -1088,12 +1122,14 @@
 [1108]: ./solution/1101-1200/1108%20-%20Defanging%20an%20IP%20Address.md
 [1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md
 [1232]: ./solution/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line.md
+[1345]: ./solution/1301-1400/1345%20-%20Jump%20Game%20IV.md
 [1461]: ./solution/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.md
 [1480]: ./solution/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array.md
 [1491]: ./solution/1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary.md
 [1498]: ./solution/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition.md
 [1512]: ./solution/1501-1600/1512%20-%20Number%20of%20Good%20Pairs.md
 [1537]: ./solution/1501-1600/1537%20-%20Get%20the%20Maximum%20Score.md
+[1539]: ./solution/1501-1600/1539%20-%20Kth%20Missing%20Positive%20Number.md
 [1580]: ./solution/1401-1500/1470%20-%20Shuffle%20the%20Array.md
 [1630]: ./solution/1501-1600/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.md
 [1672]: ./solution/1601-1700/1672%20-%20Richest%20Customer%20Wealth.md
@@ -1103,7 +1139,9 @@
 [1957]: ./solution/1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String.md
 [2011]: ./solution/2101-2200/2011%20-%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.md
 [2114]: ./solution/2101-2200/2114%20-%20Maximum%20Number%20of%20Words%20Found%20in%20Sentences.md
+[2160]: ./solution/2101-2200/2160%20-%20Minimum%20Sum%20of%20Four%20Digit%20Number%20After%20Splitting%20Digits.md
 [2176]: ./solution/2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array.md
+[2187]: ./solution/2101-2200/2187%20-%20Minimum%20Time%20to%20Complete%20Trips.md
 [2235]: ./solution/2201-2300/2235%20-%20Add%20Two%20Integers.md
 [2236]: ./solution/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children.md
 [2396]: ./solution/2301-2400/2396%20-%20Strictly%20Palindromic%20Number.md
