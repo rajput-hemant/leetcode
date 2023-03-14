@@ -51,6 +51,7 @@
 | **0103** |           [Binary Tree Zigzag Level Order Traversal][103]           |                                     Tree, BFS, Binary Tree                                     | ![][medium] |        |
 | **0104** |                 [Maximum Depth of Binary Tree][104]                 |                                  Tree, BFS, DFS, Binary Tree                                   |  ![][easy]  |        |
 | **0108** |          [Convert Sorted Array to Binary Search Tree][108]          |                               Array, DNC, Tree, BST, Binary Tree                               |  ![][easy]  |        |
+| **0109** |          [Convert Sorted List to Binary Search Tree][109]           |                                LL, DNC, Tree, BST, Binary Tree                                 | ![][medium] |        |
 | **0110** |                     [Balanced Binary Tree][110]                     |                                     Tree, DFS, Binary Tree                                     |  ![][easy]  |        |
 | **0111** |                 [Minimum Depth of Binary Tree][111]                 |                                  Tree, DFS, BFS, Binary Tree                                   |  ![][easy]  |        |
 | **0112** |                           [Path Sum][112]                           |                  Tree, Depth-First Search, Breadth-First Search, Binary Tree                   |  ![][easy]  |        |
@@ -59,8 +60,10 @@
 | **0121** |               [Best Time to Buy and Sell Stock][121]                |                                           Array, DP                                            |  ![][easy]  |        |
 | **0122** |              [Best Time to Buy and Sell Stock II][122]              |                                       Array, DP, Greedy                                        | ![][medium] |        |
 | **0125** |                       [Valid Palindrome][125]                       |                                           2P, String                                           |  ![][easy]  |        |
+| **0129** |                   [Sum Root to Leaf Numbers][129]                   |                             Tree, Depth-First Search, Binary Tree                              | ![][medium] |        |
 | **0136** |                        [Single Number][136]                         |                                        Array, Bit Manip                                        |  ![][easy]  |        |
 | **0141** |                      [Linked List Cycle][141]                       |                                       Hash Table, LL, 2P                                       |  ![][easy]  |        |
+| **0142** |                     [Linked List Cycle II][142]                     |                                       Hash Table, LL, 2P                                       | ![][medium] |        |
 | **0144** |                [Binary Tree Preorder Traversal][144]                |                                 Stack, Tree, DFS, Binary Tree                                  |  ![][easy]  |        |
 | **0145** |               [Binary Tree Postorder Traversal][145]                |                                 Stack, Tree, DFS, Binary Tree                                  |  ![][easy]  |        |
 | **0160** |               [Intersection of Two Linked Lists][160]               |                                       Hash Table, LL, 2P                                       |  ![][easy]  |        |
@@ -109,6 +112,7 @@
 | **0367** |                     [Valid Perfect Square][367]                     |                                      Math, Binary Search                                       |  ![][easy]  |        |
 | **0369** |                     [Plus One Linked List][369]                     |                                       Linked List, Math                                        | ![][medium] |   🔒   |
 | **0374** |                 [Guess Number Higher or Lower][374]                 |                                        BS, Interactive                                         |  ![][easy]  |        |
+| **0382** |                   [Linked List Random Node][382]                    |                            LL, Math, Reservoir Sampling, Randomized                            | ![][medium] |        |
 | **0383** |                         [Ransom Note][383]                          |                                  Hash Table, String, Counting                                  |  ![][easy]  |        |
 | **0387** |              [First Unique Character in a String][387]              |                                Hash Table, String, Q, Counting                                 |  ![][easy]  |        |
 | **0389** |                     [Find the Difference][389]                      |                         Hash Table, String, Bit Manipulation, Sorting                          |  ![][easy]  |        |
@@ -142,10 +146,12 @@
 | **0543** |                   [Diameter of Binary Tree][543]                    |                                     Tree, DFS, Binary Tree                                     |  ![][easy]  |        |
 | **0652** |                   [Find Duplicate Subtrees][652]                    |                       Hash Table, Tree, Depth-First Search, Binary Tree                        | ![][medium] |        |
 | **0653** |                 [Two Sum IV - Input is a BST][653]                  |                                  Tree, DFS, BST, Binary Tree                                   |  ![][easy]  |        |
+| **0695** |                      [Max Area of Island][695]                      |              Array, Depth-First Search, Breadth-First Search, Union Find, Matrix               | ![][medium] |        |
 | **0704** |                        [Binary Search][704]                         |                                      Array, Binary Search                                      |  ![][easy]  |        |
 | **0739** |                      [Daily Temperatures][739]                      |                                 Array, Stack, Monotonic Stack                                  | ![][medium] |        |
 | **0771** |                      [Jewels and Stones][771]                       |                                       String, Hashtable                                        |  ![][easy]  |        |
 | **0799** |              [Minimum Distance Between BST Nodes][799]              |                Tree, Depth-First Search, Breadth-First Search, BST, Binary Tree                |  ![][easy]  |        |
+| **0875** |                     [Koko Eating Bananas][875]                      |                                           Array, BS                                            | ![][medium] |        |
 | **0876** |                  [Middle of the Linked List][876]                   |                                   Linked List, Two Pointers                                    |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |                           Array, Hash Table, Binary Search, Sorting                            |  ![][easy]  |        |
 | **0912** |                        [Sort an Array][912]                         | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
@@ -157,12 +163,14 @@
 | **1108** |                   [Defanging an IP Address][1108]                   |                                             String                                             |  ![][easy]  |        |
 | **1143** |                 [Longest Common Subsequence][1143]                  |                                           String, DP                                           | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                                     Array, Math, Geometry                                      |  ![][easy]  |        |
+| **1345** |                        [Jump Game IV][1345]                         |                            Array, Hash Table, Breadth-First Search                             |  ![][hard]  |        |
 | **1461** |    [Check If a String Contains All Binary Codes of Size K][1461]    |                              String, Hash Table, Bit Manipulation                              | ![][medium] |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                         Array, Sorting                                         |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                           Array, Two Pointer, Binary Search, Sorting                           | ![][medium] |        |
 | **1512** |                    [Number of Good Pairs][1512]                     |                               Array, Hash Table, Math, Counting                                |  ![][easy]  |        |
 | **1537** |                    [Get the Maximum Score][1537]                    |                                 Array, Two Pointer, DP, Greedy                                 |  ![][hard]  |        |
+| **1539** |                 [Kth Missing Positive Number][1539]                 |                                           Array, BS                                            |  ![][easy]  |        |
 | **1580** |                      [Shuffle the Array][1580]                      |                                             Array                                              |  ![][easy]  |        |
 | **1630** |           [Count Odd Numbers in an Interval Range][1630]            |                                              Math                                              |  ![][easy]  |        |
 | **1672** |                   [Richest Customer Wealth][1672]                   |                                         Array, Matrix                                          |  ![][easy]  |        |
@@ -172,7 +180,9 @@
 | **1957** |           [Delete Characters to Make Fancy String][1957]            |                                             String                                             |  ![][easy]  |        |
 | **2011** |     [Final Value of Variable After Performing Operations][2011]     |                                   Array, String, Simulation                                    |  ![][easy]  |        |
 | **2114** |         [Maximum Number of Words Found in Sentences][2114]          |                                         Array, String                                          |  ![][easy]  |        |
+| **2160** |   [Minimum Sum of Four Digit Number After Splitting Digits][2160]   |                                     Math, Greedy, Sorting                                      |  ![][easy]  |        |
 | **2176** |         [Count Equal and Divisible Pairs in an Array][2176]         |                                             Array                                              |  ![][easy]  |        |
+| **2187** |               [Minimum Time to Complete Trips][2187]                |                                           Array, BS                                            | ![][medium] |        |
 | **2235** |                      [Add Two Integers][2235]                       |                                              Math                                              |  ![][easy]  |        |
 | **2236** |                [Root Equal to Sum of Children][2236]                |                                       Tree, Binary Tree                                        |  ![][easy]  |        |
 | **2396** |                 [Strictly Palindromic Number][2396]                 |                                     Math, 2P, Brainteaser                                      | ![][medium] |        |
@@ -223,6 +233,7 @@
 [103]: ./0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/
 [104]: ./0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree/
 [108]: ./0101-0200/108%20-%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/
+[109]: ./0101-0200/109%20-%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree/
 [110]: ./0101-0200/110%20-%20Balanced%20Binary%20Tree/
 [111]: ./0101-0200/111%20-%20Minimum%20Depth%20of%20Binary%20Tree/
 [112]: ./0101-0200/112%20-%20Path%20Sum/
@@ -231,9 +242,11 @@
 [121]: ./0101-0200/121%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/
 [122]: ./0101-0200/122%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/
 [125]: ./0101-0200/125%20-%20Valid%20Palindrome/
+[129]: ./0101-0200/129%20-%20Sum%20Root%20to%20Leaf%20Numbers/
 [134]: ./0101-0200/134%20-%20Gas%20Station/
 [136]: ./0101-0200/136%20-%20Single%20Number/
 [141]: ./0101-0200/141%20-%20Linked%20List%20Cycle/
+[142]: ./0101-0200/142%20-%20Linked%20List%20Cycle%20II/
 [144]: ./0101-0200/144%20-%20Binary%20Tree%20Preorder%20Traversal/
 [145]: ./0101-0200/145%20-%20Binary%20Tree%20Postorder%20Traversal/
 [160]: ./0101-0200/160%20-%20Intersection%20of%20Two%20Linked%20Lists/
@@ -284,6 +297,7 @@
 [367]: ./0301-0400/367%20-%20Valid%20Perfect%20Square/
 [369]: ./0301-0400/369%20-%20Plus%20One%20Linked%20List/
 [374]: ./0301-0400/374%20-%20Guess%20Number%20Higher%20or%20Lower/
+[382]: ./0301-0400/382%20-%20Linked%20List%20Random%20Node/
 [383]: ./0301-0400/383%20-%20Ransom%20Note/
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
 [387]: ./0301-0400/387%20-%20First%20Unique%20Character%20in%20a%20String/
@@ -319,10 +333,12 @@
 [543]: ./0501-0600/543%20-%20Diameter%20of%20Binary%20Tree/
 [652]: ./0601-0700/652%20-%20Find%20Duplicate%20Subtrees/
 [653]: ./0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST/
+[695]: ./0601-0700/695%20-%20Max%20Area%20of%20Island/
 [704]: ./0701-0800/704%20-%20Binary%20Search/
 [739]: ./0701-0800/739%20-%20Daily%20Temperatures/
 [771]: ./0701-0800/771%20-%20Jewels%20and%20Stones/
 [799]: ./0701-0800/783%20-%20Minimum%20Distance%20Between%20BST%20Nodes/
+[875]: ./0801-0900/875%20-%20Koko%20Eating%20Bananas/
 [876]: ./0801-0900/876%20-%20Middle%20of%20the%20Linked%20List/
 [888]: ./0801-0900/888%20-%20Fair%20Candy%20Swap/
 [912]: ./0901-1000/912%20-%20Sort%20an%20Array/
@@ -335,12 +351,14 @@
 [1108]: ./1101-1200/1108%20-%20Defanging%20an%20IP%20Address/
 [1143]: ./1101-1200/1143%20-%20Longest%20Common%20Subsequence/
 [1232]: ./1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line/
+[1345]: ./1301-1400/1345%20-%20Jump%20Game%20IV/
 [1461]: ./1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/
 [1480]: ./1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array/
 [1491]: ./1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary/
 [1498]: ./1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/
 [1512]: ./1501-1600/1512%20-%20Number%20of%20Good%20Pairs/
 [1537]: ./1501-1600/1537%20-%20Get%20the%20Maximum%20Score/
+[1539]: ./1501-1600/1539%20-%20Kth%20Missing%20Positive%20Number/
 [1580]: ./1401-1500/1470%20-%20Shuffle%20the%20Array/
 [1630]: ./1501-1600/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/
 [1672]: ./1601-1700/1672%20-%20Richest%20Customer%20Wealth/
@@ -350,7 +368,9 @@
 [1957]: ./1901-2000/1957%20-%20Delete%20Characters%20to%20Make%20Fancy%20String/
 [2011]: ./2101-2200/2011%20-%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/
 [2114]: ./2101-2200/2114%20-%20Maximum%20Number%20of%20Words%20Found%20in%20Sentences/
+[2160]: ./2101-2200/2160%20-%20Minimum%20Sum%20of%20Four%20Digit%20Number%20After%20Splitting%20Digits/
 [2176]: ./2101-2200/2176%20-%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array/
+[2187]: ./2101-2200/2187%20-%20Minimum%20Time%20to%20Complete%20Trips/
 [2235]: ./2201-2300/2235%20-%20Add%20Two%20Integers/
 [2236]: ./2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children/
 [2396]: ./2301-2400/2396%20-%20Strictly%20Palindromic%20Number/
