@@ -3787,7 +3787,8 @@
   "875": {
     "len": 3,
     "sols": {
-      "koko_eating_bananas.rs": "687cf8fa24a89a79e34ca0232407dbd326db0375633f93b24445e89b4143a718"
+      "koko_eating_bananas.rs": "687cf8fa24a89a79e34ca0232407dbd326db0375633f93b24445e89b4143a718",
+      "koko_eating_bananas.py": "2ba0443e254fa15cb362b096a3b456bc9a41b48a6dbbd9d9aa429b8ef5945392"
     }
   },
   "876": {
