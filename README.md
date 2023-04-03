@@ -95,7 +95,7 @@
 [**_Rejection Sampling_**][rejection sampling] &nbsp;•&nbsp;
 [**_Biconnected Component_**][biconnected component]
 
-### **Total Problems Solved: _177_**
+### **Total Problems Solved: _185_**
 
 ---
 
