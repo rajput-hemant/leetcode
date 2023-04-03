@@ -156,6 +156,10 @@ export default Sidebar = [
         link: "/solution/0101-0200/104 - Maximum Depth of Binary Tree.md",
       },
       {
+        text: "106 - Construct Binary Tree from Inorder and Postorder Traversal",
+        link: "/solution/0101-0200/106 - Construct Binary Tree from Inorder and Postorder Traversal.md",
+      },
+      {
         text: "108 - Convert Sorted Array to Binary Search Tree",
         link: "/solution/0101-0200/108 - Convert Sorted Array to Binary Search Tree.md",
       },
@@ -277,6 +281,10 @@ export default Sidebar = [
       {
         text: "206 - Reverse Linked List",
         link: "/solution/0201-0300/206 - Reverse Linked List.md",
+      },
+      {
+        text: "211 - Design Add and Search Words Data Structure",
+        link: "/solution/0201-0300/211 - Design Add and Search Words Data Structure.md",
       },
       {
         text: "217 - Contains Duplicate",
@@ -493,6 +501,10 @@ export default Sidebar = [
         link: "/solution/0401-0500/461 - Hamming Distance.md",
       },
       {
+        text: "463 - Island Perimeter",
+        link: "/solution/0401-0500/463 - Island Perimeter.md",
+      },
+      {
         text: "476 - Number Complement",
         link: "/solution/0401-0500/476 - Number Complement.md",
       },
@@ -567,6 +579,10 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "605 - Can Place Flowers",
+        link: "/solution/0601-0700/605 - Can Place Flowers.md",
+      },
+      {
         text: "652 - Find Duplicate Subtrees",
         link: "/solution/0601-0700/652 - Find Duplicate Subtrees.md",
       },
@@ -636,6 +652,10 @@ export default Sidebar = [
         link: "/solution/0901-1000/944 - Delete Columns to Make Sorted.md",
       },
       {
+        text: "958 - Check Completeness of a Binary Tree",
+        link: "/solution/0901-1000/958 - Check Completeness of a Binary Tree.md",
+      },
+      {
         text: "997 - Find the Town Judge",
         link: "/solution/0901-1000/997 - Find the Town Judge.md",
       },
@@ -703,12 +723,20 @@ export default Sidebar = [
     collapsed: true,
     items: [
       {
+        text: "1431 - Kids With the Greatest Number of Candies",
+        link: "/solution/1401-1500/1431 - Kids With the Greatest Number of Candies.md",
+      },
+      {
         text: "1461 - Check If a String Contains All Binary Codes of Size K",
         link: "/solution/1401-1500/1461 - Check If a String Contains All Binary Codes of Size K.md",
       },
       {
         text: "1470 - Shuffle the Array",
         link: "/solution/1401-1500/1470 - Shuffle the Array.md",
+      },
+      {
+        text: "1472 - Design Browser History",
+        link: "/solution/1401-1500/1472 - Design Browser History.md",
       },
       {
         text: "1480 - Running Sum of 1d Array",
@@ -832,6 +860,10 @@ export default Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      {
+        text: "2348 - Number of Zero-Filled Subarrays",
+        link: "/solution/2301-2400/2348 - Number of Zero-Filled Subarrays.md",
+      },
       {
         text: "2396 - Strictly Palindromic Number",
         link: "/solution/2301-2400/2396 - Strictly Palindromic Number.md",

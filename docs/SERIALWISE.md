@@ -50,6 +50,7 @@
 | **0101** |                        [Symmetric Tree][101]                        |                          Tree, Depth-First Search, Breadth-First Search, Binary Tree                          |  ![][easy]  |        |
 | **0103** |           [Binary Tree Zigzag Level Order Traversal][103]           |                                    Tree, Breadth First Search, Binary Tree                                    | ![][medium] |        |
 | **0104** |                 [Maximum Depth of Binary Tree][104]                 |                          Tree, Breadth First Search, Depth First Search, Binary Tree                          |  ![][easy]  |        |
+| **0106** |  [Construct Binary Tree from Inorder and Postorder Traversal][106]  |                           Array, Hash Table, Divide and Conquer, Tree, Binary Tree                            | ![][medium] |        |
 | **0108** |          [Convert Sorted Array to Binary Search Tree][108]          |                       Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree                        |  ![][easy]  |        |
 | **0109** |          [Convert Sorted List to Binary Search Tree][109]           |                    Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree                     | ![][medium] |        |
 | **0110** |                     [Balanced Binary Tree][110]                     |                                     Tree, Depth First Search, Binary Tree                                     |  ![][easy]  |        |
@@ -79,6 +80,7 @@
 | **0203** |                 [Remove Linked List Elements][203]                  |                                            Linked List, Recursion                                             |  ![][easy]  |        |
 | **0205** |                      [Isomorphic Strings][205]                      |                                              Hash Table, String                                               |  ![][easy]  |        |
 | **0206** |                     [Reverse Linked List][206]                      |                                            Linked List, Recursion                                             |  ![][easy]  |        |
+| **0211** |          [Design Add and Search Words Data Structure][211]          |                                   String, Depth-First Search, Design, Trie                                    | ![][medium] |        |
 | **0217** |                      [Contains Duplicate][217]                      |                                          Array, Hash Table, Sorting                                           |  ![][easy]  |        |
 | **0219** |                    [Contains Duplicate II][219]                     |                                       Array, Hash Table, Sliding Window                                       |  ![][easy]  |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |                             Binary Search, Tree, Depth First Search, Binary Tree                              | ![][medium] |        |
@@ -129,6 +131,7 @@
 | **0445** |                      [Add Two Numbers II][445]                      |                                           Linked List, Math, Stack                                            | ![][medium] |        |
 | **0448** |           [Find All Numbers Disappeared in an Array][448]           |                                               Array, Hash Table                                               |  ![][easy]  |        |
 | **0461** |                       [Hamming Distance][461]                       |                                                   Bit Manip                                                   |  ![][easy]  |        |
+| **0463** |                       [Island Perimeter][463]                       |                            Array, Depth-First Search, Breadth-First Search, Matrix                            |  ![][easy]  |        |
 | **0476** |                      [Number Complement][476]                       |                                                   Bit Manip                                                   |  ![][easy]  |        |
 | **0482** |                    [License Key Formatting][482]                    |                                                    String                                                     |  ![][easy]  |        |
 | **0485** |                     [Max Consecutive Ones][485]                     |                                                     Array                                                     |  ![][easy]  |        |
@@ -144,6 +147,7 @@
 | **0540** |               [Single Element in a Sorted Array][540]               |                                                   Array, BS                                                   | ![][medium] |        |
 | **0541** |                      [Reverse String II][541]                       |                                             Two Pointers, String                                              |  ![][easy]  |        |
 | **0543** |                   [Diameter of Binary Tree][543]                    |                                     Tree, Depth First Search, Binary Tree                                     |  ![][easy]  |        |
+| **0605** |                      [Can Place Flowers][605]                       |                                                 Array, Greedy                                                 |  ![][easy]  |        |
 | **0652** |                   [Find Duplicate Subtrees][652]                    |                               Hash Table, Tree, Depth-First Search, Binary Tree                               | ![][medium] |        |
 | **0653** |                 [Two Sum IV - Input is a BST][653]                  |                           Tree, Depth First Search, Binary Search Tree, Binary Tree                           |  ![][easy]  |        |
 | **0695** |                      [Max Area of Island][695]                      |                      Array, Depth-First Search, Breadth-First Search, Union Find, Matrix                      | ![][medium] |        |
@@ -156,6 +160,7 @@
 | **0888** |                       [Fair Candy Swap][888]                        |                                   Array, Hash Table, Binary Search, Sorting                                   |  ![][easy]  |        |
 | **0912** |                        [Sort an Array][912]                         | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                                                 Array, String                                                 |  ![][easy]  |        |
+| **0958** |             [Check Completeness of a Binary Tree][958]              |                                    Tree, Breadth-First Search, Binary Tree                                    | ![][medium] |        |
 | **0997** |                     [Find the Town Judge][997]                      |                                           Array, Hash Table, Graph                                            |  ![][easy]  |        |
 | **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                                                   Array, BS                                                   | ![][medium] |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                                                 String, Stack                                                 |  ![][easy]  |        |
@@ -164,7 +169,9 @@
 | **1143** |                 [Longest Common Subsequence][1143]                  |                                                  String, DP                                                   | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                                             Array, Math, Geometry                                             |  ![][easy]  |        |
 | **1345** |                        [Jump Game IV][1345]                         |                                    Array, Hash Table, Breadth-First Search                                    |  ![][hard]  |        |
+| **1431** |          [Kids With the Greatest Number of Candies][1431]           |                                                     Array                                                     |  ![][easy]  |        |
 | **1461** |    [Check If a String Contains All Binary Codes of Size K][1461]    |                                     String, Hash Table, Bit Manipulation                                      | ![][medium] |        |
+| **1472** |                   [Design Browser History][1472]                    |                      Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream                       | ![][medium] |        |
 | **1480** |                   [Running Sum of 1d Array][1480]                   |                                               Array, Prefix Sum                                               |  ![][easy]  |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                                Array, Sorting                                                 |  ![][easy]  |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                  Array, Two Pointer, Binary Search, Sorting                                   | ![][medium] |        |
@@ -185,6 +192,7 @@
 | **2187** |               [Minimum Time to Complete Trips][2187]                |                                                   Array, BS                                                   | ![][medium] |        |
 | **2235** |                      [Add Two Integers][2235]                       |                                                     Math                                                      |  ![][easy]  |        |
 | **2236** |                [Root Equal to Sum of Children][2236]                |                                               Tree, Binary Tree                                               |  ![][easy]  |        |
+| **2348** |               [Number of Zero-Filled Subarrays][2348]               |                                                  Array, Math                                                  | ![][medium] |        |
 | **2396** |                 [Strictly Palindromic Number][2396]                 |                                        Math, Two Pointers, Brainteaser                                        | ![][medium] |        |
 | **2413** |                   [Smallest Even Multiple][2413]                    |                                              Math, Number Theory                                              |  ![][easy]  |        |
 | **2427** |                  [Number of Common Factors][2427]                   |                                       Math, Enumeration, Number Theory                                        |  ![][easy]  |        |
@@ -232,6 +240,7 @@
 [101]: ./solution/0101-0200/101%20-%20Symmetric%20Tree.md
 [103]: ./solution/0101-0200/103%20-%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md
 [104]: ./solution/0101-0200/104%20-%20Maximum%20Depth%20of%20Binary%20Tree.md
+[106]: ./solution/0101-0200/106%20-%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.md
 [108]: ./solution/0101-0200/108%20-%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md
 [109]: ./solution/0101-0200/109%20-%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.md
 [110]: ./solution/0101-0200/110%20-%20Balanced%20Binary%20Tree.md
@@ -263,6 +272,7 @@
 [203]: ./solution/0201-0300/203%20-%20Remove%20Linked%20List%20Elements.md
 [205]: ./solution/0201-0300/205%20-%20Isomorphic%20Strings.md
 [206]: ./solution/0201-0300/206%20-%20Reverse%20Linked%20List.md
+[211]: ./solution/0201-0300/211%20-%20Design%20Add%20and%20Search%20Words%20Data%20Structure.md
 [217]: ./solution/0201-0300/217%20-%20Contains%20Duplicate.md
 [219]: ./solution/0201-0300/219%20-%20Contains%20Duplicate%20II.md
 [222]: ./solution/0201-0300/222%20-%20Count%20Complete%20Tree%20Nodes.md
@@ -316,6 +326,7 @@
 [448]: ./solution/0401-0500/448%20-%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md
 [461]: ./solution/0401-0500/461%20-%20Hamming%20Distance.md
 [461]: ./solution/0401-0500/461%20-%20Hamming%20Distance.md
+[463]: ./solution/0401-0500/463%20-%20Island%20Perimeter.md
 [476]: ./solution/0401-0500/476%20-%20Number%20Complement.md
 [482]: ./solution/0401-0500/482%20-%20License%20Key%20Formatting.md
 [485]: ./solution/0401-0500/485%20-%20Max%20Consecutive%20Ones.md
@@ -331,6 +342,7 @@
 [540]: ./solution/0501-0600/540%20-%20Single%20Element%20in%20a%20Sorted%20Array.md
 [541]: ./solution/0501-0600/541%20-%20Reverse%20String%20II.md
 [543]: ./solution/0501-0600/543%20-%20Diameter%20of%20Binary%20Tree.md
+[605]: ./solution/0601-0700/605%20-%20Can%20Place%20Flowers.md
 [652]: ./solution/0601-0700/652%20-%20Find%20Duplicate%20Subtrees.md
 [653]: ./solution/0601-0700/653%20-%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.md
 [695]: ./solution/0601-0700/695%20-%20Max%20Area%20of%20Island.md
@@ -343,6 +355,7 @@
 [888]: ./solution/0801-0900/888%20-%20Fair%20Candy%20Swap.md
 [912]: ./solution/0901-1000/912%20-%20Sort%20an%20Array.md
 [944]: ./solution/0901-1000/944%20-%20Delete%20Columns%20to%20Make%20Sorted.md
+[958]: ./solution/0901-1000/958%20-%20Check%20Completeness%20of%20a%20Binary%20Tree.md
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [997]: ./solution/0901-1000/997%20-%20Find%20the%20Town%20Judge.md
 [1011]: ./solution/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.md
@@ -352,7 +365,9 @@
 [1143]: ./solution/1101-1200/1143%20-%20Longest%20Common%20Subsequence.md
 [1232]: ./solution/1201-1300/1232%20-%20Check%20If%20It%20Is%20a%20Straight%20Line.md
 [1345]: ./solution/1301-1400/1345%20-%20Jump%20Game%20IV.md
+[1431]: ./solution/1401-1500/1431%20-%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.md
 [1461]: ./solution/1401-1500/1461%20-%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.md
+[1472]: ./solution/1401-1500/1472%20-%20Design%20Browser%20History.md
 [1480]: ./solution/1401-1500/1480%20-%20Running%20Sum%20of%201d%20Array.md
 [1491]: ./solution/1401-1500/1491%20-%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary.md
 [1498]: ./solution/1401-1500/1498%20-%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition.md
@@ -373,6 +388,7 @@
 [2187]: ./solution/2101-2200/2187%20-%20Minimum%20Time%20to%20Complete%20Trips.md
 [2235]: ./solution/2201-2300/2235%20-%20Add%20Two%20Integers.md
 [2236]: ./solution/2201-2300/2236%20-%20Root%20Equals%20Sum%20of%20Children.md
+[2348]: ./solution/2301-2400/2348%20-%20Number%20of%20Zero-Filled%20Subarrays.md
 [2396]: ./solution/2301-2400/2396%20-%20Strictly%20Palindromic%20Number.md
 [2413]: ./solution/2101-2200/2413%20-%20Smallest%20Even%20Multiple.md
 [2427]: ./solution/2401-2500/2427%20-%20Number%20of%20Common%20Factors.md
