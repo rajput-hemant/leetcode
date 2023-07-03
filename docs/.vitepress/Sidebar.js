@@ -69,6 +69,14 @@ export default Sidebar = [
         link: "/solution/0001-0100/037 - Sudoku Solver.md",
       },
       {
+        text: "041 - First Missing Positive",
+        link: "/solution/0001-0100/041 - First Missing Positive.md",
+      },
+      {
+        text: "042 - Trapping Rain Water",
+        link: "/solution/0001-0100/042 - Trapping Rain Water.md",
+      },
+      {
         text: "051 - N-Queens",
         link: "/solution/0001-0100/051 - N-Queens.md",
       },
@@ -353,6 +361,10 @@ export default Sidebar = [
       {
         text: "278 - First Bad Version",
         link: "/solution/0201-0300/278 - First Bad Version.md",
+      },
+      {
+        text: "279 - Perfect Squares",
+        link: "/solution/0201-0300/279 - Perfect Squares.md",
       },
       {
         text: "283 - Move Zeroes",
