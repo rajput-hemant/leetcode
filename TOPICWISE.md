@@ -24,6 +24,8 @@
 | **0027** |                        [Remove Element][27]                         |                                      Array, Two Pointers                                       |  ![][easy]  |        |
 | **0035** |                    [Search Insert Position][35]                     |                                           Array, BS                                            |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |                                  Array, Backtracking, Matrix                                   |  ![][hard]  |        |
+| **0041** |                    [First Missing Positive][41]                     |                                       Array, Hash Table                                        |  ![][hard]  |        |
+| **0042** |                      [Trapping Rain Water][42]                      |                               Array, 2P, DP, ST, Monotonic Stack                               |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |                                      Array, Backtracking                                       |  ![][hard]  |        |
 | **0053** |                       [Maximum Subarray][53]                        |                                         Array, DNC, DP                                         | ![][medium] |        |
 | **0055** |                           [Jump Game][55]                           |                                       Array, DP, Greedy                                        | ![][medium] |        |
@@ -143,6 +145,7 @@
 | :------: | :---------------------------------------------------------------: | :-----------------------------------------------: | :---------: | :----: |
 | **0001** |                           [Two Sum][1]                            |                 Array, Hash Table                 |  ![][easy]  |        |
 | **0013** |                      [Roman to Integer][13]                       |             String, Math, Hash Table              |  ![][easy]  |        |
+| **0041** |                   [First Missing Positive][41]                    |                 Array, Hash Table                 |  ![][hard]  |        |
 | **0106** | [Construct Binary Tree from Inorder and Postorder Traversal][106] |     Array, Hash Table, DNC, Tree, Binary Tree     | ![][medium] |        |
 | **0141** |                     [Linked List Cycle][141]                      |                Hash Table, LL, 2P                 |  ![][easy]  |        |
 | **0142** |                    [Linked List Cycle II][142]                    |                Hash Table, LL, 2P                 | ![][medium] |        |
@@ -175,28 +178,30 @@
 
 ## Dynamic Programming
 
-|    #     |                 Solution                  |               Tags               | Difficulty  | Remark |
-| :------: | :---------------------------------------: | :------------------------------: | :---------: | :----: |
-| **0022** |        [Generate Parentheses][22]         |     String, DP, Backtracking     | ![][medium] |        |
-| **0053** |          [Maximum Subarray][53]           |          Array, DNC, DP          | ![][medium] |        |
-| **0055** |              [Jump Game][55]              |        Array, DP, Greedy         | ![][medium] |        |
-| **0070** |           [Climbing Stairs][70]           |      Math, DP, Memoization       |  ![][easy]  |        |
-| **0072** |            [Edit Distance][72]            |            String, DP            |  ![][hard]  |        |
-| **0118** |         [Pascal's Triangle][118]          |            Array, DP             |  ![][easy]  |        |
-| **0119** |        [Pascal's Triangle II][119]        |            Array, DP             |  ![][easy]  |        |
-| **0121** |  [Best Time to Buy and Sell Stock][121]   |            Array, DP             |  ![][easy]  |        |
-| **0122** | [Best Time to Buy and Sell Stock II][122] |        Array, DP, Greedy         | ![][medium] |        |
-| **0300** |   [Longest Increasing Subsequence][300]   |     Array, Binary Search, DP     | ![][medium] |        |
-| **0322** |            [Coin Change][322]             |          Array, DP, BFS          | ![][medium] |        |
-| **0337** |          [House Robber III][337]          |    DP, Tree, DFS, Binary Tree    | ![][medium] |        |
-| **0338** |           [Counting Bits][338]            |          DP, Bit Manip           |  ![][easy]  |        |
-| **0392** |           [Is Subsequence][392]           |          2P, String, DP          |  ![][easy]  |        |
-| **0509** |          [Fibonacci Number][509]          | Math, Recursion, DP, Memoization |  ![][easy]  |        |
-| **0516** |  [Longest Palindromic Subsequence][516]   |            String, DP            | ![][medium] |        |
-| **0518** |           [Coin Change 2][518]            |            Array, DP             | ![][medium] |        |
-| **1092** |   [Shortest Common Supersequence][1092]   |            String, DP            |  ![][hard]  |        |
-| **1143** |    [Longest Common Subsequence][1143]     |            String, DP            | ![][medium] |        |
-| **1537** |       [Get the Maximum Score][1537]       |  Array, Two Pointer, DP, Greedy  |  ![][hard]  |        |
+|    #     |                 Solution                  |                Tags                | Difficulty  | Remark |
+| :------: | :---------------------------------------: | :--------------------------------: | :---------: | :----: |
+| **0022** |        [Generate Parentheses][22]         |      String, DP, Backtracking      | ![][medium] |        |
+| **0042** |         [Trapping Rain Water][42]         | Array, 2P, DP, ST, Monotonic Stack |  ![][hard]  |        |
+| **0053** |          [Maximum Subarray][53]           |           Array, DNC, DP           | ![][medium] |        |
+| **0055** |              [Jump Game][55]              |         Array, DP, Greedy          | ![][medium] |        |
+| **0070** |           [Climbing Stairs][70]           |       Math, DP, Memoization        |  ![][easy]  |        |
+| **0072** |            [Edit Distance][72]            |             String, DP             |  ![][hard]  |        |
+| **0118** |         [Pascal's Triangle][118]          |             Array, DP              |  ![][easy]  |        |
+| **0119** |        [Pascal's Triangle II][119]        |             Array, DP              |  ![][easy]  |        |
+| **0121** |  [Best Time to Buy and Sell Stock][121]   |             Array, DP              |  ![][easy]  |        |
+| **0122** | [Best Time to Buy and Sell Stock II][122] |         Array, DP, Greedy          | ![][medium] |        |
+| **0279** |          [Perfect Squares][279]           |   Math, DP, Breadth-First Search   | ![][medium] |        |
+| **0300** |   [Longest Increasing Subsequence][300]   |      Array, Binary Search, DP      | ![][medium] |        |
+| **0322** |            [Coin Change][322]             |           Array, DP, BFS           | ![][medium] |        |
+| **0337** |          [House Robber III][337]          |     DP, Tree, DFS, Binary Tree     | ![][medium] |        |
+| **0338** |           [Counting Bits][338]            |           DP, Bit Manip            |  ![][easy]  |        |
+| **0392** |           [Is Subsequence][392]           |           2P, String, DP           |  ![][easy]  |        |
+| **0509** |          [Fibonacci Number][509]          |  Math, Recursion, DP, Memoization  |  ![][easy]  |        |
+| **0516** |  [Longest Palindromic Subsequence][516]   |             String, DP             | ![][medium] |        |
+| **0518** |           [Coin Change 2][518]            |             Array, DP              | ![][medium] |        |
+| **1092** |   [Shortest Common Supersequence][1092]   |             String, DP             |  ![][hard]  |        |
+| **1143** |    [Longest Common Subsequence][1143]     |             String, DP             | ![][medium] |        |
+| **1537** |       [Get the Maximum Score][1537]       |   Array, Two Pointer, DP, Greedy   |  ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -218,6 +223,7 @@
 | **0258** |                        [Add Digits][258]                        |         Math, Simulation, Number Theory         |  ![][easy]  |        |
 | **0263** |                       [Ugly Number][263]                        |                      Math                       |  ![][easy]  |        |
 | **0268** |                      [Missing Number][268]                      | Array, Hash Table, Math, BS, Bit Manip, Sorting |  ![][easy]  |        |
+| **0279** |                     [Perfect Squares][279]                      |         Math, DP, Breadth-First Search          | ![][medium] |        |
 | **0292** |                         [Nim Game][292]                         |         Math, Brainteaser, Game Theory          |  ![][easy]  |        |
 | **0326** |                      [Power of Three][326]                      |                 Math, Recursion                 |  ![][easy]  |        |
 | **0342** |                      [Power of Four][342]                       |           Math, Bit Manip, Recursion            |  ![][easy]  |        |
@@ -444,6 +450,7 @@
 | **0004** |                  [Median of Two Sorted Arrays][4]                   | Array, Binary Search, Divide & Conquer |  ![][hard]  |        |
 | **0027** |                        [Remove Element][27]                         |          Array, Two Pointers           |  ![][easy]  |        |
 | **0028** |      [Find the Index of the First Occurrence in a String][28]       |      2P, String, String Matching       | ![][medium] |        |
+| **0042** |                      [Trapping Rain Water][42]                      |   Array, 2P, DP, ST, Monotonic Stack   |  ![][hard]  |        |
 | **0061** |                          [Rotate List][61]                          |       Linked List, Two Pointers        | ![][medium] |        |
 | **0075** |                          [Sort Colors][75]                          |      Array, Two Pointers, Sorting      | ![][medium] |        |
 | **0088** |                      [Merge Sorted Array][88]                       |           Array, 2P, Sorting           |  ![][easy]  |        |
@@ -495,6 +502,7 @@
 |    #     |                     Solution                     |                          Tags                          | Difficulty  | Remark |
 | :------: | :----------------------------------------------: | :----------------------------------------------------: | :---------: | :----: |
 | **0020** |             [Valid Parentheses][20]              |                       String, ST                       |  ![][easy]  |        |
+| **0042** |            [Trapping Rain Water][42]             |           Array, 2P, DP, ST, Monotonic Stack           |  ![][hard]  |        |
 | **0094** |       [Binary Tree Inorder Traversal][94]        |             Tree, Stack, DFS, Binary Tree              |  ![][easy]  |        |
 | **0144** |      [Binary Tree Preorder Traversal][144]       |             Stack, Tree, DFS, Binary Tree              |  ![][easy]  |        |
 | **0145** |      [Binary Tree Postorder Traversal][145]      |             Stack, Tree, DFS, Binary Tree              |  ![][easy]  |        |
@@ -632,9 +640,10 @@
 
 ## Monotonic Stack
 
-|    #     |         Solution          |             Tags              | Difficulty  | Remark |
-| :------: | :-----------------------: | :---------------------------: | :---------: | :----: |
-| **0739** | [Daily Temperatures][739] | Array, Stack, Monotonic Stack | ![][medium] |        |
+|    #     |         Solution          |                Tags                | Difficulty  | Remark |
+| :------: | :-----------------------: | :--------------------------------: | :---------: | :----: |
+| **0042** | [Trapping Rain Water][42] | Array, 2P, DP, ST, Monotonic Stack |  ![][hard]  |        |
+| **0739** | [Daily Temperatures][739] |   Array, Stack, Monotonic Stack    | ![][medium] |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -1005,6 +1014,8 @@
 [28]: ./src/0001-0100/028%20-%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/
 [35]: ./src/0001-0100/035%20-%20Search%20Insert%20Position/
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
+[41]: ./src/0001-0100/041%20-%20First%20Missing%20Positive/
+[42]: ./src/0001-0100/042%20-%20Trapping%20Rain%20Water/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [53]: ./src/0001-0100/053%20-%20Maximum%20Subarray/
 [55]: ./src/0001-0100/055%20-%20Jump%20Game/
@@ -1077,6 +1088,7 @@
 [263]: ./src/0201-0300/263%20-%20Ugly%20Number/
 [268]: ./src/0201-0300/268%20-%20Missing%20Number/
 [278]: ./src/0201-0300/278%20-%20First%20Bad%20Version/
+[279]: ./src/0201-0300/279%20-%20Perfect%20Squares/
 [283]: ./src/0201-0300/283%20-%20Move%20Zeroes/
 [290]: ./src/0201-0300/290%20-%20Word%20Pattern/
 [292]: ./src/0201-0300/292%20-%20Nim%20Game/

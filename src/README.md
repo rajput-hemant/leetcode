@@ -30,6 +30,8 @@
 | **0028** |      [Find the Index of the First Occurrence in a String][28]       |                                  2P, String, String Matching                                   | ![][medium] |        |
 | **0035** |                    [Search Insert Position][35]                     |                                           Array, BS                                            |  ![][easy]  |        |
 | **0037** |                         [Sudoku Solver][37]                         |                                  Array, Backtracking, Matrix                                   |  ![][hard]  |        |
+| **0041** |                    [First Missing Positive][41]                     |                                       Array, Hash Table                                        |  ![][hard]  |        |
+| **0042** |                      [Trapping Rain Water][42]                      |                               Array, 2P, DP, ST, Monotonic Stack                               |  ![][hard]  |        |
 | **0051** |                           [N-Queens][51]                            |                                      Array, Backtracking                                       |  ![][hard]  |        |
 | **0053** |                       [Maximum Subarray][53]                        |                                         Array, DNC, DP                                         | ![][medium] |        |
 | **0055** |                           [Jump Game][55]                           |                                       Array, DP, Greedy                                        | ![][medium] |        |
@@ -98,6 +100,7 @@
 | **0263** |                         [Ugly Number][263]                          |                                              Math                                              |  ![][easy]  |        |
 | **0268** |                        [Missing Number][268]                        |                        Array, Hash Table, Math, BS, Bit Manip, Sorting                         |  ![][easy]  |        |
 | **0278** |                      [First Bad Version][278]                       |                                   Binary Search, Interactive                                   |  ![][easy]  |        |
+| **0279** |                       [Perfect Squares][279]                        |                                 Math, DP, Breadth-First Search                                 | ![][medium] |        |
 | **0283** |                         [Move Zeroes][283]                          |                                      Array, Two Pointers                                       |  ![][easy]  |        |
 | **0290** |                         [Word Pattern][290]                         |                                       Hash Table, String                                       |  ![][easy]  |        |
 | **0292** |                           [Nim Game][292]                           |                                 Math, Brainteaser, Game Theory                                 |  ![][easy]  |        |
@@ -219,6 +222,8 @@
 [28]: ./0001-0100/028%20-%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/
 [35]: ./0001-0100/035%20-%20Search%20Insert%20Position/
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/
+[41]: ./0001-0100/041%20-%20First%20Missing%20Positive/
+[42]: ./0001-0100/042%20-%20Trapping%20Rain%20Water/
 [51]: ./0001-0100/051%20-%20N-Queens/
 [53]: ./0001-0100/053%20-%20Maximum%20Subarray/
 [55]: ./0001-0100/055%20-%20Jump%20Game/
@@ -291,6 +296,7 @@
 [263]: ./0201-0300/263%20-%20Ugly%20Number/
 [268]: ./0201-0300/268%20-%20Missing%20Number/
 [278]: ./0201-0300/278%20-%20First%20Bad%20Version/
+[279]: ./0201-0300/279%20-%20Perfect%20Squares/
 [283]: ./0201-0300/283%20-%20Move%20Zeroes/
 [290]: ./0201-0300/290%20-%20Word%20Pattern/
 [292]: ./0201-0300/292%20-%20Nim%20Game/

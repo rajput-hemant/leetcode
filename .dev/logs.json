@@ -196,12 +196,16 @@
     "sols": {}
   },
   "41": {
-    "len": 0,
-    "sols": {}
+    "len": 3,
+    "sols": {
+      "first_missing_positive.go": "e02693e7029a6b1220431f50b11a9402a81f106b3e5737e6d6a25e3050ad30b5"
+    }
   },
   "42": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "trapping_rain_water.rs": "da65b05df7c2398f7cf8f4233d74779530a6c74830e59dbebac95eec3c170929"
+    }
   },
   "43": {
     "len": 0,
@@ -1293,8 +1297,10 @@
     }
   },
   "279": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "perfect_square.rs": "59c6210278bc443619fccd1cee0a38311fe7633d51172bf38c851dc5887f6d1e"
+    }
   },
   "280": {
     "len": 0,
@@ -6049,7 +6055,8 @@
   "1431": {
     "len": 4,
     "sols": {
-      "kids_with_the_greatest_number_of_candies.go": "806440bf922c44de9e5d554fc2fdd0db4c70106596b548345ecc2650a6cd7bea"
+      "kids_with_the_greatest_number_of_candies.go": "806440bf922c44de9e5d554fc2fdd0db4c70106596b548345ecc2650a6cd7bea",
+      "KidsWithTheGreatestNumberOfCandies.java": "ae0f6e1d16485039792f8ec4aab6160331eac4f3dd87d5c25afa232d0d1477c8"
     }
   },
   "1432": {
