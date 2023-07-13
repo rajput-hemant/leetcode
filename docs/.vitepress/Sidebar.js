@@ -77,6 +77,10 @@ export default Sidebar = [
         link: "/solution/0001-0100/042 - Trapping Rain Water.md",
       },
       {
+        text: "048 - Rotate Image",
+        link: "/solution/0001-0100/048 - Rotate Image.md",
+      },
+      {
         text: "051 - N-Queens",
         link: "/solution/0001-0100/051 - N-Queens.md",
       },
@@ -115,6 +119,10 @@ export default Sidebar = [
       {
         text: "072 - Edit Distance",
         link: "/solution/0001-0100/072 - Edit Distance.md",
+      },
+      {
+        text: "074 - Search a 2D Matrix",
+        link: "/solution/0001-0100/074 - Search a 2D Matrix.md",
       },
       {
         text: "075 - Sort Colors",
@@ -532,6 +540,10 @@ export default Sidebar = [
         text: "492 - Construct the Rectangle",
         link: "/solution/0401-0500/492 - Construct the Rectangle.md",
       },
+      {
+        text: "498 - Diagonal Traverse",
+        link: "/solution/0401-0500/498 - Diagonal Traverse.md",
+      },
     ],
   },
   {
@@ -548,8 +560,8 @@ export default Sidebar = [
         link: "/solution/0501-0600/504 - Base 7.md",
       },
       {
-        text: "506 -  Relative Ranks",
-        link: "/solution/0501-0600/506 -  Relative Ranks.md",
+        text: "506 - Relative Ranks",
+        link: "/solution/0501-0600/506 - Relative Ranks.md",
       },
       {
         text: "507 - Perfect Number",
@@ -683,6 +695,10 @@ export default Sidebar = [
         link: "/solution/1001-1100/1011 - Capacity To Ship Packages Within D Days.md",
       },
       {
+        text: "1029 - Two City Scheduling",
+        link: "/solution/1001-1100/1029 - Two City Scheduling.md",
+      },
+      {
         text: "1047 - Remove All Adjacent Duplicates In String",
         link: "/solution/1001-1100/1047 - Remove All Adjacent Duplicates In String.md",
       },
@@ -774,8 +790,8 @@ export default Sidebar = [
         link: "/solution/1501-1600/1512 - Number of Good Pairs.md",
       },
       {
-        text: "1523. Count Odd Numbers in an Interval Range",
-        link: "/solution/1501-1600/1523. Count Odd Numbers in an Interval Range.md",
+        text: "1523 - Count Odd Numbers in an Interval Range",
+        link: "/solution/1501-1600/1523 - Count Odd Numbers in an Interval Range.md",
       },
       {
         text: "1537 - Get the Maximum Score",
@@ -902,6 +918,17 @@ export default Sidebar = [
       {
         text: "2574 - Left and Right Sum Differences",
         link: "/solution/2401-2500/2574 - Left and Right Sum Differences.md",
+      },
+    ],
+  },
+  {
+    text: "2501-2600",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "2551 - Put Marbles in Bags",
+        link: "/solution/2501-2600/2551 - Put Marbles in Bags.md",
       },
     ],
   },

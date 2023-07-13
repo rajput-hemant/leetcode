@@ -34,6 +34,28 @@ Output: false
 
 ::: code-group
 
+```rs [Rust]
+impl Solution {
+    pub fn can_place_flowers(flowerbed: Vec<i32>, mut n: i32) -> bool {
+        let mut empty = if flowerbed[0] == 0 { 1 } else { 0 };
+
+        for &x in &flowerbed {
+            if x == 0 {
+                empty += 1;
+            } else {
+                n -= (empty - 1) / 2;
+                empty = 0;
+            }
+        }
+
+        n -= empty / 2;
+
+        n <= 0
+    }
+}
+
+```
+
 ```py [Python]
 class Solution:
     def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
@@ -47,6 +69,30 @@ class Solution:
 
         n -= empty // 2
         return n <= 0
+
+```
+
+```go [Go]
+package main
+
+func canPlaceFlowers(flowerbed []int, n int) bool {
+	empty := 0
+	if flowerbed[0] == 0 {
+		empty = 1
+	}
+
+	for _, f := range flowerbed {
+		if f == 0 {
+			empty++
+		} else {
+			n -= (empty - 1) / 2
+			empty = 0
+		}
+	}
+	n -= empty / 2
+
+	return n <= 0
+}
 
 ```
 
