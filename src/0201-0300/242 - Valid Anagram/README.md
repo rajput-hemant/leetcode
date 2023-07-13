@@ -32,10 +32,95 @@ Output: false
 
 ## Solutions
 
+### [_Go_](valid_anagarm.go)
+
+```go [Go]
+package main
+
+import "sort"
+
+func isAnagram_eff(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
+	var sMap = make(map[rune]int)
+	var tMap = make(map[rune]int)
+
+	for _, v := range s {
+		sMap[v]++
+	}
+
+	for _, v := range t {
+		tMap[v]++
+	}
+
+	for k, v := range sMap {
+		if tMap[k] != v {
+			return false
+		}
+	}
+
+	return true
+}
+
+func isAnagram(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
+	sRunes := []rune(s)
+	tRunes := []rune(t)
+
+	sort.Slice(sRunes, func(i, j int) bool {
+		return sRunes[i] < sRunes[j]
+	})
+	sort.Slice(tRunes, func(i, j int) bool {
+		return tRunes[i] < tRunes[j]
+	})
+
+	for i := 0; i < len(sRunes); i++ {
+		if sRunes[i] != tRunes[i] {
+			return false
+		}
+	}
+
+	return true
+}
+
+```
+
 ### [_Rust_](valid_anagram.rs)
 
 ```rs [Rust]
+use std::collections::HashMap;
+
 impl Solution {
+    // using hashmap
+    pub fn is_anagram(s: String, t: String) -> bool {
+        if s.len() != t.len() {
+            return false;
+        }
+
+        let s_map = s.chars().fold(HashMap::new(), |mut map, c| {
+            // let count = map.entry(c).or_insert(0);
+            // *count += 1;
+
+            // same as above
+            *map.entry(c).or_insert(0) += 1;
+            map
+        });
+
+        let t_map = t.chars().fold(HashMap::new(), |mut map, c| {
+            *map.entry(c).or_insert(0) += 1;
+            map
+        });
+
+        s_map
+            .iter()
+            .all(|(key, value)| t_map.get(key) == Some(value))
+    }
+
     pub fn is_anagram(s: String, t: String) -> bool {
         if (s.len() != t.len()) {
             return false;

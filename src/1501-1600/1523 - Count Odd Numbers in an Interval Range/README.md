@@ -42,6 +42,18 @@ Explanation: The odd numbers between 8 and 10 are [9].```
 
 ## Solutions
 
+### [_Rust_](count_odd_numbers_in_an_interval_range.rs)
+
+```rs [Rust]
+impl Solution {
+    pub fn count_odds(low: i32, high: i32) -> i32 {
+        // ((high + 1) / 2) - (low / 2)
+        ((high + 1) >> 1) - (low >> 1) // same as above
+    }
+}
+
+```
+
 ### [_Go_](count_odd_numbers_in_an_interval_range.go)
 
 ```go [Go]

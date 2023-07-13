@@ -198,7 +198,8 @@
   "41": {
     "len": 3,
     "sols": {
-      "first_missing_positive.go": "e02693e7029a6b1220431f50b11a9402a81f106b3e5737e6d6a25e3050ad30b5"
+      "first_missing_positive.go": "e02693e7029a6b1220431f50b11a9402a81f106b3e5737e6d6a25e3050ad30b5",
+      "first_missing_positive.rs": "6e4c38f7dbf778c962baa00eef763472aa23106dc3de16a6df6319721be5942d"
     }
   },
   "42": {
@@ -228,8 +229,10 @@
     "sols": {}
   },
   "48": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "rotate_image.rs": "ad1394a58bb289f75e3580b7224ee72ac903077b9e4631a35fd18faf850146c3"
+    }
   },
   "49": {
     "len": 0,
@@ -356,8 +359,10 @@
     "sols": {}
   },
   "74": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "search_a_2d_matrix.rs": "fcbda8ecff1d8de1b63b1ab26089c4a64f25fc241817d1be24a71993af345db1"
+    }
   },
   "75": {
     "len": 2,
@@ -535,9 +540,10 @@
     }
   },
   "111": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "MinDepthOfBinaryTree.java": "4375cb169e124ced61b370e70395d9cc411a9cbffff16f7297e948b53f321bc5"
+      "MinDepthOfBinaryTree.java": "4375cb169e124ced61b370e70395d9cc411a9cbffff16f7297e948b53f321bc5",
+      "minimum_depth_of_binary_tree.rs": "a14210a347761e45d1d8d92fb9962acfca63d9e9bac66a2a6751d2d5d205aa72"
     }
   },
   "112": {
@@ -1137,9 +1143,10 @@
     "sols": {}
   },
   "242": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "valid_anagram.rs": "99bcd843bb2afbcbf7eac879ed6646896d7b44fbe95f1a04968aa4d35d382a60"
+      "valid_anagram.rs": "99bcd843bb2afbcbf7eac879ed6646896d7b44fbe95f1a04968aa4d35d382a60",
+      "valid_anagarm.go": "5894afe05d4af7737163eade58fb8b49b1ad85b8c5f55a380f85a849177da487"
     }
   },
   "243": {
@@ -1291,9 +1298,10 @@
     "sols": {}
   },
   "278": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "FirstBadVersion.java": "bc096f2e6d86e1beebef6b451a382d1c714cc99b2eed27e5669111acbcb48132"
+      "FirstBadVersion.java": "bc096f2e6d86e1beebef6b451a382d1c714cc99b2eed27e5669111acbcb48132",
+      "first_bad_version.rs": "461a8d4e6ef732b8ddcbf0ad547032828cd63c413230b9bfdb34b49bc1054797"
     }
   },
   "279": {
@@ -1315,9 +1323,10 @@
     "sols": {}
   },
   "283": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "MoveZeroes.java": "534d44f7fda3fd4322f7d12d8b13c25c96b68fa4a856fa96245aa900e076010a"
+      "MoveZeroes.java": "534d44f7fda3fd4322f7d12d8b13c25c96b68fa4a856fa96245aa900e076010a",
+      "move_zeroes.rs": "a4e12ac3c9ea98c293785db85ab1e013877f7ece6877f79a705eb285645aabb4"
     }
   },
   "284": {
@@ -2252,8 +2261,10 @@
     "sols": {}
   },
   "498": {
-    "len": 0,
-    "sols": {}
+    "len": 3,
+    "sols": {
+      "diagonal_traverse.go": "73bf791220dc4461346c485e9d4d9d8d827f10cc68e887e26da1ef6cd0fa3187"
+    }
   },
   "499": {
     "len": 0,
@@ -2288,9 +2299,10 @@
     "sols": {}
   },
   "506": {
-    "len": 2,
+    "len": 4,
     "sols": {
-      "RelativeRanks.java": "c0c517220ac5b5fd16a23e65bb1ad7bb2e22b5681cf797a4ef7b5d9d7e171fc7"
+      "RelativeRanks.java": "c0c517220ac5b5fd16a23e65bb1ad7bb2e22b5681cf797a4ef7b5d9d7e171fc7",
+      "relative_ranks.go": "ba4511ec3449e97bcb8816b32ce6e115603b28b830abf24e2bf2fb21ce52b4cc"
     }
   },
   "507": {
@@ -2703,9 +2715,10 @@
     "sols": {}
   },
   "605": {
-    "len": 2,
+    "len": 4,
     "sols": {
-      "can_place_flowers.py": "d0b8c774567bf5260cc437de5abaa247f003fa63c9652023e9239015de86b55f"
+      "can_place_flowers.py": "d0b8c774567bf5260cc437de5abaa247f003fa63c9652023e9239015de86b55f",
+      "can_place_flowers.rs": "182c375b703356e9b36525acd18a694b95f0607c8e4d5854a2de559cf64c10a0"
     }
   },
   "606": {
@@ -4433,8 +4446,10 @@
     "sols": {}
   },
   "1029": {
-    "len": 0,
-    "sols": {}
+    "len": 2,
+    "sols": {
+      "two_city_scheduling.rs": "e5e7bb600a10c4d6810fcf8cd1b8b589be3f386bf4224be7105efb9e64780e4c"
+    }
   },
   "1030": {
     "len": 0,
@@ -6056,7 +6071,8 @@
     "len": 4,
     "sols": {
       "kids_with_the_greatest_number_of_candies.go": "806440bf922c44de9e5d554fc2fdd0db4c70106596b548345ecc2650a6cd7bea",
-      "KidsWithTheGreatestNumberOfCandies.java": "ae0f6e1d16485039792f8ec4aab6160331eac4f3dd87d5c25afa232d0d1477c8"
+      "KidsWithTheGreatestNumberOfCandies.java": "ae0f6e1d16485039792f8ec4aab6160331eac4f3dd87d5c25afa232d0d1477c8",
+      "kids_with_the_greatest_number_of_candies.rs": "af1517606303cf5a81d6152d710243435b08d78aa1e23c8187a9c7a854f481cf"
     }
   },
   "1432": {
@@ -6438,9 +6454,10 @@
     "sols": {}
   },
   "1523": {
-    "len": 2,
+    "len": 3,
     "sols": {
-      "count_odd_numbers_in_an_interval_range.go": "fdc2a71571df699347bddae1d06517d20ce63688bc3d229a9f9dadec6262c6ed"
+      "count_odd_numbers_in_an_interval_range.go": "fdc2a71571df699347bddae1d06517d20ce63688bc3d229a9f9dadec6262c6ed",
+      "count_odd_numbers_in_an_interval_range.rs": "89baa2014970a618af0c2aeff74bbbf607876c2190e364342cdfacc9004bec1f"
     }
   },
   "1524": {
@@ -10427,6 +10444,12 @@
     "len": 2,
     "sols": {
       "left_and_right_sum_differences.rs": "e82dccb7152fb1bd9268100531ead21bca1f7bcdb6cc688e506949f6046f4774"
+    }
+  },
+  "2551": {
+    "len": 2,
+    "sols": {
+      "put_marbels_in_bag.rs": "ba8a375cd4b0908e71e45c8cdad64f073190ad23d3c330fc976e62d55ba8c1ab"
     }
   }
 }

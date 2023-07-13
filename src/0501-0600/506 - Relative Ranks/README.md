@@ -40,28 +40,106 @@ Explanation: The placements are [1st, 5th, 3rd, 2nd, 4th].
 
 ## Solutions:
 
-### [_Java_](./RelativeRanks.java)
+### [_Go_](relative_ranks.go)
 
-```java
-public String[] findRelativeRanks(int[] score) {
-  int[] temp = score.clone();
-  Arrays.sort(temp);
-  Map<Integer, String> rankMap = new HashMap<Integer, String>();
-  String[] ranks = new String[score.length];
-  for (int i = 0; i < score.length; i++) {
-    if (i == score.length - 1)
-      rankMap.put(temp[i], "Gold Medal");
-    else if (i == score.length - 2)
-      rankMap.put(temp[i], "Silver Medal");
-    else if (i == score.length - 3)
-      rankMap.put(temp[i], "Bronze Medal");
-    else
-      rankMap.put(temp[i], String.valueOf(score.length - i));
-  }
-  for (int i = 0; i < ranks.length; i++)
-    ranks[i] = rankMap.get(score[i]);
-  return ranks;
+```go [Go]
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+func findRelativeRanks(score []int) []string {
+	sorted_score := append([]int(nil), score...)
+	sort.Slice(sorted_score, func(i, j int) bool {
+		return sorted_score[i] > sorted_score[j]
+	})
+
+	rank := make(map[int]string)
+
+	for i, v := range sorted_score {
+		switch i {
+		case 0:
+			rank[v] = "Gold Medal"
+		case 1:
+			rank[v] = "Silver Medal"
+		case 2:
+			rank[v] = "Bronze Medal"
+		default:
+			rank[v] = fmt.Sprintf("%d", i+1)
+		}
+	}
+
+	result := make([]string, len(score))
+	for i, v := range score {
+		result[i] = rank[v]
+	}
+
+	return result
 }
+
+```
+
+### [_Java_](RelativeRanks.java)
+
+```java [Java]
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class RelativeRanks {
+  public String[] findRelativeRanks(int[] score) {
+    int[] temp = score.clone();
+    Arrays.sort(temp);
+    Map<Integer, String> rankMap = new HashMap<Integer, String>();
+    String[] ranks = new String[score.length];
+    for (int i = 0; i < score.length; i++) {
+      if (i == score.length - 1)
+        rankMap.put(temp[i], "Gold Medal");
+      else if (i == score.length - 2)
+        rankMap.put(temp[i], "Silver Medal");
+      else if (i == score.length - 3)
+        rankMap.put(temp[i], "Bronze Medal");
+      else
+        rankMap.put(temp[i], String.valueOf(score.length - i));
+    }
+    for (int i = 0; i < ranks.length; i++)
+      ranks[i] = rankMap.get(score[i]);
+    return ranks;
+  }
+}
+
+```
+
+### [_Rust_](relative_ranks.rs)
+
+```rs [Rust]
+impl Solution {
+    pub fn find_relative_ranks(score: Vec<i32>) -> Vec<String> {
+        let mut score_sorted = score.clone();
+        score_sorted.sort_unstable_by(|a, b| b.cmp(a));
+
+        let mut map = HashMap::new();
+        for (i, s) in score_sorted.iter().enumerate() {
+            map.insert(s, i + 1);
+        }
+
+        score
+            .iter()
+            .map(|s| {
+                let rank = map.get(s).unwrap();
+                match rank {
+                    1 => "Gold Medal".to_string(),
+                    2 => "Silver Medal".to_string(),
+                    3 => "Bronze Medal".to_string(),
+                    _ => rank.to_string(),
+                }
+            })
+            .collect()
+    }
+}
+
 ```
 
 ### [_..._]()

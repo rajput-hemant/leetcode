@@ -33,11 +33,38 @@ Output: 5
 
 ## Solutions:
 
-### [_Java_](./MinDepthOfBinaryTree.java)
+### [_Rust_](minimum_depth_of_binary_tree.rs)
 
-```java
-// Approach 1: Recursion
-public static int minDepth(TreeNode root) {
+```rs [Rust]
+impl Solution {
+    pub fn min_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+        match root {
+            Some(node) => {
+                let left = Self::min_depth(node.borrow().left.clone());
+                let right = Self::min_depth(node.borrow().right.clone());
+
+                if left == 0 || right == 0 {
+                    left.max(right) + 1
+                } else {
+                    left.min(right) + 1
+                }
+            }
+
+            None => 0,
+        }
+    }
+}
+
+```
+
+### [_Java_](MinDepthOfBinaryTree.java)
+
+```java [Java]
+import definitions.TreeNode;
+
+public class MinDepthOfBinaryTree {
+    // Approach 1
+    public static int minDepth(TreeNode root) {
         if (root == null)
             return 0;
         if (root.left == null && root.right == null)
@@ -48,28 +75,28 @@ public static int minDepth(TreeNode root) {
             return minDepth(root.left) + 1;
         return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
     }
-```
 
-```java
-// Approach 2:
-int min = Integer.MAX_VALUE;
+    // Approach 2
+    int min = Integer.MAX_VALUE;
 
-public int minDepth2(TreeNode root) {
-    if (root == null)
-        return 0;
-    minDepth2(root, 0);
-    return min;
+    public int minDepth2(TreeNode root) {
+        if (root == null)
+            return 0;
+        minDepth2(root, 0);
+        return min;
+    }
+
+    public void minDepth2(TreeNode root, int level) {
+        if (root == null)
+            return;
+        level++;
+        if (root.left == null && root.right == null)
+            min = Math.min(min, level);
+        minDepth2(root.left, level);
+        minDepth2(root.right, level);
+    }
 }
 
-public void minDepth2(TreeNode root, int level) {
-    if (root == null)
-        return;
-    level++;
-    if (root.left == null && root.right == null)
-        min = Math.min(min, level);
-    minDepth2(root.left, level);
-    minDepth2(root.right, level);
-}
 ```
 
 ### [_..._]()

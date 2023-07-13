@@ -26,10 +26,12 @@
 | **0037** |                         [Sudoku Solver][37]                         |                                  Array, Backtracking, Matrix                                   |  ![][hard]  |        |
 | **0041** |                    [First Missing Positive][41]                     |                                       Array, Hash Table                                        |  ![][hard]  |        |
 | **0042** |                      [Trapping Rain Water][42]                      |                               Array, 2P, DP, ST, Monotonic Stack                               |  ![][hard]  |        |
+| **0048** |                         [Rotate Image][48]                          |                                      Array, Math, Matrix                                       | ![][medium] |        |
 | **0051** |                           [N-Queens][51]                            |                                      Array, Backtracking                                       |  ![][hard]  |        |
 | **0053** |                       [Maximum Subarray][53]                        |                                         Array, DNC, DP                                         | ![][medium] |        |
 | **0055** |                           [Jump Game][55]                           |                                       Array, DP, Greedy                                        | ![][medium] |        |
 | **0066** |                           [Plus One][66]                            |                                          Array, Math                                           |  ![][easy]  |        |
+| **0074** |                      [Search a 2D Matrix][74]                       |                                       Array, BS, Matrix                                        | ![][medium] |        |
 | **0075** |                          [Sort Colors][75]                          |                                  Array, Two Pointers, Sorting                                  | ![][medium] |        |
 | **0078** |                            [Subsets][78]                            |                                 Array, Backtracking, Bit Manip                                 | ![][medium] |        |
 | **0088** |                      [Merge Sorted Array][88]                       |                                       Array, 2P, Sorting                                       |  ![][easy]  |        |
@@ -56,6 +58,7 @@
 | **0448** |           [Find All Numbers Disappeared in an Array][448]           |                                       Array, Hash Table                                        |  ![][easy]  |        |
 | **0463** |                       [Island Perimeter][463]                       |                    Array, Depth-First Search, Breadth-First Search, Matrix                     |  ![][easy]  |        |
 | **0485** |                     [Max Consecutive Ones][485]                     |                                             Array                                              |  ![][easy]  |        |
+| **0498** |                      [Diagonal Traverse][498]                       |                                   Array, Matrix, Simulation                                    | ![][medium] |        |
 | **0502** |                             [IPO][502]                              |                         Array, Greedy, Sorting, Heap (Priority Queue)                          |  ![][hard]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                                      Array, Sorting, Heap                                      |  ![][easy]  |        |
 | **0518** |                        [Coin Change 2][518]                         |                                           Array, DP                                            | ![][medium] |        |
@@ -70,6 +73,7 @@
 | **0944** |                [Delete Columns to Make Sorted][944]                 |                                         Array, String                                          |  ![][easy]  |        |
 | **0997** |                     [Find the Town Judge][997]                      |                                    Array, Hash Table, Graph                                    |  ![][easy]  |        |
 | **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                                           Array, BS                                            | ![][medium] |        |
+| **1029** |                     [Two City Scheduling][1029]                     |                                     Array, Greedy, Sorting                                     | ![][medium] |        |
 | **1232** |               [Check If It Is a Straight Line][1232]                |                                     Array, Math, Geometry                                      |  ![][easy]  |        |
 | **1345** |                        [Jump Game IV][1345]                         |                            Array, Hash Table, Breadth-First Search                             |  ![][hard]  |        |
 | **1431** |          [Kids With the Greatest Number of Candies][1431]           |                                             Array                                              |  ![][easy]  |        |
@@ -90,6 +94,7 @@
 | **2187** |               [Minimum Time to Complete Trips][2187]                |                                           Array, BS                                            | ![][medium] |        |
 | **2348** |               [Number of Zero-Filled Subarrays][2348]               |                                          Array, Math                                           | ![][medium] |        |
 | **2444** |              [Count Subarrays With Fixed Bounds][2444]              |                           Array, Q, Sliding Window, Monotonic Queue                            |  ![][hard]  |        |
+| **2551** |                     [Put Marbles in Bags][2551]                     |                         Array, Greedy, Sorting, Heap (Priority Queue)                          |  ![][hard]  |        |
 | **2574** |               [Left and Right Sum Differences][2574]                |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
@@ -213,6 +218,7 @@
 | **0007** |                      [Reverse Integer][7]                       |                      Math                       | ![][medium] |        |
 | **0009** |                     [Palindrome Number][9]                      |                      Math                       |  ![][easy]  |        |
 | **0013** |                     [Roman to Integer][13]                      |            String, Math, Hash Table             |  ![][easy]  |        |
+| **0048** |                       [Rotate Image][48]                        |               Array, Math, Matrix               | ![][medium] |        |
 | **0066** |                         [Plus One][66]                          |                   Array, Math                   |  ![][easy]  |        |
 | **0067** |                        [Add Binary][67]                         |       Math, String, Bit Manip, Simulation       |  ![][easy]  |        |
 | **0069** |                          [Sqrt(x)][69]                          |                    Math, BS                     |  ![][easy]  |        |
@@ -267,9 +273,11 @@
 | **0506** |                        [Relative Ranks][506]                        |                                      Array, Sorting, Heap                                      |  ![][easy]  |        |
 | **0888** |                       [Fair Candy Swap][888]                        |                           Array, Hash Table, Binary Search, Sorting                            |  ![][easy]  |        |
 | **0912** |                        [Sort an Array][912]                         | Array, DNC, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | ![][medium] |        |
+| **1029** |                     [Two City Scheduling][1029]                     |                                     Array, Greedy, Sorting                                     | ![][medium] |        |
 | **1498** | [Number of Subsequences That Satisfy the Given Sum Condition][1498] |                                     Array, 2P, BS, Sorting                                     | ![][medium] |        |
 | **1491** |      [Average Salary Excluding the Minimum and Maximum][1491]       |                                         Array, Sorting                                         |  ![][easy]  |        |
 | **2160** |   [Minimum Sum of Four Digit Number After Splitting Digits][2160]   |                                     Math, Greedy, Sorting                                      |  ![][easy]  |        |
+| **2551** |                     [Put Marbles in Bags][2551]                     |                         Array, Greedy, Sorting, Heap (Priority Queue)                          |  ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -302,9 +310,11 @@
 | **0122** |            [Best Time to Buy and Sell Stock II][122]            |               Array, DP, Greedy               | ![][medium] |        |
 | **0502** |                           [IPO][502]                            | Array, Greedy, Sorting, Heap (Priority Queue) |  ![][hard]  |        |
 | **0605** |                    [Can Place Flowers][605]                     |                 Array, Greedy                 |  ![][easy]  |        |
+| **1029** |                   [Two City Scheduling][1029]                   |            Array, Greedy, Sorting             | ![][medium] |        |
 | **1537** |                  [Get the Maximum Score][1537]                  |        Array, Two Pointer, DP, Greedy         |  ![][hard]  |        |
 | **1689** | [Partitioning Into Minimum Number Of Deci-Binary Numbers][1689] |                String, Greedy                 | ![][medium] |        |
 | **2160** | [Minimum Sum of Four Digit Number After Splitting Digits][2160] |             Math, Greedy, Sorting             |  ![][easy]  |        |
+| **2551** |                   [Put Marbles in Bags][2551]                   | Array, Greedy, Sorting, Heap (Priority Queue) |  ![][hard]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -374,6 +384,7 @@
 | **0004** |                  [Median of Two Sorted Arrays][4]                   |     Array, Binary Search, Divide & Conquer      |  ![][hard]  |        |
 | **0035** |                    [Search Insert Position][35]                     |                    Array, BS                    |  ![][easy]  |        |
 | **0069** |                            [Sqrt(x)][69]                            |                    Math, BS                     |  ![][easy]  |        |
+| **0074** |                      [Search a 2D Matrix][74]                       |                Array, BS, Matrix                | ![][medium] |        |
 | **0222** |                  [Count Complete Tree Nodes][222]                   |      Binary Search, Tree, DFS, Binary Tree      | ![][medium] |        |
 | **0268** |                        [Missing Number][268]                        | Array, Hash Table, Math, BS, Bit Manip, Sorting |  ![][easy]  |        |
 | **0278** |                      [First Bad Version][278]                       |           Binary Search, Interactive            |  ![][easy]  |        |
@@ -399,8 +410,11 @@
 |    #     |            Solution             |                                Tags                                 | Difficulty  | Remark |
 | :------: | :-----------------------------: | :-----------------------------------------------------------------: | :---------: | :----: |
 | **0037** |       [Sudoku Solver][37]       |                     Array, Backtracking, Matrix                     |  ![][hard]  |        |
+| **0048** |       [Rotate Image][48]        |                         Array, Math, Matrix                         | ![][medium] |        |
+| **0074** |    [Search a 2D Matrix][74]     |                          Array, BS, Matrix                          | ![][medium] |        |
 | **0200** |    [Number of Islands][200]     | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
 | **0463** |     [Island Perimeter][463]     |       Array, Depth-First Search, Breadth-First Search, Matrix       |  ![][easy]  |        |
+| **0498** |    [Diagonal Traverse][498]     |                      Array, Matrix, Simulation                      | ![][medium] |        |
 | **0695** |    [Max Area of Island][695]    | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | ![][medium] |        |
 | **1672** | [Richest Customer Wealth][1672] |                            Array, Matrix                            |  ![][easy]  |        |
 
@@ -545,13 +559,14 @@
 
 ## Simulation
 
-|    #     |                          Solution                           |                Tags                 | Difficulty | Remark |
-| :------: | :---------------------------------------------------------: | :---------------------------------: | :--------: | :----: |
-| **0067** |                      [Add Binary][67]                       | Math, String, Bit Manip, Simulation | ![][easy]  |        |
-| **0258** |                      [Add Digits][258]                      |   Math, Simulation, Number Theory   | ![][easy]  |        |
-| **0412** |                      [Fizz Buzz][412]                       |      Math, String, Simulation       | ![][easy]  |        |
-| **1920** |            [Build Array from Permutation][1920]             |          Array, Simulation          | ![][easy]  |        |
-| **2011** | [Final Value of Variable After Performing Operations][2011] |      Array, String, Simulation      | ![][easy]  |        |
+|    #     |                          Solution                           |                Tags                 | Difficulty  | Remark |
+| :------: | :---------------------------------------------------------: | :---------------------------------: | :---------: | :----: |
+| **0067** |                      [Add Binary][67]                       | Math, String, Bit Manip, Simulation |  ![][easy]  |        |
+| **0258** |                      [Add Digits][258]                      |   Math, Simulation, Number Theory   |  ![][easy]  |        |
+| **0412** |                      [Fizz Buzz][412]                       |      Math, String, Simulation       |  ![][easy]  |        |
+| **0498** |                  [Diagonal Traverse][498]                   |      Array, Matrix, Simulation      | ![][medium] |        |
+| **1920** |            [Build Array from Permutation][1920]             |          Array, Simulation          |  ![][easy]  |        |
+| **2011** | [Final Value of Variable After Performing Operations][2011] |      Array, String, Simulation      |  ![][easy]  |        |
 
 <!---------------------------------{ Solution Table }-------------------------->
 
@@ -1016,6 +1031,7 @@
 [37]: ./src/0001-0100/037%20-%20Sudoku%20Solver/
 [41]: ./src/0001-0100/041%20-%20First%20Missing%20Positive/
 [42]: ./src/0001-0100/042%20-%20Trapping%20Rain%20Water/
+[48]: ./src/0001-0100/048%20-%20Rotate%20Image/
 [51]: ./src/0001-0100/051%20-%20N-Queens/
 [53]: ./src/0001-0100/053%20-%20Maximum%20Subarray/
 [55]: ./src/0001-0100/055%20-%20Jump%20Game/
@@ -1027,6 +1043,7 @@
 [69]: ./src/0001-0100/069%20-%20Sqrt(x)/
 [70]: ./src/0001-0100/070%20-%20Climbing%20Stairs/
 [72]: ./src/0001-0100/072%20-%20Edit%20Distance/
+[74]: ./src/0001-0100/074%20-%20Search%20a%202D%20Matrix/
 [75]: ./src/0001-0100/075%20-%20Sort%20Colors/
 [78]: ./src/0001-0100/078%20-%20Subsets/
 [83]: ./src/0001-0100/083%20-%20Remove%20Duplicates%20from%20Sorted%20List/
@@ -1129,6 +1146,7 @@
 [482]: ./src/0401-0500/482%20-%20License%20Key%20Formatting/
 [485]: ./src/0401-0500/485%20-%20Max%20Consecutive%20Ones/
 [492]: ./src/0401-0500/492%20-%20Construct%20the%20Rectangle/
+[498]: ./src/0401-0500/498%20-%20Diagonal%20Traverse/
 [502]: ./src/0501-0600/502%20-%20IPO/
 [504]: ./src/0501-0600/504%20-%20Base%207/
 [506]: ./src/0501-0600/506%20-%20%20Relative%20Ranks/
@@ -1156,6 +1174,7 @@
 [958]: ./src/0901-1000/958%20-%20Check%20Completeness%20of%20a%20Binary%20Tree/
 [997]: ./src/0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [1011]: ./src/1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/
+[1029]: ./src/1001-1100/1029%20-%20Two%20City%20Scheduling/
 [1047]: ./src/1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1092]: ./src/1001-1100/1092%20-%20Shortest%20Common%20Supersequence/
 [1108]: ./src/1101-1200/1108%20-%20Defanging%20an%20IP%20Address/
@@ -1191,6 +1210,7 @@
 [2427]: ./src/2401-2500/2427%20-%20Number%20of%20Common%20Factors/
 [2444]: ./src/2401-2500/2444%20-%20Count%20Subarrays%20With%20Fixed%20Bounds/
 [2469]: ./src/2401-2500/2469%20-%20Convert%20the%20Temperature/
+[2551]: ./src/2501-2600/2551%20-%20Put%20Marbles%20in%20Bags/
 [2574]: ./src/2401-2500/2574%20-%20Left%20and%20Right%20Sum%20Differences/
 
 <!----------------------------------{ Labels }--------------------------------->

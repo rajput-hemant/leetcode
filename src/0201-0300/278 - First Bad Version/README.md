@@ -36,20 +36,50 @@ Output: 1
 
 ## Solutions:
 
-### [_Java_](./FirstBadVersion.java)
+### [_Java_](FirstBadVersion.java)
 
-```java
-public int firstBadVersion(int n) {
-  int low = 0, high = n;
-  while (low < high) {
-    int mid = low + (high - low) / 2;
-    if (isBadVersion(mid))
-      high = mid;
-    else
-      low = mid + 1;
+```java [Java]
+public class FirstBadVersion extends VersionControl {
+  public int firstBadVersion(int n) {
+    int low = 0, high = n;
+    while (low < high) {
+      int mid = low + (high - low) / 2;
+      if (isBadVersion(mid))
+        high = mid;
+      else
+        low = mid + 1;
+    }
+    return low;
   }
-  return low;
 }
+
+class VersionControl {
+  boolean isBadVersion(int version) {
+    return false;
+  }
+}
+```
+
+### [_Rust_](first_bad_version.rs)
+
+```rs [Rust]
+impl Solution {
+    pub fn first_bad_version(&self, n: i32) -> i32 {
+        let (mut low, mut high) = (1, n);
+
+        while low < high {
+            let mid = low + (high - low) / 2;
+            if self.isBadVersion(mid) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        low
+    }
+}
+
 ```
 
 ### [_..._]()

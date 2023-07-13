@@ -32,6 +32,7 @@
 | **0037** |                         [Sudoku Solver][37]                         |                                  Array, Backtracking, Matrix                                   |  ![][hard]  |        |
 | **0041** |                    [First Missing Positive][41]                     |                                       Array, Hash Table                                        |  ![][hard]  |        |
 | **0042** |                      [Trapping Rain Water][42]                      |                               Array, 2P, DP, ST, Monotonic Stack                               |  ![][hard]  |        |
+| **0048** |                         [Rotate Image][48]                          |                                      Array, Math, Matrix                                       | ![][medium] |        |
 | **0051** |                           [N-Queens][51]                            |                                      Array, Backtracking                                       |  ![][hard]  |        |
 | **0053** |                       [Maximum Subarray][53]                        |                                         Array, DNC, DP                                         | ![][medium] |        |
 | **0055** |                           [Jump Game][55]                           |                                       Array, DP, Greedy                                        | ![][medium] |        |
@@ -42,6 +43,7 @@
 | **0069** |                            [Sqrt(x)][69]                            |                                            Math, BS                                            |  ![][easy]  |        |
 | **0070** |                        [Climbing Stairs][70]                        |                                     Math, DP, Memorization                                     |  ![][easy]  |        |
 | **0072** |                         [Edit Distance][72]                         |                                           String, DP                                           |  ![][hard]  |        |
+| **0074** |                      [Search a 2D Matrix][74]                       |                                       Array, BS, Matrix                                        | ![][medium] |        |
 | **0075** |                          [Sort Colors][75]                          |                                  Array, Two Pointers, Sorting                                  | ![][medium] |        |
 | **0078** |                            [Subsets][78]                            |                                 Array, Backtracking, Bit Manip                                 | ![][medium] |        |
 | **0083** |              [Remove Duplicates from Sorted List][83]               |                                               LL                                               |  ![][easy]  |        |
@@ -139,6 +141,7 @@
 | **0482** |                    [License Key Formatting][482]                    |                                             String                                             |  ![][easy]  |        |
 | **0485** |                     [Max Consecutive Ones][485]                     |                                             Array                                              |  ![][easy]  |        |
 | **0492** |                   [Construct the Rectangle][492]                    |                                              Math                                              |  ![][easy]  |        |
+| **0498** |                      [Diagonal Traverse][498]                       |                                   Array, Matrix, Simulation                                    | ![][medium] |        |
 | **0502** |                             [IPO][502]                              |                         Array, Greedy, Sorting, Heap (Priority Queue)                          |  ![][hard]  |        |
 | **0504** |                            [Base 7][504]                            |                                              Math                                              |  ![][easy]  |        |
 | **0506** |                        [Relative Ranks][506]                        |                                      Array, Sorting, Heap                                      |  ![][easy]  |        |
@@ -166,6 +169,7 @@
 | **0958** |             [Check Completeness of a Binary Tree][958]              |                            Tree, Breadth-First Search, Binary Tree                             | ![][medium] |        |
 | **0997** |                     [Find the Town Judge][997]                      |                                    Array, Hash Table, Graph                                    |  ![][easy]  |        |
 | **1011** |           [Capacity To Ship Packages Within D Days][1011]           |                                           Array, BS                                            | ![][medium] |        |
+| **1029** |                     [Two City Scheduling][1029]                     |                                     Array, Greedy, Sorting                                     | ![][medium] |        |
 | **1047** |          [Remove All Adjacent Duplicates In String][1047]           |                                         String, Stack                                          |  ![][easy]  |        |
 | **1092** |                [Shortest Common Supersequence][1092]                |                                           String, DP                                           |  ![][hard]  |        |
 | **1108** |                   [Defanging an IP Address][1108]                   |                                             String                                             |  ![][easy]  |        |
@@ -201,6 +205,7 @@
 | **2427** |                  [Number of Common Factors][2427]                   |                                Math, Enumeration, Number Theory                                |  ![][easy]  |        |
 | **2444** |              [Count Subarrays With Fixed Bounds][2444]              |                           Array, Q, Sliding Window, Monotonic Queue                            |  ![][hard]  |        |
 | **2469** |                   [Convert the Temperature][2469]                   |                                              Math                                              |  ![][easy]  |        |
+| **2551** |                     [Put Marbles in Bags][2551]                     |                         Array, Greedy, Sorting, Heap (Priority Queue)                          |  ![][hard]  |        |
 | **2574** |               [Left and Right Sum Differences][2574]                |                                       Array, Prefix Sum                                        |  ![][easy]  |        |
 
 </div>
@@ -224,6 +229,7 @@
 [37]: ./0001-0100/037%20-%20Sudoku%20Solver/
 [41]: ./0001-0100/041%20-%20First%20Missing%20Positive/
 [42]: ./0001-0100/042%20-%20Trapping%20Rain%20Water/
+[48]: ./0001-0100/048%20-%20Rotate%20Image/
 [51]: ./0001-0100/051%20-%20N-Queens/
 [53]: ./0001-0100/053%20-%20Maximum%20Subarray/
 [55]: ./0001-0100/055%20-%20Jump%20Game/
@@ -235,6 +241,7 @@
 [69]: ./0001-0100/069%20-%20Sqrt(x)/
 [70]: ./0001-0100/070%20-%20Climbing%20Stairs/
 [72]: ./0001-0100/072%20-%20Edit%20Distance/
+[74]: ./0001-0100/074%20-%20Search%20a%202D%20Matrix/
 [75]: ./0001-0100/075%20-%20Sort%20Colors/
 [78]: ./0001-0100/078%20-%20Subsets/
 [83]: ./0001-0100/083%20-%20Remove%20Duplicates%20from%20Sorted%20List/
@@ -337,6 +344,7 @@
 [482]: ./0401-0500/482%20-%20License%20Key%20Formatting/
 [485]: ./0401-0500/485%20-%20Max%20Consecutive%20Ones/
 [492]: ./0401-0500/492%20-%20Construct%20the%20Rectangle/
+[498]: ./0401-0500/498%20-%20Diagonal%20Traverse/
 [502]: ./0501-0600/502%20-%20IPO/
 [504]: ./0501-0600/504%20-%20Base%207/
 [506]: ./0501-0600/506%20-%20%20Relative%20Ranks/
@@ -365,6 +373,7 @@
 [997]: ./0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [997]: ./0901-1000/997%20-%20Find%20the%20Town%20Judge/
 [1011]: ./1001-1100/1011%20-%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/
+[1029]: ./1001-1100/1029%20-%20Two%20City%20Scheduling/
 [1047]: ./1001-1100/1047%20-%20Remove%20All%20Adjacent%20Duplicates%20In%20String/
 [1092]: ./1001-1100/1092%20-%20Shortest%20Common%20Supersequence/
 [1108]: ./1101-1200/1108%20-%20Defanging%20an%20IP%20Address/
@@ -400,6 +409,7 @@
 [2427]: ./2401-2500/2427%20-%20Number%20of%20Common%20Factors/
 [2444]: ./2401-2500/2444%20-%20Count%20Subarrays%20With%20Fixed%20Bounds/
 [2469]: ./2401-2500/2469%20-%20Convert%20the%20Temperature/
+[2551]: ./2501-2600/2551%20-%20Put%20Marbles%20in%20Bags/
 [2574]: ./2401-2500/2574%20-%20Left%20and%20Right%20Sum%20Differences/
 
 <!----------------------------------{ Labels }--------------------------------->
