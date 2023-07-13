@@ -8,7 +8,9 @@ impl Solution {
         }
 
         let s_map = s.chars().fold(HashMap::new(), |mut map, c| {
-            // *map.entry(c).or_insert(0) = map.get(&c).unwrap_or(&0) + 1;
+            // let count = map.entry(c).or_insert(0);
+            // *count += 1;
+
             // same as above
             *map.entry(c).or_insert(0) += 1;
             map
